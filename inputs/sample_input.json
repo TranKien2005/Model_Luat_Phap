@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "law_id": "law_education",
+    "version_id": "43/2019/QH14",
+    "status": "active",
+    "last_updated": "2025-10-27"
+  },
+  "content": {
+    "law": {
+      "type": "law",
+      "issuer": "Quốc hội",
+      "title": "Luật Giáo dục 2019",
+      "source_url": "https://vanban.chinhphu.vn/luat-giao-duc-2019",
+      "promulgation_date": "2019-06-14",
+      "effective_date": "2020-07-01",
+      "structure": [
+        {
+          "type": "chapter",
+          "number": 1,
+          "title": "Những quy định chung",
+          "articles": [
+            {
+              "number": 3,
+              "title": "Điều 3. Tính chất, nguyên lý giáo dục",
+              "text": "",
+              "clauses": [
+                {
+                  "number": 1,
+                  "text": "Mục tiêu giáo dục là đào tạo con người Việt Nam phát triển toàn diện..."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "related_documents": [
+      {
+        "type": "decree",
+        "issuer": "Chính phủ",
+        "title": "Nghị định 86/2015/NĐ-CP quy định cơ chế thu, quản lý học phí, chính sách miễn giảm học phí",
+        "source_url": null,
+        "promulgation_date": "2015-10-02",
+        "effective_date": "2015-12-01",
+        "status": "active",
+        "relationship": "guides",
+        "structure": [
+          {
+            "type": "chapter",
+            "number": 1,
+            "title": "Những quy định chung",
+            "articles": [
+              {
+                "number": 2,
+                "title": "Đối tượng áp dụng",
+                "text": "",
+                "clauses": [
+                  {
+                    "number": 1,
+                    "text": "Nghị định này áp dụng đối với các cơ sở giáo dục thuộc hệ thống giáo dục quốc dân..."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "chapter",
+            "number": 2,
+            "title": "Chính sách học phí",
+            "articles": [
+              {
+                "number": 7,
+                "title": "Mức thu học phí",
+                "text": "",
+                "clauses": [
+                  {
+                    "number": 1,
+                    "text": "Mức thu học phí được xác định theo nguyên tắc chia sẻ chi phí đào tạo..."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "resolution",
+        "issuer": "Ban Chấp hành Trung ương",
+        "title": "Nghị quyết 29-NQ/TW về đổi mới căn bản, toàn diện giáo dục và đào tạo",
+        "source_url": null,
+        "promulgation_date": "2013-11-04",
+        "effective_date": "2013-11-04",
+        "status": "active",
+        "relationship": "influences",
+        "structure": [
+          {
+            "type": "section",
+            "number": 2,
+            "title": "Quan điểm chỉ đạo",
+            "articles": [
+              {
+                "number": 1,
+                "title": "Point a",
+                "text": "",
+                "clauses": [
+                  {
+                    "number": 1,
+                    "text": "Giáo dục là quốc sách hàng đầu, là sự nghiệp của toàn Đảng, toàn dân."
+                  }
+                ]
+              },
+              {
+                "number": 2,
+                "title": "Point b",
+                "text": "",
+                "clauses": [
+                  {
+                    "number": 1,
+                    "text": "Đổi mới căn bản, toàn diện giáo dục là yêu cầu cấp thiết của phát triển đất nước."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "circular",
+        "issuer": "Bộ Giáo dục và Đào tạo",
+        "title": "Thông tư 12/2020/TT-BGDĐT hướng dẫn một số nội dung về tổ chức dạy học",
+        "source_url": null,
+        "promulgation_date": "2020-03-01",
+        "effective_date": "2020-05-01",
+        "status": "active",
+        "relationship": "guides",
+        "structure": [
+          {
+            "type": "section",
+            "number": 1,
+            "title": "Quy định chung",
+            "articles": [
+              {
+                "number": 1,
+                "title": "Phạm vi điều chỉnh",
+                "text": "Thông tư này quy định một số nội dung về tổ chức dạy học, chương trình và phương pháp đánh giá trong các cơ sở giáo dục thuộc hệ thống giáo dục quốc dân.",
+                "clauses": []
+              },
+              {
+                "number": 2,
+                "title": "Đối tượng áp dụng",
+                "clauses": [
+                  {
+                    "number": 1,
+                    "text": "Thông tư này áp dụng đối với các cơ sở giáo dục, nhà giáo và người học trong phạm vi cả nước."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "number": 2,
+            "title": "Tổ chức dạy học",
+            "articles": [
+              {
+                "number": 3,
+                "title": "Nguyên tắc tổ chức",
+                "text": "Tổ chức dạy học phải bảo đảm tính hệ thống, phù hợp với chương trình và điều kiện thực tế của cơ sở giáo dục."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
+//Các điều nếu không có khoản thì viết vào text khoản đề là [] còn nếu có khoản thì text để là "" và viết nội dung vào khoản
