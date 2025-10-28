@@ -1,19 +1,19 @@
 {
   "metadata": {
-    "law_id": "",
-    "version_id": "",
-    "status": "",
-    "last_updated": ""
+    "law_id": "law_education",
+    "version_id": "43/2019/QH14",
+    "status": "active",
+    "last_updated": "2025-10-27"
   },
   "content": {
     "law": {
-      "type": "",
-      "issuer": "",
-      "title": "",
-      "source_url": "",
-      "promulgation_date": "",
-      "effective_date": "",
-      "status": "",
+      "type": "law",
+      "issuer": "Quốc hội",
+      "title": "Luật Giáo dục 2019",
+      "source_url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=197310",
+      "promulgation_date": "2019-06-14",
+      "effective_date": "2020-07-01",
+      "status": "active",
       "structure": [
         {
           "type": "chapter",
@@ -2182,12 +2182,12 @@
     "related_documents": [
       {
         "type": "decree",
-        "issuer": "",
-        "title": "",
-        "source_url": "",
-        "promulgation_date": "",
-        "effective_date": "",
-        "status": "",
+        "issuer": "CHÍNH PHỦ",
+        "title": "Nghị định 24/2021/NĐ-CP Quy định việc quản lý trong cơ sở giáo dục mầm non và cơ sở giáo dục phổ thông công lập",
+        "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=202884",
+        "promulgation_date": "2021-03-23",
+        "effective_date": "2021-05-15",
+        "status": "active",
         "structure": [
           {
             "type": "chapter",
@@ -2513,12 +2513,12 @@
       },
       {
         "type": "decree",
-        "issuer": "",
-        "title": "",
-        "source_url": "",
-        "promulgation_date": "",
-        "effective_date": "",
-        "status": "",
+        "issuer": "CHÍNH PHỦ",
+        "title": "Nghị định 81/2021/NĐ-CP QUY ĐỊNH VỀ CƠ CHẾ THU, QUẢN LÝ HỌC PHÍ ĐỐI VỚI CƠ SỞ GIÁO DỤC THUỘC HỆ THỐNG GIÁO DỤC QUỐC DÂN VÀ CHÍNH SÁCH MIỄN, GIẢM HỌC PHÍ, HỖ TRỢ CHI PHÍ HỌC TẬP; GIÁ DỊCH VỤ TRONG LĨNH VỰC GIÁO DỤC, ĐÀO TẠO",
+        "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=203950",
+        "promulgation_date": "2021-08-27",
+        "effective_date": "2021-10-15",
+        "status": "active",
         "structure": [
           {
             "type": "chapter",
@@ -3324,12 +3324,12 @@
       },
       {
         "type": "decree",
-        "issuer": "",
-        "title": "",
-        "source_url": "",
-        "promulgation_date": "",
-        "effective_date": "",
-        "status": "",
+        "issuer": "CHÍNH PHỦ",
+        "title": "Nghị định 84/2020/NĐ-CP Quy định chi tiết một số điều của Luật Giáo dục",
+        "source_url": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=200556",
+        "promulgation_date": "2020-07-17",
+        "effective_date": "2020-09-01",
+        "status": "active",
         "structure": [
           {
             "type": "chapter",
@@ -3628,12 +3628,12 @@
       },
       {
         "type": "decree",
-        "issuer": "",
-        "title": "",
-        "source_url": "",
-        "promulgation_date": "",
-        "effective_date": "",
-        "status": "",
+        "issuer": "CHÍNH PHỦ",
+        "title": "Nghị định 86/2021/NĐ-CP Quy định việc công dân Việt Nam ra nước ngoài học tập, giảng dạy, nghiên cứu khoa học và trao đổi học thuật",
+        "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=204193",
+        "promulgation_date": "2021-09-25",
+        "effective_date": "2021-12-01",
+        "status": "active",
         "structure": [
           {
             "type": "chapter",
