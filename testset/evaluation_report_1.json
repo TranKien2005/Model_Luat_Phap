@@ -1,0 +1,3472 @@
+[
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, tóm tắt các nội dung chính theo Luật Giáo dục 2019.  Reasoning level phù hợp vì ghép 4 thông tin từ Điều 1.  Có thể cải thiện bằng cách thêm cụm từ 'về...' để tăng tính mạch lạc hơn.",
+    "id": "QDC_001"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát mục tiêu giáo dục theo Luật Giáo dục 2019 như được ghi trong reference.  Tuy nhiên, để tăng điểm, có thể bổ sung một chút về việc sử dụng reference để minh họa cho reasoning level 2.",
+    "id": "QDC_002"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level 2 vì đã tổng hợp thông tin từ clause 1 và clause 2 của reference. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_003"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích dẫn đúng từ Clause 1 của Article 4. Reasoning level phù hợp, thể hiện việc ghép thông tin từ reference. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_004"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Câu trả lời thể hiện khả năng suy luận để tổng hợp các yếu tố quan trọng. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Điểm số 9 thể hiện sự đánh giá cao về tính chính xác và toàn diện của câu trả lời.",
+    "id": "QDC_005"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Phần 'reasoning_level' phù hợp vì trả lời ghép các thông tin quan trọng từ điều 4, khoản 3 của Luật Giáo dục. Câu trả lời rõ ràng, không lỗi ngữ pháp, lặp từ và trung tính.",
+    "id": "QDC_006"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời xác định chính xác định nghĩa về giáo dục chính quy theo Luật Giáo dục. Câu trả lời đã sử dụng đúng ngữ cảnh từ Luật và trình bày một cách đầy đủ các yếu tố chính: theo khóa học, cơ sở giáo dục, chương trình giáo dục, mục tiêu cấp học/trình độ, và cấp văn bằng. Không có lỗi ngữ pháp hoặc lặp từ. Đáng chú ý, câu trả lời có thể được nâng điểm hơn một chút nếu đề cập đến việc giáo dục chính quy là một hình thức giáo dục thường xuyên, có tính hệ thống và có tính chất dân chủ.",
+    "id": "QDC_007"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời và tham chiếu đều chính xác và rõ ràng. Câu trả lời tóm tắt đúng định nghĩa, và tham chiếu cung cấp định nghĩa chính thức từ luật. Không có lỗi ngữ pháp hoặc lặp từ. Điểm 9 vì có thể tăng thêm một chút về phạm vi của cơ quan, tổ chức có thẩm quyền.",
+    "id": "QDC_008"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, hoàn toàn phù hợp với định nghĩa trong reference.  Có thể tăng điểm nếu thêm một chút giải thích về tầm quan trọng của khối lượng kiến thức này trong việc định hướng sự nghiệp.",
+    "id": "QDC_009"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản được trích dẫn trong luật. Cần chỉnh sửa nhỏ để tăng điểm, có thể thêm thông tin về 'nguồn vốn' để nhấn mạnh thêm.",
+    "id": "QDC_010"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời đúng, đầy đủ và bám sát các reference. Giải thích rõ ràng sự khác biệt giữa 'phổ cập giáo dục' và 'giáo dục bắt buộc' dựa trên định nghĩa trong luật. Chỉ có thể cải thiện một chút bằng cách tránh lặp lại từ 'theo quy định của pháp luật' ở cả hai định nghĩa.",
+    "id": "QDC_011"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level là 1, vì nó ghép các cấp bậc giáo dục từ reference.  Một điểm trừ nhỏ vì có thể diễn đạt mạch lạc hơn một chút, nhưng tổng thể đáp án rất tốt.",
+    "id": "QDC_012"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Reasoning level 1 là phù hợp vì câu trả lời kết hợp trực tiếp thông tin từ điều 6 và điều 3. Không có lỗi ngữ pháp, lặp từ hay không trung tính. Có thể đánh giá cao hơn nếu đưa ra đánh giá về tính liên ngành của việc phê duyệt khung.",
+    "id": "QDC_013"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, thể hiện việc ghép thông tin từ Clause 4 của reference. Không có lỗi ngữ pháp, lặp từ, hay không trung tính.",
+    "id": "QDC_014"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ, bám sát reference và thể hiện khả năng suy luận nhất định (suy luận từ các yêu cầu cụ thể trong reference để đưa ra câu trả lời tổng quát).  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Điểm 9 cho thấy câu trả lời xuất sắc.",
+    "id": "QDC_015"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference. Nó không chỉ liệt kê các yếu tố mà còn diễn giải chúng một cách rõ ràng. Reasoning level là 2 vì nó đòi hỏi sự tổng hợp và diễn giải các yếu tố được đề cập trong reference để đưa ra một câu trả lời toàn diện. Có thể cải thiện một chút bằng cách sử dụng từ ngữ tinh tế hơn, nhưng tổng thể câu trả lời rất tốt.",
+    "id": "QDC_016"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference.  Độ phức tạp của reasoning phù hợp với việc tổng hợp nhiều thông tin từ reference. Không có lỗi ngữ pháp, lặp từ hay thiếu tính trung lập.",
+    "id": "QDC_017"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, ghi điểm cao. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Có thể cải thiện bằng cách liệt kê rõ ràng hơn các hình thức học tập cho từng cấp độ (nghề nghiệp, đại học).",
+    "id": "QDC_018"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, kết hợp tốt các khái niệm 'Hướng nghiệp' và 'Phân luồng' từ reference.  Reasoning level 2 phù hợp vì câu trả lời kết hợp và diễn giải một cách mạch lạc ý nghĩa của cả hai khái niệm dựa trên thông tin trong reference.  Không có lỗi ngữ pháp, lặp từ hoặc tính trung tính.  Có thể nâng lên 10 nếu câu trả lời có thể bổ sung thêm một chút về mục tiêu và tầm quan trọng của việc thực hiện hướng nghiệp và phân luồng trong hệ thống giáo dục.",
+    "id": "QDC_019"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, thể hiện khả năng tổng hợp thông tin từ nhiều clause của reference. Không có lỗi ngữ pháp, lặp từ, hay không trung tính. Có thể nâng điểm lên 10 nếu câu trả lời nhấn mạnh thêm về các quy trình và thủ tục liên thông.",
+    "id": "QDC_020"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level 1 phù hợp vì câu trả lời trực tiếp trích dẫn từ Article 11, Clause 1. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung tính.",
+    "id": "QDC_021"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. 'Reasoning_level_correct' được đánh giá là 1 vì câu trả lời đã ghép thông tin từ clause 2 của reference để trả lời câu hỏi. Không có lỗi ngữ pháp, lặp từ, hay không trung tính. Điểm số 9 cho thấy câu trả lời xuất sắc và hoàn toàn chính xác.",
+    "id": "QDC_022"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên thông tin trực tiếp từ Clause 2 của luật. Không có lỗi ngữ pháp hoặc lặp từ. Đáng chú ý, có thể cải thiện thêm bằng cách sử dụng từ ‘bằng’ một cách nhất quán hơn (ví dụ, thay vì 'bằng tốt nghiệp trung học cơ sở, bằng tốt nghiệp trung học phổ thông,...' có thể dùng 'bằng tốt nghiệp' và liệt kê).",
+    "id": "QDC_023"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ dựa trên tham chiếu. Reasoning level phù hợp, ghép thông tin từ Điều 12 và Clause 4. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Có thể cải thiện bằng cách thêm một chút giải thích về 'hệ thống giáo dục quốc dân'. Điểm 9 là đánh giá cao.",
+    "id": "QDC_024"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Câu trả lời có thể được cải thiện bằng cách thêm một vài thông tin chi tiết hơn về các chính sách hỗ trợ học tập hoặc các quyền liên quan.  Đánh giá 9/10 vì câu trả lời đáp ứng đầy đủ yêu cầu nhưng có thể nâng cao hơn một chút.",
+    "id": "QDC_025"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level 1 phù hợp vì ghép được 3 nhóm đối tượng được ưu tiên theo reference. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_026"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Reasoning level 1 phù hợp vì ghép thông tin 'Giáo dục tiểu học là giáo dục bắt buộc' và 'Nhà nước thực hiện phổ cập giáo dục tiểu học'. Không có lỗi ngữ pháp hoặc lặp từ. Điểm 9 vì có thể thêm một chút giải thích về phạm vi của 'phổ cập giáo dục tiểu học' để tăng tính rõ ràng.",
+    "id": "QDC_027"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát references. Reasoning level phù hợp, ghép 2 thông tin (phổ cập mầm non 05 tuổi và phổ cập trung học cơ sở) từ clause 1 của Article 14. Không có lỗi ngữ pháp, lặp từ hay thiếu tính trung lập.",
+    "id": "QDC_028"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Đã ghép được 2 thông tin: (1) trách nhiệm của gia đình trong việc tạo điều kiện học tập, và (2) mục đích của việc đó là thực hiện phổ cập giáo dục và hoàn thành giáo dục bắt buộc.  Một điểm trừ nhỏ là có thể làm câu trả lời cụ thể hơn bằng cách nêu rõ 'tạo điều kiện' bao gồm những gì (ví dụ: hỗ trợ tài chính, tạo môi trường học tập thuận lợi,...).  Điểm số cao vì đáp án rất tốt.",
+    "id": "QDC_029"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Câu trả lời bao gồm các thành phần chính của định nghĩa về giáo dục hòa nhập theo Article 15. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Điểm số cao vì câu trả lời súc tích và chính xác.",
+    "id": "QDC_030"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên Article 16, Clause 2 của văn bản tham khảo. Reasoning level 1 phù hợp vì câu trả lời tóm tắt và trích dẫn trực tiếp từ văn bản. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Có thể tăng điểm nếu đề cập đến các yếu tố khác đóng góp vào sự phát triển giáo dục (ví dụ: nhu cầu của học sinh, vai trò của các tổ chức xã hội) nhưng câu trả lời hiện tại vẫn đạt điểm cao.",
+    "id": "QDC_031"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích dẫn trực tiếp từ Điều 16, Khoản 2 của Luật Giáo dục. Reasoning level phù hợp, thể hiện khả năng ghép nối thông tin từ reference. Có thể tăng điểm thêm nếu đề cập đến một số chính sách cụ thể liên quan đến việc khuyến khích như hỗ trợ tài chính, cơ chế ưu đãi...",
+    "id": "QDC_032"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên thông tin trong reference. Reasoning level phù hợp, thể hiện khả năng tổng hợp thông tin. Không có lỗi ngữ pháp, lặp từ, không trung tính.",
+    "id": "QDC_033"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, bám sát theo Article 17, Clause 2 của luật. Giải thích rõ ràng các lĩnh vực ưu tiên đầu tư. Reasoning level 2 vì câu trả lời tổng hợp thông tin từ luật để đưa ra một câu trả lời toàn diện.",
+    "id": "QDC_034"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Trả lời chính xác, bám sát reference và sử dụng reasoning level 1 (ghép 2 thông tin).  Có thể tăng điểm nếu đề cập thêm về tỷ lệ hoặc tác động của ngân sách nhà nước trong đầu tư giáo dục.",
+    "id": "QDC_035"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Reasoning level 1 phù hợp vì câu trả lời tóm tắt 2 điểm chính từ reference. Không có lỗi ngữ pháp, lặp từ, hay không trung tính.  Có thể tăng điểm nếu câu trả lời đề cập đến các quy định cụ thể hơn về trách nhiệm của cán bộ quản lý giáo dục, nhưng tổng thể đánh giá rất tốt.",
+    "id": "QDC_036"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác và đầy đủ, trực tiếp trích dẫn từ Article 19, Clause 1. Reasoning level phù hợp, thể hiện việc ghép 1 thông tin. Không có lỗi ngữ pháp, lặp từ, hay không trung tính.",
+    "id": "QDC_037"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Reasoning level 1 phù hợp, thể hiện khả năng tổng hợp thông tin từ reference. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung tính. Có thể cải thiện bằng cách lược bỏ một vài từ thừa (ví dụ: 'trong cơ sở giáo dục của hệ thống giáo dục quốc dân') để câu trả lời ngắn gọn hơn.",
+    "id": "QDC_038"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, bám sát các điều khoản trong reference. Reasoning level phù hợp vì nó tổng hợp các điều khoản cụ thể trong luật để đưa ra một câu trả lời toàn diện. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_039"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản trong reference. Reasoning level 2 vì đã tổng hợp các điều khoản để đưa ra một danh sách các hành vi bị nghiêm cấm. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_040"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và dựa trên reference đã cung cấp.  Mức reasoning level phù hợp, chỉ cần ghép thông tin từ Clause 5 của Article 22.  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.  Có thể tăng điểm thêm 1 nếu đề cập đến hậu quả của hành vi này.",
+    "id": "QDC_041"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": true,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Level reasoning phù hợp vì chỉ ghép thông tin 'Luật Giáo dục 2019 không quy định cụ thể' và 'các văn bản liên quan không đề cập cụ thể'.  Có thể tăng điểm nếu đề cập thêm về việc quy định chung của nhà trường/phòng GDĐT.",
+    "id": "QDC_042"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": true,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Câu trả lời đã xác định rõ Luật Giáo dục 2019 không quy định chi tiết về xử lý kỷ luật, và chỉ ra rằng các quy định này nằm ở các văn bản dưới luật hoặc quy chế của cơ sở giáo dục.  Mức độ suy luận phù hợp (1 - ghép 2-3 thông tin).  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_043"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản liên quan trong Luật Giáo dục 2019.  Cụ thể, nó giải thích rằng luật không quy định về 'trường quốc tế' như một loại hình riêng biệt, mà quy định về hình thức hợp tác và đầu tư của nước ngoài, bao gồm cả việc thành lập cơ sở giáo dục.  Cách giải thích này đòi hỏi một bước suy luận nhất định, kết hợp các điều khoản liên quan để trả lời câu hỏi. Có thể tăng điểm thêm nếu đề cập đến việc cần phải tuân thủ các quy định chung về đầu tư và giáo dục.",
+    "id": "QDC_044"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời xác định chính xác rằng Luật Giáo dục 2019 không quy định cụ thể về học trực tuyến trên mọi cấp học. Tuy nhiên, nó đi sâu hơn bằng cách trích dẫn các quy định liên quan trong Nghị định 81/2021/NĐ-CP, làm rõ cách thức quy định học phí và xác định mức thu cho các hình thức học trực tuyến ở các cấp học khác nhau (mầm non, phổ thông, nghề nghiệp, đại học). Mức độ chi tiết và việc sử dụng các trích dẫn pháp luật chính xác đã đạt điểm rất cao.  Có thể cải thiện một chút bằng cách tránh lặp lại thuật ngữ 'học trực tuyến' (học online) trong các trích dẫn.  Điểm số 9 phản ánh điều này.",
+    "id": "QDC_045"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát theo quy định pháp luật. `reasoning_level_correct` là 1 vì câu trả lời đã ghép trích dẫn trực tiếp từ Điều 56 của Luật Giáo dục. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Điểm số 9 vì câu trả lời hoàn toàn chính xác, chi tiết và dễ hiểu.",
+    "id": "QDC_046"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời và tham chiếu đều mô tả chính xác vai trò của hội đồng trường đối với các cơ sở giáo dục nói trên.  Đặc biệt, câu trả lời đã tổng hợp các yếu tố như quyết định phương hướng hoạt động, huy động nguồn lực, gắn kết cộng đồng và đảm bảo mục tiêu giáo dục, đều được nêu rõ trong tham chiếu.  Một điểm nhỏ có thể cải thiện là làm rõ hơn một số thành phần hội đồng trong trường THCS, THPT để tăng tính chi tiết.  Hơn nữa, câu trả lời đã suy luận từ thông tin trong tham chiếu để đưa ra câu trả lời, phù hợp với reasoning level 2.",
+    "id": "QDC_047"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Giải thích chi tiết hơn một chút về các điều kiện không đảm bảo (ví dụ: điều 49 của Luật giáo dục). Không có lỗi ngữ pháp hoặc lặp từ. Mức độ suy luận 2 vì nó tóm tắt các điều kiện từ luật, thể hiện khả năng tổng hợp thông tin.",
+    "id": "QDC_048"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, bám sát các điều kiện được quy định trong luật. Level reasoning 2 vì trả lời đã tổng hợp các điều kiện từ luật và diễn giải rõ ràng. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Có thể nâng điểm lên 10 nếu câu trả lời được diễn đạt mạch lạc hơn một chút.",
+    "id": "QDC_049"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản trong Nghị định 24/2021/NĐ-CP. Cụ thể, câu trả lời không chỉ liệt kê các trách nhiệm mà còn giải thích mối liên hệ giữa chúng với các điều khoản pháp lý. Việc phân tích và tổng hợp thông tin từ các clause của nghị định để đưa ra một câu trả lời toàn diện là một suy luận phức tạp. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_050"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, thể hiện việc ghép 2 thông tin từ clause 1 của Nghị định 84/2020/NĐ-CP. Không có lỗi ngữ pháp, lặp từ hay không trung tính. Điểm 9 do không có bất kỳ vấn đề nào.",
+    "id": "QDC_046_v2"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích dẫn đúng quy định tại Nghị định 84/2020/NĐ-CP.  Sự suy luận để kết hợp thông tin về quyết định của UBND tỉnh và quy định cho trường cao đẳng, trường cao học đẳng làm cho câu trả lời trở nên hoàn chỉnh hơn.  Không có lỗi ngữ pháp hoặc lặp từ. Có thể tăng điểm thêm 1 nếu câu trả lời thêm cụ thể hơn về các yếu tố khác có thể ảnh hưởng đến quyết định (ví dụ: tình hình thực tế của địa phương).",
+    "id": "QDC_047_v2"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ, dựa trên tham chiếu luật.  Đã ghép thông tin từ Clause 1 của Nghị định 84/2020/NĐ-CP, nêu rõ các đối tượng được phong tặng danh hiệu Tiến sĩ danh dự: nhà giáo, nhà khoa học và nhà hoạt động chính trị, xã hội.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_048_v2"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật.  'Reasoning level' đánh giá là 2 vì câu trả lời tóm tắt và tổng hợp các điều kiện được liệt kê trong Nghị định 84/2020. Không có lỗi ngữ pháp, lặp từ hay thiếu tính trung lập.  Điểm số cao vì câu trả lời cung cấp thông tin cần thiết một cách rõ ràng và chính xác.",
+    "id": "QDC_049_v2"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Reasoning level 2 vì câu trả lời tổng hợp thông tin từ Điều 4 của Nghị định 84/2020/NĐ-CP để đưa ra kết luận. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_050_v2"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Giải thích rõ ràng điều kiện cần thiết là có bằng tiến sĩ. Có thể nâng điểm hơn nếu có thêm thông tin từ reference như đáp ứng các điều kiện quy định tại khoản 2 Điều 4 Nghị định 84/2020/NĐ-CP.",
+    "id": "QDC_051"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng các tiêu chí để xét học bổng. Reasoning level là 2 vì câu trả lời kết hợp 2 tiêu chí chính từ reference, diễn đạt mạch lạc. Không có lỗi ngữ pháp, lặp từ, hay không trung tính.",
+    "id": "QDC_052"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật.  Nêu rõ điều kiện (điểm khá trở lên), mức học bổng (bằng hoặc cao hơn trần học phí) và người quy định (hiệu trưởng).  Độ sâu suy luận đạt mức 2, vì nó kết hợp thông tin từ nhiều chỗ trong văn bản tham khảo để đưa ra câu trả lời hoàn chỉnh.  Không có lỗi ngữ pháp, lặp từ, hoặc thiếu trung tính.",
+    "id": "QDC_053"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, thể hiện việc ghép nối thông tin '8% nguồn thu học phí' từ Điều 8 của Nghị định 84/2020/NĐ-CP cho cơ sở giáo dục nghề nghiệp và đại học công lập. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_054"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và khớp hoàn toàn với thông tin trong reference. Reasoning level phù hợp (ghép 2-3 thông tin từ reference). Không có lỗi ngữ pháp, lặp từ hoặc thiếu trung tính.",
+    "id": "QDC_055"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát văn bản pháp luật tham khảo. Level reasoning phù hợp vì câu trả lời đã ghép thông tin từ Clause 2 của Nghị định 84/2020/NĐ-CP. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_056"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Mức độ suy luận phù hợp, chỉ cần ghép 2 thông tin: (a) Học sinh, sinh viên được giảm giá vé tàu hỏa, xe ô tô buýt; và (b) Đơn vị phát hành vé giảm giá khi xuất trình thẻ học sinh, sinh viên. Không có lỗi ngữ pháp, lặp từ, hay tính trung tính.",
+    "id": "QDC_057"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Reasoning level 1 phù hợp vì câu trả lời ghép thông tin 'Nghị định có hiệu lực thi hành từ ngày 01 tháng 9 năm 2020' từ Điều 11 của Nghị định 84/2020/NĐ-CP.",
+    "id": "QDC_058"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Reasoning level 1 phù hợp vì câu trả lời tóm tắt một điều khoản quan trọng từ luật. Không có lỗi ngữ pháp, lặp từ, hay không trung tính.",
+    "id": "QDC_059"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích dẫn trực tiếp từ Article 99, Clause 3. Reasoning level phù hợp, chỉ cần ghép 2 thông tin để đưa ra kết luận. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_060"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  'Reasoning_level_correct' được đánh giá là 1 vì câu trả lời đã ghép trực tiếp clause 4 của Article 99 vào. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.  Điểm số cao vì câu trả lời ngắn gọn, dễ hiểu và hoàn toàn chính xác.",
+    "id": "QDC_061"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, chỉ cần ghép 2 thông tin trực tiếp từ reference. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_062"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và phù hợp với reference. Reasoning level 1 là phù hợp vì câu trả lời tổng hợp thông tin từ Clause 1 của reference. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Có thể tăng điểm thêm 1 điểm nếu câu trả lời đề cập đến việc Nhà nước bảo hộ tài sản của trường dân lập.",
+    "id": "QDC_063"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp vì câu trả lời ghép thông tin từ điều 105 của luật. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_064"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Reasoning level phù hợp, thể hiện khả năng ghép nối thông tin từ reference. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Có thể cải thiện thêm bằng cách chỉ ra rõ hơn phạm vi của 'giáo dục nghề nghiệp' để tăng tính chính xác.",
+    "id": "QDC_065"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Lý luận ở mức độ 1, ghép thông tin 'tôn trọng độc lập, chủ quyền quốc gia, bình đẳng và các bên cùng có lợi' từ reference. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_066"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ, và bám sát Luật. Level suy luận (2) phù hợp vì câu trả lời tổng hợp và giải thích các mục tiêu một cách rõ ràng, dựa trên thông tin trong reference. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_067"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời tóm tắt chính xác các nguyên tắc được liệt kê trong reference. Mức độ reasoning phù hợp, thể hiện khả năng trích xuất và tổng hợp thông tin. Không có lỗi ngữ pháp, lặp từ, hay không trung tính.",
+    "id": "QDC_068"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp vì câu trả lời tổng hợp thông tin từ clause 3. Không có lỗi ngữ pháp hoặc lặp từ. Điểm 9 vì có thể tăng lên nếu đề cập đến các yếu tố khác được quy định trong Article 110.",
+    "id": "QDC_069"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Reasoning level phù hợp vì đã ghép thông tin '01 tháng 7 năm 2020' từ Clause 1 của Article 114. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung tính.",
+    "id": "QDC_070"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Đã giải thích rõ ràng quy định về việc công dân Việt Nam ra nước ngoài học tập và nghiên cứu, đồng thời trích dẫn chính xác các điều khoản liên quan từ Luật Giáo dục 2019. Một điểm nhỏ có thể cải thiện là loại bỏ phần 'giải thích ngắn' để đảm bảo độ dài phù hợp với yêu cầu của testset.",
+    "id": "QDC_071"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Phân tích được nhiều trách nhiệm quan trọng (tôn trọng pháp luật, bảo mật thông tin, trách nhiệm học tập, trách nhiệm với quốc gia) và liên kết chúng một cách mạch lạc.  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Đáng chú ý là việc đề cập đến trách nhiệm bảo mật nhà nước và không lợi dụng học tập để chống phá là rất quan trọng. Có thể cải thiện một chút bằng cách sử dụng từ ngữ chính xác hơn trong một vài trường hợp, nhưng đây là một câu trả lời rất tốt.",
+    "id": "QDC_072"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát quy định pháp luật. Reasoning level phù hợp vì cần ghép thông tin từ nhiều clause để đưa ra câu trả lời hoàn chỉnh. Không có lỗi ngữ pháp hoặc lặp từ. Có thể cải thiện một chút bằng cách làm rõ hơn về vai trò của cơ quan quản lý trực tiếp, nhưng đây không phải là một vấn đề quan trọng.",
+    "id": "QDC_073"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản pháp luật. Phân tích logic từ việc lưu ban/học lại dẫn đến không được hưởng học bổng, sau đó giải thích về việc cơ quan cử đi học quyết định tiếp tục cấp học bổng sau khi du học sinh đạt yêu cầu.  Tuy không có lỗi, nhưng có thể cải thiện một chút bằng cách sử dụng ngôn ngữ chính xác hơn để nhấn mạnh rõ hơn về điều kiện để được cấp học bổng tiếp theo.",
+    "id": "QDC_074"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp vì câu trả lời cần tổng hợp thông tin từ 3 mức học vấn khác nhau. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_075"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản trong Nghị định 86/2021/NĐ-CP.  Đặc biệt, câu trả lời đã nêu rõ các trường hợp cụ thể dẫn đến việc bồi hoàn, bao gồm tự ý bỏ học, bỏ việc và việc không hoàn thành nghĩa vụ học tập.  Level reasoning là 2 vì nó tổng hợp thông tin từ nhiều clauses và điều khoản trong Nghị định. Có thể cải thiện một chút bằng cách giảm thiểu sự lặp lại về việc 'không được cơ sở đào tạo cấp...'.  Điểm số 9 thể hiện sự đánh giá cao cho câu trả lời.",
+    "id": "QDC_076"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát luật.  Reasoning level phù hợp, vì câu trả lời tổng hợp thông tin từ luật. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Có thể tăng thêm điểm nếu có thêm thông tin về quy trình xét duyệt.",
+    "id": "QDC_077"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên thông tin từ reference. Reasoning level phù hợp vì câu trả lời tổng hợp thông tin từ clause 2 của Nghị định 86/2021/NĐ-CP. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_078"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các quy định tại Nghị định 86/2021/NĐ-CP. Reasoning level 2 vì câu trả lời tóm tắt và tổng hợp các quyền được liệt kê trong tham chiếu. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "QDC_079"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát Nghị định 86/2021/NĐ-CP Article 15.  Reasoning level là 2 vì câu trả lời kết hợp nhiều thông tin từ reference để đưa ra một câu trả lời toàn diện.  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_080"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level 1 phù hợp vì ghép thông tin trực tiếp từ Clause 3 của Nghị định 86/2021/NĐ-CP.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_081"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng quyền lợi của công dân Việt Nam ra nước ngoài giảng dạy, nghiên cứu khoa học và trao đổi học thuật dựa trên Nghị định 86/2021. Mức độ suy luận phù hợp với việc tổng hợp và giải thích các điều khoản cụ thể trong nghị định.",
+    "id": "QDC_082"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Level reasoning ở mức 1 phù hợp vì câu trả lời đã tổng hợp thông tin từ tham chiếu. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Có thể tăng score lên 10 nếu có thêm một số thông tin chi tiết khác từ luật mà câu trả lời có thể cung cấp.",
+    "id": "QDC_083"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Giải thích rõ ràng các trách nhiệm của UBND tỉnh dựa trên các điều khoản cụ thể của Nghị định 86/2021. Cần tăng điểm một chút nếu có thêm thông tin liên quan đến việc phối hợp với các bộ, ngành khác.",
+    "id": "QDC_084"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và trích dẫn nguồn tham khảo một cách rõ ràng. Reasoning level 1 phù hợp vì câu trả lời tổng hợp thông tin từ điều 29 của nghị định. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_085"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và được hỗ trợ bởi tham chiếu.  Mức trần học phí được nêu rõ (300-540 nghìn đồng/học sinh/tháng), và tham chiếu đã cung cấp đầy đủ thông tin chi tiết về khung học phí cho từng vùng (thị và nông thôn, vùng dân tộc thiểu số).  Mức điểm cao hơn một chút do câu trả lời không chỉ đơn thuần tra cứu mà còn thể hiện khả năng tổng hợp thông tin từ tham chiếu.",
+    "id": "QDC_086"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng rằng mức trần học phí là 2.5 lần mức trần học phí cơ bản. Reasoning level là 2 vì cần hiểu rõ mối quan hệ giữa các điều khoản trong nghị định. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "QDC_087"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, dựa trên thông tin được trích dẫn từ Nghị định 81/2021/NĐ-CP.  Reasoning level là 2 vì câu trả lời đã suy luận ra giới hạn tối đa là 7.5% dựa trên các yếu tố được đề cập trong nghị định. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_088"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp vì câu trả lời ghép 2 thông tin quan trọng từ reference: (1) cơ sở chi phí hợp lý thực tế và (2) giới hạn mức thu không vượt quá 150% học phí chính quy. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_089"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ công thức tính học phí tín chỉ và liên hệ với học phí theo niên chế. Không có lỗi ngữ pháp, lặp từ hay không trung tính. Điểm 9 do có thể làm rõ thêm một chút về việc 'bảo đảm' tổng học phí theo tín chỉ bằng tổng học phí theo niên chế, để người đọc hiểu rõ hơn về mục đích của việc này.",
+    "id": "QDC_090"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Giải thích rõ ràng quy định về mức trần học phí, bao gồm cả hệ số và các yếu tố liên quan như khối ngành và mức độ tự chủ. Không có lỗi ngữ pháp, lặp từ hay không trung tính.  Có thể cải thiện thêm một chút bằng cách sử dụng cụm từ 'được xác định theo' thay vì 'được xác định bằng' để diễn đạt chính xác hơn.",
+    "id": "QDC_091"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level 2 vì câu trả lời tổng hợp thông tin từ nhiều phần khác nhau của reference để đưa ra một câu trả lời hoàn chỉnh. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_092"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng việc thu học phí trong trường hợp thiên tai/dịch bệnh dựa trên số tháng học thực tế và giới hạn chi phí. Reasoning level phù hợp, thể hiện khả năng suy luận từ reference để đưa ra câu trả lời chính xác. Không có lỗi ngữ pháp, lặp từ hay tính trung tính bị ảnh hưởng.",
+    "id": "QDC_093"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích dẫn rõ ràng các điều khoản liên quan từ Nghị định 81/2021/NĐ-CP. Level suy luận phù hợp, phản ánh sự hiểu biết về mối liên hệ giữa các điều khoản. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "QDC_094"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Đã ghép thông tin từ Clause 8 của Nghị định 81/2021/NĐ-CP, xác định rõ đối tượng và năm học áp dụng.  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.  Đánh giá cao vì độ chính xác và sự tổng hợp thông tin.",
+    "id": "QDC_095"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát luật tham khảo.  Đã bao gồm tất cả các đối tượng được giảm học phí như được liệt kê trong Nghị định 81/2021/NĐ-CP Article 16. Reasoning level phù hợp vì cần suy luận để tổng hợp các đối tượng khác nhau thành một câu trả lời hoàn chỉnh.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "QDC_096"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Câu trả lời đã ghép thông tin chính về mức hỗ trợ (150.000 đồng/học sinh/tháng), thời gian hưởng (theo thời gian học thực tế, không quá 9 tháng) từ clause 10 của Nghị định 81/2021/NĐ-CP.  Có thể nâng điểm lên 10 nếu thêm thông tin về đối tượng được hỗ trợ (trẻ em mẫu giáo và học sinh phổ thông) vào câu trả lời.  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "QDC_097"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và cung cấp đầy đủ thông tin liên quan đến ngày có hiệu lực của Nghị định 81/2021/NĐ-CP và các Nghị định được thay thế. Level 2 vì cần ghép thông tin về ngày có hiệu lực và các nghị định được thay thế để trả lời đầy đủ. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "QDC_098"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Phân tích thông tin từ clause 1 của Nghị định 24/2021/NĐ-CP. Chỉ có thể cải thiện bằng cách sử dụng các từ ngữ diễn đạt chính xác hơn.",
+    "id": "QDC_099"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference.  Reasoning level phù hợp (ghép 2 thông tin: tự bảo đảm chi và quyền tự chủ). Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.  Đánh giá cao (9/10) vì câu trả lời rõ ràng và dễ hiểu.",
+    "id": "QDC_100"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát điều 2 của Luật Giáo dục 2019.  Mức reasoning level 1 phù hợp vì nó tóm tắt toàn bộ mục tiêu được quy định trong điều 2.  Không có lỗi ngữ pháp hoặc lặp từ. Có thể tăng điểm thêm 1 điểm nếu câu trả lời đưa ra cụm từ 'phát huy tiềm năng, khả năng sáng tạo' một cách cụ thể hơn, nhưng nó đã được bao gồm trong câu trả lời.  Điểm 9 là đánh giá cao về mức độ chính xác và đầy đủ của câu trả lời.",
+    "id": "MGD001"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát nội dung trong reference. Reasoning level 2 phù hợp vì câu trả lời tổng hợp các mục tiêu phát triển của giáo dục mầm non như được quy định trong Luật. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "MGD002"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, hoàn toàn bám sát các điều khoản trong luật. Giải thích rõ mục tiêu giáo dục phổ thông theo từng cấp học. Mức reasoning level phù hợp vì câu trả lời tổng hợp thông tin từ nhiều clause để đưa ra một câu trả lời toàn diện. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "MGD003"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, bám sát Article 36 của luật.  Mức reasoning_level là 2 vì câu trả lời tổng hợp các mục tiêu chính của giáo dục nghề nghiệp được nêu trong luật.  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "MGD004"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, bám sát các điều khoản trong luật.  Phản ánh rõ mục tiêu đa chiều của giáo dục đại học.  Điểm số cao vì câu trả lời được xây dựng một cách logic và toàn diện, kết hợp nhiều khía cạnh của mục tiêu.  Có thể tăng thêm một chút về tính khách quan, nhưng không cần thiết.",
+    "id": "MGD005"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Lập luận ở mức 2 vì nó tổng hợp mục tiêu của giáo dục thường xuyên từ reference và diễn giải nó một cách mạch lạc. Không có lỗi ngữ pháp, lặp từ, hay không trung tính.",
+    "id": "MGD006"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, trích dẫn đúng theo reference. Reasoning level phù hợp, chỉ cần ghép thông tin từ clause 2 của Article 29. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "MGD007"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Reasoning level phù hợp, ghép thông tin từ clause 3 của tham chiếu. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "MGD008"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát quy định trong Article 29, Clause 4.  Cách trình bày rõ ràng, mạch lạc. Có thể tăng điểm thêm một chút nếu đề cập đến tầm quan trọng của việc phát triển phẩm chất, tư tưởng và năng lực toàn diện của học sinh, nhưng đây không phải là lỗi.",
+    "id": "MGD009"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, trích xuất trực tiếp từ tham chiếu luật. Giải thích rõ ràng từng mục tiêu kiểm định chất lượng giáo dục theo quy định pháp luật.  Một điểm trừ nhỏ là câu trả lời có thể ngắn gọn hơn một chút, nhưng vẫn đầy đủ và chính xác. ",
+    "id": "MGD010"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, bao gồm tất cả các khía cạnh được đề cập trong văn bản tham khảo. Reasoning level phù hợp vì câu trả lời tổng hợp và thể hiện một mức độ hiểu biết về mục tiêu giáo dục toàn diện. Có thể tăng điểm một chút nếu câu trả lời diễn đạt mạch lạc hơn, tuy nhiên không có lỗi ngữ pháp, lặp từ, hay thiếu trung tính.",
+    "id": "MGD011"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất tốt, đầy đủ và chính xác, bám sát các điều khoản trong luật.  Tuy nhiên, có thể cải thiện một chút bằng cách diễn đạt rõ ràng hơn về cách các điều khoản trong luật liên quan trực tiếp đến việc phát huy tiềm năng sáng tạo. Điểm số 9 là để thể hiện mức độ chính xác cao nhưng vẫn có chỗ để nâng cao.",
+    "id": "MGD012"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời xác đáng, bám sát luật, và thể hiện khả năng suy luận để liên kết các điều khoản từ Article 23 và 24. Có thể cải thiện thêm bằng cách nhấn mạnh việc 'chuẩn bị cho trẻ em vào học lớp một' là một ví dụ cụ thể về sự liên thông.",
+    "id": "MGD013"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, bám sát các điều khoản liên quan trong luật. Giải thích rõ mục tiêu của từng giai đoạn. Reasoning level phù hợp vì cần ghép thông tin từ nhiều điều khoản để đưa ra câu trả lời hoàn chỉnh.",
+    "id": "MGD014"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản trong luật. Phân biệt rõ ràng mục tiêu của giáo dục nghề nghiệp và giáo dục đại học.  Có thể tăng điểm thêm 1 điểm nếu câu trả lời nhấn mạnh rõ hơn về sự khác biệt trong phương pháp đào tạo và trình độ.",
+    "id": "MGD015"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát các references.  Đặc biệt, nó không chỉ liệt kê mục tiêu của giáo dục thường xuyên mà còn trực tiếp liên kết nó với việc xây dựng xã hội học tập, như đã đề cập trong Article 41 của reference.  Một điểm nhỏ có thể cải thiện là làm rõ hơn về cách 'học liên tục, học tập suốt đời' cụ thể đóng góp vào xã hội học tập.  Điểm số cao vì câu trả lời đã thể hiện khả năng suy luận và tổng hợp thông tin từ nhiều nguồn.",
+    "id": "MGD016"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các tham chiếu pháp lý. Mức reasoning level phù hợp vì nó tổng hợp các thông tin từ hai điều khoản trong luật để trả lời câu hỏi. Không có lỗi ngữ pháp hoặc lặp từ. Điểm 9 là để thể hiện độ chính xác và đầy đủ của câu trả lời.",
+    "id": "MGD017"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác, đầy đủ và bám sát reference. Nó bao gồm cả mục tiêu quốc sách hàng đầu và các yếu tố cần thiết để phát triển giáo dục theo luật định. Reasoning level là 2 vì câu trả lời tổng hợp các thông tin từ nhiều clause của luật một cách hợp lý. Không có lỗi ngữ pháp, lặp từ, hay thiếu tính trung tính.",
+    "id": "MGD018"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, tổng hợp các yếu tố cấu thành mục tiêu giáo dục như được quy định trong Article 8. Reasoning level 2 vì câu trả lời tổng hợp và liên kết các thông tin khác nhau. Có thể cải thiện một chút bằng cách sử dụng từ ngữ trơn tru hơn, nhưng không có lỗi ngữ pháp hoặc lặp từ.",
+    "id": "MGD019"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát các điều khoản trong luật. Giải thích rõ mục đích của hướng nghiệp và phân luồng. Reasoning level phù hợp vì cần tổng hợp thông tin từ hai clause để đưa ra một định nghĩa hoàn chỉnh. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "MGD020"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ mục tiêu đa chiều của hoạt động khoa học và công nghệ trong cơ sở giáo dục (phát triển kinh tế - xã hội, nâng cao chất lượng giáo dục, xây dựng trung tâm văn hóa, khoa học, công nghệ). Reasoning level là 2 vì nó kết hợp thông tin từ Clause 1 & 3 của reference. Không có lỗi ngữ pháp hoặc lặp từ.",
+    "id": "MGD021"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Giải thích rõ ràng mục tiêu giáo dục Việt Nam bao gồm nhiều khía cạnh quan trọng. Reasoning level phù hợp vì câu trả lời đã tổng hợp và liên kết các thông tin từ luật để đưa ra một câu trả lời hoàn chỉnh. Không có lỗi ngữ pháp, lặp từ hoặc thiếu trung tính.",
+    "id": "MGD022"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, hoàn toàn bám sát nội dung trong luật. Giải thích ngắn gọn và rõ ràng. Có thể tăng điểm thêm 1 điểm nếu đề cập đến sự liên kết giữa mục tiêu giáo dục và các nhu cầu phát triển của xã hội một cách chi tiết hơn.",
+    "id": "MGD023"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp vì ghép được 2 thông tin từ reference để khẳng định. Không có lỗi ngữ pháp, lặp từ, không trung tính.",
+    "id": "MGD024"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Dẫn chứng rõ ràng từ Article 29. Reasoning level phù hợp, thể hiện khả năng tổng hợp thông tin. Có thể tăng điểm thêm 1 điểm nếu câu trả lời diễn đạt mạch lạc và tự tin hơn.",
+    "id": "MGD025"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát tham chiếu. Mức suy luận phù hợp vì câu trả lời không chỉ đơn thuần tra cứu mà còn tổng hợp thông tin để đưa ra luận điểm hoàn chỉnh. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "MGD026"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. 'Reasoning level' phù hợp vì câu trả lời tổng hợp thông tin từ clause 1 của luật. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "MGD027"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên thông tin trong luật.  'Reasoning_level' được đánh giá là 2 vì câu trả lời đã suy luận ra mục đích cốt lõi của giáo dục thường xuyên từ văn bản. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung tính.",
+    "id": "MGD028"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản tham khảo. Reasoning level phù hợp, chỉ cần ghép 2 thông tin chính từ mục tiêu giáo dục để khẳng định câu trả lời. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "MGD029"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference.  Nêu rõ mục tiêu chính của giáo dục mầm non (nuôi dưỡng, chăm sóc, giáo dục) và phạm vi độ tuổi.  Không có lỗi ngữ pháp hoặc vấn đề nào khác.",
+    "id": "MGD030"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát nội dung của Điều 29.  Độ phức tạp reasoning phù hợp.  Không phát hiện lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung tính.",
+    "id": "MGD031"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát luật định. Reasoning level 1 vì nó tóm tắt và làm rõ mục tiêu nêu trong luật. Không có lỗi ngữ pháp, lặp từ, hay tính trung tính. Điểm cao vì câu trả lời dễ hiểu và trực quan.",
+    "id": "MGD032"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên thông tin từ Điều 39 của luật. Reasoning level phù hợp vì câu trả lời ghép thông tin 'đào tạo nhân lực trình độ cao, nâng cao dân trí, bồi dưỡng nhân tài' từ Điều 39. Có thể tăng điểm thêm một chút nếu câu trả lời nhấn mạnh hơn vào việc 'bồi dưỡng nhân tài' như một mục tiêu cụ thể.",
+    "id": "MGD033"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản pháp lý được cung cấp. Giải thích rõ ràng rằng, mặc dù mục tiêu chính của giáo dục thường xuyên không phải là xóa mù chữ, nhưng điều 42 quy định rõ ràng việc thực hiện xóa mù chữ cho người trong độ tuổi theo quy định của pháp luật. Việc đánh giá 9/10 là vì có thể thêm một chút diễn giải về tầm quan trọng của việc xóa mù chữ như một phần thiết yếu của giáo dục thường xuyên.",
+    "id": "MGD034"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích dẫn trực tiếp từ Article 2. Reasoning level phù hợp, thể hiện khả năng ghép nối thông tin từ reference để trả lời câu hỏi. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung tính.",
+    "id": "MGD035"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, bám sát các điều khoản liên quan trong luật.  Đã suy luận một cách chính xác từ các điều khoản để khẳng định mục tiêu giáo dục mầm non bao gồm phát triển kỹ năng xã hội. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "MGD036"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, dựa trên Article 29. Reasoning level phù hợp vì câu trả lời đã ghép các thông tin quan trọng từ điều khoản để đưa ra kết luận. Không có lỗi ngữ pháp, lặp từ hoặc thiếu trung tính.",
+    "id": "MGD037"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát luật. Reasoning level phù hợp, chỉ cần ghép 2 thông tin chính từ luật để khẳng định mục tiêu của giáo dục nghề nghiệp bao gồm khả năng tìm việc làm và tự tạo việc làm. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "MGD038"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát văn bản tham khảo. Level suy luận phù hợp vì ghép 2 thông tin (đức, trí, thể, mỹ và các kỹ năng, phẩm chất cần thiết). Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "MGD039"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. 'Reasoning level' phù hợp vì câu trả lời đã tóm tắt và ghép các điểm chính từ reference. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "MGD040"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên thông tin trong Article 2. Reasoning level 1 phù hợp vì câu trả lời ghép thông tin từ Article 2 để trả lời câu hỏi. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "MGD041"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. 'Reasoning level' phù hợp vì câu trả lời tổng hợp từ hai clause trong tài liệu tham khảo. Không có lỗi ngữ pháp, lặp từ hay thiếu tính trung lập.",
+    "id": "MGD042"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp vì câu trả lời tổng hợp thông tin từ Article 29 và Clause 4. Không có lỗi ngữ pháp, lặp từ, hay thiếu tính trung lập.",
+    "id": "MGD043"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời đầy đủ, chính xác và bám sát luật. Câu trả lời kết hợp thông tin từ Article 36, khẳng định mục tiêu của giáo dục nghề nghiệp bao gồm đạo đức, sức khỏe và trách nhiệm nghề nghiệp. Không có lỗi ngữ pháp, lặp từ, hoặc tính trung tính bị ảnh hưởng.",
+    "id": "MGD044"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát luật định.  Reasoning level phù hợp, thể hiện khả năng tổng hợp thông tin từ điều luật. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "MGD045"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và hoàn toàn bám sát nội dung trong Article 41. Reasoning level phù hợp vì câu trả lời sử dụng 2 thông tin từ reference để trả lời. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "MGD046"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, tóm tắt mục tiêu phát triển nguồn nhân lực được nêu trong Article 2. Reasoning level phù hợp, chỉ cần ghép 2 thông tin để đưa ra câu trả lời. Không có lỗi ngữ pháp, lặp từ, hay không trung tính.",
+    "id": "MGD047"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát tham chiếu. Reasoning level phù hợp, chỉ cần ghép 2 thông tin từ Clause 2 để trả lời.",
+    "id": "MGD048"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ dựa trên tham chiếu. Reasoning level phù hợp, chỉ cần ghép thông tin từ Clause 3 của Article 29. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "MGD049"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát quy định tại Article 36.  Mức độ suy luận ở mức 1 là phù hợp vì câu trả lời diễn giải trực tiếp và chính xác thông tin từ reference. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "MGD050"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát nội dung trong Article 6 của Luật Giáo dục 2019.  Có thể cải thiện bằng cách bổ sung thêm một chút về đặc điểm 'mở' của hệ thống giáo dục quốc dân, ví dụ như khả năng tiếp cận và tự học. Điểm 1 còn thiếu so sánh về hai hình thức giáo dục chính quy và thường xuyên.",
+    "id": "HTGDQD_001"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Reasoning level phù hợp, chỉ cần ghép thông tin từ các clause của luật. Không có lỗi ngữ pháp hoặc lặp từ. Có thể tăng điểm thêm 1 nếu đề cao tính chi tiết và sự rõ ràng hơn trong diễn đạt.",
+    "id": "HTGDQD_002"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Giải thích rõ ràng và sử dụng tham chiếu một cách hiệu quả. Chỉ có thể tăng điểm một chút nếu thêm một số từ khóa quan trọng khác trong định nghĩa (ví dụ: 'tự chủ', 'tự học').",
+    "id": "HTGDQD_003"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời xác định đúng định nghĩa 'giáo dục thường xuyên' dựa trên reference. Reasoning level phù hợp, phản ánh việc ghép 2 thông tin: 'chương trình giáo dục nhất định' và 'đáp ứng nhu cầu học tập suốt đời của người học'. Không có lỗi ngữ pháp, lặp từ, hay không trung tính. Điểm 9 do câu trả lời hoàn toàn chính xác và đầy đủ.",
+    "id": "HTGDQD_004"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát điều 6, khoản 3 của Luật Giáo dục Quốc dân. Reasoning level 1 phù hợp vì câu trả lời tổng hợp thông tin từ một clause trong luật. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_005"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level 1 phù hợp vì câu trả lời ghép thông tin từ Clause 1 của reference. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_006"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Câu trả lời ghép được thông tin về giáo dục mầm non và giáo dục trung học cơ sở như được quy định trong Article 14. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "HTGDQD_007"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Reasoning level phù hợp, ghép thông tin từ Article 28, Clause 1 để trả lời. Không có lỗi ngữ pháp, lặp từ hoặc thiếu trung tính.",
+    "id": "HTGDQD_008"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, chỉ cần ghép hai thông tin liên quan từ reference. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_009"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và hoàn toàn dựa trên reference.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Reasoning level 1 phù hợp vì câu trả lời đã ghép 4 thông tin quan trọng từ reference. Có thể nâng lên 10 nếu có thêm phần phân tích sâu hơn về tầm quan trọng của mỗi yếu tố.",
+    "id": "HTGDQD_010"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát Article 36. Level suy luận 2 vì nó tổng hợp nhiều yếu tố để giải thích mục tiêu của giáo dục nghề nghiệp, bao gồm năng lực hành nghề, đạo đức, sức khỏe, khả năng sáng tạo, và khả năng tìm kiếm việc làm. Không có lỗi ngữ pháp hoặc vấn đề nào khác.",
+    "id": "HTGDQD_011"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, bám sát nội dung trong Article 39, Clause 1 và Clause 2.  Phản ánh sự hiểu biết sâu sắc về mục tiêu đa chiều của giáo dục đại học.  Một điểm nhỏ có thể cải thiện là tránh lặp lại từ 'khả năng' một cách quá thường xuyên.",
+    "id": "HTGDQD_012"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference.  Giải thích rõ mục tiêu của giáo dục thường xuyên, bao gồm phát triển cá nhân, xã hội và đóng góp vào việc xây dựng xã hội học tập. Reasoning level 2 vì nó tích hợp nhiều yếu tố từ reference để đưa ra một câu trả lời toàn diện. Không có lỗi ngữ pháp, lặp từ, không trung tính.",
+    "id": "HTGDQD_013"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Đã ghép được 4 hình thức học được liệt kê trong Clause 2.  Có thể cải thiện thêm bằng cách nêu rõ hơn mục đích của việc thực hiện chương trình giáo dục thường xuyên để tăng tính chính xác.  Điểm 9 là do câu trả lời rất tốt nhưng chưa hoàn hảo.",
+    "id": "HTGDQD_014"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, nêu rõ các loại hình nhà trường công lập, dân lập và tư thục. Reasoning level là 2 vì câu trả lời tổng hợp thông tin từ clause 1 của Article 47,  đề cập đến sự khác biệt về nguồn đầu tư và chủ sở hữu của từng loại hình. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.  Điểm số 9 do có thể bổ sung thêm thông tin về điều kiện hoạt động của từng loại hình để đạt 10 điểm.",
+    "id": "HTGDQD_015"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát thông tin trong luật. Reasoning level 1 phù hợp vì câu trả lời đã ghép thông tin từ Clause 1 của Article 56. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Điểm 9 là đánh giá cao vì câu trả lời rõ ràng và chính xác.",
+    "id": "HTGDQD_016"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, chỉ cần ghép thông tin 'Ngày 20 tháng 11 hằng năm' từ reference để trả lời. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_017"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ, bám sát luật. Reasoning level là 2 vì câu trả lời tổng hợp thông tin từ các clause khác nhau của Article 80. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_018"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level 1 phù hợp vì câu trả lời tóm tắt một clause trực tiếp từ reference. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_019"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Mức reasoning level phù hợp vì câu trả lời tóm tắt một clause cụ thể trong luật. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "HTGDQD_020"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, nêu ra các hình thức hợp tác đầu tư được quy định trong Article 108. Reasoning level phù hợp, chỉ cần ghép các hình thức từ reference. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính khách quan.",
+    "id": "HTGDQD_021"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời đầy đủ và chính xác, bao gồm tất cả các mục tiêu được quy định trong luật. Reasoning level phù hợp vì nó tổng hợp và diễn giải các mục tiêu thành một câu trả lời mạch lạc. Không có lỗi ngữ pháp, lặp từ hay thiếu tính trung tính.",
+    "id": "HTGDQD_022"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Reasoning level phù hợp (ghép 2 thông tin từ clause 3). Không có lỗi ngữ pháp, lặp từ hoặc thiếu trung tính.",
+    "id": "HTGDQD_023"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Reasoning level 1 là phù hợp vì trích xuất thông tin quan trọng từ tham chiếu. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "HTGDQD_024"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, sử dụng các tham chiếu liên quan một cách hiệu quả. Reasoning level 2 vì có suy luận để tổng hợp thông tin từ các điều khoản khác nhau để trả lời câu hỏi. Không có lỗi ngữ pháp hoặc lặp từ, câu trả lời trung tính.",
+    "id": "HTGDQD_025"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, dựa trên thông tin trong reference. Reasoning level là 2, vì câu trả lời tổng hợp thông tin từ Article 31 và nhắc đến khung tăng học phí 7.5% (dù không trực tiếp đề cập đến 12.5%/năm, nhưng là mức tối đa có thể áp dụng). Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_026"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản tham khảo.  Mức reasoning level là 1 vì câu trả lời đã ghép thông tin về việc quy định mức học phí dựa trên chi phí thực tế và giới hạn tối đa bằng mức học phí hiện hành.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_027"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, bám sát các điều kiện được liệt kê trong luật.  Reasoning level 2 vì nó tổng hợp các điều kiện từ clause 2 của luật. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.  Có thể cải thiện một chút bằng cách sử dụng số liệu cụ thể hơn (ví dụ: 'đội ngũ nhà giáo và cán bộ quản lý đạt tiêu chuẩn' nên được mở rộng với số lượng tối thiểu). Tuy nhiên, câu trả lời đã rất tốt.",
+    "id": "HTGDQD_028"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, bao gồm tất cả các trường hợp được liệt kê trong luật (Article 50). Reasoning level phù hợp vì câu trả lời tóm tắt và kết hợp các điều khoản liên quan. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_029"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên Article 52, Clause 1 của luật. Level lý luận phù hợp. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_030"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Mức reasoning level 2 phù hợp vì câu trả lời tổng hợp thông tin từ reference để giải thích rõ hơn về vai trò và thành phần hội đồng trường.  Không có lỗi ngữ pháp, lặp từ hoặc thiếu trung tính.",
+    "id": "HTGDQD_031"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, liệt kê đúng các loại trường được quy định trong luật. Reasoning level là 2 vì câu trả lời đòi hỏi hiểu mối liên hệ giữa các điều khoản luật (ví dụ, hiểu rằng trường chuyên và trường năng khiếu đều là các loại hình trường phổ thông). Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_032"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát Article 62. Reasoning level phù hợp, thể hiện khả năng tổng hợp thông tin từ tham chiếu. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Có thể tăng điểm nếu câu trả lời thêm cụ thể hơn về mục tiêu giáo dục cụ thể của trường chuyên.",
+    "id": "HTGDQD_033"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp (ghép 2-3 thông tin). Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Điểm 9 do có thể thêm chi tiết về các tiêu chuẩn cụ thể hơn (ví dụ: yêu cầu về trình độ học vấn). ",
+    "id": "HTGDQD_034"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời hoàn toàn chính xác và bám sát tham chiếu. Reasoning level là 1 vì nó ghép thông tin trực tiếp từ clause 1 của Article 72. Không có lỗi ngữ pháp hoặc lặp từ.",
+    "id": "HTGDQD_035"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": true,
+    "issues": [
+      "Không có lỗi cụ thể, nhưng có thể thêm thông tin về các kỳ thi đánh giá năng lực (ví dụ: kỳ thi đánh giá trình độ giáo viên bản thân) để câu trả lời đầy đủ hơn."
+    ],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đưa ra một đáp án phù hợp dựa trên thông tin được cung cấp. Tuy nhiên, để tăng tính toàn diện, có thể bổ sung thêm các kỳ thi đánh giá năng lực của giáo viên.",
+    "id": "HTGDQD_036"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Reasoning level phù hợp, có thể tổng hợp thông tin từ clause 1 của Article 72. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_037"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Trả lời chính xác và đầy đủ, bao gồm tất cả các quyền được liệt kê trong Article 83 của Luật Giáo dục. Reasoning level là 2 vì trả lời đã tổng hợp và diễn giải các điều khoản, không chỉ đơn thuần tra cứu. Không có lỗi ngữ pháp, lặp từ, không trung tính.",
+    "id": "HTGDQD_038"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác, đầy đủ và bám sát các điều khoản trong luật.  Phân tích logic của câu trả lời thể hiện sự suy luận tổng hợp từ các điều khoản trong luật.  Một điểm nhỏ có thể cải thiện là làm rõ hơn ngôn ngữ và làm cho câu trả lời mạch lạc hơn một chút.  Tuy nhiên, độ chính xác và sự bao quát của câu trả lời là rất cao.",
+    "id": "HTGDQD_039"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Có thể tăng điểm thêm 1 điểm nếu thêm thông tin về mục tiêu chính của chính sách tín dụng giáo dục là gì (ví dụ: giảm gánh nặng tài chính cho người học).  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_040"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Giải thích rõ ràng đối tượng được hưởng và cơ sở pháp lý. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Đánh giá 9/10 do câu trả lời đã rất tốt.",
+    "id": "HTGDQD_041"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát luật định. Sử dụng các clause liên quan từ luật để trả lời. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Điểm 9 do có thể làm rõ hơn một chút về vai trò của gia đình trong việc hỗ trợ con em học tập ở các cấp độ khác nhau.",
+    "id": "HTGDQD_042"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát luật định. Cụ thể, nó trích dẫn các điều khoản liên quan đến trách nhiệm của cơ quan, tổ chức, cá nhân, Mặt trận Tổ quốc và Đoàn Thanh niên.  Mức reasoning là 2 vì câu trả lời không chỉ đơn thuần trích dẫn mà còn có một chút tổng hợp trách nhiệm. Có thể nâng điểm hơn nữa nếu đề xuất một câu trả lời có cấu trúc logic hơn, nhưng đáp án này đã rất tốt.",
+    "id": "HTGDQD_043"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát luật. Phân tích rất tốt các nguồn tài chính được liệt kê trong Luật Giáo dục. Không có lỗi ngữ pháp, lặp từ hay không trung tính. Điểm số 9 vì có thể cải thiện một chút bằng cách trình bày ngắn gọn hơn, nhưng độ chính xác và hoàn chỉnh là rất cao.",
+    "id": "HTGDQD_044"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Level reasoning phù hợp với việc ghép 2 thông tin (mầm non, phổ thông, đại học, sư phạm, thường xuyên) từ Điều 105. Không có lỗi ngữ pháp hoặc vấn đề nào khác.",
+    "id": "HTGDQD_045"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ dựa trên reference. Phân tích đúng phạm vi trách nhiệm của Bộ Lao động - Thương binh và Xã hội về giáo dục nghề nghiệp. Có thể nâng cao hơn bằng cách nêu rõ hơn về các cấp học, nhưng vẫn đạt điểm cao vì đáp án đã bao quát chính xác.",
+    "id": "HTGDQD_046"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, bám sát nội dung trong reference.  `reasoning_level_correct` là 1 vì câu trả lời đã ghép lại được các nguyên tắc chính.  Không có lỗi ngữ pháp hay lặp từ. Điểm 9 là để khen ngợi câu trả lời rất tốt.",
+    "id": "HTGDQD_047"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Reasoning level là 2 vì câu trả lời không chỉ đơn thuần tra cứu mà đã tích hợp thông tin về cả nghỉ hè và nghỉ phép. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung tính.",
+    "id": "HTGDQD_048"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản tham khảo. Mức độ reasoning phù hợp, thể hiện khả năng ghép nối thông tin từ các đoạn văn trong Nghị định. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_049"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Câu trả lời tổng hợp thông tin từ nhiều điều khoản khác nhau (Điều 3, các điểm a, b, c) để cung cấp một câu trả lời hoàn chỉnh.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.  Điểm 9 được đưa ra vì có thể cải thiện độ rõ ràng bằng cách liệt kê rõ ràng các khoảng thời gian nghỉ hè khác nhau cho từng nhóm giảng viên, nhưng câu trả lời đã đáp ứng yêu cầu của câu hỏi.",
+    "id": "HTGDQD_050"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích dẫn đầy đủ các thông tin liên quan từ nghị định. Reasoning level phù hợp vì câu trả lời tóm tắt rõ ràng hai giai đoạn áp dụng miễn học phí và đối tượng áp dụng. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "HTGDQD_051"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, dựa trên thông tin chi tiết trong reference (Nghị định 81/2021/NĐ-CP).  Sử dụng reasoning level 2 vì đã trích xuất và tổng hợp chính xác thông tin về mức trần học phí của khối ngành Y dược theo từng năm học như được quy định trong reference. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_052"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng cách tính toán học phí dựa trên mức trần và hệ số. Reasoning level phù hợp, suy luận logic để đi đến kết quả. Không có lỗi ngữ pháp, lặp từ, không trung tính.",
+    "id": "HTGDQD_053"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và được hỗ trợ bởi tham chiếu. Level reasoning là 2 vì câu trả lời tổng hợp thông tin từ tham chiếu (mức học phí 2024-2025 cho khối ngành Kỹ thuật và công nghệ thông tin là 2.040 nghìn đồng/tháng).  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.  Điểm 9 là do câu trả lời rất chính xác và đầy đủ, chỉ thiếu một chút nhấn mạnh vào nguồn gốc của thông tin (tức là từ Mục a, Clause 2 của Nghị định 81/2021/NĐ-CP).",
+    "id": "HTGDQD_054"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác dựa trên quy định của Nghị định 81/2021/NĐ-CP. Giải thích rõ ràng mối liên hệ giữa mức học phí trần cơ bản và hệ số áp dụng cho cơ sở tự bảo đảm chi thường xuyên.  Một điểm nhỏ có thể cải thiện là làm rõ hơn về việc 'mức trần cơ bản' là gì, nhưng tổng thể câu trả lời rất tốt.",
+    "id": "HTGDQD_055"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp (ghép 2 thông tin: kết quả học tập và không bị kỷ luật). Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_056"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu pháp lý.  Logic suy luận đã chính xác xác định mối quan hệ giữa điều khoản 2 của Nghị định 84/2020/NĐ-CP và câu hỏi.",
+    "id": "HTGDQD_057"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, chỉ cần ghép thông tin từ Clause 2 của Nghị định 84/2020/NĐ-CP. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_058"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát các điều khoản trong Nghị định 84/2020/NĐ-CP.  Phân tích rõ ràng thời gian cấp học bổng và nguồn gốc của thông tin.  Một điểm nhỏ có thể cải thiện bằng cách tránh lặp lại thuật ngữ 'học bổng chính sách' trong câu trả lời.  Nói chung, trả lời xuất sắc.",
+    "id": "HTGDQD_059"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Reasoning level 2 vì câu trả lời ghép thông tin từ điều 9, khoản 5 của Nghị định 86/2021/NĐ-CP. Không có lỗi ngữ pháp, lặp từ, không trung tính.",
+    "id": "HTGDQD_060"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các nguồn tham khảo. Giải thích rõ ràng về việc Luật Giáo dục 2019 không quy định cụ thể nhưng Nghị định 81/2021/NĐ-CP đã quy định về học phí đối với hình thức học trực tuyến. Reasoning level là 2 vì câu trả lời kết hợp thông tin từ Luật Giáo dục và Nghị định 81/2021/NĐ-CP để làm rõ vấn đề. Có thể tăng điểm hơn nữa nếu thêm một chút về vai trò của Ủy ban nhân dân cấp tỉnh trong việc quy định học phí.",
+    "id": "HTGDQD_061"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Reasoning level 1 phù hợp vì câu trả lời tổng hợp các điểm chính được nêu trong Article 1. Không có lỗi ngữ pháp, lặp từ, hay không trung tính. Điểm số 9 vì câu trả lời rất tốt, chỉ thiếu một chút mở rộng để thể hiện sự hiểu biết sâu hơn về các quy định cụ thể của luật.",
+    "id": "HTGDQD_062"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp vì câu trả lời tổng hợp các yếu tố để xác định mục tiêu giáo dục. Không có lỗi ngữ pháp, lặp từ, hay thiếu tính trung lập.",
+    "id": "HTGDQD_063"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích dẫn trực tiếp từ luật. Reasoning level phù hợp vì câu trả lời đã suy luận từ thông tin trong reference. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_064"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Reasoning level 2 vì câu trả lời đã tổng hợp và suy luận các yếu tố cần thiết từ các điều khoản trong luật. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.  Có thể cải thiện một chút bằng cách làm rõ hơn mối liên hệ giữa các yếu tố, nhưng đây là một câu trả lời rất tốt.",
+    "id": "HTGDQD_065"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên tham chiếu.  Có thể cải thiện một chút bằng cách làm rõ hơn về 'cơ quan, tổ chức có thẩm quyền' để tăng độ rõ ràng (ví dụ: Bộ Giáo dục và Đào tạo Việt Nam). Điểm 9 là do câu trả lời gần như hoàn hảo.",
+    "id": "HTGDQD_066"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, là ghép 2 thông tin từ Article 5 và Clause 7. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung tính.",
+    "id": "HTGDQD_067"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, đã tổng hợp tốt các yêu cầu từ Điều 7. Mức reasoning level 2 phù hợp vì cần một chút suy luận để tổng hợp các yêu cầu thành một câu trả lời mạch lạc. Không có lỗi ngữ pháp, lặp từ hay thiếu tính trung lập.",
+    "id": "HTGDQD_068"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, bám sát nội dung trong Article 7, Clause 2. Reasoning level phù hợp, thể hiện khả năng tổng hợp thông tin từ reference. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "HTGDQD_069"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Nó tóm tắt chính xác các yêu cầu được liệt kê trong Điều 8.  Có thể cải thiện một chút bằng cách sử dụng từ ngữ chính xác hơn nhưng tổng thể đáp án rất tốt.  Điểm 9 là do một số từ có thể diễn đạt chính xác hơn.",
+    "id": "HTGDQD_070"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Có thể cải thiện bằng cách loại bỏ một chút lặp lại ('trong và ngoài cơ sở giáo dục'). Điểm 9 do một chút lặp lại và không tối ưu hóa ngôn ngữ.",
+    "id": "HTGDQD_071"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát reference. Level reasoning 2 vì câu trả lời tóm tắt và diễn giải khái niệm 'phân luồng' từ reference một cách tốt nhất. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_072"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Phân tích logic tốt, đã nhận diện được điều kiện chất lượng liên thông từ reference.  Có thể tăng điểm thêm 1 nếu câu trả lời nhấn mạnh hơn vào việc liên thông đảm bảo chất lượng học tập.",
+    "id": "HTGDQD_073"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ, dựa trên reference. Reasoning level phù hợp, chỉ cần ghép thông tin trực tiếp từ Clause 1 của reference. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "HTGDQD_074"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật được trích dẫn. Reasoning level phù hợp, chỉ ghép 2-3 thông tin để đưa ra câu trả lời. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "HTGDQD_075"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, bám sát tất cả các điều khoản trong reference. Câu trả lời thể hiện khả năng suy luận và tổng hợp thông tin tốt. Có thể tăng điểm thêm một chút nếu câu trả lời có thể đề cập đến các chính sách cụ thể liên quan đến các đối tượng đặc biệt như trẻ em có hoàn cảnh đặc biệt, người khuyết tật, người thuộc hộ nghèo và hộ cận nghèo.",
+    "id": "HTGDQD_076"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Giải thích rõ ràng về định nghĩa giáo dục hòa nhập và liệt kê chính sách hỗ trợ của Nhà nước. Reasoning level phù hợp (suy luận phức tạp - ghép 2-3 thông tin). Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_077"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Phân tích câu trả lời cho thấy nó trích dẫn trực tiếp Clause 2 của Article 16, cung cấp một giải thích rõ ràng về vai trò chủ đạo của nhà nước. Chỉ có thể cải thiện một chút bằng cách tránh lặp lại từ \"khuyến khích\" nhưng nhìn chung, đây là một câu trả lời xuất sắc.",
+    "id": "HTGDQD_078"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát văn bản tham khảo. 'Reasoning_level_correct' đánh giá mức độ ghép thông tin, đây là mức độ phù hợp. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Mức điểm 9 thể hiện sự đánh giá cao về tính chính xác và độ hoàn thiện của câu trả lời.",
+    "id": "HTGDQD_079"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, bao gồm tất cả các hành vi được liệt kê trong reference. Reasoning level 2 vì câu trả lời đã tổng hợp các clause từ reference để đưa ra một câu trả lời hoàn chỉnh. Không có lỗi ngữ pháp, lặp từ hay thiếu tính trung lập.",
+    "id": "HTGDQD_080"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng các yêu cầu về nội dung giáo dục mầm non.  Một điểm trừ nhỏ vì có thể làm câu trả lời ngắn gọn hơn, nhưng mức độ phân tích (reasoning_level) là phù hợp. Dù vậy, vẫn là một câu trả lời xuất sắc.",
+    "id": "HTGDQD_081"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference.  Nêu rõ các loại hình cơ sở giáo dục mầm non được quy định trong luật. Reasoning level là 2 vì câu trả lời tổng hợp thông tin từ 3 clause của reference.",
+    "id": "HTGDQD_082"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát nội dung quy định trong luật.  Mức reasoning_level là 2 vì câu trả lời đã tổng hợp và tóm tắt các yêu cầu quan trọng được liệt kê trong luật. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung thực.",
+    "id": "HTGDQD_083"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời và tham chiếu luật hoàn toàn nhất quán, cung cấp đầy đủ thông tin về yêu cầu nội dung giáo dục phổ thông ở cấp trung học cơ sở theo Article 30.  Chỉ hơi thiếu sót việc không đề cập đến quy mô thời gian học của từng môn. Đánh giá cao sự chính xác và bám sát thông tin.",
+    "id": "HTGDQD_084"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát nội dung trong Article 30. Reasoning level phù hợp vì câu trả lời tóm tắt và diễn giải thông tin từ tham chiếu một cách hiệu quả. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung tính. Đề xuất điểm số 9/10 vì có thể làm rõ hơn về mục tiêu 'hướng nghiệp' và 'phát triển năng lực' để tăng tính chi tiết.",
+    "id": "HTGDQD_085"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Level suy luận phù hợp vì đã tổng hợp các yếu tố chính từ reference để đưa ra câu trả lời. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_086"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, thể hiện khả năng ghép nối các thông tin quan trọng từ reference. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "HTGDQD_087"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích dẫn trực tiếp từ luật. Reasoning level 2 vì cần ghép 2 thông tin (điều kiện học xong chương trình trung học cơ sở đủ điều kiện và người đứng đầu cơ quan chuyên môn về giáo dục thuộc Ủy ban nhân dân cấp huyện cấp bằng). Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_088"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản pháp luật.  Giải thích rõ quy trình cấp bằng tốt nghiệp trung học phổ thông theo luật.  Có thể tăng điểm thêm nếu giải thích thêm về điều kiện đủ điều kiện dự thi (ví dụ: điểm thi, chứng chỉ).  Sửa lỗi ngữ pháp hoặc tăng tính trung tính không cần thiết.",
+    "id": "HTGDQD_089"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level là 1 vì nó tóm tắt thông tin từ reference. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_090"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác và đầy đủ, bám sát nội dung Article 38. Level reasoning là 1 vì câu trả lời đã ghép 3 thông tin trực tiếp từ reference. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "HTGDQD_091"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát các loại chương trình giáo dục thường xuyên được liệt kê trong Article 43, Clause 1. Reasoning level là 2 vì câu trả lời đã tổng hợp và diễn giải các loại chương trình được nêu rõ ràng trong luật, thể hiện khả năng suy luận để đưa ra câu trả lời. Không có lỗi ngữ pháp, lặp từ hoặc tính chất không trung tính.",
+    "id": "HTGDQD_092"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản tham khảo. Reasoning level phù hợp vì ghép được 4 loại hình cơ sở giáo dục thường xuyên từ clause 2. Không có lỗi ngữ pháp hoặc lặp từ.  Có thể nâng điểm lên 10 nếu đề bài yêu cầu giải thích ngắn gọn hơn về 'cơ sở giáo dục thường xuyên' trước khi liệt kê các loại hình.",
+    "id": "HTGDQD_093"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ dựa trên quy định pháp luật được trích dẫn.  Phần giải thích chi tiết về việc cam kết hoạt động không vì lợi nhuận, không rút vốn, không hưởng lợi tức và sử dụng lợi nhuận để phát triển nhà trường rất phù hợp.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.  Điểm số 9 thể hiện mức độ chính xác và đầy đủ cao.",
+    "id": "HTGDQD_094"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát điều 47 của Luật Giáo dục.  Level reasoning phù hợp vì câu trả lời tóm tắt và hệ thống các nguyên tắc được quy định. Không có lỗi ngữ pháp, lặp từ hay thiếu tính khách quan.",
+    "id": "HTGDQD_095"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, bao gồm tất cả các loại cơ sở giáo dục khác được liệt kê trong luật. Mức độ reasoning ở mức 2 vì nó yêu cầu tổng hợp thông tin từ cả (a) và (b) của Điều 65. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Điểm 9 vì có thể cải thiện thêm một chút về độ ngắn gọn và trôi chảy, nhưng vẫn hoàn toàn chính xác.",
+    "id": "HTGDQD_096"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, bao gồm tất cả các nhiệm vụ được liệt kê trong luật. Reasoning level là 2 vì câu trả lời tổng hợp các clause của luật để đưa ra một câu trả lời toàn diện. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "HTGDQD_097"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các quyền của nhà giáo được liệt kê trong reference. Reasoning level 2 vì câu trả lời ghép lại các quyền từ các clause khác nhau để đưa ra một câu trả lời hoàn chỉnh. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_098"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference.  Đã làm rõ định nghĩa thỉnh giảng theo Điều 67, nhiệm vụ của giáo viên thỉnh giảng theo Điều 69 và bổ sung thêm yếu tố cán bộ, công chức, viên chức cần hoàn thành nhiệm vụ nơi công tác.  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Điểm số cao vì câu trả lời cung cấp đầy đủ thông tin và giải thích rõ ràng.",
+    "id": "HTGDQD_099"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản trong luật. Reasoning level phù hợp vì câu trả lời tổng hợp các chính sách khác nhau được nêu trong luật, không chỉ đơn thuần tra cứu. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_100"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát Luật. 'Reasoning_level_correct' được đánh giá là 2 vì câu trả lời tổng hợp thông tin từ nhiều đoạn của Luật (Điều 85, Clause 1, và liên quan đến Điều 62). Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Điểm số cao vì câu trả lời hoàn toàn chính xác và trích dẫn đầy đủ.",
+    "id": "HTGDQD_101"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích xuất trực tiếp từ Clause 4 của Article 85. Reasoning level phù hợp, thể hiện khả năng ghép nối thông tin quan trọng. Không có lỗi ngữ pháp, lặp từ hoặc tính trung tính bị ảnh hưởng.",
+    "id": "HTGDQD_102"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, chỉ cần ghép 2 thông tin: hưởng chế độ miễn/giảm giá cho các dịch vụ giao thông, giải trí, tham quan... Theo quy định của Chính phủ. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_103"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng về cách thành lập ban đại diện theo từng lớp, từng trường và quy định của Bộ Giáo dục và Đào tạo. Không có lỗi ngữ pháp, lặp từ, không trung tính. Điểm 9 do câu trả lời xuất sắc, ngắn gọn và dễ hiểu.",
+    "id": "HTGDQD_104"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level 1 phù hợp vì câu trả lời tổng hợp thông tin từ reference. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "HTGDQD_105"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, thể hiện việc ghép nối thông tin từ reference để đưa ra câu trả lời. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_106"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp (ghép 2 thông tin: sở hữu của pháp nhân nhà trường và Nhà nước bảo hộ). Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Điểm số cao do câu trả lời rõ ràng và chính xác.",
+    "id": "HTGDQD_107"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, thể hiện việc ghép nối thông tin từ clause 2 của reference.  Có thể nâng điểm lên 10 nếu câu trả lời đưa ra thêm thông tin về quy định liên quan đến việc chuyển nhượng tài sản góp vốn.",
+    "id": "HTGDQD_108"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Reasoning level 2 vì nó tổng hợp thông tin từ điều 103 của luật. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "HTGDQD_109"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất đầy đủ và chính xác, bao gồm tất cả các nội dung được đề cập trong luật. Reasoning level phù hợp, thể hiện khả năng tổng hợp và phân tích thông tin từ các điều khoản của luật. Có thể tăng thêm một chút tính trung tính bằng cách tránh sử dụng các từ ngữ mạnh như 'tất cả'. ",
+    "id": "HTGDQD_110"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference.  Phân tích logic được trình bày rõ ràng, thể hiện khả năng tổng hợp thông tin từ các điều khoản liên quan.  Không có lỗi ngữ pháp, lặp từ hoặc thiếu trung tính. Điểm 9 là do câu trả lời rất tốt nhưng có thể tăng lên 10 nếu thêm một chút chi tiết về các quy trình cụ thể để chứng minh văn bằng được công nhận (ví dụ: yêu cầu dịch công chứng, nộp bản gốc).",
+    "id": "HTGDQD_111"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ dựa trên reference. Reasoning level phù hợp (ghép 2 thông tin từ reference). Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Có thể tăng điểm nếu có thêm một số ví dụ cụ thể về các tổ chức.",
+    "id": "HTGDQD_112"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Level suy luận ở mức 1, thể hiện việc ghép thông tin từ Clause 1 của Article 11. Không có lỗi ngữ pháp hoặc lặp từ. Có thể tăng score lên 10 nếu có thêm giải thích ngắn gọn về mục đích của việc điều này.",
+    "id": "HTGDQD_113"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng và ngắn gọn. Có thể tăng điểm thêm 1 điểm nếu thêm một chút ngữ cảnh về lý do tại sao lại có quy định này (ví dụ: đảm bảo tính khách quan của giáo dục).",
+    "id": "HTGDQD_114"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát reference. Reasoning level phù hợp, chỉ cần ghép thông tin từ Clause 2 của Article 21.",
+    "id": "HTGDQD_115"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Level reasoning phù hợp, tóm tắt thông tin trực tiếp từ clause 4 của reference. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu trung tính.",
+    "id": "HTGDQD_116"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ dựa trên reference. Câu trả lời đã ghép thông tin từ Clause 2 và Article 28.  Có thể tăng điểm nếu đề cập đến các yếu tố khác ngoài 'phát triển sớm về trí tuệ' có thể dẫn đến việc học vượt lớp theo quy định (ví dụ: năng khiếu đặc biệt). Tuy nhiên, câu trả lời vẫn rất tốt.",
+    "id": "HTGDQD_117"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời và tham chiếu luật đều chính xác và đầy đủ. Câu trả lời tóm tắt các trường hợp được phép học vượt tuổi quy định dựa trên tham chiếu luật. Mức reasoning_level là 2 vì câu trả lời kết hợp thông tin từ tham chiếu luật một cách logic và chính xác.",
+    "id": "HTGDQD_118"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời chính xác và đầy đủ, bám sát reference. Reasoning level phù hợp, thể hiện khả năng ghép nối thông tin từ reference để trả lời câu hỏi. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_119"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": true,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời tóm tắt chính xác mục tiêu của giáo dục trung học cơ sở dựa trên thông tin được cung cấp.  Reasoning level phù hợp, không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập. Điểm số cao vì câu trả lời rõ ràng và đầy đủ.",
+    "id": "HTGDQD_120"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ mục tiêu giáo dục trung học phổ thông, bao gồm cả việc củng cố kiến thức trung học cơ sở, phát triển học vấn phổ thông, và cơ hội phát triển cá nhân.  Cần cải thiện một chút về tính mạch lạc hơn (ví dụ: có thể sắp xếp lại các điểm để tăng tính logic). Điểm số cao do đáp ứng đầy đủ các yêu cầu.",
+    "id": "HTGDQD_121"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Câu trả lời giải thích rõ trách nhiệm của Bộ trưởng Bộ Giáo dục và Đào tạo, đồng thời chỉ ra các quyền và nghĩa vụ cụ thể được quy định trong Article 31.  Mức độ reasoning level là 2 vì câu trả lời có suy luận để tổng hợp các quy định liên quan để đưa ra câu trả lời đầy đủ.  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_122"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật định. Giải thích rõ các khía cạnh quan trọng về quy định sách giáo khoa, bao gồm mục tiêu, nội dung, hình thức, và quy trình lựa chọn. Reasoning level 2 vì cần kết hợp thông tin từ các clauses của luật. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "HTGDQD_123"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản pháp luật. Giải thích rõ Bộ trưởng Bộ Giáo dục và Đào tạo chịu trách nhiệm, quy trình phê duyệt sau thẩm định của Hội đồng quốc gia. Có thể tăng điểm hơn nữa nếu nêu rõ hơn về vai trò của Hội đồng quốc gia trong việc thẩm định.",
+    "id": "HTGDQD_124"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, đã kết hợp thông tin từ Luật Giáo dục 2019 và Nghị định 86/2021/NĐ-CP. Phần liên quan đến du học sinh được đề cập rõ ràng. Có thể nâng điểm lên 10 nếu đề cập trực tiếp hơn đến việc học sinh, sinh viên Việt Nam làm thêm (không chỉ du học sinh).",
+    "id": "HTGDQD_125"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": true,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng việc Luật Giáo dục 2019 không có quy định cụ thể về tình nguyện nhưng vẫn nhấn mạnh trách nhiệm tham gia lao động và hoạt động xã hội của người học.  Có thể cải thiện bằng cách làm rõ hơn rằng việc tham gia tình nguyện là một dạng của 'hoạt động xã hội'.  Điểm số cao vì đáp ứng đầy đủ yêu cầu và ít vấn đề.",
+    "id": "HTGDQD_126"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": true,
+    "issues": [
+      "không có lỗi ngữ pháp, lặp từ, không trung tính"
+    ],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Level suy luận 1 phù hợp vì ghép thông tin từ Article 82 liên quan đến việc tuân thủ quy tắc ứng xử và nội quy của cơ sở giáo dục. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "HTGDQD_127"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": true,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và phù hợp với ngữ cảnh.  Giải thích rõ ràng.  Mức reasoning level 1 hợp lý vì kết hợp thông tin từ Clause 6 và Clause 7 của Article 83. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung tính.",
+    "id": "HTGDQD_128"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": true,
+    "issues": [
+      "lỗi ngữ pháp nhỏ",
+      "không nhấn mạnh điều khoản liên quan đến quyền tự do sinh hoạt"
+    ],
+    "score": 8,
+    "comment": "Câu trả lời chính xác và bám sát reference. Tuy nhiên, có thể cải thiện bằng cách làm rõ hơn rằng mặc dù không có quy định cụ thể về biểu tình/đình công, nhưng việc này có thể bị hạn chế bởi các quy định khác liên quan đến trật tự và an toàn trong cơ sở giáo dục. Đồng thời, có thể thêm một câu nói ngắn về việc học sinh, sinh viên có quyền tự do ngôn luận và biểu tình, nhưng cần tuân thủ pháp luật và các quy định của cơ sở giáo dục.",
+    "id": "HTGDQD_129"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát Article 8 của Luật Giáo dục.  Mức độ suy luận (2) vì nó tóm tắt các yếu tố quan trọng được quy định trong Article 8. Có thể tăng điểm lên 10 nếu câu trả lời thêm vào việc nhấn mạnh tính thống nhất giữa các cấp học và đảm bảo chất lượng giáo dục.",
+    "id": "CTGD_001"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, bám sát nội dung của Luật. Reasoning level 2 vì nó tổng hợp các yếu tố quan trọng (mục tiêu, yêu cầu cần đạt, sự linh hoạt) từ điều 25. Không có lỗi ngữ pháp, lặp từ hoặc tính trung tính. Điểm 9/10 vì câu trả lời rất rõ ràng và chính xác.",
+    "id": "CTGD_002"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát nội dung trong văn bản tham khảo. Reasoning level 1 phù hợp vì câu trả lời này tổng hợp thông tin chính từ Clause 3 của điều 25.",
+    "id": "CTGD_003"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, tóm tắt tất cả các yêu cầu được nêu trong Điều 31 của Luật Giáo dục phổ thông.  Mức độ suy luận (reasoning_level) là 2 vì nó tổng hợp các yêu cầu thành một đoạn văn mạch lạc.  Không có lỗi ngữ pháp, lặp từ, hay không trung tính.  Điểm số 9/10 do có thể thêm một chút bối cảnh về mục đích của việc đảm bảo các yêu cầu này (ví dụ: để đảm bảo chất lượng giáo dục và đào tạo).",
+    "id": "CTGD_004"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Giải thích rõ thành phần và trách nhiệm của Hội đồng. Reasoning level là 2 vì nó tổng hợp thông tin từ reference để đưa ra câu trả lời hoàn chỉnh.  Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "CTGD_005"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, phản ánh đúng nội dung của Luật Giáo dục. 'Reasoning_level' là 2 vì câu trả lời tổng hợp thông tin về các hình thức chương trình học khác nhau (năm học, niên chế, mô-đun, tín chỉ) và còn giải thích thêm về tính công nhận kết quả học tập giữa các chương trình khác nhau. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "CTGD_006"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ. Giải thích rõ ràng kết quả học tập được công nhận và cơ sở pháp lý hỗ trợ. Reasoning level là 2 vì câu trả lời kết hợp thông tin từ 2 đoạn văn (câu hỏi và reference) để đưa ra một câu trả lời hoàn chỉnh.  Có thể nâng lên 10 nếu thêm phần liên hệ và phân tích mối quan hệ của các khái niệm, nhưng ở mức độ này là đủ tốt.",
+    "id": "CTGD_007"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Giải thích nêu rõ các loại chương trình giáo dục thường xuyên theo Article 43.  Một điểm nhỏ có thể cải thiện là làm rõ hơn mối liên hệ giữa các loại chương trình (ví dụ: chương trình xóa mù chữ là một phần của chương trình đáp ứng yêu cầu). Tuy nhiên, đáp án đã đạt điểm cao và thể hiện khả năng hiểu và tổng hợp thông tin từ nguồn.",
+    "id": "CTGD_008"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng yêu cầu về nội dung chương trình giáo dục thường xuyên phải phù hợp với tiêu chuẩn của chương trình chính quy cùng cấp. Mức reasoning level là 2 vì câu trả lời cần tổng hợp thông tin từ Clause 3 và Điều 31 của Luật Giáo dục để đưa ra kết luận. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "CTGD_009"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát tham chiếu. Level reasoning 2 vì nó tổng hợp thông tin từ Clause 3 để xác định trách nhiệm của Bộ trưởng Bộ Giáo dục và Đào tạo. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung tính.",
+    "id": "CTGD_010"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác, đầy đủ và bám sát reference.  Nêu rõ ràng các điểm chính về kế thừa, liên thông và các yếu tố khác. Reasoning level 2 vì nó tổng hợp các điểm chính từ reference để trả lời.  Chỉ có thể cải thiện bằng cách giảm bớt tính lặp từ (ví dụ, 'kế thừa, liên thông' lặp lại). ",
+    "id": "CTGD_011"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Câu trả lời đã tổng hợp được 2 thông tin quan trọng từ Article 32. Câu trả lời rõ ràng, mạch lạc và không có lỗi ngữ pháp, lặp từ, hay thiếu tính trung lập. Đánh giá cao.",
+    "id": "CTGD_012"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, được hỗ trợ bởi hai clause trong reference. Câu trả lời có thể được cải thiện bằng cách loại bỏ từ 'trong phạm vi nhiệm vụ, quyền hạn của mình' vì nó đã được ám chỉ qua 'Bộ trưởng Bộ trưởng'. Điểm 9 do có một vài từ không cần thiết, nhưng tổng thể câu trả lời rất tốt.",
+    "id": "CTGD_013"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát nguồn. Reasoning level phù hợp (ghép 2 thông tin: định nghĩa trường chuyên/năng khiếu và quy định của bộ). Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "CTGD_014"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  'Reasoning_level' phù hợp vì câu trả lời là sự ghép nối các thông tin từ reference.  Không có lỗi ngữ pháp, lặp từ hay không trung tính.  Có thể tăng điểm thêm 1 nếu câu trả lời sử dụng ngôn ngữ chính xác hơn.",
+    "id": "CTGD_015"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và trích dẫn đúng theo Nghị định 24/2021/NĐ-CP. Reasoning level phù hợp, chỉ cần ghép 2 thông tin để trả lời. Không có lỗi ngữ pháp, lặp từ, hay không trung tính.",
+    "id": "CTGD_016"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Phần reasoning level 1 phù hợp vì câu trả lời tóm tắt và ghép các thông tin chính từ reference.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.  Điểm số 9 là để dành chỗ cho những sắc thái nhỏ hơn có thể được cải thiện nếu có thêm thông tin chi tiết.",
+    "id": "CTGD_017"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản trong reference. Reasoning level 2 vì nó tổng hợp thông tin từ các clause 1 và 2 để đưa ra câu trả lời hoàn chỉnh. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "CTGD_018"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên reference. Giải thích rõ ràng cách tham gia thông qua Ban đại diện cha mẹ học sinh trường - một kênh cụ thể được đề cập trong luật.  Có thể tăng điểm thêm một chút nếu đề cập đến các hình thức tham gia khác như góp ý trực tiếp với nhà trường hoặc tham gia các cuộc họp của Ban đại diện.",
+    "id": "CTGD_019"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản của Luật Giáo dục 2019 và Nghị định 81/2021/NĐ-CP liên quan đến học phí cho hình thức học trực tuyến.  Lý giải rõ ràng cách thức quy định học phí cho các cấp học và hình thức đào tạo.  Có thể cải thiện một chút bằng cách tổ chức thông tin một cách chặt chẽ hơn (ví dụ: phân chia theo cấp học rõ ràng hơn).  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "CTGD_020"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [
+      "lặp từ (ví dụ: 'chuyển')",
+      "có thể làm rõ hơn về điều kiện được phép chuyển"
+    ],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, bám sát reference. Tuy nhiên, có thể cải thiện bằng cách làm rõ hơn điều kiện cần có để được cơ quan quyết định cho phép chuyển ngành, ví dụ như yêu cầu về thành tích học tập, lý do chuyển ngành, v.v. Đồng thời, việc lặp từ 'chuyển' có thể được giảm bớt để câu trả lời mạch lạc hơn.",
+    "id": "CTGD_021"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác và đầy đủ, bám sát reference. Reasoning level là 2, thể hiện khả năng kết hợp thông tin từ nhiều phần của reference để đưa ra câu trả lời. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "CTGD_022"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Reasoning level phù hợp vì ghép thông tin từ Article 7, Clause 4. Không có lỗi ngữ pháp, lặp từ, không trung tính. Đáng chú ý là có thể nâng level reasoning lên 2 nếu phân tích thêm về hậu quả của việc tự ý chuyển ngành không được phép.",
+    "id": "CTGD_023"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Phân tích logic là suy luận từ quy định về thời gian tạm dừng học và điều kiện cấp học bổng. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Điểm số cao vì câu trả lời hoàn chỉnh và chính xác.",
+    "id": "CTGD_024"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ lý do học bổng không được hưởng trong thời gian lưu ban và học lại, đồng thời nhấn mạnh việc cơ quan cử đi học quyết định tiếp tục cấp học bổng sau khi du học sinh đạt yêu cầu.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.  Đánh giá cao.",
+    "id": "CTGD_025"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, thể hiện khả năng tổng hợp thông tin từ reference để đưa ra câu trả lời. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "CTGD_026"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên reference. Giải thích sự phụ thuộc vào việc kéo dài thời gian học tập do thiên tai/dịch bệnh và thời gian xét duyệt tối đa 12 tháng. Phân tích logic chặt chẽ, thể hiện khả năng suy luận tốt.  Một điểm nhỏ có thể cải thiện là thêm yếu tố 'cơ sở giáo dục nước ngoài xác nhận' vào mô tả về việc cấp học bổng để tăng tính rõ ràng.",
+    "id": "CTGD_027"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, bám sát luật.  Đã suy luận từ các điều khoản trong luật để tổng hợp một cách logic.  Có thể nâng điểm lên 10 nếu câu trả lời bao gồm thêm các yếu tố rủi ro liên quan đến vấn đề visa và các thủ tục khác.",
+    "id": "CTGD_028"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời và tham chiếu hoàn toàn phù hợp, bao gồm đầy đủ các thông tin quan trọng cần ghi trong hợp đồng tư vấn du học. Reasoning level 2 vì câu trả lời dựa trên việc phân tích và tổng hợp các thông tin từ tham chiếu. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "CTGD_029"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Level suy luận (1) phù hợp vì đã ghép 2 thông tin quan trọng từ clause 3. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "CTGD_030"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản tham khảo. Reasoning level 1 phù hợp vì câu trả lời rút ra từ thông tin trực tiếp trong clause 1. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu trung tính. Có thể tăng điểm hơn nếu câu trả lời đề cập đến sự cân bằng giữa tự chủ và tuân thủ chương trình.",
+    "id": "CTGD_031"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference. Nó bao gồm tất cả các điểm quan trọng được nêu trong Article 8, Clause 2 của luật. Mức reasoning level là 2, vì câu trả lời tổng hợp và suy luận từ các điểm chính trong reference để đưa ra một câu trả lời hoàn chỉnh. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "CTGD_032"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, trích xuất thông tin chính từ Điều 8, Khoản 3 của luật.  Có thể cải thiện một chút bằng cách làm rõ hơn mục đích của sách giáo khoa, giáo trình, tài liệu giảng dạy.",
+    "id": "CTGD_033"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên clause 3 của Article 25. Reasoning level là 2 vì cần liên kết thông tin về việc Bộ trưởng ban hành chương trình và quy định tiêu chuẩn, quy trình. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "CTGD_034"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát Article 24. Reasoning level 2 vì câu trả lời đã tổng hợp và diễn giải thông tin từ điều luật. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "CTGD_035"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, bám sát nội dung trong luật. Reasoning level 2 vì câu trả lời tổng hợp thông tin từ luật để đưa ra một cái nhìn toàn diện. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "CTGD_036"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát luật. Cụ thể, nó tóm tắt chính xác nội dung giáo dục trung học cơ sở theo quy định.  Có thể cải thiện thêm bằng cách tránh lặp lại các cụm từ như 'hiểu biết cần thiết tối thiểu' và sử dụng ngôn ngữ mạch lạc hơn, nhưng đây là những lỗi nhỏ và không ảnh hưởng đến chất lượng chung của câu trả lời. Đánh giá 9/10 vì sự chính xác tuyệt đối và tính đầy đủ của câu trả lời.",
+    "id": "CTGD_037"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất tốt, bao gồm đầy đủ các yếu tố được đề cập trong luật. Reasoning level là 2 vì câu trả lời tổng hợp thông tin từ hai điều luật 29 và 30 một cách mạch lạc. Không có lỗi ngữ pháp, lặp từ, hay không trung tính. Có thể nâng điểm lên 10 nếu câu trả lời còn đề cập cụ thể hơn về các môn học chính và kỹ năng cần thiết (ví dụ: tư duy phản biện, giải quyết vấn đề, giao tiếp, hợp tác).",
+    "id": "CTGD_038"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát quy định trong Article 31. Mức độ suy luận phù hợp (1 - ghép 2-3 thông tin). Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Có thể tăng điểm thêm 1 điểm nếu câu trả lời nhấn mạnh hơn về tầm quan trọng của việc thực nghiệm.",
+    "id": "CTGD_039"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. `Reasoning_level` là 2 vì câu trả lời đòi hỏi một bước suy luận nhỏ: nhận diện rằng Điều 31 liệt kê nhiều trách nhiệm của Bộ trưởng Bộ Giáo dục và Đào tạo, và chỉ ra cụ thể trách nhiệm về việc quy định mục tiêu, đối tượng, quy mô, thời gian thực nghiệm.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Có thể nâng điểm lên 10 nếu làm rõ hơn về vai trò của việc thực nghiệm là một phần quan trọng của quá trình đổi mới giáo dục.",
+    "id": "CTGD_040"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, nắm bắt được các hình thức giáo dục thường xuyên được liệt kê trong tài liệu tham khảo. Logic ghép nối thông tin rõ ràng. Có thể tăng điểm nếu bao gồm chi tiết hơn về một hình thức cụ thể.",
+    "id": "CTGD_041"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, bám sát nội dung trong luật.  Phân tích được từ các điểm của luật, tập trung vào tính thiết thực và mục tiêu nâng cao năng lực của người học.  Có thể cải thiện bằng cách tăng cường nhấn mạnh vào việc 'cập nhật kiến thức' để làm rõ hơn về quá trình liên tục của chương trình giáo dục thường xuyên.",
+    "id": "CTGD_042"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, bám sát nội dung điều 43 của luật. Reasoning level 1 phù hợp vì câu trả lời tổng hợp thông tin từ Clause 5 của điều 43. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "CTGD_043"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Câu trả lời trình bày một quá trình suy luận hợp lý: 'Có' -> 'chỉ khi được phép' -> 'bảo đảm nhiệm vụ chính' -> 'chỉ khi được cơ quan quản lý nhà nước về giáo dục có thẩm quyền cho phép'.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Đáng chú ý là câu trả lời có thể được cải thiện bằng cách chỉ rõ hơn về ‘cơ quan quản lý nhà nước về giáo dục có thẩm quyền’ để tăng tính rõ ràng.",
+    "id": "CTGD_044"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên thông tin trực tiếp từ Article 45. Reasoning level phù hợp, thể hiện việc ghép nối thông tin 'hoàn thành chương trình đào tạo', 'đạt chuẩn đầu ra' và 'được cấp bằng tương ứng' từ reference. Có thể cải thiện bằng cách nêu rõ hơn loại bằng cụ thể, ví dụ 'bằng tốt nghiệp'.",
+    "id": "CTGD_045"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản tham khảo. Câu trả lời đã diễn giải đúng nguyên tắc quy định về mức học phí cho các chương trình đào tạo chất lượng cao, bao gồm cả việc các cơ sở giáo dục nghề nghiệp chủ động quyết định dựa trên chi phí và công khai trước tuyển sinh. Reasoning level là 2 vì câu trả lời đã diễn giải một cách phù hợp từ nhiều phần của văn bản tham khảo.  Có thể cải thiện một chút bằng cách làm rõ hơn về việc ‘định mức kinh tế - kỹ thuật’ được xác định như thế nào, nhưng đây không phải là một lỗi lớn.",
+    "id": "CTGD_046"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Câu trả lời không chỉ đơn thuần trích dẫn mà còn diễn giải rõ ràng cơ sở pháp lý (Điều 11) và cách thức xác định học phí theo tiêu chuẩn. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Đáng chú ý là việc sử dụng 'đảm mức kiểm định chất lượng' là chính xác theo văn bản tham khảo.",
+    "id": "CTGD_047"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng các giai đoạn áp dụng học phí khác nhau. Reasoning level phù hợp, thể hiện khả năng tổng hợp và phân tích thông tin từ reference để đưa ra câu trả lời. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "CTGD_048"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ. Nó bao gồm cả các mục tiêu, chương trình, chi phí đào tạo và lộ trình tăng học phí như đã đề cập trong luật. Reasoning level là 2 vì nó đòi hỏi sự tổng hợp thông tin từ hai điều luật để đưa ra câu trả lời hoàn chỉnh. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "CTGD_049"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Giải thích rõ ràng các yếu tố thuộc phạm vi quản lý nhà nước về giáo dục theo quy định tại Điều 104 Luật Giáo dục.  Phân tích logic và diễn giải chính xác các điều khoản.  Có thể tăng điểm thêm một chút nếu câu trả lời đề cập đến tính thống nhất, hợp lý, và đảm bảo chất lượng trong quản lý giáo dục.",
+    "id": "CTGD_050"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ dựa trên reference. Level reasoning 1 phù hợp vì câu trả lời tóm tắt và trích dẫn trực tiếp clause 3 từ reference. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập. Có thể tăng score lên 10 nếu thêm một chút ngữ cảnh về mục tiêu của việc quy định chi tiết này (ví dụ: đảm bảo nguồn nhân lực đáp ứng nhu cầu của nền kinh tế).",
+    "id": "CTGD_051"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát điều kiện theo Article 10 của Luật Giáo dục liên thông. Reasoning level phù hợp, thể hiện khả năng ghép nối các thông tin quan trọng. Có thể cải thiện bằng cách thêm một chút giải thích về mục đích của việc thiết kế chương trình theo hướng kế thừa.",
+    "id": "CTGD_052"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, ghép được thông tin từ Clause 3 của Article 10. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Có thể nâng điểm lên 10 nếu thêm một chút mở rộng về phạm vi quy định.",
+    "id": "CTGD_053"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Reasoning level phù hợp, chỉ cần ghép thông tin chính từ clause 3 của reference. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.  Có thể nâng điểm lên 10 nếu nhấn mạnh hơn vào việc Thủ tướng *quyết định* phê duyệt, thể hiện rõ hơn vai trò chủ đạo của cơ quan này.",
+    "id": "CTGD_054"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát theo điều 7 của luật.  Cụ thể, nó tóm tắt chính xác các yêu cầu cơ bản về nội dung giáo dục được liệt kê trong luật. Reasoning level là 2 vì nó tổng hợp thông tin từ điều 7 để đưa ra một câu trả lời đầy đủ hơn. Có thể tăng điểm thêm 1 nếu câu trả lời chú trọng thể hiện sự hiểu biết sâu sắc hơn về mối liên hệ giữa các yếu tố trong luật.",
+    "id": "CTGD_055"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ, bám sát reference. Nó đã tổng hợp và diễn giải một cách mạch lạc các yếu tố quan trọng được đề cập trong Clause 2 của Article 7.  Một điểm nhỏ để cải thiện là có thể sử dụng từ ngữ chính xác và sắc bén hơn (ví dụ: thay 'lòng say mê học tập' có thể dùng 'sự hứng thú học tập').  Điểm số cao vì độ chính xác và sự bám sát luật rất tốt.",
+    "id": "CTGD_056"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật.  Phân tích logic của câu trả lời là suy luận từ một số điều khoản trong Luật Giáo dục phổ thông.  Có thể cải thiện một chút bằng cách nêu rõ hơn về việc Bộ trưởng Bộ GD&ĐT có quyền quy định thực nghiệm trong bối cảnh nào (ví dụ: thực nghiệm tại một số cơ sở giáo dục).  Điểm số cao vì đáp án đã đạt yêu cầu và có một bước suy luận hợp lý.",
+    "id": "CTGD_057"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, dựa trên thông tin trong văn bản tham khảo. Mức reasoning_level là 2 vì câu trả lời đã tóm tắt và kết hợp thông tin từ các điều khoản liên quan. Không có lỗi ngữ pháp, lặp từ, hay thiếu trung tính.",
+    "id": "CTGD_058"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản pháp luật. Phân tích trả lời đúng bằng cách trích dẫn và tóm tắt trực tiếp Clause 1 của Article 31. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "CTGD_059"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, tóm tắt trực tiếp theo Clause 4 của Article 43.  Có thể cải thiện bằng cách diễn đạt mạch lạc hơn và loại bỏ sự lặp từ 'nâng cao chất lượng, hiệu quả dạy và học'. Điểm số cao vì đáp ứng yêu cầu của câu hỏi và trích dẫn đúng nguồn.",
+    "id": "CTGD_060"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, được hỗ trợ bởi reference. Reasoning level 2 vì câu trả lời tóm tắt và liên kết thông tin từ reference để giải thích cơ chế cấp giấy chứng nhận. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "CTGD_061"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, dựa trên reference. Reasoning level phù hợp, thể hiện khả năng diễn giải và tổng hợp thông tin từ reference. Có thể cải thiện một chút về tính mạch lạc của câu văn để tăng điểm.",
+    "id": "CTGD_062"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời và tham chiếu đều mô tả chính xác định nghĩa 'khối lượng kiến thức văn hóa trung học phổ thông' theo Luật Giáo dục. Câu trả lời đầy đủ, không có lỗi ngữ pháp. Đáng chú ý, có thể đánh giá cao hơn nếu câu trả lời đề cập đến mục đích của việc tích lũy kiến thức này (để tiếp tục học lên).",
+    "id": "CTGD_063"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, chỉ cần ghép 2 thông tin để trả lời. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "CTGD_064"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát điều 24 của luật. Level reasoning ở mức 2 vì câu trả lời đã suy luận ra rằng sự liên thông giữa mầm non và tiểu học được thể hiện rõ ràng trong nội dung giáo dục mầm non. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "CTGD_065"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp, tập trung vào việc ghép các thông tin chính từ Clause 2. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "CTGD_066"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất đầy đủ và chính xác, bám sát nội dung quy định tại Điều 29 của Luật Giáo dục phổ thông.  Một điểm nhỏ có thể cải thiện là lược bỏ một số từ ngữ dư thừa để câu trả lời ngắn gọn hơn, nhưng hiện tại vẫn là một câu trả lời xuất sắc. Đánh giá 9/10.",
+    "id": "CTGD_067"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát Article 36. Reasoning level phù hợp vì nó bao gồm một vài yếu tố để mô tả mục tiêu của giáo dục nghề nghiệp. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "CTGD_068"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác và đầy đủ, bám sát các điều khoản trong luật. Câu trả lời thể hiện khả năng suy luận để tổng hợp các mục tiêu của giáo dục đại học từ nhiều điểm khác nhau. Không có lỗi ngữ pháp, lặp từ, hay không trung tính. Điểm số 9 là để thừa nhận rằng có thể có những sắc thái nhỏ hơn có thể được đề cập, nhưng câu trả lời đã rất tốt.",
+    "id": "CTGD_069"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 10,
+    "comment": "Câu trả lời hoàn toàn chính xác, đầy đủ và bám sát reference. Reasoning level 2 vì câu trả lời tổng hợp được nhiều mục tiêu của giáo dục thường xuyên từ reference một cách mạch lạc. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "CTGD_070"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng từng nhiệm vụ. Không có lỗi ngữ pháp, lặp từ hay tính trung tính bị ảnh hưởng.  Đánh giá 9/10 vì có thể cải thiện thêm bằng cách sử dụng ngôn ngữ trôi chảy và kết nối các nhiệm vụ một cách chặt chẽ hơn.",
+    "id": "CTGD_071"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, bao gồm các yếu tố quan trọng từ reference. Reasoning level là 2 vì nó bao gồm 2 bước suy luận: 1) Xác định được điều kiện để tự xác định học phí (đạt kiểm định chất lượng). 2) Mô tả quy trình trình lên cấp tỉnh và hội đồng tỉnh để phê duyệt. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.",
+    "id": "CTGD_072"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ.  Nó bao gồm cả việc xác định chính xác mức trần học phí theo Article 10 và Clause 2 của luật.  `Reasoning_level` là 2 vì nó kết hợp thông tin về quyền tự chủ của cơ sở giáo dục nghề nghiệp công lập và mức trần học phí được quy định, thể hiện một mức độ suy luận nhất định để tổng hợp các thông tin này. Không có lỗi ngữ pháp, lặp từ, hoặc thiếu tính trung lập.",
+    "id": "CTGD_073"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Sử dụng thông tin từ clause 3 của Article 10 một cách hiệu quả. Có thể nâng điểm hơn nữa nếu đề cập đến việc 'chi phí hợp lý thực tế' là yếu tố then chốt trong việc xác định học phí.",
+    "id": "CTGD_074"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng rằng cơ sở giáo dục nghề nghiệp tự xây dựng học phí với sự đồng thuận. Level reasoning ở mức 2 vì cần suy luận để hiểu rõ mối quan hệ giữa các thông tin trong reference (Clause 5). Không có lỗi ngữ pháp, lặp từ, hay không trung tính.",
+    "id": "CTGD_075"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích công thức tính học phí một cách chi tiết và rõ ràng. Reasoning level phù hợp, thể hiện khả năng suy luận để tổng hợp các thông tin liên quan từ reference. Không có lỗi ngữ pháp, lặp từ, hay thiếu tính trung lập.",
+    "id": "CTGD_076"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp (ghép 2 thông tin). Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Điểm 9 vì có thể thêm một chút diễn giải về việc không bao gồm các học phí khác như học phí quản lý, phí khác...",
+    "id": "CTGD_077"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Đã sử dụng suy luận để tổng hợp thông tin từ reference, cụ thể là từ Clause 7.  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Có thể tăng điểm thêm 1 nếu câu trả lời được diễn đạt ngắn gọn hơn một chút, nhưng hiện tại nó đã rất tốt.",
+    "id": "CTGD_078"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Giải thích rõ ràng cách tính mức trần học phí dựa trên hệ số và khối ngành. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Có thể cải thiện bằng cách thêm một chút bối cảnh về mục đích của việc quy định này.",
+    "id": "CTGD_079"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời rất chính xác, đầy đủ và bám sát reference.  Giải thích công thức tính học phí theo tín chỉ và nhắc lại các điều khoản quan trọng từ luật.  Không có lỗi ngữ pháp, lặp từ, hay không trung tính. Có thể cải thiện một chút bằng cách làm rõ hơn về 'nguyên tắc tổng học phí theo tín chỉ của chương trình đào tạo' và làm rõ mối liên hệ giữa việc bù đắp chi phí khi học quá hạn.",
+    "id": "CTGD_080"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát các điều khoản trong luật. Giải thích rõ ràng việc sinh viên học văn bằng 2 phải đóng học phí cho các tín chỉ thực tế. Có thể nâng lên mức 10 nếu có thêm một câu giải thích ngắn gọn về lý do tại sao điều này xảy ra.",
+    "id": "CTGD_081"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát văn bản pháp luật (Nghị định 81/2021/NĐ-CP) và giải thích rõ ràng cơ sở pháp lý. Reasoning level phù hợp, thể hiện khả năng phân tích và tổng hợp thông tin từ reference để đưa ra câu trả lời. Không có lỗi ngữ pháp, lặp từ, không trung tính.",
+    "id": "CTGD_082"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  Giải thích rõ ràng về mức học phí tối đa và trường hợp học riêng theo thỏa thuận.  Không có lỗi ngữ pháp, lặp từ hoặc không trung tính. Đánh giá 9/10 vì có thể thêm một chút về Nghị định 81/2021/NĐ-CP để tăng tính chi tiết.",
+    "id": "CTGD_083"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Reasoning level phù hợp vì nó tổng hợp thông tin từ nhiều clause để trả lời câu hỏi. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "CTGD_084"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật. Giải thích rõ ràng việc thu học phí theo số tháng học thực tế và giới hạn về chi phí. Reasoning level phù hợp vì cần tổng hợp thông tin từ nhiều phần của reference để đưa ra câu trả lời hoàn chỉnh. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "CTGD_085"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Phân tích mạch logic tốt, hiểu rõ quy trình chuyển tiếp sau khi không đạt kiểm định chất lượng cao. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính. Điểm số 9 vì có thể làm rõ hơn một chút về 'mức học phí tương ứng với cấp học và mức độ tự chủ tài chính' để cung cấp thông tin chi tiết hơn.",
+    "id": "CTGD_086"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Nó không chỉ tóm tắt mà còn giải thích lý do tại sao lại như vậy, thể hiện khả năng suy luận. Tuy nhiên, có thể cải thiện một chút bằng cách loại bỏ một vài từ lặp và tăng tính ngắn gọn hơn.",
+    "id": "CTGD_087"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời xác định chính xác quyền của Bộ trưởng Bộ Giáo dục và Đào tạo trong việc quy định tiêu chuẩn, quy trình biên soạn, chỉnh sửa sách giáo khoa.  Reasoning level là 2 vì trả lời đi sâu vào các khía cạnh của quyền hạn này, được liên kết chặt chẽ với reference.  Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.  Điểm số 9 do có thể bổ sung thêm một chút thông tin về vai trò của Hội đồng quốc gia thẩm định sách giáo khoa.",
+    "id": "CTGD_088"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Giải thích rõ quy trình từ biên soạn, thẩm định đến phê duyệt theo luật quy định. Có thể cải thiện một chút bằng cách giảm bớt sự lặp lại (ví dụ, 'được' xuất hiện nhiều lần). Điểm 9/10 cho thấy câu trả lời xuất sắc.",
+    "id": "CTGD_089"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát luật.  Giải thích rõ thành phần Hội đồng, quy trình và trách nhiệm. Reasoning level phù hợp vì trả lời cần suy luận từ nhiều thông tin trong reference để tóm tắt và giải thích rõ ràng. Không có lỗi ngữ pháp, lặp từ, không trung tính.",
+    "id": "CTGD_090"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát tham chiếu. Reasoning level 1 vì câu trả lời dựa trực tiếp vào hai điều khoản của tham chiếu để khẳng định. Không có lỗi ngữ pháp, lặp từ hoặc không trung tính.  Điểm 9 đánh giá cao sự chính xác và đầy đủ của câu trả lời.",
+    "id": "CTGD_091"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference.  'reasoning_level_correct' phù hợp vì câu trả lời ghép thông tin từ Clause 4 của reference. Không có lỗi ngữ pháp, lặp từ hoặc thiếu tính trung lập.",
+    "id": "CTGD_092"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác và đầy đủ, sử dụng thông tin từ các điều khoản liên quan để xác định thời điểm trẻ em mầm non 05 tuổi và học sinh trung học cơ sở được miễn học phí. Phân tích logic tốt. Có thể tăng điểm nếu đưa ra nhiều thông tin tham khảo để tăng độ tin cậy.",
+    "id": "CTGD_093"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, và bám sát reference. Giải thích rõ ràng quyền được hỗ trợ, cũng như điều kiện và quy định về việc bồi hoàn. Reasoning level phù hợp vì giải thích liên quan đến một điều khoản phức tạp, cần hiểu rõ về điều kiện bồi hoàn. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "CTGD_094"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [
+      "không có lỗi ngữ pháp/lặp từ/không trung tính"
+    ],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ dựa trên reference. Reasoning level 2 vì nó tổng hợp thông tin từ 2 phần của reference để đưa ra câu trả lời.  Một điểm trừ nhỏ vì có thể trình bày rõ hơn về điều kiện bồi hoàn (không công tác trong ngành/không đủ thời gian) nhưng đó là một điểm nhỏ và không ảnh hưởng đến tính chính xác của câu trả lời.",
+    "id": "CTGD_095"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [
+      "Không có lỗi ngữ pháp hoặc lặp từ"
+    ],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát văn bản pháp luật. Reasoning level 2 vì câu trả lời kết hợp thông tin từ cả hai đoạn văn (Điều 85 và Clause 4) để trả lời câu hỏi. Có thể tăng điểm nếu câu trả lời nêu rõ hơn về các chính sách cụ thể được hưởng (học bổng, trợ cấp, miễn giảm học phí) theo từng khoản nêu trong Điều 85.  Điểm giảm nhẹ do câu trả lời đã bao quát được thông tin cần thiết.",
+    "id": "CTGD_096"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. Level reasoning phù hợp (ghép 2-3 thông tin).  Không có lỗi ngữ pháp, lặp từ, hay không trung tính. Đánh giá cao.",
+    "id": "CTGD_097"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ, bám sát reference. Reasoning level phù hợp, chỉ cần ghép thông tin chính từ reference. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "CTGD_098"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 1,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát reference. 'Reasoning level' phù hợp vì nó tổng hợp thông tin từ Clause 3 của reference. Không có lỗi ngữ pháp, lặp từ hay không trung tính.",
+    "id": "CTGD_099"
+  },
+  {
+    "is_correct": true,
+    "reasoning_level_correct": 2,
+    "insufficient_correct": false,
+    "issues": [],
+    "score": 9,
+    "comment": "Câu trả lời chính xác, đầy đủ và bám sát các điều khoản liên quan trong Nghị định 28/2012/NĐ-CP và Nghị định 65/2018/NĐ-CP. Level reasoning 2 vì câu trả lời tổng hợp thông tin từ 2 nguồn tài liệu pháp luật. Không có lỗi ngữ pháp, lặp từ, hoặc không trung tính.",
+    "id": "CTGD_100"
+  }
+]
