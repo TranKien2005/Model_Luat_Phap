@@ -1,6 +1,7 @@
 import os
 import json
 import argparse
+import re
 from typing import List, Dict, Any, Optional
 
 
@@ -92,20 +93,51 @@ def interactive_dialog() -> Dict[str, List[str]]:
 
 
 def build_output(law_doc: Dict[str, Any], related_docs: List[Dict[str, Any]]) -> Dict[str, Any]:
-    # metadata left empty for user to fill later
+    # Build metadata with 'id' first (taken from law_doc if present), then other fields.
+    # This ensures the output JSON writes the 'id' field at the top of the metadata block.
+    metadata = {
+        "law_id": "",
+        "version_id": "",
+        "status": "",
+        "last_updated": ""
+    }
+
     out = {
-        "metadata": {
-            "law_id": "",
-            "version_id": "",
-            "status": "",
-            "last_updated": ""
-        },
+        "metadata": metadata,
         "content": {
             "law": law_doc or {"structure": []},
             "related_documents": related_docs
         }
     }
     return out
+
+
+def normalize_texts_in_doc(doc: Dict[str, Any]) -> None:
+    """Collapse whitespace/newlines inside article and clause texts so each
+    article/clause becomes a single-line string.
+    Modifies the dict in-place.
+    """
+    if not isinstance(doc, dict):
+        return
+
+    def collapse(s: Optional[str]) -> str:
+        if not s:
+            return ""
+        return re.sub(r"\s+", " ", s).strip()
+
+    for ch in doc.get('structure', []) or []:
+        if not isinstance(ch, dict):
+            continue
+        for art in ch.get('articles', []) or []:
+            if not isinstance(art, dict):
+                continue
+            if art.get('text'):
+                art['text'] = collapse(art.get('text'))
+            for cl in art.get('clauses', []) or []:
+                if not isinstance(cl, dict):
+                    continue
+                if cl.get('text'):
+                    cl['text'] = collapse(cl.get('text'))
 
 
 def main():
@@ -142,6 +174,9 @@ def main():
         return
     main_law = law_docs[0]
 
+    # Ensure texts inside articles/clauses are single-line (collapse newlines/extra spaces)
+    normalize_texts_in_doc(main_law)
+
     related = []
     # collect and tag each group with type if available (we don't force type but prefer to keep)
     for p in collect_from_paths(selections.get('decrees', [])):
@@ -160,6 +195,10 @@ def main():
             if not p.get('type'):
                 p['type'] = 'circular'
             related.append(p)
+
+    # Normalize related docs as well so their article texts are single-line
+    for rd in related:
+        normalize_texts_in_doc(rd)
 
     out_obj = build_output(main_law, related)
 
@@ -187,8 +226,90 @@ def main():
     if out_dir and not os.path.exists(out_dir):
         os.makedirs(out_dir, exist_ok=True)
 
+    # Write output while keeping article objects compact (one article per line)
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(out_obj, f, ensure_ascii=False, indent=2)
+        def j(v):
+            return json.dumps(v, ensure_ascii=False)
+
+        f.write('{' + '\n')
+        # metadata (write with explicit key so output starts with "metadata")
+        meta_raw = json.dumps(out_obj.get('metadata', {}), ensure_ascii=False, indent=2)
+        meta_block = meta_raw.replace('\n', '\n  ')
+        f.write('  "metadata": ' + meta_block + ',\n')
+
+        # content start
+        f.write('  "content": {\n')
+
+        # law
+        law = out_obj.get('content', {}).get('law', {}) or {}
+        f.write('    "law": {\n')
+
+        # write simple law fields except structure
+        simple_keys = [k for k in law.keys() if k != 'structure']
+        # keep a stable ordering for common fields if present; ensure 'id' is first
+        preferred = ['id', 'type', 'issuer', 'title', 'source_url', 'promulgation_date', 'effective_date', 'status']
+        ordered = [k for k in preferred if k in simple_keys] + [k for k in simple_keys if k not in preferred]
+        for key in ordered:
+            f.write(f'      "{key}": {j(law.get(key, ""))},\n')
+
+        # structure
+        f.write('      "structure": [\n')
+        structs = law.get('structure', []) or []
+        for ci, ch in enumerate(structs):
+            f.write('        {\n')
+            f.write(f'          "type": {j(ch.get("type"))},\n')
+            f.write(f'          "number": {j(ch.get("number"))},\n')
+            f.write(f'          "title": {j(ch.get("title", ""))},\n')
+            f.write('          "articles": [\n')
+            arts = ch.get('articles', []) or []
+            for ai, art in enumerate(arts):
+                # compact article JSON on one line
+                art_compact = json.dumps(art, ensure_ascii=False, separators=(',', ': '))
+                f.write('            ' + art_compact)
+                f.write(',\n' if ai != len(arts) - 1 else '\n')
+            f.write('          ]\n')
+            f.write('        }')
+            f.write(',\n' if ci != len(structs) - 1 else '\n')
+        f.write('      ]\n')
+        f.write('    },\n')
+
+        # related_documents: write each related doc with compact articles (one line per article)
+        related = out_obj.get('content', {}).get('related_documents', []) or []
+        f.write('    "related_documents": [\n')
+        for ri, rd in enumerate(related):
+            f.write('      {\n')
+            # write simple fields except structure
+            simple_keys = [k for k in (rd.keys() if isinstance(rd, dict) else []) if k != 'structure']
+            preferred = ['id', 'type', 'issuer', 'title', 'source_url', 'promulgation_date', 'effective_date', 'status']
+            ordered = [k for k in preferred if k in simple_keys] + [k for k in simple_keys if k not in preferred]
+            for key in ordered:
+                f.write(f'        "{key}": {j(rd.get(key, ""))},\n')
+
+            # structure for this related doc
+            f.write('        "structure": [\n')
+            r_structs = (rd.get('structure') if isinstance(rd, dict) else []) or []
+            for ci, ch in enumerate(r_structs):
+                f.write('          {\n')
+                f.write(f'            "type": {j(ch.get("type"))},\n')
+                f.write(f'            "number": {j(ch.get("number"))},\n')
+                f.write(f'            "title": {j(ch.get("title", ""))},\n')
+                f.write('            "articles": [\n')
+                r_arts = ch.get('articles', []) or []
+                for ai, art in enumerate(r_arts):
+                    art_compact = json.dumps(art, ensure_ascii=False, separators=(',', ': '))
+                    f.write('              ' + art_compact)
+                    f.write(',\n' if ai != len(r_arts) - 1 else '\n')
+                f.write('            ]\n')
+                f.write('          }')
+                f.write(',\n' if ci != len(r_structs) - 1 else '\n')
+            f.write('        ]\n')
+            f.write('      }')
+            f.write(',\n' if ri != len(related) - 1 else '\n')
+        f.write('    ]\n')
+
+        # content end
+        f.write('  }\n')
+        f.write('}\n')
 
     print(f'Wrote combined file: {output_path}')
 

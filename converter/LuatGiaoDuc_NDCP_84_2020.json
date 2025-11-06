@@ -1,11 +1,12 @@
 {
-  "type": "decree",
-  "issuer": "CHÍNH PHỦ",
-  "title": "Nghị định 84/2020/NĐ-CP Quy định chi tiết một số điều của Luật Giáo dục",
-  "source_url": null,
-  "promulgation_date": "2020-07-17",
-  "effective_date": "2020-09-01",
-  "status": "active",
+  "id": "",
+  "type": "",
+  "issuer": "",
+  "title": "",
+  "source_url": "",
+  "promulgation_date": "",
+  "effective_date": "",
+  "status": "",
   "structure": [
     {
       "type": "chapter",

@@ -22,6 +22,7 @@ def roman_to_int(r: str) -> Optional[int]:
 def parse_law_text(lines: List[str]) -> Dict[str, Any]:
     # Keep metadata fields but leave them empty per user request.
     law: Dict[str, Any] = {
+        "id": "",
         "type": "",
         "issuer": "",
         "title": "",
@@ -253,8 +254,8 @@ def main():
                 return json.dumps(v, ensure_ascii=False)
 
             of.write('{' + '\n')
-            # write simple top-level fields
-            top_fields = ['type', 'issuer', 'title', 'source_url', 'promulgation_date', 'effective_date', 'status']
+            # write simple top-level fields (ensure 'id' is first and left empty by default)
+            top_fields = ['id', 'type', 'issuer', 'title', 'source_url', 'promulgation_date', 'effective_date', 'status']
             for fld in top_fields:
                 of.write(f'  "{fld}": {j(law_obj.get(fld, ""))},\n')
 

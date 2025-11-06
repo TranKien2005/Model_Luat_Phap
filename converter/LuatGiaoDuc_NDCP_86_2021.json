@@ -1,11 +1,12 @@
 {
-  "type": "decree",
-  "issuer": "CHÍNH PHỦ",
-  "title": "Nghị định 86/2021/NĐ-CP Quy định việc công dân Việt Nam ra nước ngoài học tập, giảng dạy, nghiên cứu khoa học và trao đổi học thuật",
-  "source_url": null,
-  "promulgation_date": "2021-09-25",
-  "effective_date": "2021-12-01",
-  "status": "active",
+  "id": "",
+  "type": "",
+  "issuer": "",
+  "title": "",
+  "source_url": "",
+  "promulgation_date": "",
+  "effective_date": "",
+  "status": "",
   "structure": [
     {
       "type": "chapter",
