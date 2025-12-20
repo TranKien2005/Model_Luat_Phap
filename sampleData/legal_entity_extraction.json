@@ -1,0 +1,57 @@
+{
+    "task_config": {
+        "task_name": "legal_entity_extraction",
+        "category": "interpretation",
+        "instruction": "cung cấp một đoạn hay toàn bộ bản án . câu hỏi yêu cầu trích xuất chính xác danh tính của một thực thể pháp lý trong đoạn ví dụ bị cáo, nguyên đơn, địa điểm, vật chứng, hung khí,.."
+    },
+    "data_content": [
+        {
+            "question": "Đoạn văn: 'Vào ngày 03 tháng 3 năm 2017 tại trụ sở Tòa án nhân dân cấp cao tại Đà Nẵng xét xử phúc thẩm công khai vụ án hành chính thụ lý số: 34/2016/TLPT-HC ngày 31 tháng 10 năm 2016 về việc “Kiện quyết định hành chính, hành vi hành chính trong lĩnh vực quản lý đất đai”. Do Bản án hành chính sơ thẩm số 30/2016/HC-ST ngày 20 tháng 9 năm 2016 của Tòa án nhân dân tỉnh Quảng Nam bị kháng cáo. Người khởi kiện: Bà Nguyễn Thị L, sinh năm 1936, địa chỉ thôn A, xã T, huyện N, tỉnh Quảng Nam. Người bị kiện: Ủy ban nhân dân huyện N, tỉnh Quảng Nam. Nội dung: Bà L khởi kiện yêu cầu hủy công văn số 515/UBND-TNMT ngày 18/5/2016 và buộc UBND huyện N bồi thường đất bị thu hồi xây Trường mẫu giáo BM.' Yêu cầu trích xuất danh tính người khởi kiện.",
+            "answer": "Bà Nguyễn Thị L"
+        },
+        {
+            "question": "Đoạn văn: 'Gia đình bà Nguyễn Thị L quản lý, sử dụng hai thửa đất nông nghiệp trồng lúa tại thôn T, xã T, huyện N, tỉnh Quảng Nam là thửa số 62, tờ bản đồ số 12, diện tích 601,4m2 và thửa số 74, tờ bản đồ số 12, diện tích 765m2. Năm 2014, đất bị san lấp để xây dựng Trường mẫu giáo công lập BM (cơ sở 2). Quyết định thu hồi đất số 467/QĐ-UBND ngày 04/02/2015 của UBND tỉnh Quảng Nam giao đất cho Trường Mẫu giáo công lập BM.' Yêu cầu trích xuất tên đơn vị được giao đất thu hồi.",
+            "answer": "Trường Mẫu giáo công lập BM"
+        },
+        {
+            "question": "Đoạn văn: 'Người bị kiện: Ủy ban nhân dân huyện N, tỉnh Quảng Nam. Người đại diện theo ủy quyền: Ông Trương Văn T - Phó Chủ tịch UBND huyện N. Người bảo vệ quyền lợi hợp pháp: Ông Trần Đình M – Trưởng phòng Tài nguyên môi trường huyện N.' Yêu cầu trích xuất danh tính cơ quan bị kiện.",
+            "answer": "Ủy ban nhân dân huyện N, tỉnh Quảng Nam"
+        },
+        {
+            "question": "Đoạn văn: 'Ngày 03 tháng 4 năm 2017, tại Hội trường xét xử Tòa án nhân dân tỉnh Ninh Thuận xét xử phúc thẩm công khai vụ án dân sự thụ lý số 50/2016/TLPT-DS ngày 09 tháng 12 năm 2016 về việc “Tranh chấp quyền sử dụng đất bị lấn chiếm”. Do bản án dân sự sơ thẩm số 15/2016/DS-ST ngày 29/9/2016 của Tòa án nhân dân huyện N1, tỉnh Ninh Thuận bị kháng cáo. Nguyên đơn: Ông Nguyễn Quang T - sinh năm 1969 (Vắng mặt); Địa chỉ: Khu phố 7, Thị trấn T, huyện N1, tỉnh Ninh Thuận. Bị đơn: Ông Nguyễn Văn Q - sinh năm 1965 (Vắng mặt, có đơn xin xét xử vắng mặt). Bà Nguyễn Thị M – sinh năm 1962 (Có mặt). Cùng địa chỉ: Khu phố 5, Thị trấn T, huyện N1, tỉnh Ninh Thuận. Người kháng cáo: Nguyên đơn ông Nguyễn Quang T. Nội dung vụ án: Năm 2006, ông Nguyễn Quang T có nhận chuyển nhượng quyền sử dụng đất của ông Nguyễn Văn Q và bà Nguyễn Thị M với diện tích 552,5m2 có chiều ngang là 13m. Sau khi nhận chuyển nhượng, hai bên có làm thủ tục để ông T được cấp Giấy chứng nhận quyền sử dụng đất (GCNQSDĐ) và ông T đã được Ủy ban nhân dân huyện N1 cấp GCNQSDĐ số AĐ 561740 ngày 20/01/2006. Tuy nhiên, từ thời gian được cấp GCNQSDĐ đến nay, ông T trực tiếp quản lý mà chưa xây dựng, nay đo đạc lại thì diện tích đất nói trên đã bị thiếu 02m đất chiều ngang, còn lại 11m.' Yêu cầu trích xuất danh tính nguyên đơn.",
+            "answer": "Ông Nguyễn Quang T"
+        },
+        {
+            "question": "Đoạn văn: 'Năm 2006, ông Nguyễn Quang T có nhận chuyển nhượng quyền sử dụng đất của ông Nguyễn Văn Q và bà Nguyễn Thị M với diện tích 552,5m2 có chiều ngang là 13m. Sau khi nhận chuyển nhượng, hai bên có làm thủ tục để ông T được cấp Giấy chứng nhận quyền sử dụng đất (GCNQSDĐ) và ông T đã được Ủy ban nhân dân huyện N1 cấp GCNQSDĐ số AĐ 561740 ngày 20/01/2006 đúng và đủ với diện tích mà ông T đã nhận chuyển nhượng của vợ chồng ông Q và bà M. Năm 2011, ông Q, bà M tiếp tục chuyển nhượng quyền sử dụng đất cho ông Nguyễn Văn H với diện tích 560,2m2 và ông H được UBND huyện N1 cấp GCNQSDĐ số BH 598957 ngày 30/12/2011 cũng đúng với diện tích mà ông H đã nhận chuyển nhượng từ ông Q và bà M. Ông T kháng cáo yêu cầu Tòa án đưa ông Nguyễn Văn H vào tham gia tố tụng với tư cách là người có quyền lợi, nghĩa vụ liên quan là không có cơ sở để chấp nhận bởi lẽ tại phiên tòa sơ thẩm ngày 24/8/2016, nguyên đơn ông Nguyễn Quang T và người bảo vệ quyền và lợi ích hợp pháp của ông T là Luật sư Trần Thị Bích T đề nghị hoãn phiên tòa để đưa ông Nguyễn Văn H vào tham gia tố tụng với tư cách là người có quyền lợi, nghĩa vụ liên quan và được Hội đồng xét xử sơ thẩm chấp nhận. Tuy nhiên, tại Biên bản tống đạt giấy báo (BL 43), ông Nguyễn Văn H đã từ chối tham gia tố tụng. Mặc khác, việc Hội đồng xét xử sơ thẩm chấp nhận yêu cầu của nguyên đơn và Luật sư Trần Thị Bích T để hoãn phiên tòa là không đúng quy định tại khoản 6 Điều 68 Bộ luật tố tụng dân sự vì khi giải quyết đất tranh chấp giữa ông T với ông Q, bà M thì không liên quan đến quyền và nghĩa vụ của ông Nguyễn Văn H.' Yêu cầu trích xuất danh tính người có quyền lợi nghĩa vụ liên quan được đề cập.",
+            "answer": "Ông Nguyễn Văn H"
+        },
+        {
+            "question": "Đoạn văn: 'Trần Văn M, sinh năm 1985 tại tỉnh Trà Vinh; Nơi thường trú: Ấp A, xã A, huyện C, tỉnh Trà Vinh (nay là xã A, tỉnh Vĩnh Long). Bị bắt tạm giam từ ngày 06/11/2024. Theo Kết luận giám định số 5259 ngày 13/11/2024 của Phòng Kỹ thuật hình sự Công an tỉnh B kết luận: 08 đoạn ống hút nhựa hàn kín chứa tinh thể màu trắng là ma túy ở thể rắn có tổng khối lượng 1,1536 gam loại Methamphetamine.' Yêu cầu trích xuất danh tính bị cáo.",
+            "answer": "Trần Văn M"
+        },
+        {
+            "question": "Đoạn văn: 'Người có quyền lợi, nghĩa vụ liên quan: Bà Nguyễn Cẩm T1, sinh năm 1997; Nơi thường trú: Tổ F, ấp K, xã V, tỉnh An Giang. Vắng mặt. M sử dụng ma túy xong thì đi khỏi phòng trọ, Nguyễn Cẩm T1 là bạn gái ở chung với M, T1 thấy trong đồ dùng của M có ma túy còn nên cũng sử dụng, M không biết việc T1 có sử dụng ma túy, T1 không góp tiền mua ma túy.' Yêu cầu trích xuất danh tính người có quyền lợi nghĩa vụ liên quan.",
+            "answer": "Bà Nguyễn Cẩm T1"
+        },
+        {
+            "question": "Đoạn văn: 'Ông Nguyễn Ngọc T và bà Nguyễn Thị Mỹ H kết hôn tại Ủy ban nhân dân Phường 12, Quận 10, Thành phố Hồ Chí Minh, cấp ngày 10 tháng 8 năm 2001. Nay ông T và bà H yêu cầu Tòa án công nhận hai bên thuận tình ly hôn. Về con chung: có 02 con chung Nguyễn Ngọc H1, sinh ngày 25/11/1999 và Nguyễn Ngọc N, sinh ngày 08/3/2003. Hiện con chung đã trưởng thành, không yêu cầu Tòa án giải quyết.' Yêu cầu trích xuất tên người yêu cầu giải quyết việc dân sự thứ nhất.",
+            "answer": "Ông Nguyễn Ngọc T"
+        },
+        {
+            "question": "Đoạn văn: 'Nguyên đơn: Ông Trần Thanh P, sinh năm 1977. Địa chỉ: Số C, ấp T, xã T, tỉnh Đồng Tháp. Người đại diện hợp pháp của ông Trần Thanh P: Chị Nguyễn Thanh V, sinh năm 1988; địa chỉ: Số D, ấp B, xã B, tỉnh Đồng Tháp là người đại diện theo ủy quyền. Bị đơn: 1. Ông Đỗ Văn M, sinh năm 1980. 2. Bà Cao Thị Kim H, sinh năm 1985.' Yêu cầu trích xuất danh tính người đại diện theo ủy quyền của nguyên đơn.",
+            "answer": "Chị Nguyễn Thanh V"
+        },
+        {
+            "question": "Đoạn văn: 'Ngày 21/8/2018, ông Trần Thanh P cho ông Đỗ Văn M, bà Cao Thị Kim H vay số tiền 10.000.000 đồng (Mười triệu đồng), lãi suất 1,66%/tháng (thỏa thuận miệng), thời hạn trả là 12 tháng, có lập biên nhận ngày 21/8/2018. Sau khi vay, ông M, bà H đã trả lãi cho ông P đến ngày 20/7/2019 thì ngừng.' Yêu cầu trích xuất tên bị đơn.",
+            "answer": "Ông Đỗ Văn M, bà Cao Thị Kim H"
+        },
+        {
+            "question": "Đoạn văn: 'Chị Lê Thị Diệu L và anh Nguyễn Bảo D kết hôn ngày 12/12/2012 tại Ủy ban nhân dân thị trấn L, huyện L, tỉnh Hòa Bình (nay là UBND xã L, tỉnh Phú Thọ). Vợ chồng có hai con chung tên Nguyễn Nhật M, sinh ngày 08/12/2013 và Nguyễn Bảo V, sinh ngày 14/3/2023. Chị L có thu nhập mỗi tháng từ 15.000.000 - 20.000.000 đồng.' Yêu cầu trích xuất tên nguyên đơn.",
+            "answer": "Chị Lê Thị Diệu L"
+        },
+        {
+            "question": "Đoạn văn: 'Kiểm sát viên tham gia phiên tòa: Ông Nguyễn Đức Đồng. Thư ký phiên tòa: Ông Nguyễn Anh Lợi - Thư ký Toà án nhân dân khu vực 13 - Phú Thọ. Thẩm phán - Chủ tọa phiên tòa: Bà Chu Thị Lan Anh. Các Hội thẩm nhân dân: Bà Hoàng Thị Huyền và Ông Trần Ánh Hồng.' Yêu cầu trích xuất tên Thẩm phán chủ tọa phiên tòa.",
+            "answer": "Bà Chu Thị Lan Anh"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "task_config": {
+        "task_name": "judgment_outcome_prediction",
+        "category": "rule-application",
+        "instruction": "câu hỏi cung đầy đủ rule và chi tiết về tình huống, yêu cầu đưa ra phán quyết của một vất đề luật pháp được yêu cầu câu trả lời là 1 trong 4 đáp án được question đưa ra, reasoning yêu cầu giải thích theo format Theo luật... (toàn bộ hoặc một ý của luật được cung cấp trong bản án yêu cầu nêu rõ rule chứ không phải chỉ nêu tên) mà ..(fact lấy từ tình huống có thể kèm một chút suy luận nhỏ để rõ nghĩa (.. tức là, ..)) nên/ do đó (một kết luận nhỏ hoặc kết luận trực tiếp) mà theo luật (nối tiếp thành nhiều chuỗi như vậy trong trường hợp tình huống phức tạp đến khi ra được kết luận ) "
+    },
+    "data_content": [
+        {
+            "question": "Luật: Theo quy định tại Điều 30, Điều 31 Luật Khiếu nại năm 2011, cơ quan nhận đơn khiếu nại phải tiến hành đối thoại và ban hành quyết định giải quyết khiếu nại, không được ban hành công văn trả lời đơn. Tình huống: Bà Nguyễn Thị L có đơn yêu cầu ngày 15/12/2015 gửi UBND huyện N về việc lập thủ tục thu hồi đất, bồi thường thiệt hại đối với hai thửa đất bị thu hồi để xây trường mẫu giáo. UBND huyện N không tiến hành đối thoại và không ban hành quyết định giải quyết khiếu nại mà chỉ ban hành Công văn số 515/UBND-TNMT ngày 18/5/2016 trả lời đơn của bà L. Hỏi: Công văn số 515/UBND-TNMT ngày 18/5/2016 của UBND huyện N có hợp pháp không?\nA. Hợp pháp\nB. Không hợp pháp và phải bị hủy\nC. Hợp pháp nhưng cần bổ sung đối thoại\nD. Không hợp pháp nhưng không cần hủy",
+            "answer": "B",
+            "reasoning": "Theo Điều 30, Điều 31 Luật Khiếu nại năm 2011 cơ quan nhận đơn khiếu nại phải tiến hành đối thoại và ban hành quyết định giải quyết khiếu nại mà UBND huyện N không tiến hành đối thoại và không ban hành quyết định giải quyết khiếu nại mà chỉ ban hành công văn trả lời đơn nên công văn số 515/UBND-TNMT ngày 18/5/2016 là trái quy định pháp luật do đó công văn này phải bị hủy."
+        },
+        {
+            "question": "Luật: Theo Điều 255 Bộ luật Dân sự năm 2005, quyền sử dụng đất được chuyển nhượng phải đúng diện tích và ranh giới đã thỏa thuận, nếu có tranh chấp lấn chiếm thì tòa xem xét chứng cứ chứng minh hành vi lấn chiếm. Tình huống: Ông Nguyễn Quang T nhận chuyển nhượng đất từ ông Nguyễn Văn Q và bà Nguyễn Thị M năm 2006 với diện tích 552,5m², chiều ngang 13m, được cấp GCNQSDĐ đúng diện tích. Sau đo đạc thiếu 2m ngang, nhưng đất ông T không còn liền kề đất ông Q, bà M mà liền kề ông Nguyễn Văn H, ông T không chứng minh được ông Q, bà M lấn chiếm. Hỏi: Yêu cầu ông Q, bà M trả lại 2m đất chiều ngang cho ông T có được chấp nhận không?\nA. Chấp nhận yêu cầu\nB. Bác yêu cầu\nC. Chấp nhận một phần\nD. Hoãn xét xử",
+            "answer": "B",
+            "reasoning": "Theo Điều 255 Bộ luật Dân sự năm 2005 quyền sử dụng đất được chuyển nhượng phải đúng diện tích và ranh giới đã thỏa thuận mà chuyển nhượng năm 2006 đúng diện tích 552,5m² và GCNQSDĐ cấp đúng nên không có thiếu diện tích do đó tranh chấp lấn chiếm không có cơ sở vì ông T không chứng minh được hành vi lấn chiếm của ông Q, bà M mà đất hiện không liền kề nên bác yêu cầu."
+        },
+        {
+            "question": "Luật: Theo khoản 1 Điều 249 Bộ luật Hình sự 2015 người tàng trữ trái phép từ 1 gam đến dưới 2 gam Methamphetamine bị phạt tù từ 1 đến 5 năm. Theo điểm s khoản 1, khoản 2 Điều 51 thành khẩn khai báo, ăn năn hối cải, nhân thân tốt, phạm tội lần đầu là tình tiết giảm nhẹ. Tình huống: Trần Văn M bị phát hiện tàng trữ 1,1536 gam Methamphetamine để sử dụng cá nhân. M thành khẩn khai báo, ăn năn hối cải, nhân thân tốt, phạm tội lần đầu, hoàn cảnh khó khăn. VKS đề nghị 2 năm 6 tháng đến 3 năm tù. Hỏi: Mức án phù hợp cho bị cáo M?\nA. Dưới 1 năm tù\nB. Từ 1 đến 2 năm tù\nC. Từ 2 năm 6 tháng đến 3 năm tù\nD. Trên 3 năm tù",
+            "answer": "C",
+            "reasoning": "Theo khoản 1 Điều 249 BLHS 2015 người tàng trữ trái phép từ 1 gam đến dưới 2 gam Methamphetamine bị phạt tù từ 1 đến 5 năm mà M tàng trữ 1,1536 gam nên thuộc khung hình phạt này. Theo điểm s khoản 1, khoản 2 Điều 51 thành khẩn khai báo, ăn năn hối cải, nhân thân tốt, phạm tội lần đầu là tình tiết giảm nhẹ mà M có đủ các tình tiết này nên được giảm nhẹ hình phạt do đó mức án từ 2 năm 6 tháng đến 3 năm tù là phù hợp với đề nghị của VKS."
+        },
+        {
+            "question": "Luật: Theo Điều 51, 56 Luật Hôn nhân và gia đình 2014 khi hôn nhân lâm vào tình trạng trầm trọng, đời sống chung không thể kéo dài thì được ly hôn. Theo Điều 81 con dưới 36 tháng tuổi giao cho mẹ nuôi trừ khi mẹ không đủ điều kiện. Tình huống: Bà Mai Hồng H và ông Phạm Ngọc T kết hôn năm 2012, có hai con chung (Ngọc L sinh 2012, Ngọc H1 sinh 12/2024). Vợ chồng mâu thuẫn từ tháng 12/2024, sống ly thân, ông T không chăm lo gia đình. Bà H đồng ý giao con lớn cho ông T nuôi, xin nuôi con nhỏ (dưới 1 tuổi). Ông T vắng mặt không có lý do. Hỏi: Quyết định giao con của Tòa án?\nA. Giao cả hai con cho bà H\nB. Giao con lớn cho ông T, con nhỏ cho bà H\nC. Giao cả hai con cho ông T\nD. Chờ ông T có mặt mới quyết định",
+            "answer": "B",
+            "reasoning": "Theo Điều 81 Luật HNGĐ 2014 con dưới 36 tháng tuổi giao cho mẹ trực tiếp nuôi trừ khi mẹ không đủ điều kiện mà con Ngọc H1 sinh tháng 12/2024 dưới 1 tuổi tức dưới 36 tháng tuổi nên giao cho bà H nuôi. Theo Điều 84 con từ đủ 7 tuổi trở lên khi ly hôn xem xét nguyện vọng của con mà con Ngọc L sinh 2012 đã 12 tuổi có nguyện vọng ở với ông T và bà H đồng ý nên giao con lớn cho ông T nuôi do đó quyết định giao con lớn cho ông T, con nhỏ cho bà H."
+        },
+        {
+            "question": "Luật: Theo Điều 463, 466 Bộ luật Dân sự 2015 bên vay có nghĩa vụ trả đủ tiền khi đến hạn, nếu không trả thì bên cho vay có quyền yêu cầu trả nợ. Bên vắng mặt không có lý do được xem là từ bỏ quyền chứng minh. Tình huống: Ông P cho ông S, bà L vay 20.000.000 đồng ngày 14/11/2019, thời hạn 12 tháng. Ông S, bà L đã trả 14.000.000 đồng gốc và lãi đến tháng 10/2020, còn lại 6.000.000 đồng chưa trả. Ông P yêu cầu trả 6.000.000 đồng gốc còn lại, không yêu cầu lãi. Ông S, bà L vắng mặt không có lý do. Hỏi: Tòa án quyết định?\nA. Bác yêu cầu vì đã trả một phần\nB. Chấp nhận yêu cầu, buộc trả 6.000.000 đồng\nC. Chấp nhận một phần, buộc trả 3.000.000 đồng\nD. Hoãn xét xử chờ bị đơn có mặt",
+            "answer": "B",
+            "reasoning": "Theo Điều 463, 466 BLDS 2015 bên vay có nghĩa vụ trả đủ tiền khi đến hạn mà thời hạn vay 12 tháng đã hết từ tháng 11/2020, ông S, bà L còn nợ 6.000.000 đồng chưa trả nên vi phạm nghĩa vụ. Theo quy định về tố tụng dân sự bên vắng mặt không có lý do được xem là từ bỏ quyền chứng minh mà ông S, bà L vắng mặt không có lý do nên phải chịu trách nhiệm đối với khoản vay do đó Tòa án chấp nhận yêu cầu buộc trả 6.000.000 đồng."
+        }
+    ]
+}

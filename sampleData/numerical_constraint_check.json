@@ -1,0 +1,34 @@
+{
+    "task_config": {
+        "task_name": "numerical_constraint_check",
+        "category": "rule-application",
+        "instruction": "Câu hỏi cung cấp đủ rule và chi tiết về tình huống.Thực hiện kiểm tra logic toán học và điều kiện định lượng (tuổi, thời hạn, diện tích).câu trả lời là 1 trong 4 đáp án được question đưa ra, reasoning yêu cầu giải thích theo format Theo luật ... (toàn bộ hoặc một ý của luật được cung cấp trong bản án yêu cầu nêu rõ rule chứ không phải chỉ nêu tên) mà ..(fact lấy từ tình huống có thể kèm một chút suy luận nhỏ để rõ nghĩa (.. tức là, ..)) nên/ do đó (một kết luận nhỏ hoặc kết luận trực tiếp) mà theo luật (nối tiếp thành nhiều chuỗi như vậy trong trường hợp tình huống phức tạp đến khi ra được kết luận ) "
+    },
+    "data_content": [
+        {
+            "question": "Luật: Theo quy định về đo đạc địa chính, diện tích đất phải khớp với chiều ngang và chiều dài đã cấp trong GCNQSDĐ, nếu thiếu phải có chứng cứ lấn chiếm. Tình huống: Đất ông Nguyễn Quang T chuyển nhượng năm 2006 diện tích 552,5m², chiều ngang 13m. Đo lại chiều ngang còn 11m, thiếu 2m, nhưng diện tích vẫn đúng 552,5m² theo biên bản thẩm định, không có sai lệch diện tích. Hỏi: Diện tích đất của ông T có bị thiếu so với GCNQSDĐ không?\nA. Thiếu 2m ngang, diện tích giảm\nB. Không thiếu diện tích, chỉ sai vị trí\nC. Thiếu diện tích tương đương 2m ngang\nD. Thiếu nhưng do tự nhiên",
+            "answer": "B",
+            "reasoning": "Theo quy định về đo đạc địa chính diện tích đất phải khớp với chiều ngang và chiều dài đã cấp trong GCNQSDĐ mà diện tích chuyển nhượng và cấp GCNQSDĐ là 552,5m², biên bản thẩm định xác nhận vẫn đúng 552,5m² nên không có thiếu diện tích do đó chỉ có sai lệch vị trí ranh giới do thiếu quản lý."
+        },
+        {
+            "question": "Luật: Theo khoản 1 Điều 249 BLHS 2015, người tàng trữ trái phép từ 1 gam đến dưới 2 gam Methamphetamine bị phạt tù từ 1 đến 5 năm. Tình huống: Kết luận giám định xác nhận Trần Văn M tàng trữ 1,1536 gam Methamphetamine. Hỏi: Khối lượng ma túy M tàng trữ thuộc khung hình phạt nào?\nA. Dưới khung khoản 1 (dưới 1 gam)\nB. Khung khoản 1 (1 gam đến dưới 2 gam)\nC. Khung khoản 2 (2 gam đến dưới 5 gam)\nD. Khung khoản 3 (5 gam đến dưới 10 gam)",
+            "answer": "B",
+            "reasoning": "Theo khoản 1 Điều 249 BLHS 2015 người tàng trữ trái phép từ 1 gam đến dưới 2 gam Methamphetamine bị phạt tù từ 1 đến 5 năm mà M tàng trữ 1,1536 gam tức là 1,1536 > 1 gam và 1,1536 < 2 gam nên thuộc khoản 1 Điều 249 do đó thuộc khung hình phạt từ 1 đến 5 năm tù."
+        },
+        {
+            "question": "Luật: Theo Điều 81 Luật HNGĐ 2014, con dưới 36 tháng tuổi được giao cho mẹ trực tiếp nuôi. Tình huống: Nguyễn Bảo V sinh ngày 14/3/2023, phiên tòa xét xử ngày 21/10/2025. Hỏi: Tính đến ngày xét xử, Nguyễn Bảo V bao nhiêu tháng tuổi?\nA. Dưới 24 tháng tuổi\nB. Từ 24 đến dưới 30 tháng tuổi\nC. Từ 30 đến dưới 36 tháng tuổi\nD. Trên 36 tháng tuổi",
+            "answer": "C",
+            "reasoning": "Theo Điều 81 Luật HNGĐ 2014 con dưới 36 tháng tuổi được giao cho mẹ nuôi mà Nguyễn Bảo V sinh ngày 14/3/2023, tính đến ngày 21/10/2025 được khoảng 31 tháng tức là từ 30 đến dưới 36 tháng nên vẫn thuộc diện dưới 36 tháng tuổi do đó được giao cho mẹ trực tiếp nuôi."
+        },
+        {
+            "question": "Luật: Theo Điều 84 Luật HNGĐ 2014, khi quyết định giao con, Tòa án phải xem xét nguyện vọng của con từ đủ 7 tuổi trở lên. Tình huống: Nguyễn Nhật M sinh ngày 08/12/2013, phiên tòa xét xử năm 2025. Hỏi: Nguyễn Nhật M có đủ tuổi để Tòa án xem xét nguyện vọng khi giao con không?\nA. Chưa đủ 7 tuổi, không xem xét nguyện vọng\nB. Đủ 7 tuổi nhưng chưa đủ 12 tuổi\nC. Đủ 12 tuổi trở lên\nD. Đủ 15 tuổi trở lên",
+            "answer": "C",
+            "reasoning": "Theo Điều 84 Luật HNGĐ 2014 Tòa án phải xem xét nguyện vọng của con từ đủ 7 tuổi trở lên mà Nguyễn Nhật M sinh ngày 08/12/2013, tính đến năm 2025 được 12 tuổi tức là trên 7 tuổi nên đủ điều kiện để Tòa án xem xét nguyện vọng do đó thuộc trường hợp đủ 12 tuổi trở lên."
+        },
+        {
+            "question": "Luật: Theo Điều 466 BLDS 2015, bên vay có nghĩa vụ trả đủ tiền khi đến hạn. Tình huống: Ông P cho ông S, bà L vay 20.000.000 đồng ngày 14/11/2019, thời hạn 12 tháng. Ông S, bà L đã trả 14.000.000 đồng gốc. Hỏi: Số tiền gốc còn nợ là bao nhiêu?\nA. 20.000.000 đồng\nB. 14.000.000 đồng\nC. 6.000.000 đồng\nD. 0 đồng (đã trả hết)",
+            "answer": "C",
+            "reasoning": "Theo Điều 466 BLDS 2015 bên vay có nghĩa vụ trả đủ tiền khi đến hạn mà ông P cho vay 20.000.000 đồng, ông S, bà L đã trả 14.000.000 đồng gốc nên số tiền gốc còn nợ = 20.000.000 - 14.000.000 = 6.000.000 đồng do đó đáp án C là chính xác."
+        }
+    ]
+}

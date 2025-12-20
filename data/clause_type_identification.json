@@ -1,0 +1,285 @@
+{
+    "task_config": {
+        "task_name": "clause_type_identification",
+        "category": "interpretation",
+        "instruction": "Xác định loại nội dung/điều khoản của đoạn văn bản pháp lý trích từ bản án. Chọn một nhãn duy nhất: [Thông tin đương sự, Nội dung vụ án, Nhận định của Tòa, Quyết định, Bất khả kháng, Bảo mật, Hiệu lực]."
+    },
+    "data_content": [
+        {
+            "question": "Đoạn văn: 'Quyết định này có hiệu lực pháp luật ngay sau khi được ban hành và không bị kháng cáo, kháng nghị theo thủ tục phúc thẩm.'",
+            "answer": "Hiệu lực"
+        },
+        {
+            "question": "Đoạn văn: 'Công nhận thuận tình ly hôn và sự thỏa thuận của các đương sự của thể như sau: - Về quan hệ hôn nhân: Ông Nguyễn Ngọc T và Bà Nguyễn Thị Mỹ H thuận tình ly hôn.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Ông Nguyễn Ngọc T và bà Nguyễn Thị Mỹ H từ nguyên chung sống với nhau và có đăng ký kết hôn tại Uỷ ban nhân dân Phường 12, Quận 10, Thành phố Hồ Chí Minh...'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bị đơn: Anh Đỗ Đình T, sinh năm 1994; HKTT: Xóm R, xã L, tỉnh Phú Thọ. Có đơn xin xét xử vụ án vắng mặt.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Xử cho chị Đặng Thị H được ly hôn anh Đỗ Đình T'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Mâu thuẫn giữa chị H và anh T đã trầm trọng không thể khắc phục được, đời sống chung không còn tồn tại.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bị cáo: Trần Văn M, sinh năm 1985 tại tỉnh Trà Vinh; Nơi thường trú: Ấp A, xã A, huyện C, tỉnh Trà Vinh; Nghề nghiệp: Không.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Tuyên bố bị cáo Trần Văn M phạm tội “Tàng trữ trái pháp chất ma túy”: Xử phạt bị cáo Trần Văn M 02 năm 09 tháng tù.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Hành vi của bị cáo đã vi phạm quy định về chính sách quản lý chất ma túy của Nhà nước, gây mất trật tự trị an tại địa phương.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bản án xử phúc thẩm, có hiệu lực pháp luật kể từ ngày tuyên án (ngày 03/4/2017).'",
+            "answer": "Hiệu lực"
+        },
+        {
+            "question": "Đoạn văn: 'Không chấp nhận toàn bộ yêu cầu khôi phục của nguyên đơn ông Nguyễn Quang T đối với nguyên Vàn Q, bà Nguyễn Thị M phải trả lại cho ông 02m đất chiều ngang.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Mặc khác, sau khi nhận chuyển nhượng, ông T không quản lý, sử dụng nên có sự sai lệch về trí thức đất giữa các chủ sử dụng đất liên kề.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Nguyên đơn: Chị Lê Thị Diệu L, sinh năm 1991; CCCD số 017191007430; Nơi cư trú: Tiểu khu H, xã L, tỉnh Phú Thọ.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Xử cho chị Lê Thị Diệu L được ly hôn anh Nguyễn Bảo D.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Như vậy hôn nhân giữa chị L và anh D đã lâm vào tình trạng trầm trọng, đời sống chung không thể kéo dài, mục đích hôn nhân không đạt được.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bà Hộ Thị M được ly hôn với ông Dương Hữu T.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Bà Hồ Thị M, sinh năm 1971. Địa chỉ: Số B, ấp T, xã T, tỉnh Đồng Tháp.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Như vậy, có cơ sở xác định hôn nhân giữa bà M và ông T đã lâm vào tình trạng trầm trọng, đội sống chung không thể kéo dài.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bà Mai Hồng H được ly hôn với ông Phạm Ngọc T.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Bà Mai Hồng H và ông Phạm Ngọc T kết hôn năm 2012, có đăng ký kết hôn tại UBND xã B, huyện T, tỉnh Đồng Tháp.'",
+            "answer": "Nội dung vụ án"
+        },
+        {
+            "question": "Đoạn văn: 'Như vậy, có cơ sở xác định hôn nhân giữa bà H và ông T đã lâm vào tình trạng trầm trọng, đời sống chung không thể kéo dài, mục đích của hôn nhân không đạt được.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bị đơn: 1. Ông Đỗ Văn M, sinh năm 1980. 2. Bà Cao Thị Kim H, sinh năm 1985. Cùng địa chỉ: Số I, ấp B, xã B, tỉnh Đồng Tháp.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Buộc ông Đỗ Văn M, bà Cao Thị Kim H trả cho ông Trần Thanh P số tiền 10.000.000 đồng (Mười triệu đồng).'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Việc giao kết hợp đồng được thực hiện trên cơ sở tự nguyện của các bên, mục đích và nội dung của giao dịch không vi phạm điều cấm của luật nên có hiệu lực pháp luật.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bị đơn: 1. Ông Nguyễn Văn S, sinh năm 1968. 2. Bà Nguyễn Thị L, sinh năm 1974. Cùng địa chỉ: Số H, ấp B, xã B, tỉnh Đồng Tháp.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Chấp nhận toàn bộ yêu cầu khởi kiện của ông Trần Thành P. Buộc ông Nguyễn Văn S, bà Nguyễn Thị L trả cho ông Trần Thành P số tiền gốc là 6.000.000 đồng (Sáu triệu đồng).'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Xét thấy, sau khi đạt được sự thỏa thuận về số tiền vay, thời hạn vay và lãi suất, ông P và ông S, bà L ký kết Hợp đồng vay tài sản theo Biên nhận ngày 14/11/2019.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bị đơn: Bà Trần Thị B, sinh năm 1964. Địa chỉ: Ấp B, xã B, tỉnh Đồng Tháp.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Chấp nhận toàn bộ yêu cầu khởi kiện của ông Nguyễn Bá T. Về hôn nhân: Ông Nguyễn Bá T được ly hôn với bà Trần Thị B.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Như vậy, có cơ sở xác định hôn nhân giữa ông T và bà B đã lâm vào tình trạng trầm trọng, đời sống chung không thể kéo dài, mục đích của hôn nhân không đạt được.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Nguyên đơn: Bà Phạm Thị Kim T, sinh năm 1968. Địa chỉ: Số F, đường B, phường V, Thành phố Hồ Chí Minh.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Tuyên xử: Chấp nhận toàn bộ yêu cầu khởi kiện của bà Phạm Thị Kim T. Về hôn nhân: Bà Phạm Thị Kim T được ly hôn với ông Phạm Văn H.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Người khởi kiện: Bà Nguyễn Thị L, sinh năm 1936 có mặt. Địa chỉ: thôn A, xã T, huyện N, tỉnh Quảng Nam.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Huy Công với số 515/UBND-TNMT ngày 18/5/2016 của UBND huyện N, tỉnh Quảng Nam về việc trả lời đơn của bà Nguyễn Thị L và buộc UBND huyện N lập hồ sơ thủ tục hỗ trợ đất, bồi thường thiệt hại cho bà Nguyễn Thị L.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Bản án này là phúc thẩm có hiệu lực pháp luật kể từ ngày tuyên án (03/3/2017).'",
+            "answer": "Hiệu lực"
+        },
+        {
+            "question": "Đoạn văn: 'Tuyên xử: Chấp nhận toàn bộ yêu cầu khởi kiện của ông Phạm Thái V. Về hôn nhân: Ông Phạm Thái V được ly hôn với bà Phạm Thị D.' ",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Nguyên đơn: Ông Phạm Thái V, sinh năm 1988. Địa chỉ: Ấp T, xã A, tỉnh Đồng Tháp.' ",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Có cơ sở xác định hôn nhân giữa ông V và bà D đã lâm vào tình trạng trầm trọng, đời sống chung không thể kéo dài, mục đích của hôn nhân không đạt được.' ",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Người khởi kiện: Bà Trần Thị T, sinh năm 1956; trú tại khu A, phường B, thành phố C, tỉnh Lạng Sơn.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Hủy bản án hành chính phúc thẩm số 47/2013/HCPT ngày 15/3/2013 của Tòa phúc thẩm Tòa án nhân dân Tối cao tại Hà Nội; giao hồ sơ vụ án cho Tòa án nhân dân cấp cao tại Hà Nội xét xử phúc thẩm lại.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Bản án phúc thẩm có hiệu lực pháp luật kể từ ngày tuyên án.'",
+            "answer": "Hiệu lực"
+        },
+        {
+            "question": "Đoạn văn: 'Nguyên đơn: 1. Ông Phan Văn N, sinh năm: 1953. Địa chỉ: 449/B, tổ 1, ấp 3, phường B, Thành phố Hồ Chí Minh.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Tuyên xử: Không chấp nhận yêu cầu kháng cáo của ông Phan Văn N, bà Phan Thị G, ông Phan Văn B, bà Phan Thị H, bà Phan Thị L (Vũ). Giữ nguyên Bản án dân sự sơ thẩm số 27/2024/DS-ST.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Nguyễn Ngọc A sinh năm 1965; đăng ký hộ khẩu thường trú tại: phường E, quận Y, thành phố Hà Nội; con ông Nguyễn Văn D và bà Nguyễn Thị Đ.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Hủy Bản án hình sự phúc thẩm số 140/2015/HSPT ngày 28-10-2015 của Tòa án nhân dân cấp cao tại Hà Nội về phần quyết định đối với Nguyễn Ngọc A; chuyển Hồ sơ vụ án cho Tòa án nhân dân cấp cao tại Hà Nội để xét xử phúc thẩm lại.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Bị cáo, người bào chữa có mặt được quyền kháng cáo bản án trong hạn 15 ngày kể từ ngày tuyên án sơ thẩm (18/11/2025).'",
+            "answer": "Hiệu lực"
+        },
+        {
+            "question": "Đoạn văn: 'Xử phạt: Cao Văn Đ 30 (ba mươi) tháng cải tạo không giam giữ được trừ 83 ngày (từ 14/6/2025 đến ngày 04/9/2025) bằng 249 ngày cải tạo không giam giữ.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Xét các tính tiết tăng nặng, giảm nhẹ TNHS: - Tính tiết tăng nặng: Bị cáo phạm tội không có tính tiết tăng nặng TNHS. - Tính tiết giảm nhẹ: Bị cáo chưa có tiền án, tiền sử. Tại cơ quan điều tra cũng như tại phiên toà bị cáo thành khẩn khẩn bào, ăn năn hối cải.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Trần Thị Quý P sinh năm 1969; trú tại: đường C, phường D, thành phố E, tỉnh Gia Lai; khi phạm tội là Giám đốc Công ty có phần vốn nhà nước B.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Hủy Bản án hình sự phúc thẩm số 90/2015/HSPT ngày 20-3-2015 của Toà phúc thẩm Toà án nhân dân tối cao tại Đà Nẵng về phần xử lý vật chứng là chiếc xe ô tô biển kiểm soát 81A-00278.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Từ năm 2009 đến năm 2011, Công ty B có quan hệ mua bán vật liệu xây dựng với Doanh nghiệp tư nhân do Võ Thị T làm chủ Doanh nghiệp.'",
+            "answer": "Nội dung vụ án"
+        },
+        {
+            "question": "Đoạn văn: 'Bản án phúc thẩm có hiệu lực pháp luật kể từ ngày tuyên án.'",
+            "answer": "Hiệu lực"
+        },
+        {
+            "question": "Đoạn văn: 'Buộc bà Đinh Thị Diệu T phải trả cho Ngân hàng TMCP S số tiền gốc và tiền lãi tính đến ngày 26 tháng 5 năm 2025 là 2.322.770.236 đồng.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Việc ông T1 và bà T2 tự thỏa thuận chừa 01 phần diện tích đất để làm lối đi cho bà T2 là do các bên tự thương lượng với nhau, không có xác nhận của chính quyền địa phương.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Người khởi kiện: Bà Trần Thị T, sinh năm 1956; trú tại khu A, phường B, thành phố C, tỉnh Lang Son.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Hủy Bản án hành chính phúc thẩm số 47/2013/HCPT ngày 15/3/2013 của Tòa phúc thẩm Tòa án nhân dân tối cao tại Hà Nội; giao hồ sơ vụ án cho Tòa án nhân dân cấp cao tại Hà Nội xét xử phúc thẩm lại theo đúng quy định của pháp luật.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Toà án cấp sơ thẩm nhận định bà Trần Thị T không đủ điều kiện mua nhà khu A, phường B, thành phố C, tỉnh Lạng Sơn là có căn cứ đúng pháp luật.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bị cáo bị kháng cáo: Nguyễn Văn T, sinh ngày 15/01/1988 tại tỉnh Bình Định (nay là tỉnh Gia Lai); số căn cước công dân: 052088005692; nơi cư trú: Thôn B, xã K, tỉnh Gia Lai.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Xử phạt bị cáo Nguyễn Văn T 06 (sáu) tháng tù nhưng cho hưởng án treo về tội “Cố ý gây thương tích”. Thời gian thử thách là 12 (mười hai) tháng tính từ ngày tuyên án sơ thẩm.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Hành vi của bị cáo là đã xâm phạm trực tiếp đến sức khỏe của người khác, gây mất trật tự an toàn xã hội nên cần phải xử lý nghiêm.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Người khởi kiện: Ông Trần Tiến N1, sinh năm 1959; trú tại đường A, phường B, thành phố C, tỉnh Kiên Giang.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Không chấp nhận Quyết định kháng nghị số 09/QĐ-KNGDT-V12 ngày 28/5/2015 của Viện trưởng Viện kiểm sát nhân dân tối cao và giữ nguyên Bản án hành chính phúc thẩm số 196/2013/HC-PT ngày 30/9/2013.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Năm 1983, ông H có tranh chấp đất với ông N2 (gồm cả phần đất mương và đất bờ mương). Uỷ ban nhân dân phường An Hoa đã hòa giải và hai bên đã thống nhất phần mương ông H sử dụng, phần bờ mương về phía cầu An Hoa ông N2 sử dụng.'",
+            "answer": "Nội dung vụ án"
+        },
+        {
+            "question": "Đoạn văn: 'Bị cáo có kháng cáo: Phan Văn C, sinh năm 1991; nơi cư trú: Thôn K., xã V. tỉnh Phú Thọ; nghề nghiệp: Lao động tự do.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Không chấp nhận kháng cáo của bị cáo Phan Văn C, giữ nguyên bản án hình sự sơ thẩm số 20/2025/HS-ST ngày 05 tháng 3 năm 2025 về phần hình phạt.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Hành vi đó của bị cáo là rất nguy hiểm cho xã hội, thể hiện tính chất côn đồ, phạm vào tội đặc biệt nghiêm trọng.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bị cáo không có kháng cáo, không bị kháng cáo, không bị kháng nghị và không có liên quan đến kháng cáo: Nguyễn Thế V., sinh ngày 01/01/1977 tại tỉnh Bình Định (nay là tỉnh Gia Lai); số căn cước công dân: 052077015762; nơi cư trú: Thôn T, xã P, tỉnh Gia Lai.' ",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Xét kháng cáo của ông S1, Hội đồng xét xử phúc thẩm thấy rằng: Tại thời điểm vợ chồng ông S1 - bà H và ông T ký hợp đồng mua bán xe ô tô biển kiểm soát 77A - 089.55 thì xe ô tô trên thuộc quyền sở hữu hợp pháp của ông B, bị cáo V đã có hành vi làm giả và sử dụng chứng nhận đăng ký xe ô tô trên đứng tên bị cáo cầm cố tại tiệm cầm đồ của ông S1.' ",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Bản án phúc thẩm có hiệu lực pháp luật kể từ ngày tuyên án.' ",
+            "answer": "Hiệu lực"
+        }
+    ]
+}

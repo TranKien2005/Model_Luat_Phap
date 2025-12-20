@@ -1,0 +1,69 @@
+{
+    "task_config": {
+        "task_name": "clause_type_identification",
+        "category": "interpretation",
+        "instruction": "Xác định loại nội dung/điều khoản của đoạn văn bản pháp lý trích từ bản án. Chọn một nhãn duy nhất: [Thông tin đương sự, Nội dung vụ án, Nhận định của Tòa, Quyết định, Bất khả kháng, Bảo mật, Hiệu lực]."
+    },
+    "data_content": [
+        {
+            "question": "Đoạn văn: 'Bản án này là phúc thẩm có hiệu lực pháp luật kể từ ngày tuyên án (03/3/2017).'",
+            "answer": "Hiệu lực"
+        },
+        {
+            "question": "Đoạn văn: 'Hủy Công văn số 515/UBND-TNMT ngày 18/5/2016 của UBND huyện N, tỉnh Quảng Nam về việc trả lời đơn của bà Nguyễn Thị L và buộc UBND huyện N, tỉnh Quảng Nam lập thủ tục thu hồi đất, bồi thường thiệt hại cho bà Nguyễn Thị L đối với các thửa đất số 62 tờ bản đồ số 12 diện tích 601,4m² và thửa đất số 74 tờ bản đồ số 12 diện tích 765m² tại thôn T, xã T, huyện N, tỉnh Quảng Nam theo đúng quy định của pháp luật.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Sau năm 1999 đến năm 2014, Nhà nước làm đường DH6 gây vỡ cống ngập úng nhiễm nước mặn, do vậy bà L không thể sử dụng diện tích đất này được nữa.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Án xử phúc thẩm, có hiệu lực pháp luật kể từ ngày tuyên án (ngày 03/4/2017).'",
+            "answer": "Hiệu lực"
+        },
+        {
+            "question": "Đoạn văn: 'Không chấp nhận toàn bộ nội dung yêu cầu kháng cáo của ông Nguyễn Quang T. Không chấp nhận toàn bộ yêu cầu khởi kiện của nguyên đơn ông Nguyễn Quang T đòi ông Nguyễn Văn Q, bà Nguyễn Thị M phải trả lại cho ông 02m đất chiều ngang theo giấy chứng nhận quyền sử dụng đất số AĐ 561740 ngày 20/01/2016.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Tại Biên bản xem xét, thẩm định tại chỗ ngày 28/3/2017 và tại Trích lục chỉnh lý bản đồ địa chính ngày 29/3/2017 của Văn phòng đăng ký đất đai – chi nhánh N1 cho thấy ông Q, bà M đã giao đúng và đủ diện tích mà ông T đã nhận chuyển nhượng của vợ chồng ông Q và bà M.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Trần Văn M, sinh năm 1985 tại tỉnh Trà Vinh; Nơi thường trú: Ấp A, xã A, huyện C, tỉnh Trà Vinh; Giới tính: Nam; Dân tộc: Kinh; Quốc tịch: Việt Nam; Tôn giáo: Không; Trình độ học vấn: 02/12; Nghề nghiệp: Không; Tiền án, tiền sự: Không.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Khoảng 22 giờ 10 phút ngày 05/11/2024, Công an phường B kiểm tra hành chính phòng số 5, nhà trọ B1-B phát hiện trên bàn gỗ có 01 chai nhựa nắp màu xanh được dùng để sử dụng ma túy. Sau đó, M lấy ra 08 đoạn ống hút nhựa hàn kín chứa tinh thể màu trắng và khai nhận là ma túy của M cất giấu để sử dụng.'",
+            "answer": "Nội dung vụ án"
+        },
+        {
+            "question": "Đoạn văn: 'Tuyên bố bị cáo Trần Văn M phạm tội Tàng trữ trái phép chất ma túy: Xử phạt bị cáo Trần Văn M 02 (hai) năm 09 (chín) tháng tù, thời hạn từ ngày bắt tạm giam 06/11/2024.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Hành vi của bị cáo đã đủ yếu tố cấu thành tội Tàng trữ trái phép chất ma túy theo khoản 1 Điều 249 của Bộ luật Hình sự năm 2015 (sửa đổi, bổ sung năm 2017). Cáo trạng của Viện kiểm sát nhân dân khu vực 16 truy tố bị cáo về tội danh, khung hình phạt là có căn cứ, đúng người, đúng tội và đúng pháp luật.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Ông Nguyễn Ngọc T và bà Nguyễn Thị Mỹ H kết hôn tại Ủy ban nhân dân Phường 12, Quận 10, Thành phố Hồ Chí Minh, cấp ngày 10 tháng 8 năm 2001 (Giấy chứng nhận kết hôn số xx, quyển số vv). Sau khi kết hôn vợ chồng chung sống hạnh phúc. Hiện có hai con chung đã trưởng thành.'",
+            "answer": "Nội dung vụ án"
+        },
+        {
+            "question": "Đoạn văn: 'Công nhận thuận tình ly hôn và sự thỏa thuận của các đương sự: Về quan hệ hôn nhân: Ông Nguyễn Ngọc T và Bà Nguyễn Thị Mỹ H thuận tình ly hôn. Về con chung: 02 con chung đã trưởng thành, không yêu cầu Tòa án giải quyết. Về tài sản chung: Tự thỏa thuận, không yêu cầu Tòa án giải quyết.'",
+            "answer": "Quyết định"
+        },
+        {
+            "question": "Đoạn văn: 'Xét thấy, ông T và bà H yêu cầu ly hôn là thật sự tự nguyện, tình cảm vợ chồng không còn, mâu thuẫn đã trầm trọng không thể hàn gắn hồi phục gia đình, mục đích hôn nhân không đạt được, do đó có căn cứ Điều 55 Luật hôn nhân và gia đình năm 2014 Tòa án ghi nhận ông T và bà H thuận tình ly hôn.'",
+            "answer": "Nhận định của Tòa"
+        },
+        {
+            "question": "Đoạn văn: 'Nguyên đơn: Ông Trần Thanh P, sinh năm 1977. Địa chỉ: Số C, ấp T, xã T, tỉnh Đồng Tháp. Người đại diện hợp pháp của ông Trần Thanh P: Chị Nguyễn Thanh V, sinh năm 1988, là người đại diện theo ủy quyền.'",
+            "answer": "Thông tin đương sự"
+        },
+        {
+            "question": "Đoạn văn: 'Buộc ông Đỗ Văn M, bà Cao Thị Kim H trả cho ông Trần Thanh P số tiền 10.000.000 đồng (Mười triệu đồng). Kể từ ngày tiếp theo của ngày xét xử sơ thẩm cho đến khi thi hành án xong, bên phải thi hành án còn phải chịu khoản tiền lãi theo mức lãi suất quy định tại khoản 2 Điều 468 Bộ luật dân sự năm 2015.'",
+            "answer": "Quyết định"
+        }
+    ]
+}

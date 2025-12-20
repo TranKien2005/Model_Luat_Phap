@@ -1,0 +1,201 @@
+{
+    "task_config": {
+        "task_name": "general_issue_binary",
+        "category": "issue-spotting",
+        "instruction": "Phân tích tình huống thực tế và xác định xem có sự tồn tại của vấn đề pháp lý (Legal Issue) được nêu trong câu hỏi hay không. Trả lời duy nhất 'Có' hoặc 'Không'. Tuyệt đối không giải thích thêm."
+    },
+    "data_content": [
+        {
+            "question": "Tình huống: Ông T và bà H kết hôn năm 2001, nay mâu thuẫn trầm trọng nên cùng yêu cầu Tòa án công nhận thuận tình ly hôn. Hai con chung đã trưởng thành, tài sản và nợ chung không yêu cầu giải quyết. Vấn đề: Đây có phải là tranh chấp về chia tài sản chung của vợ chồng khi ly hôn không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Ông T và bà H kết hôn năm 2001, nay mâu thuẫn trầm trọng nên cùng yêu cầu Tòa án công nhận thuận tình ly hôn. Hai con chung đã trưởng thành, tài sản và nợ chung không yêu cầu giải quyết. Vấn đề: Đây có phải là yêu cầu công nhận thuận tình ly hôn và thỏa thuận của các đương sự không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Chị H và anh T kết hôn năm 2023, đến tháng 10/2024 thì phát sinh mâu thuẫn trầm trọng, sống ly thân và không còn quan tâm đến nhau. Chị H có đơn yêu cầu chấm dứt quan hệ hôn nhân. Vấn đề: Đây có phải là vấn đề tranh chấp về chia tài sản sau ly hôn không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Chị H và anh T kết hôn năm 2023, đến tháng 10/2024 thì phát sinh mâu thuẫn trầm trọng, sống ly thân và không còn quan tâm đến nhau. Chị H có đơn yêu cầu chấm dứt quan hệ hôn nhân. Vấn đề: Đây có phải là vấn đề tranh chấp ly hôn không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Trần Văn M bị bắt quả tang cất giấu 1,1536 gam ma túy loại Methamphetamine tại phòng trọ để sử dụng cá nhân và có kết quả xét nghiệm dương tính với chất ma túy. Vấn đề: Đây có phải là vấn đề tranh chấp hợp đồng thuê phòng trọ không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Trần Văn M bị bắt quả tang cất giấu 1,1536 gam ma túy loại Methamphetamine tại phòng trọ để sử dụng cá nhân và có kết quả xét nghiệm dương tính với chất ma túy. Vấn đề: Đây có phải là vấn đề tàng trữ trái phép chất ma túy không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Ông T nhận chuyển nhượng đất từ ông Q và bà M vào năm 2006, đã được cấp GCNQSDĐ nhưng sau đó phát hiện diện tích thực tế bị thiếu 2m chiều ngang so với giấy tờ. Ông T khởi kiện đòi lại phần đất này. Vấn đề: Đây có phải là vấn đề tranh chấp về chia tài sản chung của vợ chồng sau ly hôn không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Ông T nhận chuyển nhượng đất từ ông Q và bà M vào năm 2006, đã được cấp GCNQSDĐ nhưng sau đó phát hiện diện tích thực tế bị thiếu 2m chiều ngang so với giấy tờ. Ông T khởi kiện đòi lại phần đất này. Vấn đề: Đây có phải là vấn đề tranh chấp quyền sử dụng đất bị lấn chiếm không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Chị L và anh D kết hôn năm 2012, đến năm 2025 phát sinh mâu thuẫn do bất đồng quan điểm và lối sống dẫn đến ly thân. Chị L khởi kiện yêu cầu chấm dứt quan hệ hôn nhân và giải quyết nuôi con chung. Vấn đề: Đây có phải là vấn đề tranh chấp về chia tài sản chung của vợ chồng không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Chị L và anh D kết hôn năm 2012, đến năm 2025 phát sinh mâu thuẫn do bất đồng quan điểm và lối sống dẫn đến ly thân. Chị L khởi kiện yêu cầu chấm dứt quan hệ hôn nhân và giải quyết nuôi con chung. Vấn đề: Đây có phải là vấn đề tranh chấp ly hôn và quyền nuôi con không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Bà Hồ Thị M khởi kiện yêu cầu ly hôn với ông Dương Hữu T vì mâu thuẫn kéo dài và hai người đã sống ly thân nhiều năm, không còn quan tâm nhau. Vấn đề: Đây có phải là tranh chấp về chia di sản thừa kế?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Bà Hồ Thị M khởi kiện yêu cầu ly hôn với ông Dương Hữu T vì mâu thuẫn kéo dài và hai người đã sống ly thân nhiều năm, không còn quan tâm nhau. Vấn đề: Đây có phải là tranh chấp ly hôn?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Bà H và ông T kết hôn năm 2012, đến cuối năm 2024 phát sinh mâu thuẫn do ông T không chăm lo cho gia đình, dẫn đến ly thân. Bà H yêu cầu chấm dứt quan hệ hôn nhân và giải quyết quyền nuôi con chung là Ngọc L và Ngọc H1. Vấn đề: Đây có phải là vấn đề tranh chấp về chia di sản thừa kế không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Bà H và ông T kết hôn năm 2012, đến cuối năm 2024 phát sinh mâu thuẫn do ông T không chăm lo cho gia đình, dẫn đến ly thân. Bà H yêu cầu chấm dứt quan hệ hôn nhân và giải quyết quyền nuôi con chung là Ngọc L và Ngọc H1. Vấn đề: Đây có phải là vấn đề tranh chấp ly hôn và nuôi con không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Ông P cho ông M và bà H vay 10.000.000 đồng từ năm 2018, có lập biên nhận, đến nay bên vay chưa trả nợ gốc dù đã quá hạn. Vấn đề: Đây có phải là vấn đề tranh chấp quyền sử dụng đất không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Ông P cho ông M và bà H vay 10.000.000 đồng từ năm 2018, có lập biên nhận, đến nay bên vay chưa trả nợ gốc dù đã quá hạn. Vấn đề: Đây có phải là vấn đề tranh chấp hợp đồng vay tài sản không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Ông P cho ông S và bà L vay 20.000.000 đồng, các bên có lập biên nhận nợ. Sau đó bên vay đã trả được 14.000.000 đồng gốc và một phần lãi rồi ngưng không trả tiếp dù ông P đã nhiều lần đôn đốc đòi nợ gốc còn lại là 6.000.000 đồng. Vấn đề: Đây có phải là vấn đề tranh chấp quyền sử dụng đất không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Ông P cho ông S và bà L vay 20.000.000 đồng, các bên có lập biên nhận nợ. Sau đó bên vay đã trả được 14.000.000 đồng gốc và một phần lãi rồi ngưng không trả tiếp dù ông P đã nhiều lần đôn đốc đòi nợ gốc còn lại là 6.000.000 đồng. Vấn đề: Đây có phải là vấn đề tranh chấp hợp đồng vay tài sản không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Ông T và bà B kết hôn năm 1987, chung sống hạnh phúc thời gian dài nhưng từ năm 2021 phát sinh mâu thuẫn do bất đồng quan điểm nên sống ly thân, không còn quan tâm nhau. Vấn đề: Đây có phải là vấn đề tranh chấp về chia di sản thừa kế không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Ông T và bà B kết hôn năm 1987, chung sống hạnh phúc thời gian dài nhưng từ năm 2021 phát sinh mâu thuẫn do bất đồng quan điểm nên sống ly thân, không còn quan tâm nhau. Vấn đề: Đây có phải là vấn đề tranh chấp ly hôn không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Bà T và ông H kết hôn năm 1998, do mâu thuẫn tính cách nên đã sống ly thân 15 năm. Bà T yêu cầu Tòa án giải quyết cho ly hôn. Vấn đề: Đây có phải là vấn đề tranh chấp về chia tài sản chung của vợ chồng khi ly hôn không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Bà T và ông H kết hôn năm 1998, do mâu thuẫn tính cách nên đã sống ly thân 15 năm. Bà T yêu cầu Tòa án giải quyết cho ly hôn. Vấn đề: Đây có phải là vấn đề ly hôn theo yêu cầu của một bên không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Bà L sử dụng đất từ năm 1974, đến năm 1999 đất bị ngập mặn do Nhà nước làm đường gây vỡ cống nên không canh tác được. Năm 2014, đất bị san lấp xây trường học nhưng bà L không được bồi thường. Vấn đề: Đây có phải là vấn đề tranh chấp về quyền nuôi con khi ly hôn không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Bà L sử dụng đất từ năm 1974, đến năm 1999 đất bị ngập mặn do Nhà nước làm đường gây vỡ cống nên không canh tác được. Năm 2014, đất bị san lấp xây trường học nhưng bà L không được bồi thường. Vấn đề: Đây có phải là vấn đề khiếu kiện quyết định hành chính trong lĩnh vực đất đai không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Ông V và bà D kết hôn năm 2014, chung sống hạnh phúc thời gian đầu rồi nảy sinh mâu thuẫn, ly thân từ năm 2016 đến nay. Ông V nộp đơn yêu cầu ly hôn và giải quyết quyền nuôi con chung sinh năm 2015. Vấn đề: Đây có phải là vấn đề tranh chấp về nghĩa vụ cấp dưỡng giữa con cái đối với cha mẹ không? ",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Ông V và bà D kết hôn năm 2014, chung sống hạnh phúc thời gian đầu rồi nảy sinh mâu thuẫn, ly thân từ năm 2016 đến nay. Ông V nộp đơn yêu cầu ly hôn và giải quyết quyền nuôi con chung sinh năm 2015. Vấn đề: Đây có phải là vấn đề ly hôn và tranh chấp nuôi con không? ",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Bà T sử dụng nhà ở thuộc sở hữu nhà nước nhưng không đứng tên hợp đồng thuê. Khi Nhà nước có chủ trương bán nhà theo Nghị định 61/CP, bà T làm đơn xin mua nhưng bị bác đơn. Vấn đề: Đây có phải là vấn đề tranh chấp về chia tài sản chung của vợ chồng không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Bà T sử dụng nhà ở thuộc sở hữu nhà nước nhưng không đứng tên hợp đồng thuê. Khi Nhà nước có chủ trương bán nhà theo Nghị định 61/CP, bà T làm đơn xin mua nhưng bị bác đơn. Vấn đề: Đây có phải là vấn đề về điều kiện mua nhà ở thuộc sở hữu nhà nước không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Các nguyên đơn yêu cầu chia thừa kế đối với diện tích đất 8.568m2 do cha mẹ để lại, trong khi bị đơn cho rằng đất đã được cha mẹ cho riêng từ năm 1981 và đã được cấp sổ đỏ. Vấn đề: Đây có phải là vấn đề tranh chấp về hợp đồng lao động không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Các nguyên đơn yêu cầu chia thừa kế đối với diện tích đất 8.568m2 do cha mẹ để lại, trong khi bị đơn cho rằng đất đã được cha mẹ cho riêng từ năm 1981 và đã được cấp sổ đỏ. Vấn đề: Đây có phải là vấn đề tranh chấp về thừa kế quyền sử dụng đất không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Nguyễn Ngọc A bị bắt quả tang tàng trữ 1.808,9 gam heroin tại nhà riêng và tham gia mua bán 200 gam Methamphetamin. Vấn đề: Đây có phải là vụ án tranh chấp về quyền sở hữu trí tuệ không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Nguyễn Ngọc A bị bắt quả tang tàng trữ 1.808,9 gam heroin tại nhà riêng và tham gia mua bán 200 gam Methamphetamin. Vấn đề: Đây có phải là vụ án về tội phạm ma túy không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Cao Văn D điều khiển xe ô tô dừng đỗ không đúng quy định trên đường cao tốc. Khi bị lực lượng Cảnh sát giao thông kiểm tra, D không chấp hành mà tăng ga lao thẳng xe về phía chiến sĩ cảnh sát đang đứng trước đầu xe để bỏ chạy. Vấn đề: Đây có phải là vấn đề bồi thường thiệt hại ngoài hợp đồng không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Cao Văn D điều khiển xe ô tô dừng đỗ không đúng quy định trên đường cao tốc. Khi bị lực lượng Cảnh sát giao thông kiểm tra, D không chấp hành mà tăng ga lao thẳng xe về phía chiến sĩ cảnh sát đang đứng trước đầu xe để bỏ chạy. Vấn đề: Đây có phải là vấn đề chống người thi hành công vụ không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Trần Thị Quý P sử dụng 67 hóa đơn giá trị gia tăng khống để kê khai hoàn thuế, chiếm đoạt hơn 1,6 tỷ đồng của Nhà nước. Vấn đề: Đây có phải là vấn đề tranh chấp về quyền sử dụng đất không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Trần Thị Quý P sử dụng 67 hóa đơn giá trị gia tăng khống để kê khai hoàn thuế, chiếm đoạt hơn 1,6 tỷ đồng của Nhà nước. Vấn đề: Đây có phải là vấn đề lừa đảo chiếm đoạt tài sản không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Bà T vay 2.000.000.000 đồng của Ngân hàng S1 nhưng không trả nợ đúng hạn. Tài sản thế chấp là quyền sử dụng đất của ông T1 và bà H1. Bà T2 (người hàng xóm) yêu cầu công nhận một phần đất thế chấp là lối đi chung dựa trên thỏa thuận viết tay với ông T1. Vấn đề: Đây có phải là vấn đề tranh chấp về tội lừa đảo chiếm đoạt tài sản không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Bà T vay 2.000.000.000 đồng của Ngân hàng S1 nhưng không trả nợ đúng hạn. Tài sản thế chấp là quyền sử dụng đất của ông T1 và bà H1. Bà T2 (người hàng xóm) yêu cầu công nhận một phần đất thế chấp là lối đi chung dựa trên thỏa thuận viết tay với ông T1. Vấn đề: Đây có phải là vấn đề tranh chấp hợp đồng tín dụng và hợp đồng thế chấp tài sản không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Bà Trần Thị T sử dụng nhà thuộc sở hữu Nhà nước từ năm 2002 nhưng hợp đồng thuê do bà Trần Thị L đứng tên. Năm 2010, bà T xin mua lại nhà theo Nghị định 61/CP nhưng bị Chủ tịch UBND tỉnh L bác đơn và ban hành quyết định giải quyết khiếu nại không chấp nhận yêu cầu của bà. Vấn đề: Đây có phải là vụ án tranh chấp về chia di sản thừa kế là quyền sở hữu nhà ở không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Bà Trần Thị T sử dụng nhà thuộc sở hữu Nhà nước từ năm 2002 nhưng hợp đồng thuê do bà Trần Thị L đứng tên. Năm 2010, bà T xin mua lại nhà theo Nghị định 61/CP nhưng bị Chủ tịch UBND tỉnh L bác đơn và ban hành quyết định giải quyết khiếu nại không chấp nhận yêu cầu của bà. Vấn đề: Đây có phải là vụ án khiếu kiện quyết định hành chính trong lĩnh vực quản lý nhà ở thuộc sở hữu nhà nước không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Do mâu thuẫn từ việc chặt cây chuối xà xuống ruộng, Nguyễn Văn T đã lấy một cái rìu giấu trong áo khoác, đuổi theo và chém trúng chân ông Dương Ngọc A gây thương tích 01%. Sau đó, T bị truy tố về tội cố ý gây thương tích. Vấn đề: Đây có phải là vụ án tranh chấp dân sự về việc bồi thường thiệt hại do cây cối gây ra không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Do mâu thuẫn từ việc chặt cây chuối xà xuống ruộng, Nguyễn Văn T đã lấy một cái rìu giấu trong áo khoác, đuổi theo và chém trúng chân ông Dương Ngọc A gây thương tích 01%. Sau đó, T bị truy tố về tội cố ý gây thương tích. Vấn đề: Đây có phải là vấn đề xác định tội danh Cố ý gây thương tích với tình tiết định khung dùng hung khí nguy hiểm không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Ông Trần Tiến N1 khởi kiện yêu cầu hủy Quyết định số 2180/QĐ-UBND của Chủ tịch UBND tỉnh K vì đã hủy bỏ quyết định giải quyết tranh chấp đất đai trước đó và công nhận quyền sử dụng đất cho ông Nguyễn Nhật N2. Vấn đề: Đây có phải là vấn đề về việc bồi thường thiệt hại ngoài hợp đồng do nguồn nguy hiểm cao độ gây ra không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Ông Trần Tiến N1 khởi kiện yêu cầu hủy Quyết định số 2180/QĐ-UBND của Chủ tịch UBND tỉnh K vì đã hủy bỏ quyết định giải quyết tranh chấp đất đai trước đó và công nhận quyền sử dụng đất cho ông Nguyễn Nhật N2. Vấn đề: Đây có phải là vấn đề về thẩm quyền và tính hợp pháp của quyết định hành chính trong việc giải quyết tranh chấp đất đai không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Phan Văn C dùng dao phay đuổi chém anh Bùi Văn T nhiều nhát vào vùng vai, tay và trán (làm vỡ xương trán) do mâu thuẫn bộc phát tại hội làng. Sau đó C bỏ trốn và ra đầu thú, đã bồi thường 100 triệu đồng cho bị hại. Vấn đề: Đây có phải là tranh chấp về hợp đồng thuê khoán nhân công khoan giếng không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Phan Văn C dùng dao phay đuổi chém anh Bùi Văn T nhiều nhát vào vùng vai, tay và trán (làm vỡ xương trán) do mâu thuẫn bộc phát tại hội làng. Sau đó C bỏ trốn và ra đầu thú, đã bồi thường 100 triệu đồng cho bị hại. Vấn đề: Đây có phải là vụ án truy cứu trách nhiệm hình sự về tội Giết người trong trường hợp phạm tội chưa đạt không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Nguyễn Thế V thuê xe ô tô của ông B, sau đó làm giả giấy chứng nhận đăng ký xe đứng tên mình để đem đi cầm cố chiếm đoạt 200.000.000 đồng. Vấn đề: Đây có phải là vấn đề tranh chấp về việc thực hiện nghĩa vụ bảo hành sản phẩm trong kinh doanh thương mại không? ",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Nguyễn Thế V thuê xe ô tô của ông B, sau đó làm giả giấy chứng nhận đăng ký xe đứng tên mình để đem đi cầm cố chiếm đoạt 200.000.000 đồng. Vấn đề: Đây có phải là vấn đề về tội lạm dụng tín nhiệm chiếm đoạt tài sản và sử dụng tài liệu giả của cơ quan, tổ chức không? ",
+            "answer": "Có"
+        }
+    ]
+}

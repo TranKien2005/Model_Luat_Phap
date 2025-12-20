@@ -1,0 +1,69 @@
+{
+    "task_config": {
+        "task_name": "functional_sentence_labelling",
+        "category": "rhetorical-understanding",
+        "instruction": "Phân loại câu văn được trích dẫn vào một trong ba nhóm chức năng lý luận: [FACT] (Dữ kiện thực tế), [LAW] (Dẫn chiếu văn bản luật), [JUDGMENT] (Phán quyết hoặc nhận định của Thẩm phán)."
+    },
+    "data_content": [
+        {
+            "question": "Câu: 'Bà Nguyễn Thị L nhận chuyển nhượng đất theo giấy tay ngày 20/4/1974 và sử dụng liên tục đến năm 1999 để trồng hoa màu.'",
+            "answer": "[FACT]"
+        },
+        {
+            "question": "Câu: 'Áp dụng Điều 100 Luật Đất đai năm 2013 và khoản 1 Điều 21 Nghị định 43/2014/NĐ-CP quy định về cấp Giấy chứng nhận quyền sử dụng đất cho hộ gia đình, cá nhân sử dụng đất ổn định.'",
+            "answer": "[LAW]"
+        },
+        {
+            "question": "Câu: 'Việc bà L không sử dụng đất từ năm 1999 đến 2014 là do nguyên nhân khách quan là ngập mặn vì Nhà nước làm đường gây vỡ cống nên vẫn được xác định là sử dụng đất ổn định.'",
+            "answer": "[JUDGMENT]"
+        },
+        {
+            "question": "Câu: 'Năm 2006, ông Nguyễn Quang T có nhận chuyển nhượng quyền sử dụng đất của ông Nguyễn Văn Q và bà Nguyễn Thị M với diện tích 552,5m2 có chiều ngang là 13m.'",
+            "answer": "[FACT]"
+        },
+        {
+            "question": "Câu: 'Áp dụng: Các Điều 255, 256, 688 Bộ luật Dân sự năm 2005; khoản 9 Điều 26, khoản 1 Điều 147, khoản 1 Điều 148, khoản 1 Điều 165 của Bộ luật tố tụng dân sự năm 2015.'",
+            "answer": "[LAW]"
+        },
+        {
+            "question": "Câu: 'Việc ông T khởi kiện yêu cầu ông Q, bà M trả lại 02m ngang đất bị lấn chiếm là không có cơ sở để chấp nhận.'",
+            "answer": "[JUDGMENT]"
+        },
+        {
+            "question": "Câu: 'Ông Nguyễn Ngọc T và bà Nguyễn Thị Mỹ H kết hôn tại Ủy ban nhân dân Phường 12, Quận 10, Thành phố Hồ Chí Minh, cấp ngày 10 tháng 8 năm 2001.'",
+            "answer": "[FACT]"
+        },
+        {
+            "question": "Câu: 'Căn cứ vào các Điều 212, 213, 397 của Bộ luật tố tụng dân sự năm 2015; Căn cứ vào các Điều 55 Luật hôn nhân và gia đình.'",
+            "answer": "[LAW]"
+        },
+        {
+            "question": "Câu: 'Xét thấy, ông T và bà H yêu cầu ly hôn là thật sự tự nguyện, do đó có căn cứ Điều 55 Luật hôn nhân và gia đình năm 2014 Tòa án ghi nhận ông T và bà H thuận tình ly hôn.'",
+            "answer": "[JUDGMENT]"
+        },
+        {
+            "question": "Câu: 'Khoảng 22 giờ 10 phút ngày 05/11/2024, Công an phường B kiểm tra hành chính phòng số 5, nhà trọ B1-B phát hiện Trần Văn M cất giấu ma túy.'",
+            "answer": "[FACT]"
+        },
+        {
+            "question": "Câu: 'Áp dụng điểm c khoản 1 Điều 249; Điểm s khoản 1, khoản 2 Điều 51 của Bộ luật Hình sự năm 2015 (sửa đổi, bổ sung năm 2017).'",
+            "answer": "[LAW]"
+        },
+        {
+            "question": "Câu: 'Hành vi của bị cáo đã đủ yếu tố cấu thành tội Tàng trữ trái phép chất ma túy theo điều của Bộ luật Hình sự năm 2015.'",
+            "answer": "[JUDGMENT]"
+        },
+        {
+            "question": "Câu: 'Ngày 21/8/2018, ông Trần Thanh P cho ông Đỗ Văn M, bà Cao Thị Kim H vay số tiền 10.000.000 đồng, có lập biên nhận.'",
+            "answer": "[FACT]"
+        },
+        {
+            "question": "Câu: 'Căn cứ vào khoản 1 Điều 117 và Điều 463 của Bộ luật dân sự năm 2015, Hợp đồng vay giữa ông P và ông M, bà H có hiệu lực pháp luật.'",
+            "answer": "[LAW]"
+        },
+        {
+            "question": "Câu: 'Ông M, bà H đã vi phạm nghĩa vụ trả nợ cho ông P theo thỏa thuận, do đó yêu cầu của ông P là phù hợp theo quy định tại Điều 466 của Bộ luật dân sự năm 2015 nên được chấp nhận.'",
+            "answer": "[JUDGMENT]"
+        }
+    ]
+}

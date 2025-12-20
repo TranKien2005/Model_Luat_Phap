@@ -1,0 +1,105 @@
+{
+    "task_config": {
+        "task_name": "case_type_classification",
+        "category": "issue-spotting",
+        "instruction": "Dựa trên một đoạn tóm tắt thông tin của bản án hãy phân loại bản án vào một trong các nhóm sau: [Dân sự, Hành chính, Hình sự, Kinh doanh thương mại, Lao động, hôn nhân và gia đình]. Chỉ trả lời tên nhóm. Lưu ý dân sự đây không phải là dân sự theo nghĩa rộng mà theo nghĩa hẹp hơn Dân sự (nghĩa hẹp: hợp đồng, thừa kế, bồi thường...), theo nghĩa rộng thì dân sự sẽ bao gồm dân sự theo nghĩa hẹp, kinh doanh thương mại, lao động, hôn nhân và gia đình"
+    },
+    "data_content": [
+        {
+            "question": "Tóm tắt bản án: Ông Nguyễn Ngọc T và bà Nguyễn Thị Mỹ H tự nguyện chung sống và đăng ký kết hôn vào năm 2001. Do mâu thuẫn kéo dài và tình cảm không còn, cả hai cùng nộp đơn yêu cầu Tòa án giải quyết việc chấm dứt quan hệ hôn nhân. Các con chung của họ đều đã sinh năm 1999 và 2003, hiện đã trưởng thành. Các đương sự cũng thống nhất không yêu cầu Tòa án phân chia tài sản hay nợ chung. Tòa án xem xét tính tự nguyện của các bên để ra quyết định.",
+            "answer": "hôn nhân và gia đình"
+        },
+        {
+            "question": "Tóm tắt bản án: Chị Đặng Thị H và anh Đỗ Đình T tự nguyện đăng ký kết hôn vào năm 2023. Tuy nhiên, sau một thời gian ngắn chung sống, giữa hai người nảy sinh nhiều bất đồng về quan điểm và lối sống dẫn đến thường xuyên cãi vã. Từ cuối năm 2024, cả hai đã chọn sống ly thân, không còn liên lạc hay quan tâm đến cuộc sống của đối phương. Chị H nhận thấy tình cảm vợ chồng không còn khả năng hàn gắn nên đã gửi đơn yêu cầu cơ quan thẩm quyền giải quyết việc chấm dứt quan hệ pháp lý này. Anh T cũng thừa nhận thực trạng mâu thuẫn và đồng ý với đề nghị của chị H, đồng thời cả hai xác nhận không có con chung hay tài sản chung cần giải quyết.",
+            "answer": "Hôn nhân và gia đình"
+        },
+        {
+            "question": "Tóm tắt bản án: Khoảng 22 giờ 10 phút ngày 05/11/2024, cơ quan chức năng kiểm tra phòng trọ của Trần Văn M và phát hiện bộ dụng cụ sử dụng ma túy cùng 08 đoạn ống hút chứa tinh thể trắng. Qua giám định, số tinh thể này là ma túy loại Methamphetamine có tổng khối lượng 1,1536 gam. Bị cáo M khai nhận đã mua số ma túy trên từ một người không rõ lai lịch với giá 500.000 đồng nhằm mục đích sử dụng dần. Kết quả xét nghiệm cho thấy bị cáo dương tính với chất ma túy loại Methamphetamine. Tòa án đã xem xét hành vi nguy hiểm cho xã hội của bị cáo và quyết định áp dụng hình phạt tù có thời hạn.",
+            "answer": "Hình sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Ông Nguyễn Quang T nhận chuyển nhượng 552.5m² đất từ ông Nguyễn Văn Q và bà Nguyễn Thị M vào năm 2006. Sau khi được cấp Giấy chứng nhận quyền sử dụng đất, ông T cho rằng diện tích thực tế bị thiếu 02m chiều ngang so với giấy tờ do bị phía chuyển nhượng lấn chiếm. Tuy nhiên, phía bị đơn khẳng định đã bàn giao đủ đất và không lấn chiếm. Kết quả thẩm định tại chỗ cho thấy hiện trạng đất của ông T không còn nằm liền kề với đất của ông Q, bà M và phía bị đơn đã giao đủ diện tích. Tòa án xét thấy yêu cầu đòi lại đất của nguyên đơn không có căn cứ thực tế nên đã bác đơn khởi kiện.",
+            "answer": "Dân sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Chị Lê Thị Diệu L và anh Nguyễn Bảo D kết hôn từ năm 2012. Quá trình chung sống xảy ra nhiều bất đồng về quan điểm sống và kinh tế nên đã ly thân từ tháng 01/2025. Chị L có đơn yêu cầu được ly hôn và trực tiếp nuôi dưỡng hai con chung là Nguyễn Nhật M và Nguyễn Bảo V. Anh D không đồng ý ly hôn và muốn đoàn tụ, tuy nhiên anh không có biện pháp hàn gắn và thường xuyên vắng mặt tại các phiên hòa giải, xét xử.",
+            "answer": "hôn nhân và gia đình"
+        },
+        {
+            "question": "Tóm tắt bản án: Bà Hồ Thị M và ông Dương Hữu T tự nguyện kết hôn và chung sống từ năm 1994. Tuy nhiên, sau đó giữa hai người nảy sinh nhiều mâu thuẫn, ông T thường xuyên uống rượu và không có trách nhiệm chăm sóc vợ con, dẫn đến việc hai người đã sống ly thân suốt 20 năm qua. Hiện tại, bà M khẳng định tình cảm vợ chồng không còn khả năng hàn gắn nên yêu cầu cơ quan thẩm quyền giải quyết việc chấm dứt quan hệ hôn pháp. Về các con chung, do tất cả đều đã đủ tuổi trưởng thành và có khả năng lao động nên bà M không yêu cầu giải quyết quyền nuôi dưỡng hay cấp dưỡng. Đồng thời, các bên cũng không có yêu cầu nào về việc phân chia tài sản hay các khoản nợ chung.",
+            "answer": "hôn nhân và gia đình"
+        },
+        {
+            "question": "Tóm tắt bản án: Bà Mai Hồng H và ông Phạm Ngọc T kết hôn vào năm 2012 trên cơ sở tự nguyện. Sau thời gian chung sống hạnh phúc, đến tháng 12/2024, giữa hai người nảy sinh nhiều mâu thuẫn về quan điểm sống và trách nhiệm gia đình. Bà H xác định tình cảm không còn nên đã nộp đơn yêu cầu chấm dứt quan hệ hôn nhân với ông T. Đồng thời, bà H đề nghị Tòa án giải quyết quyền trực tiếp nuôi dưỡng hai con chung là Phạm Ngọc L và Phạm Ngọc H1. Các bên không có yêu cầu giải quyết về tài sản chung và nợ chung.",
+            "answer": "Hôn nhân và gia đình"
+        },
+        {
+            "question": "Tóm tắt bản án: Ông Trần Thanh P và phía ông Đỗ Văn M, bà Cao Thị Kim H đã xác lập một giao dịch vay mượn tiền mặt trị giá 10.000.000 đồng vào tháng 8 năm 2018. Hai bên có ký kết biên nhận làm bằng chứng cho việc giao nhận tiền và thỏa thuận thời hạn hoàn trả là sau một năm. Phía bên vay đã thanh toán tiền lãi hàng tháng được một thời gian nhưng sau đó dừng lại và không trả nợ gốc như cam kết. Mặc dù ông P đã nhiều lần đôn đốc và yêu cầu thanh toán nhưng phía ông M và bà H vẫn không thực hiện nghĩa vụ. Do đó, ông P đã đề nghị cơ quan tố tụng can thiệp để buộc các bị đơn phải trả lại số tiền nợ gốc ban đầu. Vụ việc xoay quanh việc thực hiện nghĩa vụ thanh toán trong một giao dịch dân sự giữa các cá nhân với nhau.",
+            "answer": "Dân sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Vào ngày 14/11/2019, ông Trần Thành P đã thực hiện việc cho ông Nguyễn Văn S và bà Nguyễn Thị L vay một khoản tiền mặt trị giá 20.000.000 đồng với thời hạn hoàn trả là 12 tháng. Hai bên đã lập biên nhận làm bằng chứng xác nhận giao dịch và thỏa thuận mức lãi suất hàng tháng. Trong quá trình thực hiện, phía bên vay đã thanh toán được 14.000.000 đồng nợ gốc cùng một khoản tiền lãi nhất định nhưng sau đó đã dừng việc chi trả. Mặc dù nguyên đơn đã nhiều lần liên hệ và đôn đốc yêu cầu thanh toán phần nợ gốc còn lại là 6.000.000 đồng nhưng phía bị đơn vẫn không thực hiện nghĩa vụ trả nợ. Do không thể giải quyết bằng thương lượng, ông P đã đệ đơn khởi kiện ra Tòa án để yêu cầu các bị đơn phải trả dứt điểm số tiền nợ gốc còn thiếu. Vụ việc xoay quanh tranh chấp về việc thực hiện nghĩa vụ hoàn trả tài sản trong hợp đồng vay giữa các cá nhân.",
+            "answer": "Dân sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Ông Nguyễn Bá T và bà Trần Thị B xác lập quan hệ vợ chồng từ năm 1987 trên cơ sở tự nguyện và có đăng ký kết hôn hợp pháp. Sau nhiều năm chung sống, giữa hai người nảy sinh mâu thuẫn do bất đồng quan điểm và không còn tiếng nói chung, dẫn đến việc sống ly thân từ năm 2021. Ông T nhận thấy tình cảm đã hết, mục đích hôn nhân không đạt được nên yêu cầu Tòa án giải quyết cho ly hôn. Các con chung của ông bà đều đã trưởng thành, có khả năng lao động và các bên không yêu cầu giải quyết về tài sản hay nợ chung.",
+            "answer": "hôn nhân và gia đình"
+        },
+        {
+            "question": "Tóm tắt bản án: Bà Phạm Thị Kim T và ông Phạm Văn H kết hôn năm 1998 và có đăng ký kết hôn hợp pháp vào năm 2000. Sau một thời gian chung sống, giữa hai người phát sinh mâu thuẫn do tính cách khác biệt, không hòa hợp và ông H không quan tâm chăm sóc gia đình. Hai người đã sống ly thân khoảng 15 năm nay và bà T xác định tình cảm không còn nên yêu cầu được ly hôn. Các con chung của hai người đều đã thành niên và không có yêu cầu giải quyết về tài sản hay nợ chung. Tòa án xét thấy tình trạng hôn nhân trầm trọng nên đã chấp nhận yêu cầu của nguyên đơn.",
+            "answer": "Hôn nhân và gia đình"
+        },
+        {
+            "question": "Tóm tắt bản án: Bà Nguyễn Thị L khởi kiện yêu cầu hủy Công văn số 515/UBND-TNMT của UBND huyện N và buộc cơ quan này lập thủ tục bồi thường hỗ trợ đất. Nguồn gốc đất do bà L nhận chuyển nhượng từ năm 1974 và sử dụng ổn định đến năm 1999 thì bị ngập mặn do Nhà nước làm đường gây hỏng cống. Năm 2014, phần đất này bị thu hồi giao cho Trường mầm giáo công lập BM xây dựng cơ sở 2 nhưng không có quyết định thu hồi đất hay bồi thường cho cá nhân. UBND huyện cho rằng bà L sử dụng không liên tục nên bác yêu cầu. Tòa án sơ thẩm đã chấp nhận yêu cầu của bà L và bị đơn sau đó có đơn kháng cáo.",
+            "answer": "Hành chính"
+        },
+        {
+            "question": "Tóm tắt bản án: Ông Phạm Thái V và bà Phạm Thị D kết hôn tự nguyện năm 2014 và có đăng ký kết hôn tại cơ quan nhà nước. Sau 2 năm chung sống, họ phát sinh mâu thuẫn do bất đồng quan điểm và sống ly thân từ năm 2016 đến khi ra tòa. Hai bên có một con chung sinh năm 2015 hiện đang ở với mẹ. Ông V nộp đơn xin ly hôn, không yêu cầu chia tài sản và đồng ý để vợ cũ trực tiếp nuôi con. Hội đồng xét xử xác định tình trạng hôn nhân trầm trọng và mục đích hôn nhân không đạt được.",
+            "answer": "Hôn nhân và gia đình"
+        },
+        {
+            "question": "Tóm tắt bản án: Bà Trần Thị T khởi kiện Quyết định số 1152/QĐ-UBND của Chủ tịch UBND tỉnh L về việc bác đơn xin mua nhà thuộc sở hữu nhà nước tại khu A, phường B. Ngôi nhà này vốn do bà Trần Thị L thuê theo hợp đồng với Công ty phát triển nhà, nhưng bà T là người thực tế cư trú. Tòa án sơ thẩm bác đơn vì cho rằng bà T không có hợp đồng thuê nhà hợp pháp và không có hộ khẩu thường trú tại địa phương theo quy định. Tòa án phúc thẩm sau đó đã hủy quyết định hành chính này để chấp nhận yêu cầu của bà T. Cuối cùng, Hội đồng Thẩm phán Tòa án nhân dân tối cao đã xét xử giám đốc thẩm và quyết định hủy bản án phúc thẩm để xét xử lại do nhận thấy bà T không đủ điều kiện mua nhà.",
+            "answer": "Hành chính"
+        },
+        {
+            "question": "Tóm tắt bản án: Vụ án xoay quanh việc các anh chị em trong gia đình ông Phan Văn N khởi kiện em trai là ông Phan T để yêu cầu chia di sản thừa kế là quyền sử dụng đất do cha mẹ để lại. Các nguyên đơn cho rằng ông T đã giả mạo giấy tờ cho đất để tự ý đứng tên trên Giấy chứng nhận quyền sử dụng đất. Phía bị đơn khẳng định đất đã được cha mẹ cho từ năm 1981 và ông đã quản lý, canh tác ổn định hơn 30 năm qua. Tòa án cấp sơ thẩm không chấp nhận yêu cầu chia thừa kế và yêu cầu hủy giấy chứng nhận của nguyên đơn. Vụ án sau đó được xét xử phúc thẩm tại Tòa án nhân dân tối cao tại TP. Hồ Chí Minh.",
+            "answer": "Dân sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Ngày 01-8-2012, cơ quan công an khám xét nhà của Nguyễn Ngọc A và thu giữ 1.808,9 gam heroin cùng các tang vật liên quan. Bị cáo khai nhận số ma túy này được một người quen gửi và hướng dẫn cất giữ để làm công. Ngoài ra, cơ quan điều tra còn xác định A có hành vi mua bán trái phép 200 gam ma túy tổng hợp Methamphetamin. Tòa án cấp sơ thẩm tuyên phạt Nguyễn Ngọc A mức án tử hình cho tội tàng trữ và 15 năm tù cho tội mua bán. Bản án phúc thẩm sau đó yêu cầu hủy án sơ thẩm để giám định lại hàm lượng ma túy. Tuy nhiên, Hội đồng Thẩm phán Tòa án nhân dân tối cao tại phiên giám đốc thẩm nhận thấy hàm lượng đã được giám định đầy đủ nên quyết định hủy án phúc thẩm để xét xử lại.",
+            "answer": "Hình sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Khoảng 16 giờ 45 phút ngày 15/04/2025, trên tuyến cao tốc đoạn M - Quốc lộ D, lực lượng chức năng phát hiện xe ô tô do Cao Văn D điều khiển dừng đỗ không đúng quy định. Khi cán bộ Bùi Xuân C yêu cầu kiểm tra hành chính, D đã không chấp hành mà nhanh chóng lên xe bỏ đi. Đồng chí C đứng trước đầu xe ra hiệu lệnh yêu cầu xuống xe nhưng D đã tăng ga lao thẳng xe về phía trước, buộc đồng chí C phải tránh để đảm bảo an toàn. Sau đó D bị tổ công tác bắt giữ và đưa về trụ sở để xử lý. Kết quả giám định cho thấy D bị rối loạn khí sắc thực tổn, hạn chế khả năng điều khiển hành vi. Tòa án đã xem xét các tình tiết giảm nhẹ và nhân thân của bị cáo để đưa ra mức hình phạt phù hợp.",
+            "answer": "Hình sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Bị cáo Trần Thị Quý P, Giám đốc Công ty B, đã thực hiện nhiều hành vi phạm pháp từ năm 2009 đến 2011. Cụ thể, bị cáo dùng 67 hóa đơn khống để chiếm đoạt tiền thuế, trốn thuế và sử dụng tiền tạm ứng từ các dự án nhà nước vào mục đích cá nhân, không có khả năng hoàn trả. Tổng số tiền chiếm đoạt từ các hành vi lừa đảo và lạm dụng tín nhiệm lên tới hàng chục tỷ đồng. Tòa án các cấp đã xét xử và tuyên phạt bị cáo mức án tù có thời hạn. Hội đồng Thẩm phán Tòa án nhân dân tối cao sau đó xem xét lại phần xử lý vật chứng là chiếc xe ô tô liên quan đến vụ án thông qua thủ tục giám đốc thẩm.",
+            "answer": "Hình sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Ngân hàng S1 khởi kiện bà Đinh Thị Diệu T yêu cầu thanh toán khoản nợ gốc 2 tỷ đồng và lãi phát sinh từ hợp đồng tín dụng năm 2023. Để bảo đảm khoản vay, ông T1 và bà H1 đã thế chấp hai quyền sử dụng đất tại tỉnh Bình Phước. Bà T2 tham gia với tư cách người có quyền lợi liên quan, yêu cầu công nhận một phần đất thế chấp là lối đi chung do đã thỏa thuận đổi đất với ông T1. Tòa án cấp sơ thẩm chấp nhận yêu cầu của ngân hàng và dành quyền khởi kiện lối đi cho bà T2 trong vụ án khác. Bà T2 kháng cáo yêu cầu công nhận lối đi ngay trong vụ án này nhưng không được cấp phúc thẩm chấp nhận.",
+            "answer": "Dân sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Bà Trần Thị T khởi kiện yêu cầu hủy Quyết định số 1152/QĐ-UBND của Chủ tịch UBND tỉnh L về việc bác đơn xin mua nhà thuộc sở hữu nhà nước theo Nghị định 61/CP. Bà T cho rằng gia đình bà đã ở và nộp tiền thuê nhà liên tục từ năm 2002 đến năm 2010 dù hợp đồng thuê đứng tên người khác. Tòa án cấp sơ thẩm bác đơn khởi kiện của bà T, trong khi tòa cấp phúc thẩm lại chấp nhận yêu cầu của bà. Chánh án TAND tối cao kháng nghị theo thủ tục giám đốc thẩm đối với bản án phúc thẩm. Hội đồng Thẩm phán TAND tối cao xét xử và quyết định hủy bản án phúc thẩm để xét xử lại. Vụ việc tập trung vào tính hợp pháp của quyết định hành chính giải quyết khiếu nại của Chủ tịch UBND tỉnh.",
+            "answer": "Hành chính"
+        },
+        {
+            "question": "Tóm tắt bản án: Bị cáo Nguyễn Văn T có hành vi dùng rìu là hung khí nguy hiểm chém trúng vào chân trái của ông Dương Ngọc A gây thương tích 01%. Tòa án cấp sơ thẩm tuyên phạt bị cáo 06 tháng tù cho hưởng án treo về tội Cố ý gây thương tích. Bị hại là ông A kháng cáo yêu cầu tăng hình phạt đối với bị cáo. Hội đồng xét xử phúc thẩm xem xét các tình tiết giảm nhẹ, nhân thân bị cáo và quyết định giữ nguyên bản án sơ thẩm, không chấp nhận kháng cáo của bị hại. Vụ án được giải quyết theo trình tự tố tụng hình sự tại Tòa án nhân dân tỉnh Gia Lai.",
+            "answer": "Hình sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Ông Trần Tiến N1 khởi kiện yêu cầu Tòa án hủy Quyết định số 2180/QĐ-UBND của Chủ tịch UBND tỉnh K. Quyết định này hủy bỏ một quyết định giải quyết tranh chấp đất đai cũ (Số 1409) và công nhận quyền sử dụng diện tích 58,41m2 cho ông Nguyễn Nhật N2. Tòa án xem xét thẩm quyền của Chủ tịch UBND tỉnh trong việc tự kiểm tra và sửa chữa quyết định hành chính trái pháp luật. Sau khi xét xử qua các cấp sơ thẩm, phúc thẩm và giám đốc thẩm, yêu cầu của ông N1 bị bác bỏ. Vụ án tập trung vào việc khiếu kiện quyết định của cơ quan hành chính nhà nước.",
+            "answer": "Hành chính"
+        },
+        {
+            "question": "Tóm tắt bản án: Bị cáo Phan Văn C có hành vi dùng dao phay là hung khí nguy hiểm tấn công anh Bùi Văn T. C đã chém nhiều nhát, trong đó có nhát chém vào vùng trán làm vỡ xương trán của bị hại với tỷ lệ thương tích 18%. Sau khi gây án, bị cáo bỏ trốn rồi ra đầu thú và tác động gia đình bồi thường thiệt hại. Tòa án cấp sơ thẩm tuyên phạt bị cáo 12 năm tù về tội Giết người. Bị cáo kháng cáo xin giảm nhẹ hình phạt nhưng không cung cấp được tình tiết mới tại phiên tòa phúc thẩm. Hội đồng xét xử quyết định giữ nguyên bản án sơ thẩm.",
+            "answer": "Hình sự"
+        },
+        {
+            "question": "Tóm tắt bản án: Nguyễn Thế V thuê xe ô tô của ông B rồi dùng giấy tờ giả để cầm cố cho ông S1 lấy tiền tiêu xài. Sau khi hết hạn cầm cố, ông S1 bán xe cho ông T vì không liên lạc được với V. Khi V bị bắt trong một vụ án lừa đảo khác, ông B mới phát hiện xe của mình bị chiếm đoạt và tố cáo. Cơ quan điều tra đã thu hồi xe trả lại cho chủ sở hữu và truy tố V về các tội danh liên quan đến chiếm đoạt tài sản và làm giả giấy tờ. Tòa án cấp sơ thẩm đã tuyên phạt V mức án tù và giải quyết các nghĩa vụ hoàn trả tiền giữa những người liên quan. Vụ án được đưa ra xét xử phúc thẩm theo đơn kháng cáo về phần dân sự của ông S1.",
+            "answer": "Hình sự"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "task_config": {
+        "task_name": "eligibility_logic_verification",
+        "category": "rule-application",
+        "instruction": "Kiểm tra điều kiện để được hưởng quyền lợi hoặc gánh vác nghĩa vụ. Trường 'reasoning' phải phân tích logic: (nếu quy định/ khong viết vào)Theo quy định L Nếu Điều kiện A + Điều kiện B thì có Quyền lợi X mà (nêu fact từ tình huống có thể biến đổi để dễ hiểu hơn ví dụ: cũng tức là /không ghi vào) Chỉ rõ thực tế có đáp ứng đủ các điều kiện thành phần hay không, (kết luận /ko viết vào) do đó... . câu trả lời là có hoặc không"
+    },
+    "data_content": [
+        {
+            "question": "Theo quy định tại khoản 1 Điều 21 Nghị định số 43/2014/NĐ-CP ngày 15/5/2014, hộ gia đình, cá nhân đang sử dụng đất ổn định, liên tục thì đủ điều kiện để được cấp Giấy chứng nhận quyền sử dụng đất. Bà Nguyễn Thị L nhận chuyển nhượng đất từ năm 1974, sử dụng liên tục đến năm 1999, từ năm 1999 đến 2014 không sử dụng được do đất bị ngập mặn vì Nhà nước làm đường gây vỡ cống dẫn đến ngập úng nhiễm mặn (lý do khách quan), bà L không từ bỏ quyền sử dụng đất và vẫn kê khai khi Nhà nước yêu cầu. Hỏi: Bà L có đủ điều kiện sử dụng đất ổn định, liên tục để được xem xét bồi thường khi Nhà nước thu hồi đất không?",
+            "answer": "Có",
+            "reasoning": "Theo quy định tại khoản 1 Điều 21 Nghị định số 43/2014/NĐ-CP nếu sử dụng đất ổn định, liên tục thì đủ điều kiện được cấp Giấy chứng nhận quyền sử dụng đất mà bà L sử dụng đất từ năm 1974 đến năm 1999 liên tục, từ năm 1999 đến 2014 không sử dụng được do nguyên nhân khách quan là ngập mặn do Nhà nước làm đường gây vỡ cống, bà L không từ bỏ quyền sử dụng đất và vẫn kê khai khi Nhà nước yêu cầu. Chỉ rõ thực tế bà L đáp ứng điều kiện sử dụng ổn định, liên tục do đó bà L đủ điều kiện để được xem xét bồi thường khi Nhà nước thu hồi đất."
+        },
+        {
+            "question": "Theo Điều 256 Bộ luật Dân sự năm 2005, để được công nhận quyền đòi đất bị lấn chiếm phải có chứng cứ chứng minh hành vi lấn chiếm của bị đơn và đất tranh chấp liền kề với đất bị đơn. Tình huống: Ông Nguyễn Quang T cho rằng ông Nguyễn Văn Q, bà Nguyễn Thị M lấn chiếm 2m ngang đất của ông, nhưng không có chứng cứ chứng minh hành vi lấn chiếm, đất ông T hiện không liền kề đất ông Q, bà M mà liền kề ông Nguyễn Văn H. Hỏi: Ông T có đủ điều kiện để đòi ông Q, bà M trả đất bị lấn chiếm không?",
+            "answer": "Không",
+            "reasoning": "Theo Điều 256 Bộ luật Dân sự năm 2005 nếu có chứng cứ chứng minh hành vi lấn chiếm của bị đơn và đất tranh chấp liền kề với đất bị đơn thì được công nhận quyền đòi đất bị lấn chiếm mà ông T không có chứng cứ chứng minh hành vi lấn chiếm của ông Q, bà M, đất hiện không liền kề đất ông Q, bà M. Chỉ rõ thực tế không đáp ứng đủ các điều kiện thành phần do đó ông T không đủ điều kiện để đòi đất."
+        },
+        {
+            "question": "Theo Điều 51 Luật Hôn nhân và gia đình 2014, vợ hoặc chồng có quyền yêu cầu Tòa án giải quyết ly hôn. Theo Điều 56 cùng luật, khi hôn nhân lâm vào tình trạng trầm trọng, đời sống chung không thể kéo dài, mục đích hôn nhân không đạt được thì Tòa án giải quyết cho ly hôn. Tình huống: Bà Hồ Thị M và ông Dương Hữu T kết hôn năm 1994, mâu thuẫn khoảng 20 năm, ông T thường uống rượu không chăm lo gia đình, hai bên sống ly thân đã lâu, không còn tình cảm. Bà M yêu cầu ly hôn. Hỏi: Bà M có đủ điều kiện để được Tòa án giải quyết cho ly hôn không?",
+            "answer": "Có",
+            "reasoning": "Theo Điều 51, 56 Luật Hôn nhân và gia đình 2014 nếu hôn nhân lâm vào tình trạng trầm trọng, đời sống chung không thể kéo dài, mục đích hôn nhân không đạt được thì được ly hôn mà bà M và ông T mâu thuẫn khoảng 20 năm, sống ly thân đã lâu, không còn tình cảm tức là đời sống chung không tồn tại. Chỉ rõ thực tế đáp ứng điều kiện hôn nhân trầm trọng, đời sống chung không thể kéo dài do đó bà M đủ điều kiện để được Tòa án giải quyết cho ly hôn."
+        },
+        {
+            "question": "Theo khoản 1 Điều 249 Bộ luật Hình sự 2015 (sửa đổi, bổ sung 2017), người nào tàng trữ trái phép chất ma túy từ 1 gam đến dưới 2 gam Methamphetamine thì phạm tội tàng trữ trái phép chất ma túy thuộc khung hình phạt từ 1 đến 5 năm tù. Tình huống: Trần Văn M bị phát hiện tàng trữ 1,1536 gam Methamphetamine để sử dụng cá nhân. Hỏi: Trần Văn M có đủ yếu tố cấu thành tội tàng trữ trái phép chất ma túy theo khoản 1 Điều 249 không?",
+            "answer": "Có",
+            "reasoning": "Theo khoản 1 Điều 249 BLHS 2015 nếu tàng trữ trái phép từ 1 gam đến dưới 2 gam Methamphetamine thì phạm tội tàng trữ trái phép chất ma túy mà M tàng trữ 1,1536 gam Methamphetamine tức là nằm trong khoảng 1 gam đến dưới 2 gam. Chỉ rõ thực tế khối lượng ma túy đáp ứng đủ điều kiện định lượng do đó M đủ yếu tố cấu thành tội theo khoản 1 Điều 249."
+        },
+        {
+            "question": "Theo Điều 81 Luật Hôn nhân và gia đình 2014, con dưới 36 tháng tuổi được giao cho mẹ trực tiếp nuôi, trừ trường hợp người mẹ không đủ điều kiện để trực tiếp trông nom, chăm sóc, nuôi dưỡng, giáo dục con. Tình huống: Nguyễn Bảo V sinh ngày 14/3/2023, mẹ là chị Lê Thị Diệu L có thu nhập 15-20 triệu/tháng, có chỗ ở ổn định. Hỏi: Nguyễn Bảo V có đủ điều kiện để được giao cho mẹ trực tiếp nuôi không?",
+            "answer": "Có",
+            "reasoning": "Theo Điều 81 Luật HNGĐ 2014 nếu con dưới 36 tháng tuổi và người mẹ đủ điều kiện thì con được giao cho mẹ trực tiếp nuôi mà Nguyễn Bảo V sinh ngày 14/3/2023 tức là dưới 36 tháng tuổi tính đến thời điểm xét xử, mẹ có thu nhập ổn định 15-20 triệu/tháng và có chỗ ở ổn định tức là đủ điều kiện nuôi con. Chỉ rõ thực tế đáp ứng cả hai điều kiện do đó Nguyễn Bảo V đủ điều kiện để được giao cho mẹ trực tiếp nuôi."
+        },
+        {
+            "question": "Theo Điều 466 Bộ luật Dân sự 2015, bên vay có nghĩa vụ trả đủ tiền khi đến hạn. Nếu bên vay không trả đúng hạn thì bên cho vay có quyền yêu cầu trả nợ. Tình huống: Ông P cho ông M, bà H vay 10.000.000 đồng ngày 21/8/2018, thời hạn 12 tháng. Đến nay đã quá hạn từ tháng 8/2019, ông M, bà H chưa trả gốc. Hỏi: Ông P có đủ điều kiện để yêu cầu ông M, bà H trả nợ không?",
+            "answer": "Có",
+            "reasoning": "Theo Điều 466 BLDS 2015 nếu bên vay không trả đúng hạn thì bên cho vay có quyền yêu cầu trả nợ mà ông P cho vay 10.000.000 đồng thời hạn 12 tháng từ ngày 21/8/2018, hạn trả là tháng 8/2019, đến nay ông M, bà H chưa trả gốc tức là đã quá hạn. Chỉ rõ thực tế đáp ứng điều kiện quá hạn trả nợ do đó ông P đủ điều kiện để yêu cầu ông M, bà H trả nợ."
+        },
+        {
+            "question": "Theo Điều 84 Luật Hôn nhân và gia đình 2014, khi quyết định giao con cho một bên, Tòa án phải xem xét nguyện vọng của con từ đủ 7 tuổi trở lên. Tình huống: Nguyễn Nhật M sinh ngày 08/12/2013, tính đến phiên tòa năm 2025 đã 12 tuổi, có nguyện vọng ở với mẹ. Hỏi: Nguyện vọng của Nguyễn Nhật M có đủ điều kiện để Tòa án xem xét khi giao con không?",
+            "answer": "Có",
+            "reasoning": "Theo Điều 84 Luật HNGĐ 2014 nếu con từ đủ 7 tuổi trở lên thì Tòa án phải xem xét nguyện vọng của con mà Nguyễn Nhật M sinh ngày 08/12/2013 đến năm 2025 đã 12 tuổi tức là trên 7 tuổi. Chỉ rõ thực tế đáp ứng điều kiện tuổi do đó nguyện vọng của Nguyễn Nhật M đủ điều kiện để Tòa án xem xét khi quyết định giao con."
+        }
+    ]
+}

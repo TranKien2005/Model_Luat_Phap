@@ -1,0 +1,57 @@
+{
+    "task_config": {
+        "task_name": "general_issue_binary",
+        "category": "issue-spotting",
+        "instruction": "Phân tích tình huống thực tế và xác định xem có sự tồn tại của vấn đề pháp lý (Legal Issue) được nêu trong câu hỏi hay không. Trả lời duy nhất 'Có' hoặc 'Không'. Tuyệt đối không giải thích thêm."
+    },
+    "data_content": [
+        {
+            "question": "Tình huống: Bà L sử dụng đất nông nghiệp từ năm 1974, đất bị ngập mặn từ năm 1999 do Nhà nước làm đường gây vỡ cống, đến năm 2014 đất bị thu hồi để xây trường mẫu giáo nhưng không có quyết định thu hồi và không được bồi thường hỗ trợ. Vấn đề: Đây có phải là vấn đề tranh chấp quyền sử dụng đất không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Bà L sử dụng đất nông nghiệp từ năm 1974, đất bị ngập mặn từ năm 1999 do Nhà nước làm đường gây vỡ cống, đến năm 2014 đất bị thu hồi để xây trường mẫu giáo nhưng không có quyết định thu hồi và không được bồi thường hỗ trợ. Vấn đề: Đây có phải là vấn đề bồi thường khi Nhà nước thu hồi đất không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Ông Nguyễn Quang T nhận chuyển nhượng đất từ ông Nguyễn Văn Q và bà Nguyễn Thị M năm 2006 với diện tích 552,5m², chiều ngang 13m, được cấp GCNQSDĐ. Sau đó đo lại thiếu 2m chiều ngang, ông T cho rằng bị ông Q, bà M lấn chiếm. Tòa bác yêu cầu. Vấn đề: Đây có phải là vấn đề tranh chấp hợp đồng chuyển nhượng không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Ông Nguyễn Quang T nhận chuyển nhượng đất từ ông Nguyễn Văn Q và bà Nguyễn Thị M năm 2006 với diện tích 552,5m², chiều ngang 13m, được cấp GCNQSDĐ. Sau đó đo lại thiếu 2m chiều ngang, ông T cho rằng bị ông Q, bà M lấn chiếm. Tòa bác yêu cầu. Vấn đề: Đây có phải là vấn đề lấn chiếm quyền sử dụng đất không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Ông T và bà H kết hôn năm 2001, có hai con chung đã trưởng thành. Hai bên xác định tình cảm không còn, mâu thuẫn trầm trọng, yêu cầu Tòa án công nhận thuận tình ly hôn. Không có tranh chấp về tài sản hay con chung. Vấn đề: Đây có phải là vấn đề tranh chấp quyền nuôi con không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Ông T và bà H kết hôn năm 2001, có hai con chung đã trưởng thành. Hai bên xác định tình cảm không còn, mâu thuẫn trầm trọng, yêu cầu Tòa án công nhận thuận tình ly hôn. Không có tranh chấp về tài sản hay con chung. Vấn đề: Đây có phải là vấn đề chấm dứt quan hệ hôn nhân không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Trần Văn M bị Công an kiểm tra hành chính phát hiện tàng trữ 1,1536 gam ma túy loại Methamphetamine trong phòng trọ. M khai mua ma túy để sử dụng cá nhân, không có mục đích buôn bán. Vấn đề: Đây có phải là vấn đề mua bán trái phép chất ma túy không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Trần Văn M bị Công an kiểm tra hành chính phát hiện tàng trữ 1,1536 gam ma túy loại Methamphetamine trong phòng trọ. M khai mua ma túy để sử dụng cá nhân, không có mục đích buôn bán. Vấn đề: Đây có phải là vấn đề tàng trữ trái phép chất ma túy không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Ông P cho ông M, bà H vay 10.000.000 đồng theo biên nhận ngày 21/8/2018, lãi suất thỏa thuận miệng 1,66%/tháng. Sau khi vay, ông M, bà H trả lãi đến tháng 7/2019 rồi ngừng trả cả gốc lẫn lãi. Vấn đề: Đây có phải là vấn đề tranh chấp lãi suất cho vay không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Ông P cho ông M, bà H vay 10.000.000 đồng theo biên nhận ngày 21/8/2018, lãi suất thỏa thuận miệng 1,66%/tháng. Sau khi vay, ông M, bà H trả lãi đến tháng 7/2019 rồi ngừng trả cả gốc lẫn lãi. Vấn đề: Đây có phải là vấn đề đòi nợ theo hợp đồng vay tài sản không?",
+            "answer": "Có"
+        },
+        {
+            "question": "Tình huống: Chị L và anh D kết hôn năm 2012, có hai con chung. Mâu thuẫn từ đầu năm 2025, sống ly thân, chị L xin ly hôn và nuôi cả hai con. Anh D muốn nuôi con lớn nhưng vắng mặt tại phiên tòa liên tục. Con lớn có nguyện vọng ở với mẹ. Vấn đề: Đây có phải là vấn đề tranh chấp tài sản chung không?",
+            "answer": "Không"
+        },
+        {
+            "question": "Tình huống: Chị L và anh D kết hôn năm 2012, có hai con chung. Mâu thuẫn từ đầu năm 2025, sống ly thân, chị L xin ly hôn và nuôi cả hai con. Anh D muốn nuôi con lớn nhưng vắng mặt tại phiên tòa liên tục. Con lớn có nguyện vọng ở với mẹ. Vấn đề: Đây có phải là vấn đề xác định quyền nuôi con sau ly hôn không?",
+            "answer": "Có"
+        }
+    ]
+}

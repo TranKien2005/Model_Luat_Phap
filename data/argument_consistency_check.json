@@ -1,0 +1,105 @@
+{
+    "task_config": {
+        "task_name": "argument_consistency_check",
+        "category": "rhetorical-understanding",
+        "instruction": "Đánh giá sự tương thích giữa lập luận của một bên và chứng cứ thực tế. Trả lời 'Nhất quán' hoặc 'Mâu thuẫn'. Câu trả lời không cần Reasoning nhưng phải phản ánh đúng logic logic bác bỏ của Tòa án."
+    },
+    "data_content": [
+        {
+            "question": "Lập luận: Các đương sự trình bày họ không có nợ chung và không yêu cầu Tòa án giải quyết. Chứng cứ: Hồ sơ vụ việc không ghi nhận bất kỳ chủ nợ nào có ý kiến hay tranh chấp về nghĩa vụ tài sản của hai đương sự.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Chị H trình bày rằng mâu thuẫn vợ chồng đã trầm trọng, hai người sống ly thân từ tháng 10/2024 và không còn quan tâm đến nhau. Anh T tại bản tự khai cũng xác nhận các mốc thời gian và nguyên nhân mâu thuẫn hoàn toàn khớp với lời khai của chị H. Đánh giá sự tương thích giữa lời trình bày của các bên với thực trạng quan hệ hôn nhân được Tòa án ghi nhận.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Bị cáo Trần Văn M khai nhận tàng trữ ma túy nhằm mục đích sử dụng dần. Chứng cứ thực tế thu giữ tại hiện trường bao gồm 1,1536 gam Methamphetamine và bộ dụng cụ sử dụng ma túy (chai nhựa, ống hút, nỏ thủy tinh) tại phòng trọ của bị cáo. Đánh giá sự tương thích giữa lời khai của bị cáo và vật chứng thu giữ.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Nguyên đơn lập luận rằng ông Q và bà M lấn chiếm 02m đất chiều ngang của mình do hai bên có đất liền kề. Tuy nhiên, Trích lục chỉnh lý bản đồ địa chính ngày 29/3/2017 và biên bản thẩm định tại chỗ xác định hiện nay đất của ông T không nằm liền kề với đất của bị đơn mà nằm cạnh đất của ông H và bà C. Đánh giá sự tương thích giữa lập luận của nguyên đơn và chứng cứ thực tế.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Anh D lập luận rằng anh muốn đoàn tụ với chị L và không đồng ý ly hôn. Tuy nhiên, hồ sơ vụ án thể hiện anh D và chị L đã sống ly thân từ tháng 01/2025, anh D không có hành động cụ thể nào để hàn gắn tình cảm và liên tiếp vắng mặt tại các phiên họp công khai chứng cứ, hòa giải cũng như phiên tòa xét xử. Đánh giá sự tương thích giữa mong muốn đoàn tụ của anh D và hành vi thực tế của anh.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Bà Hồ Thị M trình bày rằng vợ chồng đã phát sinh mâu thuẫn 20 năm nay, hiện đang sống ly thân và không còn tình cảm. Trong quá trình giải quyết, Tòa án đã tống đạt hợp lệ các văn bản nhưng ông T vắng mặt và không có văn bản phản hồi hay phản đối yêu cầu của bà M. Đánh giá sự tương thích giữa yêu cầu ly hôn của bà M và thái độ của ông T.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Lập luận: Bà H trình bày rằng mâu thuẫn vợ chồng trầm trọng và hai người đã sống ly thân từ tháng 12/2024. Chứng cứ thực tế: Ông T được triệu tập hợp lệ nhiều lần nhưng không đến Tòa, không có văn bản ghi ý kiến phản đối hay đề nghị hàn gắn, xác nhận tình trạng ly thân thực tế. Đánh giá sự tương thích giữa lập luận của nguyên đơn và thái độ của bị đơn.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Lập luận: Nguyên đơn trình bày rằng vào ngày 21/8/2018 có cho bị đơn vay số tiền 10.000.000 đồng và các bên có lập văn bản ghi nhận. Chứng cứ: Nguyên đơn nộp kèm hồ sơ bản chính 'Biên nhận ngày 21/8/2018' thể hiện nội dung vay mượn tiền đúng như trình bày. Đánh giá sự tương thích giữa lập luận và chứng cứ.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Nguyên đơn ông Trần Thành P lập luận rằng ông S và bà L còn nợ mình 6.000.000 đồng tiền gốc từ khoản vay ban đầu 20.000.000 đồng vào năm 2019. Để chứng minh cho yêu cầu này, ông P đã cung cấp bản chính Biên nhận ngày 14/11/2019 có chữ ký của bên vay. Trong quá trình giải quyết vụ án, các bị đơn không có văn bản phản bác và cũng vắng mặt không lý do. Đánh giá sự tương thích giữa lập luận đòi nợ của nguyên đơn và chứng cứ Biên nhận nợ.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Lập luận: Ông Nguyễn Bá T trình bày rằng vợ chồng có mâu thuẫn trầm trọng, đã sống ly thân từ năm 2021 và không còn tình cảm. Chứng cứ: Trong suốt quá trình Tòa án thụ lý giải quyết, bà B đã được tống đạt hợp lệ các văn bản tố tụng nhưng vắng mặt không lý do và không có văn bản phản bác các trình bày của ông T. Đánh giá sự tương thích giữa lập luận của nguyên đơn và thái độ của bị đơn.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Lập luận của nguyên đơn: Bà T cho rằng vợ chồng đã ly thân 15 năm và không còn quan tâm nhau. Chứng cứ: Hồ sơ thể hiện địa chỉ cư trú của bà T tại TP. Hồ Chí Minh và ông H tại tỉnh Đồng Tháp, đồng thời ông H không có ý kiến phản hồi hay hàn gắn khi Tòa án thông báo.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Lập luận của bị đơn (UBND huyện N): Bà L không sử dụng đất từ năm 1999 đến nay nên không đủ điều kiện bồi thường. Chứng cứ thực tế: Việc bà L không sử dụng đất là do Nhà nước làm đường gây ngập mặn (lỗi khách quan), và bà L vẫn thực hiện kê khai đất khi có yêu cầu đo đạc năm 2009.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của nguyên đơn: Ông V cho rằng tình cảm vợ chồng không còn, mâu thuẫn không thể hàn gắn và họ đã sống ly thân từ năm 2016. Chứng cứ thực tế: Tài liệu hồ sơ cho thấy hai bên cư trú tại hai địa chỉ khác nhau (Ấp T xã A và Ấp T xã T) , đồng thời bà D không gửi bất kỳ văn bản phản hồi hay yêu cầu hàn gắn nào sau khi Tòa tống đạt hợp lệ.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Lập luận của người khởi kiện: Bà T cho rằng gia đình bà thuộc đối tượng được mua nhà vì bà là cán bộ ngành tài chính và đã thực tế đóng tiền thuê nhà liên tục. Chứng cứ thực tế: Chồng bà T (ông D) đã từng được thuê một căn nhà nhà nước khác (số X, đường Y) và đã chuyển nhượng quyền thuê cho em trai, đồng thời bà T không đứng tên trong hợp đồng thuê căn nhà đang tranh chấp.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của nguyên đơn: Cho rằng ông T giả mạo chữ ký của Chủ tịch xã và cha mẹ để làm giấy tờ chiếm đoạt đất. Chứng cứ thực tế: Hồ sơ có văn bản xác nhận của chính ông Phan Văn Ai (nguyên Chủ tịch xã thời điểm đó) khẳng định việc cha mẹ ông T đã giao đất cho ông T từ năm 1981 và lời khai của mẹ (cụ M) khi còn sống cũng xác nhận việc cho đất.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của Tòa án cấp phúc thẩm: Cần hủy bản án sơ thẩm để điều tra lại nhằm giám định hàm lượng ma túy heroin thu giữ của bị cáo Nguyễn Ngọc A. Chứng cứ thực tế: Hồ sơ vụ án đã có Kết luận giám định số 2219/C54 ngày 05-9-2012 của Viện khoa học hình sự xác định hàm lượng heroin trung bình từ 35,3% đến 40,2%.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của bị cáo: Bị cáo không cố ý chống đối người thi hành công vụ mà chỉ muốn rời đi nhanh chóng. Chứng cứ thực tế: Đoạn video giám định cho thấy đồng chí C đã đứng trước đầu xe và ra hiệu lệnh liên tục bằng lời nói yêu cầu D xuống xe nhưng bị cáo vẫn tăng ga điều khiển xe lao thẳng về phía trước làm đẩy đồng chí C lùi lại phía sau.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của bà Đặng Thị Lan P: Bà đã mua chiếc xe này của bị cáo P với giá 01 tỷ đồng và là chủ sở hữu hợp pháp. Chứng cứ thực tế: Bị cáo P khai dùng tiền chiếm đoạt của dự án để mua xe tặng cho chồng bà P nhằm hối lộ, và thực tế gia đình bà P đã sử dụng xe ngay sau khi đăng ký mà không qua bất kỳ quy trình mua bán thực tế nào trước khi vụ án bị phát hiện.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của bà La Thị T2: Bà cho rằng đây là con đường đi duy nhất để vào thửa đất của bà nên yêu cầu Tòa án phải công nhận ngay diện tích 240m2 này là lối đi chung. Chứng cứ thực tế: Tại biên bản lấy lời khai, chính bà T2 thừa nhận ngoài con đường này thì còn nhiều lối mòn khác để đi vào thửa đất của bà nhưng không được thuận tiện bằng.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của bà T: Bà T cho rằng mình là người trực tiếp đóng tiền thuê nhà từ năm 2002 đến 2010 nên phải được coi là người đang thuê nhà hợp pháp và đủ điều kiện mua nhà. Đối chiếu với quy định: Điều 9 Quyết định 559/QĐ-UB quy định điều kiện bắt buộc là phải có 'Hợp đồng thuê nhà hợp pháp' (về mặt văn bản).",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của bị hại ông A: Ông A yêu cầu tăng hình phạt đối với bị cáo T vì cho rằng mức án 6 tháng tù treo là quá nhẹ so với tính chất nguy hiểm của việc dùng rìu tấn công. Đối chiếu với nhận định của Tòa án: Tòa án xác định bị cáo có nhiều tình tiết giảm nhẹ, bồi thường thiệt hại, nhân thân tốt và tỷ lệ thương tích thấp (1%) nên giữ nguyên mức án treo.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của Viện kiểm sát: Kháng nghị cho rằng Quyết định số 1409 đã có hiệu lực pháp luật nên việc UBND tỉnh tiếp tục thụ lý và ban hành Quyết định 2180 để hủy bỏ nó là sai thẩm quyền. Chứng cứ pháp lý: Điều 3 Luật khiếu nại, tố cáo quy định cơ quan có trách nhiệm kiểm tra và sửa chữa quyết định của chính mình nếu thấy trái pháp luật.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của bị cáo C: Bị cáo kháng cáo xin giảm nhẹ hình phạt vì cho rằng mức án 12 năm tù là quá nặng và mình đã bồi thường 100 triệu đồng cho bị hại. Chứng cứ thực tế: Bản án sơ thẩm ghi nhận bị cáo đã được áp dụng đầy đủ các tình tiết giảm nhẹ như thành khẩn khai báo, bồi thường thiệt hại, đầu thú và phạm tội chưa đạt để tuyên mức án 12 năm tù (mức thấp của khung hình phạt tội Giết người). Tại phúc thẩm bị cáo không có tình tiết giảm nhẹ mới.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của ông S1: Yêu cầu giảm mức hoàn trả cho ông T từ 480.000.000 đồng xuống 380.000.000 đồng vì cho rằng cần khấu hao giá trị xe ông T đã sử dụng trong 03 năm. Đối chiếu với chứng cứ pháp lý: Tòa án nhận định giao dịch vô hiệu thì các bên phải hoàn trả nguyên trạng những gì đã nhận, và bên ngay tình (ông T) không phải hoàn trả lợi tức thu được từ tài sản.",
+            "answer": "Mâu thuẫn"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "task_config": {
+        "task_name": "argument_consistency_check",
+        "category": "rhetorical-understanding",
+        "instruction": "Đánh giá sự tương thích giữa lập luận của một bên và chứng cứ thực tế. Trả lời 'Nhất quán' hoặc 'Mâu thuẫn'. Câu trả lời không cần Reasoning nhưng phải phản ánh đúng logic logic bác bỏ của Tòa án."
+    },
+    "data_content": [
+        {
+            "question": "Lập luận của UBND huyện N: Bà L không sử dụng đất từ năm 1999 đến 2014 nên không sử dụng ổn định, không đủ điều kiện bồi thường. Chứng cứ thực tế: Từ năm 1999 đất bị ngập mặn do Nhà nước làm đường DH6 gây vỡ cống dẫn đến không canh tác được (lý do khách quan), bà L không từ bỏ quyền sử dụng đất và không có tranh chấp.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của ông Nguyễn Quang T: Ông Q, bà M lấn chiếm 2m ngang đất của ông vì đất liền kề và thiếu sau chuyển nhượng. Chứng cứ thực tế: Chuyển nhượng đúng diện tích, đất ông T hiện không liền kề ông Q, bà M mà liền kề ông H, không có chứng cứ lấn chiếm cụ thể.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của Trần Văn M: M mua ma túy về tàng trữ để sử dụng cá nhân, không có mục đích buôn bán. Chứng cứ thực tế: Kết quả giám định xác nhận 1,1536 gam Methamphetamine, M khai mua 500.000 đồng ma túy về tự sử dụng, không có chứng cứ buôn bán.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Lập luận của bà T: Bà và ông H kết hôn hợp pháp nhưng mâu thuẫn khoảng 15 năm, sống ly thân, không hòa hợp, không còn tình cảm. Chứng cứ thực tế: Giấy chứng nhận kết hôn ngày 14/04/2000 xác nhận hôn nhân hợp pháp, hai bên sống ly thân 15 năm, ông H không chăm lo gia đình.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Lập luận của anh D: Anh muốn nuôi con lớn Nguyễn Nhật M sau ly hôn. Chứng cứ thực tế: Anh D vắng mặt liên tục tại các phiên tòa không có lý do, không thể hiện sự quan tâm đến việc giải quyết quyền nuôi con, cháu M có nguyện vọng ở với mẹ.",
+            "answer": "Mâu thuẫn"
+        },
+        {
+            "question": "Lập luận của ông P: Ông cho ông M, bà H vay 10.000.000 đồng theo biên nhận ngày 21/8/2018, đến nay chưa trả gốc. Chứng cứ thực tế: Biên nhận ngày 21/8/2018 xác nhận khoản vay, ông M, bà H trả lãi đến tháng 7/2019 rồi ngừng, chưa trả gốc, vắng mặt không có lý do.",
+            "answer": "Nhất quán"
+        },
+        {
+            "question": "Lập luận của bị cáo M: Bạn gái T1 không biết về việc M cất giấu ma túy và M không biết T1 sử dụng ma túy. Chứng cứ thực tế: T1 ở chung với M, M sử dụng ma túy xong đi khỏi phòng, T1 thấy ma túy còn nên cũng sử dụng, T1 không góp tiền mua ma túy.",
+            "answer": "Nhất quán"
+        }
+    ]
+}
