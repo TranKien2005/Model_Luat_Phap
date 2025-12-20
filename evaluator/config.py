@@ -11,10 +11,10 @@ import os
 
 BENCHMARK_MODELS = [
     "Qwen/Qwen2.5-7B-Instruct",           # 7B - Apache 2.0
-    "internlm/internlm2_5-7b-chat",        # 7B - Apache 2.0 (thay gemma)
+    "deepseek-ai/deepseek-llm-7b-chat",   # 7B - MIT (không cần xác thực)
     "mistralai/Mistral-7B-Instruct-v0.3",  # 7B - Apache 2.0
-    "microsoft/Phi-3-mini-4k-instruct",    # 3.8B - MIT
-    "tiiuae/falcon-7b-instruct",           # 7B - Apache 2.0
+    "HuggingFaceH4/zephyr-7b-beta",        # 7B - MIT (không cần xác thực)
+    "openchat/openchat-3.5-0106",          # 7B - Apache 2.0 (không cần xác thực)
 ]
 
 # ============================================================
