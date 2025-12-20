@@ -112,25 +112,10 @@ def _call_huggingface(prompt: str, model: str, max_tokens: int) -> str:
         if prompt in response:
             response = response.split(prompt)[-1].strip()
         
-        # Trích xuất JSON đầu tiên (nếu có)
-        json_extracted = _extract_first_json(response)
-        if json_extracted:
-            return json_extracted
-        
         return response
         
     except Exception as e:
         return f"[ERROR] {e}"
-
-
-def _extract_first_json(text: str) -> str:
-    """Trích xuất JSON object đầu tiên từ text. Trả về None nếu không tìm thấy."""
-    import re
-    # Tìm JSON object đầu tiên (có thể có nhiều dòng)
-    match = re.search(r'\{[^{}]*\}', text, re.DOTALL)
-    if match:
-        return match.group(0)
-    return None
 
 
 # ============================================================
