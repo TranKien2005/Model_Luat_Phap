@@ -220,8 +220,3 @@ if __name__ == "__main__":
         max_samples=args.max_samples,
         delay=args.delay
     )
-
-        max_samples=args.max_samples,
-        delay=args.delay
-    )
-
