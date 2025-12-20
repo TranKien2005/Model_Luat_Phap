@@ -96,24 +96,15 @@ def _call_huggingface(prompt: str, model: str, max_tokens: int) -> str:
         
         hf_model, tokenizer = _loaded_models[model]
         
-        # Generate - giảm max_new_tokens để tăng tốc
+        # Generate
         inputs = tokenizer(prompt, return_tensors="pt").to(hf_model.device)
-        
-        # Tìm stop token IDs
-        stop_tokens = ["\n\n", "}\n\n", "}\n"]
-        stop_token_ids = []
-        for st in stop_tokens:
-            ids = tokenizer.encode(st, add_special_tokens=False)
-            if ids:
-                stop_token_ids.extend(ids)
         
         outputs = hf_model.generate(
             **inputs,
             max_new_tokens=min(max_tokens, 256),
             do_sample=True,
             temperature=0.1,
-            pad_token_id=tokenizer.eos_token_id,
-            eos_token_id=stop_token_ids[:3] if stop_token_ids else tokenizer.eos_token_id
+            pad_token_id=tokenizer.eos_token_id
         )
         response = tokenizer.decode(outputs[0], skip_special_tokens=True)
         
@@ -121,8 +112,10 @@ def _call_huggingface(prompt: str, model: str, max_tokens: int) -> str:
         if prompt in response:
             response = response.split(prompt)[-1].strip()
         
-        # Trích xuất JSON đầu tiên
-        response = _extract_first_json(response)
+        # Trích xuất JSON đầu tiên (nếu có)
+        json_extracted = _extract_first_json(response)
+        if json_extracted:
+            return json_extracted
         
         return response
         
@@ -131,13 +124,13 @@ def _call_huggingface(prompt: str, model: str, max_tokens: int) -> str:
 
 
 def _extract_first_json(text: str) -> str:
-    """Trích xuất JSON object đầu tiên từ text."""
+    """Trích xuất JSON object đầu tiên từ text. Trả về None nếu không tìm thấy."""
     import re
-    # Tìm JSON object đầu tiên
-    match = re.search(r'\{[^{}]*\}', text)
+    # Tìm JSON object đầu tiên (có thể có nhiều dòng)
+    match = re.search(r'\{[^{}]*\}', text, re.DOTALL)
     if match:
         return match.group(0)
-    return text
+    return None
 
 
 # ============================================================
