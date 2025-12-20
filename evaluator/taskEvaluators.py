@@ -47,14 +47,17 @@ def extract_json_from_response(response: str) -> dict:
 # ============================================================
 
 def create_prompt_general_issue_binary(instruction: str, question: str) -> str:
-    return f"""Bạn là chuyên gia pháp lý Việt Nam. 
+    return f"""### NHIỆM VỤ
+Bạn là chuyên gia pháp lý. Hãy đọc câu hỏi và trả lời "Có" hoặc "Không".
 
-HƯỚNG DẪN: {instruction}
+### BỐI CẢNH
+{instruction}
 
-CÂU HỎI: {question}
+### CÂU HỎI CẦN TRẢ LỜI
+{question}
 
-CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
-{{"answer": "Có" hoặc "Không"}}"""
+### OUTPUT (chỉ trả lời JSON này, không viết gì thêm)
+{{"answer": "Có"}} hoặc {{"answer": "Không"}}"""
 
 
 def evaluate_general_issue_binary(reference: dict, response: str) -> Dict[str, Any]:
@@ -88,16 +91,17 @@ def evaluate_general_issue_binary(reference: dict, response: str) -> Dict[str, A
 # ============================================================
 
 def create_prompt_case_type_classification(instruction: str, question: str) -> str:
-    return f"""Bạn là chuyên gia pháp lý Việt Nam.
+    return f"""### NHIỆM VỤ
+Bạn là chuyên gia pháp lý. Hãy phân loại bản án sau thuộc nhóm nào.
 
-HƯỚNG DẪN: {instruction}
+### CÁC NHÓM
+Dân sự, Hành chính, Hình sự, Kinh doanh thương mại, Lao động, Hôn nhân và gia đình
 
-TÓM TẮT BẢN ÁN: {question}
+### TÓM TẮT BẢN ÁN CẦN PHÂN LOẠI
+{question}
 
-CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
-{{"answer": "Tên nhóm"}}
-
-Các nhóm: Dân sự, Hành chính, Hình sự, Kinh doanh thương mại, Lao động, Hôn nhân và gia đình"""
+### OUTPUT (chỉ trả lời JSON này, không viết gì thêm)
+{{"answer": "Tên nhóm"}}"""
 
 
 def evaluate_case_type_classification(reference: dict, response: str) -> Dict[str, Any]:
@@ -130,14 +134,14 @@ def evaluate_case_type_classification(reference: dict, response: str) -> Dict[st
 # ============================================================
 
 def create_prompt_judgment_outcome_prediction(instruction: str, question: str) -> str:
-    return f"""Bạn là thẩm phán Việt Nam.
+    return f"""### NHIỆM VỤ
+Bạn là thẩm phán. Hãy chọn phương án đúng (A/B/C/D) và giải thích ngắn gọn.
 
-HƯỚNG DẪN: {instruction}
-
+### TÌNH HUỐNG PHÁP LÝ
 {question}
 
-CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
-{{"answer": "A/B/C/D", "reasoning": "Giải thích theo format: Theo luật... mà... nên..."}}"""
+### OUTPUT (chỉ trả lời JSON này, không viết gì thêm)
+{{"answer": "A", "reasoning": "Theo luật... mà... nên..."}}"""
 
 
 def evaluate_judgment_outcome_prediction(
@@ -219,14 +223,14 @@ def evaluate_judgment_outcome_prediction(
 # ============================================================
 
 def create_prompt_numerical_constraint_check(instruction: str, question: str) -> str:
-    return f"""Bạn là chuyên gia pháp lý Việt Nam.
+    return f"""### NHIỆM VỤ
+Bạn là chuyên gia pháp lý. Hãy tính toán và chọn phương án đúng (A/B/C/D).
 
-HƯỚNG DẪN: {instruction}
-
+### BÀI TOÁN PHÁP LÝ
 {question}
 
-CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
-{{"answer": "A/B/C/D", "reasoning": "Giải thích với phép tính cụ thể"}}"""
+### OUTPUT (chỉ trả lời JSON này, không viết gì thêm)
+{{"answer": "A", "reasoning": "Phép tính: ..."}}"""
 
 
 def evaluate_numerical_constraint_check(
@@ -303,14 +307,14 @@ def evaluate_numerical_constraint_check(
 # ============================================================
 
 def create_prompt_eligibility_logic_verification(instruction: str, question: str) -> str:
-    return f"""Bạn là chuyên gia pháp lý Việt Nam.
+    return f"""### NHIỆM VỤ
+Bạn là chuyên gia pháp lý. Hãy xác định người này có đủ điều kiện không.
 
-HƯỚNG DẪN: {instruction}
+### TÌNH HUỐNG CẦN XÁC MINH
+{question}
 
-CÂU HỎI: {question}
-
-CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
-{{"answer": "Có/Không", "reasoning": "Giải thích logic điều kiện"}}"""
+### OUTPUT (chỉ trả lời JSON này, không viết gì thêm)
+{{"answer": "Có", "reasoning": "Vì điều kiện..."}}"""
 
 
 def evaluate_eligibility_logic_verification(
@@ -387,16 +391,17 @@ def evaluate_eligibility_logic_verification(
 # ============================================================
 
 def create_prompt_clause_type_identification(instruction: str, question: str) -> str:
-    return f"""Bạn là chuyên gia pháp lý Việt Nam.
+    return f"""### NHIỆM VỤ
+Phân loại đoạn văn bản sau thuộc loại nào trong bản án.
 
-HƯỚNG DẪN: {instruction}
+### CÁC LOẠI
+Thông tin đương sự, Nội dung vụ án, Nhận định của Tòa, Quyết định, Hiệu lực
 
+### ĐOẠN VĂN BẢN
 {question}
 
-CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
-{{"answer": "Tên loại"}}
-
-Các loại: Thông tin đương sự, Nội dung vụ án, Nhận định của Tòa, Quyết định, Hiệu lực"""
+### OUTPUT (chỉ trả lời JSON này, không viết gì thêm)
+{{"answer": "Tên loại"}}"""
 
 
 def evaluate_clause_type_identification(reference: dict, response: str) -> Dict[str, Any]:
@@ -429,14 +434,14 @@ def evaluate_clause_type_identification(reference: dict, response: str) -> Dict[
 # ============================================================
 
 def create_prompt_legal_entity_extraction(instruction: str, question: str) -> str:
-    return f"""Bạn là chuyên gia pháp lý Việt Nam.
+    return f"""### NHIỆM VỤ
+Trích xuất thông tin được yêu cầu từ văn bản.
 
-HƯỚNG DẪN: {instruction}
-
+### VĂN BẢN
 {question}
 
-CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
-{{"answer": "Tên/Danh tính được yêu cầu"}}"""
+### OUTPUT (chỉ trả lời JSON này, không viết gì thêm)
+{{"answer": "Thông tin được yêu cầu"}}"""
 
 
 def evaluate_legal_entity_extraction(
@@ -507,14 +512,14 @@ def evaluate_legal_entity_extraction(
 # ============================================================
 
 def create_prompt_functional_sentence_labelling(instruction: str, question: str) -> str:
-    return f"""Bạn là chuyên gia pháp lý Việt Nam.
+    return f"""### NHIỆM VỤ
+Phân loại câu sau là loại nào: [FACT] (sự kiện), [LAW] (luật), [JUDGMENT] (phán quyết).
 
-HƯỚNG DẪN: {instruction}
-
+### CÂU CẦN PHÂN LOẠI
 {question}
 
-CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
-{{"answer": "[FACT]" hoặc "[LAW]" hoặc "[JUDGMENT]"}}"""
+### OUTPUT (chỉ trả lời JSON này, không viết gì thêm)
+{{"answer": "[FACT]"}}"""
 
 
 def evaluate_functional_sentence_labelling(reference: dict, response: str) -> Dict[str, Any]:
@@ -547,14 +552,14 @@ def evaluate_functional_sentence_labelling(reference: dict, response: str) -> Di
 # ============================================================
 
 def create_prompt_argument_consistency_check(instruction: str, question: str) -> str:
-    return f"""Bạn là chuyên gia pháp lý Việt Nam.
+    return f"""### NHIỆM VỤ
+Kiểm tra các luận điểm trong văn bản có nhất quán hay mâu thuẫn.
 
-HƯỚNG DẪN: {instruction}
-
+### VĂN BẢN CẦN KIỂM TRA
 {question}
 
-CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
-{{"answer": "Nhất quán" hoặc "Mâu thuẫn"}}"""
+### OUTPUT (chỉ trả lời JSON này, không viết gì thêm)
+{{"answer": "Nhất quán"}} hoặc {{"answer": "Mâu thuẫn"}}"""
 
 
 def evaluate_argument_consistency_check(reference: dict, response: str) -> Dict[str, Any]:
@@ -590,14 +595,14 @@ def evaluate_argument_consistency_check(reference: dict, response: str) -> Dict[
 # ============================================================
 
 def create_prompt_reasoning_method_detection(instruction: str, question: str) -> str:
-    return f"""Bạn là chuyên gia pháp lý Việt Nam.
+    return f"""### NHIỆM VỤ
+Xác định phương pháp lập luận của Tòa: [Textualism] (theo văn bản luật) hay [Purposivism] (theo mục đích luật).
 
-HƯỚNG DẪN: {instruction}
+### CÁCH TÒA LẬP LUẬN
+{question}
 
-CÁCH TÒA LẬP LUẬN: {question}
-
-CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
-{{"answer": "[Textualism]" hoặc "[Purposivism]"}}"""
+### OUTPUT (chỉ trả lời JSON này, không viết gì thêm)
+{{"answer": "[Textualism]"}} hoặc {{"answer": "[Purposivism]"}}"""
 
 
 def evaluate_reasoning_method_detection(reference: dict, response: str) -> Dict[str, Any]:
