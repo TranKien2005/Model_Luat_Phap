@@ -68,20 +68,27 @@ def is_model_loaded(model: str) -> bool:
 # ============================================================
 
 def _call_huggingface(prompt: str, model: str, max_tokens: int) -> str:
-    """Gọi HuggingFace model với auto caching."""
+    """Gọi HuggingFace model với 4-bit quantization để tăng tốc."""
     global _loaded_models
     
     try:
-        from transformers import AutoModelForCausalLM, AutoTokenizer
+        from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
         import torch
         
         # Load model nếu chưa có
         if model not in _loaded_models:
-            print(f"📥 Loading: {model}...")
+            print(f"📥 Loading: {model} (4-bit)...")
+            
+            # 4-bit quantization config - tăng tốc 2-3x
+            quantization_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_compute_dtype=torch.float16
+            )
+            
             tokenizer = AutoTokenizer.from_pretrained(model)
             hf_model = AutoModelForCausalLM.from_pretrained(
                 model,
-                torch_dtype=torch.float16,
+                quantization_config=quantization_config,
                 device_map="auto"
             )
             _loaded_models[model] = (hf_model, tokenizer)
@@ -89,11 +96,11 @@ def _call_huggingface(prompt: str, model: str, max_tokens: int) -> str:
         
         hf_model, tokenizer = _loaded_models[model]
         
-        # Generate
+        # Generate - giảm max_new_tokens để tăng tốc
         inputs = tokenizer(prompt, return_tensors="pt").to(hf_model.device)
         outputs = hf_model.generate(
             **inputs,
-            max_new_tokens=max_tokens,
+            max_new_tokens=min(max_tokens, 256),  # Giới hạn 256 tokens
             do_sample=True,
             temperature=0.1,
             pad_token_id=tokenizer.eos_token_id

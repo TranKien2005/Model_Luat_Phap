@@ -53,7 +53,7 @@ HƯỚNG DẪN: {instruction}
 
 CÂU HỎI: {question}
 
-Trả lời theo format JSON:
+CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
 {{"answer": "Có" hoặc "Không"}}"""
 
 
@@ -94,7 +94,7 @@ HƯỚNG DẪN: {instruction}
 
 TÓM TẮT BẢN ÁN: {question}
 
-Trả lời theo format JSON:
+CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
 {{"answer": "Tên nhóm"}}
 
 Các nhóm: Dân sự, Hành chính, Hình sự, Kinh doanh thương mại, Lao động, Hôn nhân và gia đình"""
@@ -136,7 +136,7 @@ HƯỚNG DẪN: {instruction}
 
 {question}
 
-Trả lời theo format JSON:
+CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
 {{"answer": "A/B/C/D", "reasoning": "Giải thích theo format: Theo luật... mà... nên..."}}"""
 
 
@@ -225,7 +225,7 @@ HƯỚNG DẪN: {instruction}
 
 {question}
 
-Trả lời theo format JSON:
+CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
 {{"answer": "A/B/C/D", "reasoning": "Giải thích với phép tính cụ thể"}}"""
 
 
@@ -309,7 +309,7 @@ HƯỚNG DẪN: {instruction}
 
 CÂU HỎI: {question}
 
-Trả lời theo format JSON:
+CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
 {{"answer": "Có/Không", "reasoning": "Giải thích logic điều kiện"}}"""
 
 
@@ -393,7 +393,7 @@ HƯỚNG DẪN: {instruction}
 
 {question}
 
-Trả lời theo format JSON:
+CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
 {{"answer": "Tên loại"}}
 
 Các loại: Thông tin đương sự, Nội dung vụ án, Nhận định của Tòa, Quyết định, Hiệu lực"""
@@ -435,7 +435,7 @@ HƯỚNG DẪN: {instruction}
 
 {question}
 
-Trả lời theo format JSON:
+CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
 {{"answer": "Tên/Danh tính được yêu cầu"}}"""
 
 
@@ -513,7 +513,7 @@ HƯỚNG DẪN: {instruction}
 
 {question}
 
-Trả lời theo format JSON:
+CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
 {{"answer": "[FACT]" hoặc "[LAW]" hoặc "[JUDGMENT]"}}"""
 
 
@@ -553,7 +553,7 @@ HƯỚNG DẪN: {instruction}
 
 {question}
 
-Trả lời theo format JSON:
+CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
 {{"answer": "Nhất quán" hoặc "Mâu thuẫn"}}"""
 
 
@@ -596,7 +596,7 @@ HƯỚNG DẪN: {instruction}
 
 CÁCH TÒA LẬP LUẬN: {question}
 
-Trả lời theo format JSON:
+CHỈ trả lời DUY NHẤT một JSON, không giải thích thêm:
 {{"answer": "[Textualism]" hoặc "[Purposivism]"}}"""
 
 
