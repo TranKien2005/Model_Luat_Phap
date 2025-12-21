@@ -1,0 +1,249 @@
+{
+  "task_config": {
+    "task_name": "rule_qa",
+    "category": "rule-recall",
+    "instruction": "Dựa trên các quy định của pháp luật Việt Nam, hãy chọn đáp án đúng nhất cho câu hỏi dưới đây. Chỉ trả lời bằng chữ cái đứng trước đáp án đúng (A, B, C hoặc D)."
+  },
+  "data_content": [
+    {
+      "question": "Theo Bộ luật Dân sự 2015, lãi suất vay do các bên thỏa thuận không được vượt quá bao nhiêu phần trăm của khoản tiền vay một năm?\nA. 10%/năm\nB. 15%/năm\nC. 20%/năm\nD. 150% Lãi suất cơ bản",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Doanh nghiệp 2020, nhiệm kỳ của Giám đốc hoặc Tổng giám đốc công ty cổ phần không quá bao nhiêu năm?\nA. 03 năm\nB. 05 năm\nC. 07 năm\nD. Không hạn chế nhiệm kỳ",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Bộ luật Lao động 2019, thời gian thử việc tối đa đối với công việc của người quản lý doanh nghiệp là bao lâu?\nA. 60 ngày\nB. 90 ngày\nC. 120 ngày\nD. 180 ngày",
+      "answer": "D"
+    },
+    {
+      "question": "Theo Bộ luật Hình sự 2015, án treo không được áp dụng đối với người bị kết án phạt tù trên bao nhiêu năm?\nA. 02 năm\nB. 03 năm\nC. 05 năm\nD. 07 năm",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Hôn nhân và gia đình 2014, nam nữ chung sống với nhau như vợ chồng mà không đăng ký kết hôn thì:\nA. Vẫn được công nhận là vợ chồng nếu có con chung\nB. Vẫn được công nhận là vợ chồng nếu được gia đình hai bên chấp thuận\nC. Không làm phát sinh quyền, nghĩa vụ giữa vợ và chồng\nD. Phải nộp phạt vi phạm hành chính",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Đất đai 2013, thời hạn giao đất công nhận quyền sử dụng đất nông nghiệp đối với hộ gia đình, cá nhân trực tiếp sản xuất nông nghiệp là bao nhiêu năm?\nA. 20 năm\nB. 30 năm\nC. 50 năm\nD. 70 năm",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Xử lý vi phạm hành chính, thời hiệu xử lý vi phạm hành chính trong lĩnh vực xây dựng là bao lâu?\nA. 01 năm\nB. 02 năm\nC. 03 năm\nD. 05 năm",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Bộ luật Tố tụng Dân sự 2015, thời hạn kháng cáo đối với bản án của Tòa án cấp sơ thẩm là bao nhiêu ngày kể từ ngày tuyên án?\nA. 07 ngày\nB. 10 ngày\nC. 15 ngày\nD. 30 ngày",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Thương mại 2005, thương nhân có nghĩa vụ bảo hành hàng hoá trong trường hợp nào?\nA. Mọi trường hợp mua bán hàng hóa\nB. Chỉ khi có thỏa thuận hoặc pháp luật có quy định\nC. Chỉ đối với hàng hóa công nghệ cao\nD. Chỉ khi khách hàng yêu cầu",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Hiến pháp 2013, cơ quan nào là cơ quan quyền lực nhà nước cao nhất của nước Cộng hòa xã hội chủ nghĩa Việt Nam?\nA. Chính phủ\nB. Quốc hội\nC. Tòa án nhân dân tối cao\nD. Chủ tịch nước",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Bộ luật Dân sự 2015, người thành niên là người từ đủ bao nhiêu tuổi?\nA. 16 tuổi\nB. 18 tuổi\nC. 20 tuổi\nD. 21 tuổi",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Bảo hiểm xã hội 2014, lao động nữ sinh con được nghỉ việc hưởng chế độ thai sản trước và sau khi sinh con là mấy tháng?\nA. 04 tháng\nB. 05 tháng\nC. 06 tháng\nD. 07 tháng",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Bộ luật Hình sự 2015, tội phạm ít nghiêm trọng là tội phạm có tính chất và mức độ nguy hiểm cho xã hội không lớn, mức cao nhất của khung hình phạt là:\nA. Phạt tiền, phạt cải tạo không giam giữ hoặc phạt tù đến 03 năm\nB. Phạt tù đến 05 năm\nC. Phạt tù đến 07 năm\nD. Phạt tù đến 15 năm",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Luật Doanh nghiệp 2020, Đại hội đồng cổ đông họp thường niên mỗi năm mấy lần?\nA. Ít nhất 01 lần\nB. Ít nhất 02 lần\nC. 03 tháng một lần\nD. Tùy theo điều lệ công ty",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Luật Nghĩa vụ quân sự 2015, độ tuổi gọi nhập ngũ trong thời bình là bao nhiêu?\nA. Từ đủ 17 tuổi đến hết 25 tuổi (hoặc 27 tuổi nếu học ĐH/CĐ)\nB. Từ đủ 18 tuổi đến hết 25 tuổi (hoặc 27 tuổi nếu học ĐH/CĐ)\nC. Từ đủ 18 tuổi đến hết 27 tuổi trong mọi trường hợp\nD. Từ đủ 20 tuổi đến hết 30 tuổi",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Giao thông đường bộ 2008 (và các văn bản hướng dẫn), người điều khiển xe mô tô hai bánh có dung tích xi-lanh từ 50cm3 trở lên phải đủ bao nhiêu tuổi?\nA. 16 tuổi\nB. 17 tuổi\nC. 18 tuổi\nD. 20 tuổi",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Sở hữu trí tuệ, quyền tác giả phát sinh tại thời điểm nào?\nA. Khi tác phẩm được đăng ký tại Cục Bản quyền tác giả\nB. Khi tác phẩm được công bố đến công chúng\nC. Khi tác phẩm được sáng tạo và được thể hiện dưới một hình thức vật chất nhất định\nD. Khi tác phẩm được hoàn thành trọn vẹn",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Bộ luật Dân sự 2015, di chúc miệng được coi là hợp pháp nếu người di chúc miệng thể hiện ý chí cuối cùng trước mặt ít nhất mấy người làm chứng?\nA. 01 người\nB. 02 người\nC. 03 người\nD. 05 người",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Cán bộ, công chức 2008, hình thức kỷ luật nào KHÔNG áp dụng đối với công chức không giữ chức vụ lãnh đạo, quản lý?\nA. Khiển trách\nB. Cảnh cáo\nC. Giáng chức\nD. Buộc thôi việc",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Bộ luật Tố tụng Hình sự 2015, ai có quyền ra quyết định khởi tố vụ án hình sự?\nA. Chỉ Cơ quan điều tra\nB. Chỉ Viện kiểm sát\nC. Cơ quan điều tra, Viện kiểm sát, Hội đồng xét xử\nD. Người bị hại",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Kinh doanh bất động sản, hợp đồng kinh doanh bất động sản phải được lập thành văn bản. Việc công chứng, chứng thực hợp đồng do ai quyết định?\nA. Bắt buộc phải công chứng\nB. Bắt buộc phải chứng thực tại UBND xã\nC. Do các bên thỏa thuận, trừ trường hợp pháp luật có quy định khác\nD. Không cần công chứng",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Hôn nhân và gia đình 2014, độ tuổi chênh lệch giữa người nhận nuôi và người được nhận nuôi con nuôi là bao nhiêu?\nA. Người nhận nuôi phải hơn con nuôi ít nhất 15 tuổi\nB. Người nhận nuôi phải hơn con nuôi ít nhất 18 tuổi\nC. Người nhận nuôi phải hơn con nuôi ít nhất 20 tuổi\nD. Không quy định độ tuổi chênh lệch",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Bộ luật Dân sự 2015, cá nhân có quyền lập di chúc để định đoạt tài sản của mình khi nào?\nA. Từ đủ 15 tuổi đến chưa đủ 18 tuổi (nếu được cha mẹ đồng ý) hoặc từ đủ 18 tuổi\nB. Chỉ khi đủ 18 tuổi\nC. Chỉ khi đủ 21 tuổi\nD. Bất kỳ độ tuổi nào miễn là minh mẫn",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Luật Thuế thu nhập cá nhân, thu nhập từ trúng thưởng xổ số trên bao nhiêu thì phải chịu thuế?\nA. Trên 5 triệu đồng\nB. Trên 10 triệu đồng\nC. Trên 20 triệu đồng\nD. Trên 50 triệu đồng",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Bộ luật Lao động 2019, số giờ làm thêm của người lao động không được quá bao nhiêu giờ trong 01 năm (trừ trường hợp đặc biệt)?\nA. 200 giờ\nB. 300 giờ\nC. 400 giờ\nD. 500 giờ",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Luật Đầu tư 2020, ngành nghề nào sau đây bị CẤM đầu tư kinh doanh?\nA. Kinh doanh dịch vụ đòi nợ\nB. Kinh doanh dịch vụ phẫu thuật thẩm mỹ\nC. Kinh doanh trò chơi điện tử\nD. Kinh doanh dịch vụ karaoke",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Bộ luật Hình sự 2015, người chuẩn bị phạm tội nào sau đây thì phải chịu trách nhiệm hình sự?\nA. Tội trộm cắp tài sản\nB. Tội cố ý gây thương tích\nC. Tội giết người\nD. Tội lừa đảo chiếm đoạt tài sản",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Phòng, chống tham nhũng 2018, người có nghĩa vụ kê khai tài sản, thu nhập phải kê khai tài sản, thu nhập của ai?\nA. Của bản thân\nB. Của bản thân, vợ hoặc chồng\nC. Của bản thân, vợ hoặc chồng và con chưa thành niên\nD. Của bản thân và toàn bộ người thân trong gia đình",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Bộ luật Dân sự 2015, thời hiệu khởi kiện để yêu cầu bồi thường thiệt hại là bao nhiêu năm kể từ ngày quyền, lợi ích hợp pháp bị xâm phạm?\nA. 01 năm\nB. 02 năm\nC. 03 năm\nD. 05 năm",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Đấu thầu 2013, hình thức lựa chọn nhà thầu nào được áp dụng khi gói thầu có yêu cầu cấp bách, cần thực hiện ngay?\nA. Đấu thầu rộng rãi\nB. Chào hàng cạnh tranh\nC. Chỉ định thầu\nD. Mua sắm trực tiếp",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Bộ luật Lao động 2019, người lao động được nghỉ làm việc, hưởng nguyên lương trong ngày nào sau đây?\nA. Ngày Quốc tế Phụ nữ 8/3\nB. Ngày Quốc khánh 2/9\nC. Ngày thành lập Đảng 3/2\nD. Ngày Giáng sinh 25/12",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Bảo vệ quyền lợi người tiêu dùng, người tiêu dùng có quyền gì khi hàng hóa có khuyết tật?\nA. Yêu cầu bồi thường thiệt hại\nB. Yêu cầu doanh nghiệp đóng cửa\nC. Tự ý tịch thu hàng hóa của doanh nghiệp\nD. Miễn trách nhiệm thanh toán vô điều kiện",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Luật Doanh nghiệp 2020, cổ đông phổ thông có quyền chuyển nhượng cổ phần của mình cho người khác, trừ trường hợp nào?\nA. Trong 03 năm đầu kể từ khi thành lập công ty (đối với cổ đông sáng lập)\nB. Khi công ty bị lỗ\nC. Khi công ty đang thay đổi giám đốc\nD. Không có ngoại lệ",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Luật Tố tụng Hành chính 2015, thời hiệu khởi kiện đối với quyết định hành chính là bao lâu kể từ ngày nhận được hoặc biết được quyết định?\nA. 06 tháng\nB. 01 năm\nC. 02 năm\nD. 03 năm",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Hôn nhân và gia đình, tài sản nào sau đây là tài sản riêng của vợ, chồng?\nA. Tài sản do vợ, chồng tạo ra, thu nhập do lao động, hoạt động sản xuất, kinh doanh trong thời kỳ hôn nhân\nB. Tài sản được thừa kế chung hoặc được tặng cho chung\nC. Tài sản được thừa kế riêng, được tặng cho riêng trong thời kỳ hôn nhân\nD. Hoa lợi, lợi tức phát sinh từ tài sản riêng trong thời kỳ hôn nhân",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Bộ luật Hình sự 2015, hình phạt tử hình KHÔNG áp dụng đối với đối tượng nào sau đây?\nA. Phụ nữ có thai hoặc phụ nữ đang nuôi con dưới 36 tháng tuổi khi phạm tội hoặc khi xét xử\nB. Người từ đủ 60 tuổi trở lên\nC. Người bị bệnh hiểm nghèo\nD. Người có công với cách mạng",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Luật Việc làm 2013, mức hưởng trợ cấp thất nghiệp hằng tháng bằng bao nhiêu phần trăm mức bình quân tiền lương tháng đóng bảo hiểm thất nghiệp?\nA. 50%\nB. 60%\nC. 75%\nD. 80%",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Bộ luật Dân sự 2015, bên bảo lãnh được hưởng thù lao khi nào?\nA. Luôn được hưởng thù lao\nB. Khi bên được bảo lãnh đồng ý trả thù lao\nC. Khi có thỏa thuận giữa bên bảo lãnh và bên được bảo lãnh\nD. Khi bên nhận bảo lãnh yêu cầu",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Phá sản 2014, doanh nghiệp bị coi là mất khả năng thanh toán khi nào?\nA. Không thực hiện nghĩa vụ thanh toán khoản nợ trong thời hạn 01 tháng kể từ ngày đến hạn\nB. Không thực hiện nghĩa vụ thanh toán khoản nợ trong thời hạn 03 tháng kể từ ngày đến hạn\nC. Không thực hiện nghĩa vụ thanh toán khoản nợ trong thời hạn 06 tháng kể từ ngày đến hạn\nD. Khi nợ phải trả lớn hơn vốn chủ sở hữu",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Nhà ở 2014, thời điểm chuyển quyền sở hữu nhà ở đối với trường hợp mua bán nhà ở thương mại là khi nào?\nA. Khi ký hợp đồng mua bán\nB. Khi bên mua đã thanh toán đủ tiền\nC. Khi bên mua đã nhận bàn giao nhà ở\nD. Khi được cấp Giấy chứng nhận quyền sở hữu nhà ở",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật An ninh mạng 2018, doanh nghiệp cung cấp dịch vụ trên mạng viễn thông tại Việt Nam có trách nhiệm gì đối với dữ liệu người dùng?\nA. Lưu trữ dữ liệu người dùng tại Việt Nam theo quy định của Chính phủ\nB. Công khai toàn bộ dữ liệu người dùng\nC. Xóa dữ liệu người dùng sau 6 tháng\nD. Chuyển dữ liệu người dùng ra nước ngoài để bảo mật",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Bộ luật Tố tụng Dân sự 2015, ai có nghĩa vụ chịu án phí dân sự sơ thẩm trong vụ án có giá ngạch nếu yêu cầu của họ bị Tòa án bác bỏ?\nA. Nguyên đơn\nB. Bị đơn\nC. Người có quyền lợi, nghĩa vụ liên quan\nD. Nhà nước",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Luật Quảng cáo, diện tích quảng cáo không được vượt quá bao nhiêu phần trăm diện tích mặt trước của biển hiệu?\nA. Không hạn chế\nB. 20%\nC. 50%\nD. Không được quảng cáo trên biển hiệu",
+      "answer": "D"
+    },
+    {
+      "question": "Theo Luật Trẻ em 2016, trẻ em là người dưới bao nhiêu tuổi?\nA. Dưới 14 tuổi\nB. Dưới 15 tuổi\nC. Dưới 16 tuổi\nD. Dưới 18 tuổi",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Bộ luật Lao động 2019, tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường được điều chỉnh theo lộ trình cho đến khi đủ:\nA. 60 tuổi đối với nam và 55 tuổi đối với nữ\nB. 62 tuổi đối với nam và 60 tuổi đối với nữ\nC. 65 tuổi đối với nam và 60 tuổi đối với nữ\nD. 62 tuổi đối với nam và 58 tuổi đối với nữ",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Bộ luật Dân sự 2015, hợp đồng tặng cho bất động sản có hiệu lực từ thời điểm nào?\nA. Thời điểm chuyển giao tài sản\nB. Thời điểm công chứng, chứng thực\nC. Thời điểm đăng ký quyền sở hữu (nếu luật có yêu cầu đăng ký)\nD. Thời điểm các bên ký vào văn bản",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Doanh nghiệp 2020, Công ty TNHH hai thành viên trở lên có số lượng thành viên tối đa là bao nhiêu?\nA. 30 thành viên\nB. 40 thành viên\nC. 50 thành viên\nD. Không hạn chế",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Phòng, chống ma túy, hành vi nào sau đây bị nghiêm cấm?\nA. Sử dụng trái phép chất ma túy\nB. Cai nghiện ma túy tự nguyện\nC. Tố giác người sử dụng ma túy\nD. Tuyên truyền về tác hại của ma túy",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Bộ luật Hình sự 2015, tội Giết người (Điều 123) có khung hình phạt cao nhất là gì?\nA. Tù chung thân\nB. 20 năm tù\nC. Tử hình\nD. 30 năm tù",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Công chứng 2014, văn bản công chứng có giá trị pháp lý như thế nào?\nA. Có giá trị chứng cứ, trừ trường hợp bị Tòa án tuyên bố là vô hiệu\nB. Chỉ có giá trị tham khảo\nC. Có giá trị thi hành ngay lập tức\nD. Có giá trị cao hơn bản án của Tòa án",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Luật Bảo hiểm y tế, đối tượng nào được Nhà nước đóng 100% mức đóng bảo hiểm y tế?\nA. Học sinh, sinh viên\nB. Người thuộc hộ gia đình cận nghèo\nC. Trẻ em dưới 6 tuổi\nD. Người lao động trong doanh nghiệp",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Bộ luật Dân sự 2015, việc bồi thường thiệt hại do súc vật gây ra được thực hiện như thế nào nếu người bị thiệt hại cũng có lỗi?\nA. Chủ sở hữu súc vật vẫn phải bồi thường toàn bộ\nB. Chủ sở hữu súc vật không phải bồi thường\nC. Chủ sở hữu súc vật chỉ phải bồi thường thiệt hại tương ứng với mức độ lỗi của mình\nD. Hai bên tự thỏa thuận, pháp luật không can thiệp",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Luật Giáo dục 2019, giáo dục tiểu học là giáo dục:\nA. Tự nguyện\nB. Bắt buộc\nC. Không bắt buộc\nD. Chỉ bắt buộc ở thành phố",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Giao dịch điện tử, chữ ký số có giá trị pháp lý khi nào?\nA. Khi được in ra giấy\nB. Khi đảm bảo các điều kiện về an toàn và được tạo ra bởi tổ chức cung cấp dịch vụ chứng thực chữ ký số hợp pháp\nC. Chỉ cần người ký xác nhận bằng miệng\nD. Chỉ có giá trị trong nội bộ doanh nghiệp",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Bộ luật Lao động 2019, người sử dụng lao động KHÔNG được sa thải người lao động trong trường hợp nào?\nA. Người lao động tự ý bỏ việc 05 ngày cộng dồn trong 30 ngày\nB. Người lao động trộm cắp tại nơi làm việc\nC. Người lao động nữ đang mang thai hoặc nuôi con dưới 12 tháng tuổi\nD. Người lao động sử dụng ma túy tại nơi làm việc",
+      "answer": "C"
+    },
+    {
+      "question": "Theo Bộ luật Tố tụng Dân sự 2015, Tòa án xét xử sơ thẩm vụ án dân sự bằng Hội đồng xét xử gồm:\nA. 01 Thẩm phán và 01 Hội thẩm nhân dân\nB. 01 Thẩm phán và 02 Hội thẩm nhân dân (trừ trường hợp đặc biệt)\nC. 02 Thẩm phán và 01 Hội thẩm nhân dân\nD. 03 Thẩm phán",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Ngân hàng Nhà nước, đơn vị tiền tệ của nước Cộng hòa xã hội chủ nghĩa Việt Nam là gì?\nA. Đồng (ký hiệu quốc gia là đ, ký hiệu quốc tế là VND)\nB. Đô la Mỹ\nC. Vàng\nD. Tiền kỹ thuật số",
+      "answer": "A"
+    },
+    {
+      "question": "Theo Bộ luật Hình sự 2015, người che giấu tội phạm là ông, bà, cha, mẹ, con, cháu, anh chị em ruột, vợ hoặc chồng của người phạm tội KHÔNG phải chịu trách nhiệm hình sự, trừ trường hợp che giấu tội phạm nào?\nA. Tội trộm cắp tài sản\nB. Tội xâm phạm an ninh quốc gia hoặc tội đặc biệt nghiêm trọng khác theo quy định\nC. Tội đánh bạc\nD. Tội gây rối trật tự công cộng",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Xây dựng, giấy phép xây dựng có hiệu lực khởi công trong thời hạn bao lâu kể từ ngày cấp?\nA. 06 tháng\nB. 12 tháng\nC. 18 tháng\nD. 24 tháng",
+      "answer": "B"
+    },
+    {
+      "question": "Theo Luật Cư trú 2020, điều kiện đăng ký thường trú tại tỉnh, thành phố trực thuộc trung ương là gì?\nA. Có chỗ ở hợp pháp thuộc quyền sở hữu của mình hoặc được chủ sở hữu đồng ý cho thuê, mượn, ở nhờ và đáp ứng diện tích sàn tối thiểu (nếu HĐND tỉnh quy định)\nB. Phải có hộ khẩu tại thành phố đó từ trước\nC. Phải có việc làm ổn định tại thành phố đó\nD. Phải sống tại thành phố đó liên tục 3 năm",
+      "answer": "A"
+    }
+  ]
+}
