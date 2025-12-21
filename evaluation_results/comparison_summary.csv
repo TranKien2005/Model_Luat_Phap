@@ -1,0 +1,3 @@
+﻿Model,Issue Spotting,Rule Conclusion,Rule Application,Interpretation,Rhetorical Understanding,Overall
+mistralai_Mistral-7B-Instruct-v0.3,75.00%,25.00%,36.71%,53.55%,51.54%,48.36%
+Qwen_Qwen2.5-7B-Instruct,93.06%,75.00%,40.86%,79.30%,86.15%,74.87%

@@ -54,7 +54,8 @@ TASK_NAMES = [
     "legal_entity_extraction",
     "functional_sentence_labelling",
     "argument_consistency_check",
-    "reasoning_method_detection"
+    "reasoning_method_detection",
+    "vn_legal_mcq"
 ]
 
 # ============================================================

@@ -17,27 +17,8 @@ from config import BENCHMARK_MODELS, TASK_NAMES, DATA_DIR, OUTPUT_DIR
 from llmClient import call_llm, unload_model
 
 
-# ============================================================
-# PROMPT - Import từ taskEvaluators để tránh duplicate
-# ============================================================
-
-def get_prompt_creator(task_name: str):
-    """Lấy hàm tạo prompt cho task từ taskEvaluators."""
-    try:
-        from taskEvaluators import get_evaluator
-        create_prompt_fn, _ = get_evaluator(task_name)
-        return create_prompt_fn
-    except ImportError:
-        # Fallback nếu không import được
-        return None
-
-
-def create_prompt_fallback(task_name: str, instruction: str, question: str) -> str:
-    """Fallback prompt nếu không import được từ taskEvaluators."""
-    return f"""Bạn là chuyên gia pháp lý Việt Nam.
-HƯỚNG DẪN: {instruction}
-CÂU HỎI: {question}
-Trả lời theo JSON format."""
+# Import từ promptGenerator (tạo prompt)
+from promptGenerator import create_prompt
 
 
 # ============================================================
@@ -97,18 +78,12 @@ def generate_responses(
         
         print(f"  Số samples: {len(samples)}")
         
-        # Lấy hàm tạo prompt từ taskEvaluators
-        create_prompt_fn = get_prompt_creator(task_name)
-        
         responses = []
         for i, sample in enumerate(samples, 1):
             question = sample.get("question", "")
             
             # Tạo prompt
-            if create_prompt_fn:
-                prompt = create_prompt_fn(instruction, question)
-            else:
-                prompt = create_prompt_fallback(task_name, instruction, question)
+            prompt = create_prompt(task_name, instruction, question)
             
             print(f"  [{i}/{len(samples)}] Generating...", end=" ", flush=True)
             

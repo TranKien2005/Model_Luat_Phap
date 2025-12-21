@@ -1,0 +1,314 @@
+{
+  "task_name": "reasoning_method_detection",
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "total_samples": 34,
+  "timestamp": "2025-12-20T09:33:13.045381",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Cách Tòa lập luận: Tòa án xem xét thực tế tình cảm vợ chồng không còn, mâu thuẫn đã trầm trọng không thể hàn gắn và mục đích của hôn nhân không đạt được để chấp nhận yêu cầu ly hôn tự nguyện, nhằm giải phóng cho các bên khỏi cuộc hôn nhân bế tắc.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Tòa án xem xét thực tế tình cảm vợ chồng không còn, mâu thuẫn đã trầm trọng không thể hàn gắn và mục đích của hôn nhân không đạt được để chấp nhận yêu cầu ly hôn tự nguyện, nhằm giải phóng cho các bên khỏi cuộc hôn nhân bế tắc.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the provided context, the answer is:\n\n{\"answer\": \"[Purposivism]\"}"
+    },
+    {
+      "id": 2,
+      "question": "Cách Tòa lập luận: Mặc dù các đương sự vắng mặt tại phiên tòa nhưng Tòa án căn cứ vào việc cả hai đã có đơn xin xét xử vắng mặt và cùng xác nhận tình trạng hôn nhân không thể cứu vãn, từ đó quyết định cho ly hôn để giải phóng cho các đương sự theo đúng mục đích nhân văn của Luật Hôn nhân và gia đình.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù các đương sự vắng mặt tại phiên tòa nhưng Tòa án căn cứ vào việc cả hai đã có đơn xin xét xử vắng mặt và cùng xác nhận tình trạng hôn nhân không thể cứu vãn, từ đó quyết định cho ly hôn để giải phóng cho các đương sự theo đúng mục đích nhân văn của Luật Hôn nhân và gia đình.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the provided context, the answer is:\n\n{\"answer\": \"[Purposivism]\"} \n\nThe court's decision to grant a divorce despite the absence of the parties was made with consideration of the underlying purpose of the Marriage and Family Law to protect the interests of the parties involved, rather than strictly adhering to the literal wording of the law. This approach aligns with Purposivism."
+    },
+    {
+      "id": 3,
+      "question": "Cách Tòa lập luận: Tòa án căn cứ chính xác vào khoản 1 Điều 28 và điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự để xác định thẩm quyền, đồng thời áp dụng đúng trình tự tại Điều 227 Bộ luật Tố tụng dân sự để xét xử vắng mặt khi đương sự đã có đơn đề nghị.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Tòa án căn cứ chính xác vào khoản 1 Điều 28 và điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự để xác định thẩm quyền, đồng thời áp dụng đúng trình tự tại Điều 227 Bộ luật Tố tụng dân sự để xét xử vắng mặt khi đương sự đã có đơn đề nghị.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the provided context, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court's reasoning is focused on specific legal provisions and procedures, which aligns with textualism, where the interpretation of laws is based on the literal text and its application. There is no indication that the court is considering the broader purpose or intent behind these provisions to achieve a more equitable outcome, which would be characteristic of purposivism."
+    },
+    {
+      "id": 4,
+      "question": "Cách Tòa lập luận: Mặc dù hành vi của bị cáo là nguy hiểm cho xã hội, nhưng Tòa án xem xét bị cáo là người dân lao động, trình độ học vấn thấp (2/12), hoàn cảnh gia đình khó khăn và phạm tội lần đầu để áp dụng mức hình phạt dưới mức đề nghị của Viện kiểm sát nhằm thể hiện tính nhân văn của pháp luật.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù hành vi của bị cáo là nguy hiểm cho xã hội, nhưng Tòa án xem xét bị cáo là người dân lao động, trình độ học vấn thấp (2/12), hoàn cảnh gia đình khó khăn và phạm tội lần đầu để áp dụng mức hình phạt dưới mức đề nghị của Viện kiểm sát nhằm thể hiện tính nhân văn của pháp luật.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the context provided, the answer is:\n\n{\"answer\": \"[Purposivism]\"}"
+    },
+    {
+      "id": 5,
+      "question": "Cách Tòa lập luận: Căn cứ vào kết luận giám định xác định khối lượng ma túy là 1,1536 gam, Tòa án áp dụng đúng định lượng được quy định tại điểm c khoản 1 Điều 249 Bộ luật Hình sự để định tội danh và khung hình phạt mà không cần xem xét các yếu tố bên ngoài khác.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Căn cứ vào kết luận giám định xác định khối lượng ma túy là 1,1536 gam, Tòa án áp dụng đúng định lượng được quy định tại điểm c khoản 1 Điều 249 Bộ luật Hình sự để định tội danh và khung hình phạt mà không cần xem xét các yếu tố bên ngoài khác.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the description provided, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThis indicates that the court's approach aligns with textualism, as it strictly adheres to the specific wording and provisions of the law without considering external factors beyond the literal interpretation of the text."
+    },
+    {
+      "id": 6,
+      "question": "Cách Tòa lập luận: Tòa án căn cứ vào biên bản xem xét thẩm định tại chỗ và trích lục bản đồ địa chính để xác định diện tích thực tế đã bàn giao, đồng thời áp dụng chính xác các điều khoản của Bộ luật Dân sự về quyền đòi lại tài sản để bác đơn khi không có chứng cứ lấn chiếm thực tế.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Tòa án căn cứ vào biên bản xem xét thẩm định tại chỗ và trích lục bản đồ địa chính để xác định diện tích thực tế đã bàn giao, đồng thời áp dụng chính xác các điều khoản của Bộ luật Dân sự về quyền đòi lại tài sản để bác đơn khi không có chứng cứ lấn chiếm thực tế.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the provided context, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court's reasoning focuses on the literal interpretation of evidence and documents, such as the site inspection report and land registry records, rather than the underlying purpose or intent behind the law. This approach aligns more closely with textualism."
+    },
+    {
+      "id": 7,
+      "question": "Cách Tòa lập luận: Ngoài việc xem xét giấy tờ, Tòa án còn phân tích nguyên nhân khách quan dẫn đến việc thiếu đất là do ông T sau khi mua đã không trực tiếp quản lý, sử dụng đất trong thời gian dài (từ 2006 đến 2011), dẫn đến sự sai lệch ranh giới với các hộ liền kề khác chứ không phải do lỗi lấn chiếm của bị đơn.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Ngoài việc xem xét giấy tờ, Tòa án còn phân tích nguyên nhân khách quan dẫn đến việc thiếu đất là do ông T sau khi mua đã không trực tiếp quản lý, sử dụng đất trong thời gian dài (từ 2006 đến 2011), dẫn đến sự sai lệch ranh giới với các hộ liền kề khác chứ không phải do lỗi lấn chiếm của bị đơn.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the provided context, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court's reasoning focuses on the objective facts and the specific timeframe mentioned (from 2006 to 2011), which aligns more closely with textualism, as it emphasizes the literal interpretation of the law based on the facts presented. While purposivism also considers the intent behind the law, the emphasis here is on the objective circumstances rather than the underlying purpose or intent. However, since the context does not explicitly mention the intent behind the law but rather focuses on the factual situation, the primary method used here leans towards textualism. \n\nFor clarity, if the court had emphasized the broader intent or purpose of the law in relation to the case, then purposivism would have been the more appropriate choice. Given the information provided, the focus remains on the facts and the timeframe, indicating a preference for textualism. \n\n{\"answer\": \"[Textualism]\"}"
+    },
+    {
+      "id": 8,
+      "question": "Cách Tòa lập luận: Khi xem xét quyền nuôi con chung, mặc dù anh D có nguyện vọng nuôi một con, nhưng Tòa án xem xét thực tế cháu V còn nhỏ cần sự chăm sóc của mẹ, cháu M có nguyện vọng ở với mẹ, đồng thời anh D vắng mặt không chứng minh được điều kiện chăm sóc trực tiếp, nên Tòa giao cả hai con cho chị L để đảm bảo tốt nhất quyền lợi về sự phát triển của trẻ em.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Khi xem xét quyền nuôi con chung, mặc dù anh D có nguyện vọng nuôi một con, nhưng Tòa án xem xét thực tế cháu V còn nhỏ cần sự chăm sóc của mẹ, cháu M có nguyện vọng ở với mẹ, đồng thời anh D vắng mặt không chứng minh được điều kiện chăm sóc trực tiếp, nên Tòa giao cả hai con cho chị L để đảm bảo tốt nhất quyền lợi về sự phát triển của trẻ em.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the reasoning provided by the court, the answer is:\n\n{\"answer\": \"[Purposivism]\"}"
+    },
+    {
+      "id": 9,
+      "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự quy định thẩm quyền của Tòa án nơi bị đơn cư trú, Tòa án xác định anh D có hộ khẩu thường trú tại xã L nên Tòa án nhân dân khu vực 13 - Phú Thọ thụ lý giải quyết là đúng quy định pháp luật.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự quy định thẩm quyền của Tòa án nơi bị đơn cư trú, Tòa án xác định anh D có hộ khẩu thường trú tại xã L nên Tòa án nhân dân khu vực 13 - Phú Thọ thụ lý giải quyết là đúng quy định pháp luật.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the provided reasoning, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court's decision is based on the explicit wording of the law, specifically citing the provisions of the Civil Procedure Code. This aligns with textualism, which focuses on the literal meaning of the text and its application as written."
+    },
+    {
+      "id": 10,
+      "question": "Cách Tòa lập luận: Mặc dù pháp luật khuyến khích sự đoàn tụ và bảo vệ gia đình, nhưng Tòa án xem xét thực tế bà M và ông T đã mâu thuẫn kéo dài 20 năm, hiện đang sống ly thân và không còn sự quan tâm chăm sóc lẫn nhau, nên quyết định cho ly hôn để giải phóng cho các đương sự khỏi một cuộc hôn nhân chỉ còn tồn tại trên danh nghĩa.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù pháp luật khuyến khích sự đoàn tụ và bảo vệ gia đình, nhưng Tòa án xem xét thực tế bà M và ông T đã mâu thuẫn kéo dài 20 năm, hiện đang sống ly thân và không còn sự quan tâm chăm sóc lẫn nhau, nên quyết định cho ly hôn để giải phóng cho các đương sự khỏi một cuộc hôn nhân chỉ còn tồn tại trên danh nghĩa.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Purposivism"
+    },
+    {
+      "id": 11,
+      "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 35 và điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự năm 2015 quy định về thẩm quyền theo lãnh thổ, Tòa án xác định bị đơn cư trú tại xã T, tỉnh Đồng Tháp nên thụ lý vụ án theo đúng quy định.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 35 và điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự năm 2015 quy định về thẩm quyền theo lãnh thổ, Tòa án xác định bị đơn cư trú tại xã T, tỉnh Đồng Tháp nên thụ lý vụ án theo đúng quy định.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the provided legal reasoning, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court's decision appears to be based strictly on the wording and specific provisions of the law, rather than interpreting the intent behind those provisions. The focus on exact territorial jurisdiction as defined by the specific articles cited supports a textualist approach."
+    },
+    {
+      "id": 12,
+      "question": "Cách Tòa lập luận: Để đảm bảo cho cháu Ngọc L có sự phát triển toàn diện cả về vật chất và tinh thần, Tòa án xem xét nguyện vọng thực tế của cháu muốn ở với cha và thực tế cháu đang được cha chăm sóc ổn định để quyết định giao con cho ông T.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Để đảm bảo cho cháu Ngọc L có sự phát triển toàn diện cả về vật chất và tinh thần, Tòa án xem xét nguyện vọng thực tế của cháu muốn ở với cha và thực tế cháu đang được cha chăm sóc ổn định để quyết định giao con cho ông T.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the context provided, the answer is:\n\n{\"answer\": \"[Purposivism]\"}"
+    },
+    {
+      "id": 13,
+      "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 35 và điểm a khoản 1 Điều 39 Bộ luật tố tụng dân sự năm 2015, do bị đơn ông Phạm Ngọc T cư trú tại xã B, tỉnh Đồng Tháp nên vụ án thuộc thẩm quyền giải quyết của Tòa án nhân dân khu vực II - Đồng Tháp.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 35 và điểm a khoản 1 Điều 39 Bộ luật tố tụng dân sự năm 2015, do bị đơn ông Phạm Ngọc T cư trú tại xã B, tỉnh Đồng Tháp nên vụ án thuộc thẩm quyền giải quyết của Tòa án nhân dân khu vực II - Đồng Tháp.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the provided legal reasoning, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court's argument is based strictly on the jurisdictional provisions of the Civil Procedure Code, specifically citing the exact articles and their provisions. This approach aligns with textualism, which focuses on the literal meaning of the text and its application in the given context. There is no indication that the court is considering the broader purpose or intent behind these provisions beyond their plain language."
+    },
+    {
+      "id": 14,
+      "question": "Cách Tòa lập luận: Tòa án căn cứ trực tiếp vào văn bản Biên nhận ngày 21/8/2018 và đối chiếu với nghĩa vụ trả nợ quy định tại Điều 466 Bộ luật Dân sự để buộc bị đơn trả nợ, đồng thời áp dụng đúng mức án phí theo Nghị quyết 326 mà không xem xét thêm các yếu tố hoàn cảnh cá nhân của các bên.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Tòa án căn cứ trực tiếp vào văn bản Biên nhận ngày 21/8/2018 và đối chiếu với nghĩa vụ trả nợ quy định tại Điều 466 Bộ luật Dân sự để buộc bị đơn trả nợ, đồng thời áp dụng đúng mức án phí theo Nghị quyết 326 mà không xem xét thêm các yếu tố hoàn cảnh cá nhân của các bên.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "{\"answer\": \"[Textualism]\"}"
+    },
+    {
+      "id": 15,
+      "question": "Cách Tòa lập luận: Mặc dù bị đơn vắng mặt và không có lời khai, Tòa án xem xét việc vắng mặt không lý do là tự từ bỏ quyền chứng minh để bảo vệ quyền lợi hợp pháp của người cho vay, đảm bảo tính công bằng và mục đích bảo vệ sự ổn định của các giao dịch dân sự trong đời sống xã hội.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù bị đơn vắng mặt và không có lời khai, Tòa án xem xét việc vắng mặt không lý do là tự từ bỏ quyền chứng minh để bảo vệ quyền lợi hợp pháp của người cho vay, đảm bảo tính công bằng và mục đích bảo vệ sự ổn định của các giao dịch dân sự trong đời sống xã hội.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the provided context, the answer is:\n\n{\"answer\": \"[Purposivism]\"}"
+    },
+    {
+      "id": 16,
+      "question": "Cách Tòa lập luận: Tòa án căn cứ trực tiếp vào văn bản Biên nhận ngày 14/11/2019 để xác định số tiền vay, thời hạn trả và đối chiếu với các điều khoản cụ thể của Bộ luật Dân sự 2015 (Điều 463, 466) để buộc bị đơn thực hiện đúng nghĩa vụ trả tiền gốc còn thiếu mà không xem xét thêm các yếu tố hoàn cảnh kinh tế của các bên.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Tòa án căn cứ trực tiếp vào văn bản Biên nhận ngày 14/11/2019 để xác định số tiền vay, thời hạn trả và đối chiếu với các điều khoản cụ thể của Bộ luật Dân sự 2015 (Điều 463, 466) để buộc bị đơn thực hiện đúng nghĩa vụ trả tiền gốc còn thiếu mà không xem xét thêm các yếu tố hoàn cảnh kinh tế của các bên.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "{\"answer\": \"[Textualism]\"}"
+    },
+    {
+      "id": 17,
+      "question": "Cách Tòa lập luận: Mặc dù các bị đơn vắng mặt, Tòa án xem xét hành vi này là sự tự từ bỏ quyền chứng minh của họ, từ đó bảo vệ quyền lợi hợp pháp của người cho vay nhằm đảm bảo tính nghiêm minh của các cam kết dân sự và mục đích bảo vệ trật tự giao dịch tài sản trong xã hội.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù các bị đơn vắng mặt, Tòa án xem xét hành vi này là sự tự từ bỏ quyền chứng minh của họ, từ đó bảo vệ quyền lợi hợp pháp của người cho vay nhằm đảm bảo tính nghiêm minh của các cam kết dân sự và mục đích bảo vệ trật tự giao dịch tài sản trong xã hội.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the provided context, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe reasoning behind this choice is that the court's decision appears to be based primarily on the literal interpretation of the law regarding the consequences of a party's absence in a legal proceeding, rather than focusing on the underlying purpose or intent behind the law. The emphasis on the \"strict\" application of the rule that a party's absence can lead to the loss of their right to present evidence aligns more closely with textualism, which focuses on the explicit wording and meaning of the law as written. While the court also considers the broader implications for maintaining legal order and protecting transactional fairness, the primary basis for the decision seems to be rooted in the strict application of the legal rule as stated. However, since the context leans more towards the procedural aspect and the literal application of the rule, Textualism is the more appropriate classification. \n\n{\"answer\": \"[Textualism]\"}"
+    },
+    {
+      "id": 18,
+      "question": "Cách Tòa lập luận: Tòa án căn cứ vào sự kiện ly thân thực tế kéo dài từ năm 2021 đến nay, việc các bên không còn quan tâm giúp đỡ nhau để xác định mục đích hôn nhân không đạt được, từ đó bảo vệ quyền được giải phóng khỏi một quan hệ hôn nhân chỉ còn tồn tại trên danh nghĩa.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Tòa án căn cứ vào sự kiện ly thân thực tế kéo dài từ năm 2021 đến nay, việc các bên không còn quan tâm giúp đỡ nhau để xác định mục đích hôn nhân không đạt được, từ đó bảo vệ quyền được giải phóng khỏi một quan hệ hôn nhân chỉ còn tồn tại trên danh nghĩa.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the provided context, the answer is:\n\n{\"answer\": \"[Purposivism]\"}"
+    },
+    {
+      "id": 19,
+      "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 35 và điểm a khoản 1 Điều 39 Bộ luật tố tụng dân sự năm 2015 quy định về thẩm quyền giải quyết dựa trên nơi cư trú của bị đơn, Tòa án xác định bị đơn cư trú tại xã B nên thụ lý vụ án là đúng quy định.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 35 và điểm a khoản 1 Điều 39 Bộ luật tố tụng dân sự năm 2015 quy định về thẩm quyền giải quyết dựa trên nơi cư trú của bị đơn, Tòa án xác định bị đơn cư trú tại xã B nên thụ lý vụ án là đúng quy định.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the provided legal reasoning, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court's decision appears to be based strictly on the wording and specific provisions of the Civil Procedure Code, rather than interpreting the law in light of its purpose or broader context."
+    },
+    {
+      "id": 20,
+      "question": "Cách Tòa lập luận: Mặc dù ông H vắng mặt và không có lời khai, Tòa án căn cứ vào thực tế ly thân kéo dài 15 năm và sự thiếu quan tâm chăm sóc giữa hai bên để xác định mục đích hôn nhân không đạt được, từ đó giải phóng cho các bên khỏi mối quan hệ hôn nhân hữu danh vô thực.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù ông H vắng mặt và không có lời khai, Tòa án căn cứ vào thực tế ly thân kéo dài 15 năm và sự thiếu quan tâm chăm sóc giữa hai bên để xác định mục đích hôn nhân không đạt được, từ đó giải phóng cho các bên khỏi mối quan hệ hôn nhân hữu danh vô thực.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Purposivism"
+    },
+    {
+      "id": 21,
+      "question": "Cách Tòa lập luận: Mặc dù bà L không trực tiếp canh tác trong thời gian dài, nhưng Tòa xét đến nguyên nhân khách quan do Nhà nước làm đường gây ngập mặn khiến bà không thể sử dụng đất, đồng thời bà không từ bỏ quyền sử dụng nên vẫn công nhận quyền lợi bồi thường của bà để đảm bảo công bằng.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù bà L không trực tiếp canh tác trong thời gian dài, nhưng Tòa xét đến nguyên nhân khách quan do Nhà nước làm đường gây ngập mặn khiến bà không thể sử dụng đất, đồng thời bà không từ bỏ quyền sử dụng nên vẫn công nhận quyền lợi bồi thường của bà để đảm bảo công bằng.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Purposivism"
+    },
+    {
+      "id": 22,
+      "question": "Cách Tòa lập luận: Khi xem xét quyền nuôi con, mặc dù người cha đồng ý giao con, Tòa án vẫn tiến hành lấy lời khai và căn cứ vào nguyện vọng thực tế của đứa trẻ (sinh năm 2015) muốn ở với mẹ để quyết định, nhằm đảm bảo môi trường phát triển tốt nhất cho trẻ thay vì chỉ máy móc áp dụng thỏa thuận của các bên.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Khi xem xét quyền nuôi con, mặc dù người cha đồng ý giao con, Tòa án vẫn tiến hành lấy lời khai và căn cứ vào nguyện vọng thực tế của đứa trẻ (sinh năm 2015) muốn ở với mẹ để quyết định, nhằm đảm bảo môi trường phát triển tốt nhất cho trẻ thay vì chỉ máy móc áp dụng thỏa thuận của các bên.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Purposivism"
+    },
+    {
+      "id": 23,
+      "question": "Cách Tòa lập luận: Hội đồng giám đốc thẩm đối chiếu nghiêm ngặt các điều kiện tại Điều 2 Nghị định 61/CP và Điều 9 Quy chế bán nhà của địa phương để xác định rằng nếu không có hợp đồng thuê nhà hợp pháp và không có hộ khẩu thường trú thì tuyệt đối không được mua nhà, bất kể thực tế cư trú hay việc nộp tiền thuê nhà.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Hội đồng giám đốc thẩm đối chiếu nghiêm ngặt các điều kiện tại Điều 2 Nghị định 61/CP và Điều 9 Quy chế bán nhà của địa phương để xác định rằng nếu không có hợp đồng thuê nhà hợp pháp và không có hộ khẩu thường trú thì tuyệt đối không được mua nhà, bất kể thực tế cư trú hay việc nộp tiền thuê nhà.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the way the court argued by strictly comparing the conditions specified in Article 2 of Decree 61/CP and the Local Housing Regulations, the answer is:\n\n{\"answer\": \"[Textualism]\"}"
+    },
+    {
+      "id": 24,
+      "question": "Cách Tòa lập luận: Mặc dù tại thời điểm năm 1981 pháp luật chưa cho phép tặng cho quyền sử dụng đất, nhưng Tòa xem xét ý chí thực tế của cha mẹ (người để lại di sản) thông qua các giấy tờ tay và quá trình sử dụng ổn định, liên tục hơn 30 năm của ông T để công nhận quyền sở hữu hợp pháp nhằm bảo vệ sự ổn định của quan hệ đất đai.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù tại thời điểm năm 1981 pháp luật chưa cho phép tặng cho quyền sử dụng đất, nhưng Tòa xem xét ý chí thực tế của cha mẹ (người để lại di sản) thông qua các giấy tờ tay và quá trình sử dụng ổn định, liên tục hơn 30 năm của ông T để công nhận quyền sở hữu hợp pháp nhằm bảo vệ sự ổn định của quan hệ đất đai.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the court's reasoning, the answer is:\n\n{\"answer\": \"[Purposivism]\"}"
+    },
+    {
+      "id": 25,
+      "question": "Cách Tòa lập luận: Hội đồng giám đốc thẩm đối chiếu trực tiếp các quyết định trưng cầu giám định và kết luận giám định có trong hồ sơ; khi thấy văn bản số 2219/C54 đã ghi nhận đủ cả trọng lượng và hàm lượng theo đúng trình tự pháp lý, Tòa tuyên bố việc hủy án của cấp phúc thẩm là trái quy định mà không cần xem xét các yếu tố bên ngoài khác.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Hội đồng giám đốc thẩm đối chiếu trực tiếp các quyết định trưng cầu giám định và kết luận giám định có trong hồ sơ; khi thấy văn bản số 2219/C54 đã ghi nhận đủ cả trọng lượng và hàm lượng theo đúng trình tự pháp lý, Tòa tuyên bố việc hủy án của cấp phúc thẩm là trái quy định mà không cần xem xét các yếu tố bên ngoài khác.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the way the court reasoned, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court focused solely on the direct comparison of the decision and conclusion from the appraisal report as recorded in the file, without considering external factors or the broader context beyond the text itself. This approach aligns with textualism, which emphasizes strict adherence to the words and text of the law."
+    },
+    {
+      "id": 26,
+      "question": "Cách Tòa lập luận: Mặc dù hành vi của bị cáo là nguy hiểm cho xã hội, nhưng Tòa xét thấy bị cáo bị bệnh tâm thần làm hạn chế khả năng điều khiển hành vi, có nhân thân tốt, chưa có tiền án tiền sự và hoàn cảnh gia đình khó khăn nên đã áp dụng mức hình phạt cải tạo không giam giữ thay vì phạt tù để thể hiện sự nhân văn và khoan hồng của pháp luật.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù hành vi của bị cáo là nguy hiểm cho xã hội, nhưng Tòa xét thấy bị cáo bị bệnh tâm thần làm hạn chế khả năng điều khiển hành vi, có nhân thân tốt, chưa có tiền án tiền sự và hoàn cảnh gia đình khó khăn nên đã áp dụng mức hình phạt cải tạo không giam giữ thay vì phạt tù để thể hiện sự nhân văn và khoan hồng của pháp luật.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Purposivism"
+    },
+    {
+      "id": 27,
+      "question": "Cách Tòa lập luận: Hội đồng Thẩm phán xem xét nguồn gốc dòng tiền dùng để mua xe (tiền tạm ứng dự án bị chiếm đoạt) và mục đích sử dụng xe (tặng cho quan chức để tạo mối quan hệ) để khẳng định tính chất bất hợp pháp của giao dịch, từ đó quyết định thu hồi tài sản để bảo đảm bồi thường thiệt hại cho ngân sách nhà nước.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Hội đồng Thẩm phán xem xét nguồn gốc dòng tiền dùng để mua xe (tiền tạm ứng dự án bị chiếm đoạt) và mục đích sử dụng xe (tặng cho quan chức để tạo mối quan hệ) để khẳng định tính chất bất hợp pháp của giao dịch, từ đó quyết định thu hồi tài sản để bảo đảm bồi thường thiệt hại cho ngân sách nhà nước.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Purposivism"
+    },
+    {
+      "id": 28,
+      "question": "Cách Tòa lập luận: Tòa án xác định việc thỏa thuận đổi đất làm lối đi giữa ông T1 và bà T2 chỉ là thỏa thuận miệng/viết tay giữa các cá nhân, không được đăng ký biến động hay thể hiện trên Giấy chứng nhận quyền sử dụng đất do cơ quan nhà nước cấp, do đó không có căn cứ để công nhận quyền sở hữu diện tích này là lối đi chung trong vụ án này.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Tòa án xác định việc thỏa thuận đổi đất làm lối đi giữa ông T1 và bà T2 chỉ là thỏa thuận miệng/viết tay giữa các cá nhân, không được đăng ký biến động hay thể hiện trên Giấy chứng nhận quyền sử dụng đất do cơ quan nhà nước cấp, do đó không có căn cứ để công nhận quyền sở hữu diện tích này là lối đi chung trong vụ án này.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the provided context, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court's reasoning focuses on the literal interpretation of the documents and the lack of formal registration or documentation, which aligns with textualism. There is no indication that the court considered the broader purpose or intent behind the agreement beyond the written or documented aspects."
+    },
+    {
+      "id": 29,
+      "question": "Cách Tòa lập luận: Tòa án tối cao xác định rằng vì bà T không có tên trên hợp đồng thuê nhà (hợp đồng ký với bà L), và theo đúng câu chữ của Điều 9 Quyết định 559/QĐ-UB thì phải có hợp đồng hợp pháp mới được mua, do đó việc bác đơn của bà T là đúng pháp luật bất kể bà có thực tế sinh sống hay đóng tiền.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Tòa án tối cao xác định rằng vì bà T không có tên trên hợp đồng thuê nhà (hợp đồng ký với bà L), và theo đúng câu chữ của Điều 9 Quyết định 559/QĐ-UB thì phải có hợp đồng hợp pháp mới được mua, do đó việc bác đơn của bà T là đúng pháp luật bất kể bà có thực tế sinh sống hay đóng tiền.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the provided reasoning, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court's decision is based strictly on the wording of the regulation and the literal interpretation of the contract, rather than considering the intent or purpose behind it."
+    },
+    {
+      "id": 30,
+      "question": "Cách Tòa lập luận: Mặc dù bị cáo dùng hung khí nguy hiểm (rìu), nhưng Tòa án xem xét toàn diện hoàn cảnh như mâu thuẫn bộc phát, nhân thân bị cáo có cha là thương binh, sự thành khẩn khai báo và nỗ lực bồi thường 1.000.000 đồng để áp dụng án treo nhằm mục đích giáo dục, giúp bị cáo tự cải tạo tại địa phương.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù bị cáo dùng hung khí nguy hiểm (rìu), nhưng Tòa án xem xét toàn diện hoàn cảnh như mâu thuẫn bộc phát, nhân thân bị cáo có cha là thương binh, sự thành khẩn khai báo và nỗ lực bồi thường 1.000.000 đồng để áp dụng án treo nhằm mục đích giáo dục, giúp bị cáo tự cải tạo tại địa phương.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the context provided, the answer is:\n\n{\"answer\": \"[Purposivism]\"}"
+    },
+    {
+      "id": 31,
+      "question": "Cách Tòa lập luận: Hội đồng Thẩm phán căn cứ trực tiếp vào văn bản luật là Điều 3 Luật khiếu nại, tố cáo để khẳng định quyền và trách nhiệm 'kiểm tra, xem xét lại' của cơ quan hành chính đối với quyết định của mình mà không cần phân tích sâu về các mục đích xã hội rộng hơn.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Hội đồng Thẩm phán căn cứ trực tiếp vào văn bản luật là Điều 3 Luật khiếu nại, tố cáo để khẳng định quyền và trách nhiệm 'kiểm tra, xem xét lại' của cơ quan hành chính đối với quyết định của mình mà không cần phân tích sâu về các mục đích xã hội rộng hơn.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the description provided, the answer is:\n\n{\"answer\": \"Textualism\"}"
+    },
+    {
+      "id": 32,
+      "question": "Cách Tòa lập luận: Dựa trên chứng cứ bị cáo dùng dao phay (vật sắc, nặng) chém trực tiếp vào vùng trán (vùng trọng yếu có màng não), Tòa án áp dụng nghiêm quy định tại Điều 123 để định tội Giết người bất kể ý chí chủ quan của bị cáo có muốn giết người hay không, vì hành vi khách quan đã xâm phạm đến khách thể cao nhất là tính mạng.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Dựa trên chứng cứ bị cáo dùng dao phay (vật sắc, nặng) chém trực tiếp vào vùng trán (vùng trọng yếu có màng não), Tòa án áp dụng nghiêm quy định tại Điều 123 để định tội Giết người bất kể ý chí chủ quan của bị cáo có muốn giết người hay không, vì hành vi khách quan đã xâm phạm đến khách thể cao nhất là tính mạng.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the provided context, the answer is:\n\n{\"answer\": \"[Textualism]\"} \n\nThe court's reasoning is based strictly on the text of the law and the objective facts of the case, without considering the subjective intent behind the act. This aligns with textualism, which focuses on the literal words and meaning of the law."
+    },
+    {
+      "id": 33,
+      "question": "Cách Tòa lập luận: Mặc dù hành vi của bị cáo đủ yếu tố cấu thành tội giết người, nhưng Tòa án xem xét toàn diện bối cảnh mâu thuẫn bộc phát, sự ăn năn hối cải thể hiện qua việc bồi thường 100 triệu và sự tự nguyện đầu thú để áp dụng Điều 57 về phạm tội chưa đạt nhằm đưa ra mức án 12 năm tù, cân bằng giữa trừng trị và cơ hội cải tạo cho bị cáo.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Mặc dù hành vi của bị cáo đủ yếu tố cấu thành tội giết người, nhưng Tòa án xem xét toàn diện bối cảnh mâu thuẫn bộc phát, sự ăn năn hối cải thể hiện qua việc bồi thường 100 triệu và sự tự nguyện đầu thú để áp dụng Điều 57 về phạm tội chưa đạt nhằm đưa ra mức án 12 năm tù, cân bằng giữa trừng trị và cơ hội cải tạo cho bị cáo.",
+        "answer": "[Purposivism]"
+      },
+      "model_response": "Based on the context provided, the answer is:\n\n{\"answer\": \"[Purposivism]\"}"
+    },
+    {
+      "id": 34,
+      "question": "Cách Tòa lập luận: Hội đồng xét xử căn cứ trực tiếp vào câu chữ của Điều 131 Bộ luật Dân sự để xác định hậu quả của giao dịch vô hiệu là phải hoàn trả đúng số tiền đã nhận (480.000.000 đồng) mà không chấp nhận xem xét các yếu tố khấu hao sử dụng thực tế do bên ngay tình được hưởng lợi tức theo luật định.",
+      "reference": {
+        "question": "Cách Tòa lập luận: Hội đồng xét xử căn cứ trực tiếp vào câu chữ của Điều 131 Bộ luật Dân sự để xác định hậu quả của giao dịch vô hiệu là phải hoàn trả đúng số tiền đã nhận (480.000.000 đồng) mà không chấp nhận xem xét các yếu tố khấu hao sử dụng thực tế do bên ngay tình được hưởng lợi tức theo luật định.",
+        "answer": "[Textualism]"
+      },
+      "model_response": "Based on the Court's reasoning that it adheres strictly to the wording of Article 131 of the Civil Code, the answer is:\n\n{\"answer\": \"Textualism\"}"
+    }
+  ]
+}

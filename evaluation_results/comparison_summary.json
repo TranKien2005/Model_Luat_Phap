@@ -1,0 +1,97 @@
+{
+  "timestamp": "2025-12-21T15:01:17.496699",
+  "models": [
+    "mistralai_Mistral-7B-Instruct-v0.3",
+    "Qwen_Qwen2.5-7B-Instruct"
+  ],
+  "overall": {
+    "mistralai_Mistral-7B-Instruct-v0.3": 0.4835858868801802,
+    "Qwen_Qwen2.5-7B-Instruct": 0.7487386120944144
+  },
+  "by_category": {
+    "Issue Spotting": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.75,
+      "Qwen_Qwen2.5-7B-Instruct": 0.9305555555555556
+    },
+    "Rule Conclusion": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.25,
+      "Qwen_Qwen2.5-7B-Instruct": 0.75
+    },
+    "Rule Application": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.3670888138635765,
+      "Qwen_Qwen2.5-7B-Instruct": 0.4086477369496864
+    },
+    "Interpretation": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.5354560051527093,
+      "Qwen_Qwen2.5-7B-Instruct": 0.7929513064283684
+    },
+    "Rhetorical Understanding": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.5153846153846153,
+      "Qwen_Qwen2.5-7B-Instruct": 0.8615384615384616
+    }
+  },
+  "by_task": {
+    "argument_consistency_check": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.4583333333333333,
+      "Qwen_Qwen2.5-7B-Instruct": 0.875
+    },
+    "case_type_classification": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.5833333333333334,
+      "Qwen_Qwen2.5-7B-Instruct": 0.9166666666666666
+    },
+    "clause_type_identification": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.2318840579710145,
+      "Qwen_Qwen2.5-7B-Instruct": 0.7246376811594203
+    },
+    "eligibility_logic_verification": {
+      "mistralai_Mistral-7B-Instruct-v0.3": {
+        "conclusion": 0.375,
+        "reasoning": 0.40332852854725343
+      },
+      "Qwen_Qwen2.5-7B-Instruct": {
+        "conclusion": 0.7916666666666666,
+        "reasoning": 0.3501121439823744
+      }
+    },
+    "functional_sentence_labelling": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.5555555555555556,
+      "Qwen_Qwen2.5-7B-Instruct": 0.9027777777777778
+    },
+    "general_issue_binary": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.8333333333333334,
+      "Qwen_Qwen2.5-7B-Instruct": 0.9375
+    },
+    "judgment_outcome_prediction": {
+      "mistralai_Mistral-7B-Instruct-v0.3": {
+        "conclusion": 0.08333333333333333,
+        "reasoning": 0.3632634791221316
+      },
+      "Qwen_Qwen2.5-7B-Instruct": {
+        "conclusion": 0.9583333333333334,
+        "reasoning": 0.4984393508662494
+      }
+    },
+    "legal_entity_extraction": {
+      "mistralai_Mistral-7B-Instruct-v0.3": {
+        "entity_rouge_l": 0.8390279523344041
+      },
+      "Qwen_Qwen2.5-7B-Instruct": {
+        "entity_rouge_l": 0.8612649316973167
+      }
+    },
+    "numerical_constraint_check": {
+      "mistralai_Mistral-7B-Instruct-v0.3": {
+        "conclusion": 0.2916666666666667,
+        "reasoning": 0.3346744339213445
+      },
+      "Qwen_Qwen2.5-7B-Instruct": {
+        "conclusion": 0.5,
+        "reasoning": 0.37739171600043553
+      }
+    },
+    "reasoning_method_detection": {
+      "mistralai_Mistral-7B-Instruct-v0.3": 0.47058823529411764,
+      "Qwen_Qwen2.5-7B-Instruct": 0.7647058823529411
+    }
+  }
+}

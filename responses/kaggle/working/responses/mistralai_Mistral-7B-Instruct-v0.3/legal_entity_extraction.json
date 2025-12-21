@@ -1,0 +1,224 @@
+{
+  "task_name": "legal_entity_extraction",
+  "model_name": "mistralai/Mistral-7B-Instruct-v0.3",
+  "total_samples": 24,
+  "timestamp": "2025-12-20T09:42:23.116415",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Đoạn văn: 'Người yêu cầu giải quyết việc dân sự: 1. Ông Nguyễn Ngọc T., sinh năm 1973. Căn cước công dân số: 079073022626. Thường trú: Thành phố Hồ Chí Minh. 2. Bà Nguyễn Thị Mỹ H., sinh năm 1976. Căn cước công dân số: 075176012409. Thường trú: Thành phố Hồ Chí Minh.' Yêu cầu trích xuất danh tính những người yêu cầu giải quyết việc dân sự.",
+      "reference": {
+        "question": "Đoạn văn: 'Người yêu cầu giải quyết việc dân sự: 1. Ông Nguyễn Ngọc T., sinh năm 1973. Căn cước công dân số: 079073022626. Thường trú: Thành phố Hồ Chí Minh. 2. Bà Nguyễn Thị Mỹ H., sinh năm 1976. Căn cước công dân số: 075176012409. Thường trú: Thành phố Hồ Chí Minh.' Yêu cầu trích xuất danh tính những người yêu cầu giải quyết việc dân sự.",
+        "answer": "Ông Nguyễn Ngọc T và bà Nguyễn Thị Mỹ H"
+      },
+      "model_response": "{\"answer\": {\"name\": \"Người yêu cầu giải quyết việc dân sự\", \"gender\": [\"Người đàn ông\", \"Người đàn bà\"]}}\n{\"answer\": {\"name\": \"Người yêu cầu giải quyết việc dân sự\", \"gender\": [\"Mr. Nguyen Ngoc T.\", \"Ms. Nguyen Thi My H.\"]}}"
+    },
+    {
+      "id": 2,
+      "question": "Đoạn văn: 'Ngày 06 tháng 10 năm 2025, tại trụ sở Tòa án nhân dân khu vực 13 - Phủ Thọ mở phiên tòa xét xử công khai vụ án Hôn nhân giả định thụ lý số 119/2025/TLST-HNGD ngày 08/9/2025 về việc: Ly hôn, giữa các đương sự: Nguyên đơn: Chị Đặng Thị H, sinh năm 1996; HKTT: Xóm T, xã A, tỉnh Nghệ An. Bị đơn: Anh Đỗ Đình T, sinh năm 1994; HKTT: Xóm R, xã L, tỉnh Phú Thọ. Thẩm phán - Chủ tọa phiên tòa: Bà Chu Thị Lan Anh. Thư ký phiên tòa: Ông Nguyễn Anh Lợi.' Yêu cầu trích xuất tên của Thẩm phán chủ tọa phiên tòa.",
+      "reference": {
+        "question": "Đoạn văn: 'Ngày 06 tháng 10 năm 2025, tại trụ sở Tòa án nhân dân khu vực 13 - Phủ Thọ mở phiên tòa xét xử công khai vụ án Hôn nhân giả định thụ lý số 119/2025/TLST-HNGD ngày 08/9/2025 về việc: Ly hôn, giữa các đương sự: Nguyên đơn: Chị Đặng Thị H, sinh năm 1996; HKTT: Xóm T, xã A, tỉnh Nghệ An. Bị đơn: Anh Đỗ Đình T, sinh năm 1994; HKTT: Xóm R, xã L, tỉnh Phú Thọ. Thẩm phán - Chủ tọa phiên tòa: Bà Chu Thị Lan Anh. Thư ký phiên tòa: Ông Nguyễn Anh Lợi.' Yêu cầu trích xuất tên của Thẩm phán chủ tọa phiên tòa.",
+        "answer": "Chu Thị Lan Anh"
+      },
+      "model_response": "{\"answer\": \"Bà Chu Thị Lan Anh\"}"
+    },
+    {
+      "id": 3,
+      "question": "Đoạn văn: 'Khoảng 22 giờ 10 phút ngày 05/11/2024, Công an phường B kiểm tra hành chính phòng số 5, nhà trọ B1 - B, khu phố D, phường B, thành phố T, tỉnh Bình Dương do Trần Văn M thuê ở thì phát hiện vật chứng. Bị cáo là Trần Văn M, sinh năm 1985. Người làm chứng là bà Trần Thị H. Thẩm phán - Chủ toạ phiên toà là ông Phạm Anh Thi. Thư ký phiên toà là ông Nguyễn Hoàng Tấn.' Yêu cầu trích xuất danh tính của Thẩm phán chủ tọa phiên tòa.",
+      "reference": {
+        "question": "Đoạn văn: 'Khoảng 22 giờ 10 phút ngày 05/11/2024, Công an phường B kiểm tra hành chính phòng số 5, nhà trọ B1 - B, khu phố D, phường B, thành phố T, tỉnh Bình Dương do Trần Văn M thuê ở thì phát hiện vật chứng. Bị cáo là Trần Văn M, sinh năm 1985. Người làm chứng là bà Trần Thị H. Thẩm phán - Chủ toạ phiên toà là ông Phạm Anh Thi. Thư ký phiên toà là ông Nguyễn Hoàng Tấn.' Yêu cầu trích xuất danh tính của Thẩm phán chủ tọa phiên tòa.",
+        "answer": "Phạm Anh Thi"
+      },
+      "model_response": "{\"answer\": \"Ông Phạm Anh Thi\"}"
+    },
+    {
+      "id": 4,
+      "question": "Đoạn văn: 'Nguyên đơn: Ông Nguyễn Quang T - sinh năm 1969; Địa chỉ: Khu phố 7, Thị trấn T, huyện N1, tỉnh Ninh Thuận. Người đại diện theo ủy quyền của nguyên đơn: Ông Đoàn Ngọc T. Bị đơn: Ông Nguyễn Văn Q và bà Nguyễn Thị M. Thẩm phán - Chủ tọa phiên tòa: Ông Nguyễn Văn Dược.' Yêu cầu trích xuất danh tính của nguyên đơn.",
+      "reference": {
+        "question": "Đoạn văn: 'Nguyên đơn: Ông Nguyễn Quang T - sinh năm 1969; Địa chỉ: Khu phố 7, Thị trấn T, huyện N1, tỉnh Ninh Thuận. Người đại diện theo ủy quyền của nguyên đơn: Ông Đoàn Ngọc T. Bị đơn: Ông Nguyễn Văn Q và bà Nguyễn Thị M. Thẩm phán - Chủ tọa phiên tòa: Ông Nguyễn Văn Dược.' Yêu cầu trích xuất danh tính của nguyên đơn.",
+        "answer": "Ông Nguyễn Quang T"
+      },
+      "model_response": "{\"answer\": \"Ông Nguyễn Quang T\"}"
+    },
+    {
+      "id": 5,
+      "question": "Đoạn văn: 'Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ tọa phiên toà: Bà Chu Thị Lan Anh; Các Hội thẩm nhân dân: Bà Hoàng Thị Huyền và Ông Trần Ánh Hồng; Thư ký phiên toà: Ông Nguyễn Anh Lợi; Đại diện Viện Kiểm sát: Ông Nguyễn Đức Đồng.' Yêu cầu trích xuất danh tính Thư ký phiên tòa.",
+      "reference": {
+        "question": "Đoạn văn: 'Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ tọa phiên toà: Bà Chu Thị Lan Anh; Các Hội thẩm nhân dân: Bà Hoàng Thị Huyền và Ông Trần Ánh Hồng; Thư ký phiên toà: Ông Nguyễn Anh Lợi; Đại diện Viện Kiểm sát: Ông Nguyễn Đức Đồng.' Yêu cầu trích xuất danh tính Thư ký phiên tòa.",
+        "answer": "Nguyễn Anh Lợi"
+      },
+      "model_response": "{\"answer\": \"Ông Nguyễn Anh Lợi\"}"
+    },
+    {
+      "id": 6,
+      "question": "Đoạn văn: 'Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ toạ phiên toà: Ông Võ Văn Hồng Biên. Các Hội thẩm nhân dân: 1. Ông Nguyễn Hùng Phúc. 2. Ông Võ Hùng Em. Thư ký phiên toà: Ông Nguyễn Văn Đức - Thư ký Toà án nhân dân khu vực II - Đồng Tháp.' Yêu cầu trích xuất danh tính Thư ký phiên tòa.",
+      "reference": {
+        "question": "Đoạn văn: 'Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ toạ phiên toà: Ông Võ Văn Hồng Biên. Các Hội thẩm nhân dân: 1. Ông Nguyễn Hùng Phúc. 2. Ông Võ Hùng Em. Thư ký phiên toà: Ông Nguyễn Văn Đức - Thư ký Toà án nhân dân khu vực II - Đồng Tháp.' Yêu cầu trích xuất danh tính Thư ký phiên tòa.",
+        "answer": "Nguyễn Văn Đức"
+      },
+      "model_response": "{\"answer\": {\"name\": \"Tên\", \"gender\": \"Không có\"}}\n{\"answer\": {\"name\": \"Thư ký phiên tòa\", \"gender\": \"Không có\"}}\n{\"answer\": {\"name\": \"Ông Nguyễn Văn Đức\", \"gender\": \"Không có\"}}"
+    },
+    {
+      "id": 7,
+      "question": "Đoạn văn: 'Ngày 24 tháng 9 năm 2025 tại trụ sở Toà án nhân dân khu vực II - Đồng Tháp xét xử sơ thẩm công khai vụ án thụ lý số: 53/2025/TLST-HNGD. Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ tọa phiên tòa: Ông Võ Văn Hồng Biển. Các Hội thẩm nhân dân: Ông Nguyễn Hữu Phúc và Ông Võ Hùng Em. Thư ký phiên tòa: Ông Nguyễn Văn Đức. Nguyên đơn là Bà Mai Hồng H, sinh năm 1994. Bị đơn là Ông Phạm Ngọc T, sinh năm 1991.' Yêu cầu trích xuất danh tính của Thẩm phán chủ tọa phiên tòa.",
+      "reference": {
+        "question": "Đoạn văn: 'Ngày 24 tháng 9 năm 2025 tại trụ sở Toà án nhân dân khu vực II - Đồng Tháp xét xử sơ thẩm công khai vụ án thụ lý số: 53/2025/TLST-HNGD. Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ tọa phiên tòa: Ông Võ Văn Hồng Biển. Các Hội thẩm nhân dân: Ông Nguyễn Hữu Phúc và Ông Võ Hùng Em. Thư ký phiên tòa: Ông Nguyễn Văn Đức. Nguyên đơn là Bà Mai Hồng H, sinh năm 1994. Bị đơn là Ông Phạm Ngọc T, sinh năm 1991.' Yêu cầu trích xuất danh tính của Thẩm phán chủ tọa phiên tòa.",
+        "answer": "Võ Văn Hồng Biển"
+      },
+      "model_response": "{\"answer\": \"Ông Võ Văn Hồng Biển\"}"
+    },
+    {
+      "id": 8,
+      "question": "Đoạn văn: 'TÒA ÁN NHÂN DÂN KHU VỰC 11 - ĐỒNG THÁP xét xử sơ thẩm công khai vụ án thụ lý số: 109/2025/TLST-DS ngày 21 tháng 8 năm 2025. Nguyên đơn: Ông Trần Thanh P, sinh năm 1977. Địa chỉ: Số C, ấp T, xã T, tỉnh Đồng Tháp. Người đại diện hợp pháp của ông Trần Thanh P: Chị Nguyễn Thanh V, sinh năm 1988; địa chỉ: Số D, ấp B, xã B, tỉnh Đồng Tháp là người đại diện theo uỷ quyền. Bị đơn: 1. Ông Đỗ Văn M. 2. Bà Cao Thị Kim H. Thẩm phán - Chủ toạ phiên toà: Ông Võ Văn Hồng Biên. Các Hội thẩm nhân dân: Ông Nguyễn Hữu Phúc và Ông Nguyễn Hùng Em. Thư ký phiên toà: Ông Nguyễn Văn Đức. Vụ án về việc Tranh chấp về hợp đồng dân sự vay tài sản.' Yêu cầu trích xuất danh tính người đại diện theo ủy quyền của nguyên đơn.",
+      "reference": {
+        "question": "Đoạn văn: 'TÒA ÁN NHÂN DÂN KHU VỰC 11 - ĐỒNG THÁP xét xử sơ thẩm công khai vụ án thụ lý số: 109/2025/TLST-DS ngày 21 tháng 8 năm 2025. Nguyên đơn: Ông Trần Thanh P, sinh năm 1977. Địa chỉ: Số C, ấp T, xã T, tỉnh Đồng Tháp. Người đại diện hợp pháp của ông Trần Thanh P: Chị Nguyễn Thanh V, sinh năm 1988; địa chỉ: Số D, ấp B, xã B, tỉnh Đồng Tháp là người đại diện theo uỷ quyền. Bị đơn: 1. Ông Đỗ Văn M. 2. Bà Cao Thị Kim H. Thẩm phán - Chủ toạ phiên toà: Ông Võ Văn Hồng Biên. Các Hội thẩm nhân dân: Ông Nguyễn Hữu Phúc và Ông Nguyễn Hùng Em. Thư ký phiên toà: Ông Nguyễn Văn Đức. Vụ án về việc Tranh chấp về hợp đồng dân sự vay tài sản.' Yêu cầu trích xuất danh tính người đại diện theo ủy quyền của nguyên đơn.",
+        "answer": "Chị Nguyễn Thanh V"
+      },
+      "model_response": "{\"answer\": \"Chị Nguyễn Thanh V\"}"
+    },
+    {
+      "id": 9,
+      "question": "Đoạn văn: 'Ngày 19 tháng 9 năm 2025 tại trụ sở Tòa án dân khu vực 11 - Đồng Tháp xét xử sơ thẩm công khai vụ án thụ lý số: 110/2025/TLST-DS. Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ toạ phiên toà: Ông Võ Văn Hồng Biên; Các Hội thẩm nhân dân: Ông Nguyễn Hữu Phúc, Ông Võ Hùng Em. Thư ký phiên toà: Ông Nguyễn Văn Đức - Thư ký Tòa án dân khu vực 11 - Đồng Tháp. Nguyên đơn: Ông Trần Thanh P, sinh năm 1977; Địa chỉ: Số C, ấp T, xã T, tỉnh Đồng Tháp. Người đại diện hợp pháp của ông Trần Thanh P: Chị Nguyễn Thanh V, sinh năm 1988; địa chỉ: Số D, ấp B, xã B, tỉnh Đồng Tháp. Bị đơn: 1. Ông Nguyễn Văn S, sinh năm 1968. 2. Bà Nguyễn Thị L, sinh năm 1974. Cùng địa chỉ: Số H, ấp B, xã B, tỉnh Đồng Tháp.' Yêu cầu trích xuất danh tính của người đại diện theo ủy quyền của nguyên đơn.",
+      "reference": {
+        "question": "Đoạn văn: 'Ngày 19 tháng 9 năm 2025 tại trụ sở Tòa án dân khu vực 11 - Đồng Tháp xét xử sơ thẩm công khai vụ án thụ lý số: 110/2025/TLST-DS. Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ toạ phiên toà: Ông Võ Văn Hồng Biên; Các Hội thẩm nhân dân: Ông Nguyễn Hữu Phúc, Ông Võ Hùng Em. Thư ký phiên toà: Ông Nguyễn Văn Đức - Thư ký Tòa án dân khu vực 11 - Đồng Tháp. Nguyên đơn: Ông Trần Thanh P, sinh năm 1977; Địa chỉ: Số C, ấp T, xã T, tỉnh Đồng Tháp. Người đại diện hợp pháp của ông Trần Thanh P: Chị Nguyễn Thanh V, sinh năm 1988; địa chỉ: Số D, ấp B, xã B, tỉnh Đồng Tháp. Bị đơn: 1. Ông Nguyễn Văn S, sinh năm 1968. 2. Bà Nguyễn Thị L, sinh năm 1974. Cùng địa chỉ: Số H, ấp B, xã B, tỉnh Đồng Tháp.' Yêu cầu trích xuất danh tính của người đại diện theo ủy quyền của nguyên đơn.",
+        "answer": "Nguyễn Thanh V"
+      },
+      "model_response": "{\"answer\": \"Chị Nguyễn Thanh V\"}"
+    },
+    {
+      "id": 10,
+      "question": "Đoạn văn: 'Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ toạ phiên toà: Ông Võ Văn Hồng Biên. Các Hội thẩm nhân dân: 1. Ông Nguyễn Hoàng Minh. 2. Ông Võ Hùng Em. Thư ký phiên toà: Ông Nguyễn Văn Đức.' Yêu cầu trích xuất danh tính Thẩm phán chủ tọa phiên tòa.",
+      "reference": {
+        "question": "Đoạn văn: 'Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ toạ phiên toà: Ông Võ Văn Hồng Biên. Các Hội thẩm nhân dân: 1. Ông Nguyễn Hoàng Minh. 2. Ông Võ Hùng Em. Thư ký phiên toà: Ông Nguyễn Văn Đức.' Yêu cầu trích xuất danh tính Thẩm phán chủ tọa phiên tòa.",
+        "answer": "Võ Văn Hồng Biên"
+      },
+      "model_response": "{\"answer\": \"Ông Võ Văn Hồng\"}"
+    },
+    {
+      "id": 11,
+      "question": "Đoạn văn: 'Ngày 23 tháng 9 năm 2025 tại trụ sở Toà án nhân dân khu vực II - Đồng Tháp xét xử sơ thẩm công khai vụ án thụ lý số: 47/2025/TLST-HNGD ngày 23 tháng 7 năm 2025 về việc Ly hôn giữa các đương sự: \n- Nguyên đơn: Bà Phạm Thị Kim T, sinh năm 1968. Địa chỉ: Số F, đường B, phường V, Thành phố Hồ Chí Minh.\n- Bị đơn: Ông Phạm Văn H, sinh năm 1975. Địa chỉ: Ấp T, xã T, tỉnh Đồng Tháp.\nBà Phạm Thị Kim T có mặt tại phiên toà; ông Phạm Văn H vắng mặt tại phiên toà không có lý do.' \nYêu cầu trích xuất danh tính của Bị đơn.",
+      "reference": {
+        "question": "Đoạn văn: 'Ngày 23 tháng 9 năm 2025 tại trụ sở Toà án nhân dân khu vực II - Đồng Tháp xét xử sơ thẩm công khai vụ án thụ lý số: 47/2025/TLST-HNGD ngày 23 tháng 7 năm 2025 về việc Ly hôn giữa các đương sự: \n- Nguyên đơn: Bà Phạm Thị Kim T, sinh năm 1968. Địa chỉ: Số F, đường B, phường V, Thành phố Hồ Chí Minh.\n- Bị đơn: Ông Phạm Văn H, sinh năm 1975. Địa chỉ: Ấp T, xã T, tỉnh Đồng Tháp.\nBà Phạm Thị Kim T có mặt tại phiên toà; ông Phạm Văn H vắng mặt tại phiên toà không có lý do.' \nYêu cầu trích xuất danh tính của Bị đơn.",
+        "answer": "Ông Phạm Văn H"
+      },
+      "model_response": "{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Ông Phạm Văn H\"}\n{\"answer\": \"H\"}\n{\"answer\": \"Phạm H\"}\n{\"answer\": \"H\"}\n{\"answer\": \"Phạm Văn\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer\": \"Phạm Văn H\"}\n{\"answer"
+    },
+    {
+      "id": 12,
+      "question": "Đoạn văn: 'Vào ngày 03 tháng 3 năm 2017 tại trụ sở Tòa án nhân dân cấp cao tại Đà Nẵng xét xử phúc thẩm công khai vụ án hành chính thụ lý số: 34/2016/TLPT-HC... Người khởi kiện: Bà Nguyễn Thị L, sinh năm 1936... Người bị kiện: Uỷ ban nhân dân huyện N, tỉnh Quảng Nam. Người đại diện theo ủy quyền: Ông Trương Văn T - Chức vụ: Phó Chủ tịch UBND huyện N, tỉnh Quảng Nam... Người bảo vệ quyền và lợi ích hợp pháp cho người khởi kiện: Ông Nguyễn Văn H - Văn phòng Luật sư T.' Yêu cầu trích xuất danh tính người đại diện theo ủy quyền của người bị kiện.",
+      "reference": {
+        "question": "Đoạn văn: 'Vào ngày 03 tháng 3 năm 2017 tại trụ sở Tòa án nhân dân cấp cao tại Đà Nẵng xét xử phúc thẩm công khai vụ án hành chính thụ lý số: 34/2016/TLPT-HC... Người khởi kiện: Bà Nguyễn Thị L, sinh năm 1936... Người bị kiện: Uỷ ban nhân dân huyện N, tỉnh Quảng Nam. Người đại diện theo ủy quyền: Ông Trương Văn T - Chức vụ: Phó Chủ tịch UBND huyện N, tỉnh Quảng Nam... Người bảo vệ quyền và lợi ích hợp pháp cho người khởi kiện: Ông Nguyễn Văn H - Văn phòng Luật sư T.' Yêu cầu trích xuất danh tính người đại diện theo ủy quyền của người bị kiện.",
+        "answer": "Ông Trương Văn T"
+      },
+      "model_response": "{\"answer\": \"Ông Trương Văn T\"}"
+    },
+    {
+      "id": 13,
+      "question": "Toàn bộ bản án số 21/2025/HNGD-ST ngày 24/9/2025 đề cập đến việc xét xử tại trụ sở Tòa án nhân dân khu vực II - Đồng Tháp. Thành phần Hội đồng xét xử có Thẩm phán Võ Văn Hồng Biên, các Hội thẩm Nguyễn Hữu Phúc, Võ Hùng Em và Thư ký Nguyễn Văn Đức. Nguyên đơn là ông Phạm Thái V và bị đơn là bà Phạm Thị D. Yêu cầu trích xuất danh tính Thẩm phán - Chủ tọa phiên tòa. ",
+      "reference": {
+        "question": "Toàn bộ bản án số 21/2025/HNGD-ST ngày 24/9/2025 đề cập đến việc xét xử tại trụ sở Tòa án nhân dân khu vực II - Đồng Tháp. Thành phần Hội đồng xét xử có Thẩm phán Võ Văn Hồng Biên, các Hội thẩm Nguyễn Hữu Phúc, Võ Hùng Em và Thư ký Nguyễn Văn Đức. Nguyên đơn là ông Phạm Thái V và bị đơn là bà Phạm Thị D. Yêu cầu trích xuất danh tính Thẩm phán - Chủ tọa phiên tòa. ",
+        "answer": "Ông Võ Văn Hồng Biên"
+      },
+      "model_response": "{\"answer\": \"Thẩm phán Võ Văn Hồng\"}"
+    },
+    {
+      "id": 14,
+      "question": "Đoạn văn: 'Ngày 09/5/2017... xét xử giám đốc thẩm vụ án... Người khởi kiện: Bà Trần Thị T, sinh năm 1956... Người bị kiện: Chủ tịch Uỷ ban nhân dân tỉnh L. Người có quyền lợi, nghĩa vụ liên quan: 1. Công ty TNHH một thành viên đầu tư phát triển nhà và đô thị L. 2. Ông Hà Văn M, Trưởng phòng quản lý nhà...' Yêu cầu trích xuất danh tính của Người bị kiện.",
+      "reference": {
+        "question": "Đoạn văn: 'Ngày 09/5/2017... xét xử giám đốc thẩm vụ án... Người khởi kiện: Bà Trần Thị T, sinh năm 1956... Người bị kiện: Chủ tịch Uỷ ban nhân dân tỉnh L. Người có quyền lợi, nghĩa vụ liên quan: 1. Công ty TNHH một thành viên đầu tư phát triển nhà và đô thị L. 2. Ông Hà Văn M, Trưởng phòng quản lý nhà...' Yêu cầu trích xuất danh tính của Người bị kiện.",
+        "answer": "Chủ tịch Uỷ ban nhân dân tỉnh L"
+      },
+      "model_response": "{\"answer\": \"Chủ tịch Uỷ ban nhân dân tỉnh L\"}"
+    },
+    {
+      "id": 15,
+      "question": "Đoạn văn: 'Ngày 29 tháng 8 năm 2025, tại trụ sở Tòa phúc thẩm Toà án nhân dân tối cao tại Thành phố Hồ Chí Minh mở phiên tòa xét xử phúc thẩm công khai vụ án dân sự... Thành phần Hội đồng xét xử phúc thẩm gồm có: Thẩm phán – Chủ tọa phiên tòa: Ông Lê Thành Long; Các Thẩm phán: Ông Nguyễn Văn Tửu, Ông Hà Huy Câu. Thư ký phiên tòa: Bà Mai Thị Thu Trang.' Yêu cầu trích xuất danh tính Thư ký phiên tòa.",
+      "reference": {
+        "question": "Đoạn văn: 'Ngày 29 tháng 8 năm 2025, tại trụ sở Tòa phúc thẩm Toà án nhân dân tối cao tại Thành phố Hồ Chí Minh mở phiên tòa xét xử phúc thẩm công khai vụ án dân sự... Thành phần Hội đồng xét xử phúc thẩm gồm có: Thẩm phán – Chủ tọa phiên tòa: Ông Lê Thành Long; Các Thẩm phán: Ông Nguyễn Văn Tửu, Ông Hà Huy Câu. Thư ký phiên tòa: Bà Mai Thị Thu Trang.' Yêu cầu trích xuất danh tính Thư ký phiên tòa.",
+        "answer": "Bà Mai Thị Thu Trang"
+      },
+      "model_response": "{\"answer\": \"Bà Mai Thị Thu Trang\"}"
+    },
+    {
+      "id": 16,
+      "question": "Đoạn văn: 'Ngày 16 tháng 6 năm 2016, tại trụ sở Tòa án nhân dân tối cao mở phiên toà giám đốc thẩm xét xử vụ án hình sự đối với bị cáo Nguyễn Ngọc A... Hội đồng giám đốc thẩm gồm có mười bốn thành viên tham gia xét xử, do ông Nguyễn Hòa Bình, Chánh án Tòa án nhân dân tối cao làm Chủ toạ phiên toà. Đại diện Viện kiểm sát nhân dân tối cao tham gia phiên toà là bà Nguyễn Thị Yến... Thư ký ghi biên bản phiên toà là bà Trần Thị Quỳnh.' Yêu cầu trích xuất danh tính Chủ tọa phiên tòa.",
+      "reference": {
+        "question": "Đoạn văn: 'Ngày 16 tháng 6 năm 2016, tại trụ sở Tòa án nhân dân tối cao mở phiên toà giám đốc thẩm xét xử vụ án hình sự đối với bị cáo Nguyễn Ngọc A... Hội đồng giám đốc thẩm gồm có mười bốn thành viên tham gia xét xử, do ông Nguyễn Hòa Bình, Chánh án Tòa án nhân dân tối cao làm Chủ toạ phiên toà. Đại diện Viện kiểm sát nhân dân tối cao tham gia phiên toà là bà Nguyễn Thị Yến... Thư ký ghi biên bản phiên toà là bà Trần Thị Quỳnh.' Yêu cầu trích xuất danh tính Chủ tọa phiên tòa.",
+        "answer": "Nguyễn Hòa Bình"
+      },
+      "model_response": "{\"answer\": \"Ông Nguyễn Hòa Bình\"}"
+    },
+    {
+      "id": 17,
+      "question": "Đoạn văn: 'Ngày 18 tháng 11 năm 2025, tại trụ sở TAND khu vực 6 - Thành Hóa xét xử sơ thẩm công khai vụ án hình sự thụ lý số: 27/2025/TLST- HS ngày 17 tháng 10 năm 2025, theo quyết định đưa vụ án ra xét xử sơ: 29/2025/ QĐXXST- HS ngày 04/11/2025 đối với bị cáo: CAO VĂN D, sinh ngày: 08/9/1991, tại tỉnh Nam Định (nay là tỉnh Ninh Bình); CCCD số: 036091020134; Cư trú tại: Xóm B, xã X, tỉnh Ninh Bình; nghề nghiệp: lái xe; trình độ văn hoá: 8/12; Dân tộc: Kinh; giới tính: Nam; tôn giáo: Không; Quốc tịch: Việt Nam; Cơ quan: Cao Văn T; Con bà: Nguyễn Thị H (đã chết); Vợ: Trần Thị Anh T1 (đã ly hôn); Con: có 01 con sinh năm 2017; Tiền án, tiền sự không; Bị cáo bị tạm giam từ ngày 14/6/2025 đến ngày 04/9/2025 thay thế biện pháp ngăn chặn bằng biện pháp bảo lĩnh (có mặt). Người bào chữa cho bị cáo Cao Văn D: Bà Hoàng Thị T2 - Trợ giúp viên pháp lý thuộc trung tâm Trợ giúp pháp lý Nhà nước tỉnh T.' Yêu cầu trích xuất danh tính bị cáo.",
+      "reference": {
+        "question": "Đoạn văn: 'Ngày 18 tháng 11 năm 2025, tại trụ sở TAND khu vực 6 - Thành Hóa xét xử sơ thẩm công khai vụ án hình sự thụ lý số: 27/2025/TLST- HS ngày 17 tháng 10 năm 2025, theo quyết định đưa vụ án ra xét xử sơ: 29/2025/ QĐXXST- HS ngày 04/11/2025 đối với bị cáo: CAO VĂN D, sinh ngày: 08/9/1991, tại tỉnh Nam Định (nay là tỉnh Ninh Bình); CCCD số: 036091020134; Cư trú tại: Xóm B, xã X, tỉnh Ninh Bình; nghề nghiệp: lái xe; trình độ văn hoá: 8/12; Dân tộc: Kinh; giới tính: Nam; tôn giáo: Không; Quốc tịch: Việt Nam; Cơ quan: Cao Văn T; Con bà: Nguyễn Thị H (đã chết); Vợ: Trần Thị Anh T1 (đã ly hôn); Con: có 01 con sinh năm 2017; Tiền án, tiền sự không; Bị cáo bị tạm giam từ ngày 14/6/2025 đến ngày 04/9/2025 thay thế biện pháp ngăn chặn bằng biện pháp bảo lĩnh (có mặt). Người bào chữa cho bị cáo Cao Văn D: Bà Hoàng Thị T2 - Trợ giúp viên pháp lý thuộc trung tâm Trợ giúp pháp lý Nhà nước tỉnh T.' Yêu cầu trích xuất danh tính bị cáo.",
+        "answer": "CAO VĂN D"
+      },
+      "model_response": "{\"answer\": \"Cao Van D, Nam\"}"
+    },
+    {
+      "id": 18,
+      "question": "Đoạn văn: 'Tại Ban án hình sự sơ thẩm số 57/2014/HSSST ngày 12/9/2014, Tòa án nhân dân tỉnh Gia Lai áp dụng các điều khoản pháp luật xử phạt Trần Thị Quý P về các tội Lừa đảo, Lạm dụng tín nhiệm và Trốn thuế. Buộc Trần Thị Quý P phải trả lại cho Ban quản lý các dự án đầu tư xây dựng huyện K, tỉnh Gia Lai số tiền tạm ứng là 8.642.358.000 đồng.' Yêu cầu trích xuất danh tính nguyên đơn dân sự trong phần nghĩa vụ trả lại tiền tạm ứng.",
+      "reference": {
+        "question": "Đoạn văn: 'Tại Ban án hình sự sơ thẩm số 57/2014/HSSST ngày 12/9/2014, Tòa án nhân dân tỉnh Gia Lai áp dụng các điều khoản pháp luật xử phạt Trần Thị Quý P về các tội Lừa đảo, Lạm dụng tín nhiệm và Trốn thuế. Buộc Trần Thị Quý P phải trả lại cho Ban quản lý các dự án đầu tư xây dựng huyện K, tỉnh Gia Lai số tiền tạm ứng là 8.642.358.000 đồng.' Yêu cầu trích xuất danh tính nguyên đơn dân sự trong phần nghĩa vụ trả lại tiền tạm ứng.",
+        "answer": "Ban quản lý các dự án đầu tư xây dựng huyện K, tỉnh Gia Lai"
+      },
+      "model_response": "{\"answer\": \"Ban quản lý các dự án đầu tư xây dựng huyện K, tỉnh Gia Lai\"}"
+    },
+    {
+      "id": 19,
+      "question": "Đoạn văn: 'Trong các ngày 15 và 16 tháng 12 năm 2025, tại trụ sở Tòa án nhân dân tỉnh Đồng Nai xét xử phúc thẩm công khai vụ án dân sự thụ lý số 359/2025/TLPT-DS về việc Tranh chấp hợp đồng tín dụng và hợp đồng thế chấp tài sản. Nguyên đơn: Ngân hàng Thương mại cổ phần S (Ngân hàng S1). Địa chỉ trụ sở chính: Số G đường T, phường T, Quận H, Thành phố Hà Nội. Bị đơn: Bà Đinh Thị Diệu T, sinh năm 1997; Địa chỉ: Tổ B, Khu phố A, phường T, thành phố D, tỉnh Bình Phước.' Yêu cầu trích xuất danh tính nguyên đơn.",
+      "reference": {
+        "question": "Đoạn văn: 'Trong các ngày 15 và 16 tháng 12 năm 2025, tại trụ sở Tòa án nhân dân tỉnh Đồng Nai xét xử phúc thẩm công khai vụ án dân sự thụ lý số 359/2025/TLPT-DS về việc Tranh chấp hợp đồng tín dụng và hợp đồng thế chấp tài sản. Nguyên đơn: Ngân hàng Thương mại cổ phần S (Ngân hàng S1). Địa chỉ trụ sở chính: Số G đường T, phường T, Quận H, Thành phố Hà Nội. Bị đơn: Bà Đinh Thị Diệu T, sinh năm 1997; Địa chỉ: Tổ B, Khu phố A, phường T, thành phố D, tỉnh Bình Phước.' Yêu cầu trích xuất danh tính nguyên đơn.",
+        "answer": "Ngân hàng Thương mại cổ phần S"
+      },
+      "model_response": "{\"answer\": \"Ngân hàng Thương mại cổ phần S\"}"
+    },
+    {
+      "id": 20,
+      "question": "Đoạn văn: 'Ngày 09/5/2017, tại trụ sở Toà án nhân dân tối cao đã mở phiên toà giám đốc thẩm xét xử vụ án hình sự việc khiếu kiện Quyết định hành chính số 1152/QD-UBND ngày 25/7/2011 của Chủ tịch Uỷ ban nhân dân tỉnh L. giữa: - Người khởi kiện: Bà Trần Thị T, sinh năm 1956; trú tại khu A, phường B, thành phố C, tỉnh Lang Son. - Người bị kiện: Chủ tịch Uỷ ban nhân dân tỉnh L. Địa chỉ: Đường P, phường T, thành phố C, tỉnh Lang Son - Người có quyền lợi, nghĩa vụ liên quan: 1. Công ty TNHH một thành viên đầu tư phát triển nhà và đồ thị L. 2. Ông Hà Văn M, Trưởng phòng quản lý nhà. 3. Bà Trần Thị L, trú tại đường D, phường E, thành phố C, tỉnh Lang Son. 4. Ông Trần Đức L, Trưởng phòng Quản lý nội vụ cưỡng chế nợ thuế, Cục thuế tỉnh L.' Yêu cầu trích xuất danh tính của Người bị kiện.",
+      "reference": {
+        "question": "Đoạn văn: 'Ngày 09/5/2017, tại trụ sở Toà án nhân dân tối cao đã mở phiên toà giám đốc thẩm xét xử vụ án hình sự việc khiếu kiện Quyết định hành chính số 1152/QD-UBND ngày 25/7/2011 của Chủ tịch Uỷ ban nhân dân tỉnh L. giữa: - Người khởi kiện: Bà Trần Thị T, sinh năm 1956; trú tại khu A, phường B, thành phố C, tỉnh Lang Son. - Người bị kiện: Chủ tịch Uỷ ban nhân dân tỉnh L. Địa chỉ: Đường P, phường T, thành phố C, tỉnh Lang Son - Người có quyền lợi, nghĩa vụ liên quan: 1. Công ty TNHH một thành viên đầu tư phát triển nhà và đồ thị L. 2. Ông Hà Văn M, Trưởng phòng quản lý nhà. 3. Bà Trần Thị L, trú tại đường D, phường E, thành phố C, tỉnh Lang Son. 4. Ông Trần Đức L, Trưởng phòng Quản lý nội vụ cưỡng chế nợ thuế, Cục thuế tỉnh L.' Yêu cầu trích xuất danh tính của Người bị kiện.",
+        "answer": "Chủ tịch Uỷ ban nhân dân tỉnh L"
+      },
+      "model_response": "{\"answer\": \"Chủ tịch Uỷ ban nhân dân tỉnh L.\"}"
+    },
+    {
+      "id": 21,
+      "question": "Đoạn văn: 'Vào khoảng 11 giờ 30 phút ngày 29/01/2025, Nguyễn Văn T đang chơi tại nhà ông Nguyễn Văn T1 ở thôn B, xã K, tỉnh Gia Lai. Do mâu thuẫn, T đã lấy một cái rìu có cán bằng gỗ dài 40cm, lưỡi bằng sắt dài 25cm, rộng 3,5cm để ở chuồng heo làm công cụ tấn công. Sau đó T đuổi theo và chém trúng vào kheo chân trái của ông Dương Ngọc A.' Yêu cầu trích xuất vật chứng/hung khí được sử dụng trong vụ án.",
+      "reference": {
+        "question": "Đoạn văn: 'Vào khoảng 11 giờ 30 phút ngày 29/01/2025, Nguyễn Văn T đang chơi tại nhà ông Nguyễn Văn T1 ở thôn B, xã K, tỉnh Gia Lai. Do mâu thuẫn, T đã lấy một cái rìu có cán bằng gỗ dài 40cm, lưỡi bằng sắt dài 25cm, rộng 3,5cm để ở chuồng heo làm công cụ tấn công. Sau đó T đuổi theo và chém trúng vào kheo chân trái của ông Dương Ngọc A.' Yêu cầu trích xuất vật chứng/hung khí được sử dụng trong vụ án.",
+        "answer": "Cái rìu có cán bằng gỗ dài 40cm, lưỡi bằng sắt dài 25cm, rộng 3,5cm"
+      },
+      "model_response": "{\"answer\": \"một cái rìu có cán bằng gỗ dài 40cm, lưỡi bằng sắt dài 25cm, rộng 3,5cm\"}"
+    },
+    {
+      "id": 22,
+      "question": "Đoạn văn: 'Ngày 13/01/2016, tại trụ sở Tòa án nhân dân tối cao đã mở phiên toà giám đốc thẩm xét xử vụ án hành chính về khiếu kiện quyết định giải quyết tranh chấp đất đai của Chủ tịch Uỷ ban nhân dân tỉnh K. Người khởi kiện: Ông Trần Tiến N1, sinh năm 1959; trú tại đường A, phường B, thành phố C, tỉnh Kiên Giang. Người bị kiện: Chủ tịch Uỷ ban nhân dân tỉnh K. Người có quyền lợi, nghĩa vụ liên quan: Ông Nguyễn Nhật N2, sinh năm 1951; trú tại đường A, phường B, thành phố C, tỉnh Kiên Giang. Diện tích đất 508,98m² ông Nguyễn Nhật N2 sử dụng từ năm 1981 có nguồn gốc một phần nhân chuyển nhượng của bà Ngô Thị L và một phần hoán đổi với bà Lê Thị T.' Yêu cầu trích xuất danh tính của Người bị kiện.",
+      "reference": {
+        "question": "Đoạn văn: 'Ngày 13/01/2016, tại trụ sở Tòa án nhân dân tối cao đã mở phiên toà giám đốc thẩm xét xử vụ án hành chính về khiếu kiện quyết định giải quyết tranh chấp đất đai của Chủ tịch Uỷ ban nhân dân tỉnh K. Người khởi kiện: Ông Trần Tiến N1, sinh năm 1959; trú tại đường A, phường B, thành phố C, tỉnh Kiên Giang. Người bị kiện: Chủ tịch Uỷ ban nhân dân tỉnh K. Người có quyền lợi, nghĩa vụ liên quan: Ông Nguyễn Nhật N2, sinh năm 1951; trú tại đường A, phường B, thành phố C, tỉnh Kiên Giang. Diện tích đất 508,98m² ông Nguyễn Nhật N2 sử dụng từ năm 1981 có nguồn gốc một phần nhân chuyển nhượng của bà Ngô Thị L và một phần hoán đổi với bà Lê Thị T.' Yêu cầu trích xuất danh tính của Người bị kiện.",
+        "answer": "Chủ tịch Uỷ ban nhân dân tỉnh K"
+      },
+      "model_response": "{\"answer\": \"Chủ tịch Uỷ ban nhân dân tỉnh K\"}"
+    },
+    {
+      "id": 23,
+      "question": "Đoạn văn: 'Khoảng trưa ngày 24/02/2024, Phan Văn C đã dùng một con dao để tấn công anh Bùi Văn T tại hội làng V. C và anh T đã xảy ra xô xát, C dùng chân tay không đấm vào người anh T, anh T bỏ chạy. Sau đó C đuổi theo, dùng dao phay chém 03 nhát trúng vào bả vai trái, bàn tay phải và trán phải của anh T. Kết quả truy tìm vật chứng xác định đây là một con dao phay dài khoảng 35cm, chuôi bằng gỗ, bản dao bằng kim loại màu trắng, một lưỡi sắc, đầu bằng do gia đình ông Phan Văn B và bà Kim Thị C1 sử dụng để khoan giếng đào để quên từ chiều hôm trước. Bị cáo C đã nhận dạng đúng con dao này qua bản ảnh tại cơ quan điều tra.' Yêu cầu trích xuất danh tính hung khí được bị cáo sử dụng.",
+      "reference": {
+        "question": "Đoạn văn: 'Khoảng trưa ngày 24/02/2024, Phan Văn C đã dùng một con dao để tấn công anh Bùi Văn T tại hội làng V. C và anh T đã xảy ra xô xát, C dùng chân tay không đấm vào người anh T, anh T bỏ chạy. Sau đó C đuổi theo, dùng dao phay chém 03 nhát trúng vào bả vai trái, bàn tay phải và trán phải của anh T. Kết quả truy tìm vật chứng xác định đây là một con dao phay dài khoảng 35cm, chuôi bằng gỗ, bản dao bằng kim loại màu trắng, một lưỡi sắc, đầu bằng do gia đình ông Phan Văn B và bà Kim Thị C1 sử dụng để khoan giếng đào để quên từ chiều hôm trước. Bị cáo C đã nhận dạng đúng con dao này qua bản ảnh tại cơ quan điều tra.' Yêu cầu trích xuất danh tính hung khí được bị cáo sử dụng.",
+        "answer": "Con dao phay dài khoảng 35cm, chuôi bằng gỗ, bản dao bằng kim loại màu trắng, một lưỡi sắc, đầu bằng"
+      },
+      "model_response": "{\"answer\": \"con dao phay\"}"
+    },
+    {
+      "id": 24,
+      "question": "Đoạn văn: 'Để phục vụ công việc kinh doanh tôm giống tại huyện T, tỉnh Ninh Thuận nên ngày 20/5/2020, Nguyễn Thế V đến nhà ông Võ Thành B ký hợp đồng thuê xe ô tô để đi lại, nhãn hiệu Toyota Fortuner, biển kiểm soát 77A – 089.55 (xe do ông Võ Thành B đứng tên chủ xe). Ông B đã giao cho V xe ô tô biển kiểm soát 77A – 089.55 và bản sao chứng nhận đăng ký xe. Khoảng tháng 9/2020, V nhờ người làm giả 01 chứng nhận đăng ký xe ô tô biển kiểm soát 77A – 089.55, tên chủ xe là Nguyễn Thế V với giá 2.500.000 đồng. Ngày 16/01/2021, V đem xe ô tô trên cùng chứng nhận đăng ký xe ô tô giả đến cầm cố tại số Dịch vụ cầm đồ 271-273 Võ Văn D do ông Nguyễn Vũ S1 làm chủ. Ông S1 đồng ý nhận cầm cố chiếc xe ô tô trên với số tiền 200.000.000 đồng.' Yêu cầu trích xuất biển kiểm soát của vật chứng là chiếc xe ô tô bị chiếm đoạt. ",
+      "reference": {
+        "question": "Đoạn văn: 'Để phục vụ công việc kinh doanh tôm giống tại huyện T, tỉnh Ninh Thuận nên ngày 20/5/2020, Nguyễn Thế V đến nhà ông Võ Thành B ký hợp đồng thuê xe ô tô để đi lại, nhãn hiệu Toyota Fortuner, biển kiểm soát 77A – 089.55 (xe do ông Võ Thành B đứng tên chủ xe). Ông B đã giao cho V xe ô tô biển kiểm soát 77A – 089.55 và bản sao chứng nhận đăng ký xe. Khoảng tháng 9/2020, V nhờ người làm giả 01 chứng nhận đăng ký xe ô tô biển kiểm soát 77A – 089.55, tên chủ xe là Nguyễn Thế V với giá 2.500.000 đồng. Ngày 16/01/2021, V đem xe ô tô trên cùng chứng nhận đăng ký xe ô tô giả đến cầm cố tại số Dịch vụ cầm đồ 271-273 Võ Văn D do ông Nguyễn Vũ S1 làm chủ. Ông S1 đồng ý nhận cầm cố chiếc xe ô tô trên với số tiền 200.000.000 đồng.' Yêu cầu trích xuất biển kiểm soát của vật chứng là chiếc xe ô tô bị chiếm đoạt. ",
+        "answer": "77A – 089.55"
+      },
+      "model_response": "{\"answer\": \"biển kiểm soát 77A – 089.55\"}"
+    }
+  ]
+}

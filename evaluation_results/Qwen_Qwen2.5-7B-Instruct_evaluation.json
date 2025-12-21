@@ -1,0 +1,3447 @@
+{
+  "model_name": "Qwen_Qwen2.5-7B-Instruct",
+  "timestamp": "2025-12-21T15:01:17.493181",
+  "overall": 0.7487386120944144,
+  "category_scores": {
+    "issue-spotting": 0.9305555555555556,
+    "rule-conclusion": 0.75,
+    "rule-application": 0.4086477369496864,
+    "interpretation": 0.7929513064283684,
+    "rhetorical-understanding": 0.8615384615384616
+  },
+  "tasks": {
+    "argument_consistency_check": {
+      "task_name": "argument_consistency_check",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "total_samples": 24,
+      "correct": 21,
+      "accuracy": 0.875,
+      "avg_reasoning_rouge_l": null,
+      "avg_entity_rouge_l": null,
+      "json_extraction_failed": 0,
+      "timestamp": "2025-12-21T15:01:17.476110",
+      "details": [
+        {
+          "id": 1,
+          "question": "Lập luận: Các đương sự trình bày họ không có nợ chung và không yêu cầu Tòa án giải quyết. Chứng cứ: ...",
+          "ref_answer": "Nhất quán",
+          "model_answer": "Nhất quán",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 2,
+          "question": "Chị H trình bày rằng mâu thuẫn vợ chồng đã trầm trọng, hai người sống ly thân từ tháng 10/2024 và kh...",
+          "ref_answer": "Nhất quán",
+          "model_answer": "Nhất quán",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 3,
+          "question": "Bị cáo Trần Văn M khai nhận tàng trữ ma túy nhằm mục đích sử dụng dần. Chứng cứ thực tế thu giữ tại ...",
+          "ref_answer": "Nhất quán",
+          "model_answer": "Nhất quán",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 4,
+          "question": "Nguyên đơn lập luận rằng ông Q và bà M lấn chiếm 02m đất chiều ngang của mình do hai bên có đất liền...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 5,
+          "question": "Anh D lập luận rằng anh muốn đoàn tụ với chị L và không đồng ý ly hôn. Tuy nhiên, hồ sơ vụ án thể hi...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 6,
+          "question": "Bà Hồ Thị M trình bày rằng vợ chồng đã phát sinh mâu thuẫn 20 năm nay, hiện đang sống ly thân và khô...",
+          "ref_answer": "Nhất quán",
+          "model_answer": "Nhất quán",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 7,
+          "question": "Lập luận: Bà H trình bày rằng mâu thuẫn vợ chồng trầm trọng và hai người đã sống ly thân từ tháng 12...",
+          "ref_answer": "Nhất quán",
+          "model_answer": "Nhất quán",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 8,
+          "question": "Lập luận: Nguyên đơn trình bày rằng vào ngày 21/8/2018 có cho bị đơn vay số tiền 10.000.000 đồng và ...",
+          "ref_answer": "Nhất quán",
+          "model_answer": "Nhất quán",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 9,
+          "question": "Nguyên đơn ông Trần Thành P lập luận rằng ông S và bà L còn nợ mình 6.000.000 đồng tiền gốc từ khoản...",
+          "ref_answer": "Nhất quán",
+          "model_answer": "Nhất quán",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 10,
+          "question": "Lập luận: Ông Nguyễn Bá T trình bày rằng vợ chồng có mâu thuẫn trầm trọng, đã sống ly thân từ năm 20...",
+          "ref_answer": "Nhất quán",
+          "model_answer": "Nhất quán",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 11,
+          "question": "Lập luận của nguyên đơn: Bà T cho rằng vợ chồng đã ly thân 15 năm và không còn quan tâm nhau. Chứng ...",
+          "ref_answer": "Nhất quán",
+          "model_answer": "Nhất quán",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 12,
+          "question": "Lập luận của bị đơn (UBND huyện N): Bà L không sử dụng đất từ năm 1999 đến nay nên không đủ điều kiệ...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Nhất quán",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 13,
+          "question": "Lập luận của nguyên đơn: Ông V cho rằng tình cảm vợ chồng không còn, mâu thuẫn không thể hàn gắn và ...",
+          "ref_answer": "Nhất quán",
+          "model_answer": "Nhất quán",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 14,
+          "question": "Lập luận của người khởi kiện: Bà T cho rằng gia đình bà thuộc đối tượng được mua nhà vì bà là cán bộ...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 15,
+          "question": "Lập luận của nguyên đơn: Cho rằng ông T giả mạo chữ ký của Chủ tịch xã và cha mẹ để làm giấy tờ chiế...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 16,
+          "question": "Lập luận của Tòa án cấp phúc thẩm: Cần hủy bản án sơ thẩm để điều tra lại nhằm giám định hàm lượng m...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 17,
+          "question": "Lập luận của bị cáo: Bị cáo không cố ý chống đối người thi hành công vụ mà chỉ muốn rời đi nhanh chó...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 18,
+          "question": "Lập luận của bà Đặng Thị Lan P: Bà đã mua chiếc xe này của bị cáo P với giá 01 tỷ đồng và là chủ sở ...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 19,
+          "question": "Lập luận của bà La Thị T2: Bà cho rằng đây là con đường đi duy nhất để vào thửa đất của bà nên yêu c...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 20,
+          "question": "Lập luận của bà T: Bà T cho rằng mình là người trực tiếp đóng tiền thuê nhà từ năm 2002 đến 2010 nên...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 21,
+          "question": "Lập luận của bị hại ông A: Ông A yêu cầu tăng hình phạt đối với bị cáo T vì cho rằng mức án 6 tháng ...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Nhất quán",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 22,
+          "question": "Lập luận của Viện kiểm sát: Kháng nghị cho rằng Quyết định số 1409 đã có hiệu lực pháp luật nên việc...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 23,
+          "question": "Lập luận của bị cáo C: Bị cáo kháng cáo xin giảm nhẹ hình phạt vì cho rằng mức án 12 năm tù là quá n...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Nhất quán",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 24,
+          "question": "Lập luận của ông S1: Yêu cầu giảm mức hoàn trả cho ông T từ 480.000.000 đồng xuống 380.000.000 đồng ...",
+          "ref_answer": "Mâu thuẫn",
+          "model_answer": "Mâu thuẫn",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        }
+      ]
+    },
+    "case_type_classification": {
+      "task_name": "case_type_classification",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "total_samples": 24,
+      "correct": 22,
+      "accuracy": 0.9166666666666666,
+      "avg_reasoning_rouge_l": null,
+      "avg_entity_rouge_l": null,
+      "json_extraction_failed": 0,
+      "timestamp": "2025-12-21T15:01:17.477112",
+      "details": [
+        {
+          "id": 1,
+          "question": "Tóm tắt bản án: Ông Nguyễn Ngọc T và bà Nguyễn Thị Mỹ H tự nguyện chung sống và đăng ký kết hôn vào ...",
+          "ref_answer": "hôn nhân và gia đình",
+          "model_answer": "Hôn nhân và gia đình",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 2,
+          "question": "Tóm tắt bản án: Chị Đặng Thị H và anh Đỗ Đình T tự nguyện đăng ký kết hôn vào năm 2023. Tuy nhiên, s...",
+          "ref_answer": "Hôn nhân và gia đình",
+          "model_answer": "Hôn nhân và gia đình",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 3,
+          "question": "Tóm tắt bản án: Khoảng 22 giờ 10 phút ngày 05/11/2024, cơ quan chức năng kiểm tra phòng trọ của Trần...",
+          "ref_answer": "Hình sự",
+          "model_answer": "Hình sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 4,
+          "question": "Tóm tắt bản án: Ông Nguyễn Quang T nhận chuyển nhượng 552.5m² đất từ ông Nguyễn Văn Q và bà Nguyễn T...",
+          "ref_answer": "Dân sự",
+          "model_answer": "Dân sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 5,
+          "question": "Tóm tắt bản án: Chị Lê Thị Diệu L và anh Nguyễn Bảo D kết hôn từ năm 2012. Quá trình chung sống xảy ...",
+          "ref_answer": "hôn nhân và gia đình",
+          "model_answer": "Hôn nhân và gia đình",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 6,
+          "question": "Tóm tắt bản án: Bà Hồ Thị M và ông Dương Hữu T tự nguyện kết hôn và chung sống từ năm 1994. Tuy nhiê...",
+          "ref_answer": "hôn nhân và gia đình",
+          "model_answer": "Hôn nhân và gia đình",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 7,
+          "question": "Tóm tắt bản án: Bà Mai Hồng H và ông Phạm Ngọc T kết hôn vào năm 2012 trên cơ sở tự nguyện. Sau thời...",
+          "ref_answer": "Hôn nhân và gia đình",
+          "model_answer": "Hôn nhân và gia đình",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 8,
+          "question": "Tóm tắt bản án: Ông Trần Thanh P và phía ông Đỗ Văn M, bà Cao Thị Kim H đã xác lập một giao dịch vay...",
+          "ref_answer": "Dân sự",
+          "model_answer": "Dân sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 9,
+          "question": "Tóm tắt bản án: Vào ngày 14/11/2019, ông Trần Thành P đã thực hiện việc cho ông Nguyễn Văn S và bà N...",
+          "ref_answer": "Dân sự",
+          "model_answer": "Dân sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 10,
+          "question": "Tóm tắt bản án: Ông Nguyễn Bá T và bà Trần Thị B xác lập quan hệ vợ chồng từ năm 1987 trên cơ sở tự ...",
+          "ref_answer": "hôn nhân và gia đình",
+          "model_answer": "Hôn nhân và gia đình",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 11,
+          "question": "Tóm tắt bản án: Bà Phạm Thị Kim T và ông Phạm Văn H kết hôn năm 1998 và có đăng ký kết hôn hợp pháp ...",
+          "ref_answer": "Hôn nhân và gia đình",
+          "model_answer": "Hôn nhân và gia đình",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 12,
+          "question": "Tóm tắt bản án: Bà Nguyễn Thị L khởi kiện yêu cầu hủy Công văn số 515/UBND-TNMT của UBND huyện N và ...",
+          "ref_answer": "Hành chính",
+          "model_answer": "Dân sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 13,
+          "question": "Tóm tắt bản án: Ông Phạm Thái V và bà Phạm Thị D kết hôn tự nguyện năm 2014 và có đăng ký kết hôn tạ...",
+          "ref_answer": "Hôn nhân và gia đình",
+          "model_answer": "Hôn nhân và gia đình",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 14,
+          "question": "Tóm tắt bản án: Bà Trần Thị T khởi kiện Quyết định số 1152/QĐ-UBND của Chủ tịch UBND tỉnh L về việc ...",
+          "ref_answer": "Hành chính",
+          "model_answer": "Hành chính",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 15,
+          "question": "Tóm tắt bản án: Vụ án xoay quanh việc các anh chị em trong gia đình ông Phan Văn N khởi kiện em trai...",
+          "ref_answer": "Dân sự",
+          "model_answer": "Dân sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 16,
+          "question": "Tóm tắt bản án: Ngày 01-8-2012, cơ quan công an khám xét nhà của Nguyễn Ngọc A và thu giữ 1.808,9 ga...",
+          "ref_answer": "Hình sự",
+          "model_answer": "Hình sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 17,
+          "question": "Tóm tắt bản án: Khoảng 16 giờ 45 phút ngày 15/04/2025, trên tuyến cao tốc đoạn M - Quốc lộ D, lực lư...",
+          "ref_answer": "Hình sự",
+          "model_answer": "Hình sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 18,
+          "question": "Tóm tắt bản án: Bị cáo Trần Thị Quý P, Giám đốc Công ty B, đã thực hiện nhiều hành vi phạm pháp từ n...",
+          "ref_answer": "Hình sự",
+          "model_answer": "Hình sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 19,
+          "question": "Tóm tắt bản án: Ngân hàng S1 khởi kiện bà Đinh Thị Diệu T yêu cầu thanh toán khoản nợ gốc 2 tỷ đồng ...",
+          "ref_answer": "Dân sự",
+          "model_answer": "Dân sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 20,
+          "question": "Tóm tắt bản án: Bà Trần Thị T khởi kiện yêu cầu hủy Quyết định số 1152/QĐ-UBND của Chủ tịch UBND tỉn...",
+          "ref_answer": "Hành chính",
+          "model_answer": "Hành chính",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 21,
+          "question": "Tóm tắt bản án: Bị cáo Nguyễn Văn T có hành vi dùng rìu là hung khí nguy hiểm chém trúng vào chân tr...",
+          "ref_answer": "Hình sự",
+          "model_answer": "Hình sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 22,
+          "question": "Tóm tắt bản án: Ông Trần Tiến N1 khởi kiện yêu cầu Tòa án hủy Quyết định số 2180/QĐ-UBND của Chủ tịc...",
+          "ref_answer": "Hành chính",
+          "model_answer": "Hành chính",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 23,
+          "question": "Tóm tắt bản án: Bị cáo Phan Văn C có hành vi dùng dao phay là hung khí nguy hiểm tấn công anh Bùi Vă...",
+          "ref_answer": "Hình sự",
+          "model_answer": "Hình sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 24,
+          "question": "Tóm tắt bản án: Nguyễn Thế V thuê xe ô tô của ông B rồi dùng giấy tờ giả để cầm cố cho ông S1 lấy ti...",
+          "ref_answer": "Hình sự",
+          "model_answer": "Dân sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        }
+      ]
+    },
+    "clause_type_identification": {
+      "task_name": "clause_type_identification",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "total_samples": 69,
+      "correct": 50,
+      "accuracy": 0.7246376811594203,
+      "avg_reasoning_rouge_l": null,
+      "avg_entity_rouge_l": null,
+      "json_extraction_failed": 0,
+      "timestamp": "2025-12-21T15:01:17.477112",
+      "details": [
+        {
+          "id": 1,
+          "question": "Đoạn văn: 'Quyết định này có hiệu lực pháp luật ngay sau khi được ban hành và không bị kháng cáo, kh...",
+          "ref_answer": "Hiệu lực",
+          "model_answer": "Quyết định",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 2,
+          "question": "Đoạn văn: 'Công nhận thuận tình ly hôn và sự thỏa thuận của các đương sự của thể như sau: - Về quan ...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Thông tin đương sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 3,
+          "question": "Đoạn văn: 'Ông Nguyễn Ngọc T và bà Nguyễn Thị Mỹ H từ nguyên chung sống với nhau và có đăng ký kết h...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Thông tin đương sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 4,
+          "question": "Đoạn văn: 'Bị đơn: Anh Đỗ Đình T, sinh năm 1994; HKTT: Xóm R, xã L, tỉnh Phú Thọ. Có đơn xin xét xử ...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 5,
+          "question": "Đoạn văn: 'Xử cho chị Đặng Thị H được ly hôn anh Đỗ Đình T'...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 6,
+          "question": "Đoạn văn: 'Mâu thuẫn giữa chị H và anh T đã trầm trọng không thể khắc phục được, đời sống chung khôn...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nội dung vụ án",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 7,
+          "question": "Đoạn văn: 'Bị cáo: Trần Văn M, sinh năm 1985 tại tỉnh Trà Vinh; Nơi thường trú: Ấp A, xã A, huyện C,...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 8,
+          "question": "Đoạn văn: 'Tuyên bố bị cáo Trần Văn M phạm tội “Tàng trữ trái pháp chất ma túy”: Xử phạt bị cáo Trần...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 9,
+          "question": "Đoạn văn: 'Hành vi của bị cáo đã vi phạm quy định về chính sách quản lý chất ma túy của Nhà nước, gâ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nội dung vụ án",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 10,
+          "question": "Đoạn văn: 'Bản án xử phúc thẩm, có hiệu lực pháp luật kể từ ngày tuyên án (ngày 03/4/2017).'...",
+          "ref_answer": "Hiệu lực",
+          "model_answer": "Hiệu lực",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 11,
+          "question": "Đoạn văn: 'Không chấp nhận toàn bộ yêu cầu khôi phục của nguyên đơn ông Nguyễn Quang T đối với nguyê...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Thông tin đương sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 12,
+          "question": "Đoạn văn: 'Mặc khác, sau khi nhận chuyển nhượng, ông T không quản lý, sử dụng nên có sự sai lệch về ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nội dung vụ án",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 13,
+          "question": "Đoạn văn: 'Nguyên đơn: Chị Lê Thị Diệu L, sinh năm 1991; CCCD số 017191007430; Nơi cư trú: Tiểu khu ...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 14,
+          "question": "Đoạn văn: 'Xử cho chị Lê Thị Diệu L được ly hôn anh Nguyễn Bảo D.'...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 15,
+          "question": "Đoạn văn: 'Như vậy hôn nhân giữa chị L và anh D đã lâm vào tình trạng trầm trọng, đời sống chung khô...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nội dung vụ án",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 16,
+          "question": "Đoạn văn: 'Bà Hộ Thị M được ly hôn với ông Dương Hữu T.'...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Thông tin đương sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 17,
+          "question": "Đoạn văn: 'Bà Hồ Thị M, sinh năm 1971. Địa chỉ: Số B, ấp T, xã T, tỉnh Đồng Tháp.'...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 18,
+          "question": "Đoạn văn: 'Như vậy, có cơ sở xác định hôn nhân giữa bà M và ông T đã lâm vào tình trạng trầm trọng, ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nhận định của Tòa",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 19,
+          "question": "Đoạn văn: 'Bà Mai Hồng H được ly hôn với ông Phạm Ngọc T.'...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Thông tin đương sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 20,
+          "question": "Đoạn văn: 'Bà Mai Hồng H và ông Phạm Ngọc T kết hôn năm 2012, có đăng ký kết hôn tại UBND xã B, huyệ...",
+          "ref_answer": "Nội dung vụ án",
+          "model_answer": "Thông tin đương sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 21,
+          "question": "Đoạn văn: 'Như vậy, có cơ sở xác định hôn nhân giữa bà H và ông T đã lâm vào tình trạng trầm trọng, ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nhận định của Tòa",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 22,
+          "question": "Đoạn văn: 'Bị đơn: 1. Ông Đỗ Văn M, sinh năm 1980. 2. Bà Cao Thị Kim H, sinh năm 1985. Cùng địa chỉ:...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 23,
+          "question": "Đoạn văn: 'Buộc ông Đỗ Văn M, bà Cao Thị Kim H trả cho ông Trần Thanh P số tiền 10.000.000 đồng (Mườ...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 24,
+          "question": "Đoạn văn: 'Việc giao kết hợp đồng được thực hiện trên cơ sở tự nguyện của các bên, mục đích và nội d...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Quyết định",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 25,
+          "question": "Đoạn văn: 'Bị đơn: 1. Ông Nguyễn Văn S, sinh năm 1968. 2. Bà Nguyễn Thị L, sinh năm 1974. Cùng địa c...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 26,
+          "question": "Đoạn văn: 'Chấp nhận toàn bộ yêu cầu khởi kiện của ông Trần Thành P. Buộc ông Nguyễn Văn S, bà Nguyễ...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 27,
+          "question": "Đoạn văn: 'Xét thấy, sau khi đạt được sự thỏa thuận về số tiền vay, thời hạn vay và lãi suất, ông P ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Thông tin đương sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 28,
+          "question": "Đoạn văn: 'Bị đơn: Bà Trần Thị B, sinh năm 1964. Địa chỉ: Ấp B, xã B, tỉnh Đồng Tháp.'...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 29,
+          "question": "Đoạn văn: 'Chấp nhận toàn bộ yêu cầu khởi kiện của ông Nguyễn Bá T. Về hôn nhân: Ông Nguyễn Bá T đượ...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 30,
+          "question": "Đoạn văn: 'Như vậy, có cơ sở xác định hôn nhân giữa ông T và bà B đã lâm vào tình trạng trầm trọng, ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nội dung vụ án",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 31,
+          "question": "Đoạn văn: 'Nguyên đơn: Bà Phạm Thị Kim T, sinh năm 1968. Địa chỉ: Số F, đường B, phường V, Thành phố...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 32,
+          "question": "Đoạn văn: 'Tuyên xử: Chấp nhận toàn bộ yêu cầu khởi kiện của bà Phạm Thị Kim T. Về hôn nhân: Bà Phạm...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 33,
+          "question": "Đoạn văn: 'Người khởi kiện: Bà Nguyễn Thị L, sinh năm 1936 có mặt. Địa chỉ: thôn A, xã T, huyện N, t...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 34,
+          "question": "Đoạn văn: 'Huy Công với số 515/UBND-TNMT ngày 18/5/2016 của UBND huyện N, tỉnh Quảng Nam về việc trả...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Thông tin đương sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 35,
+          "question": "Đoạn văn: 'Bản án này là phúc thẩm có hiệu lực pháp luật kể từ ngày tuyên án (03/3/2017).'...",
+          "ref_answer": "Hiệu lực",
+          "model_answer": "Hiệu lực",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 36,
+          "question": "Đoạn văn: 'Tuyên xử: Chấp nhận toàn bộ yêu cầu khởi kiện của ông Phạm Thái V. Về hôn nhân: Ông Phạm ...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 37,
+          "question": "Đoạn văn: 'Nguyên đơn: Ông Phạm Thái V, sinh năm 1988. Địa chỉ: Ấp T, xã A, tỉnh Đồng Tháp.' ...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 38,
+          "question": "Đoạn văn: 'Có cơ sở xác định hôn nhân giữa ông V và bà D đã lâm vào tình trạng trầm trọng, đời sống ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nhận định của Tòa",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 39,
+          "question": "Đoạn văn: 'Người khởi kiện: Bà Trần Thị T, sinh năm 1956; trú tại khu A, phường B, thành phố C, tỉnh...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 40,
+          "question": "Đoạn văn: 'Hủy bản án hành chính phúc thẩm số 47/2013/HCPT ngày 15/3/2013 của Tòa phúc thẩm Tòa án n...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 41,
+          "question": "Đoạn văn: 'Bản án phúc thẩm có hiệu lực pháp luật kể từ ngày tuyên án.'...",
+          "ref_answer": "Hiệu lực",
+          "model_answer": "Hiệu lực",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 42,
+          "question": "Đoạn văn: 'Nguyên đơn: 1. Ông Phan Văn N, sinh năm: 1953. Địa chỉ: 449/B, tổ 1, ấp 3, phường B, Thàn...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 43,
+          "question": "Đoạn văn: 'Tuyên xử: Không chấp nhận yêu cầu kháng cáo của ông Phan Văn N, bà Phan Thị G, ông Phan V...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 44,
+          "question": "Đoạn văn: 'Nguyễn Ngọc A sinh năm 1965; đăng ký hộ khẩu thường trú tại: phường E, quận Y, thành phố ...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 45,
+          "question": "Đoạn văn: 'Hủy Bản án hình sự phúc thẩm số 140/2015/HSPT ngày 28-10-2015 của Tòa án nhân dân cấp cao...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 46,
+          "question": "Đoạn văn: 'Bị cáo, người bào chữa có mặt được quyền kháng cáo bản án trong hạn 15 ngày kể từ ngày tu...",
+          "ref_answer": "Hiệu lực",
+          "model_answer": "Quyết định",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 47,
+          "question": "Đoạn văn: 'Xử phạt: Cao Văn Đ 30 (ba mươi) tháng cải tạo không giam giữ được trừ 83 ngày (từ 14/6/20...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 48,
+          "question": "Đoạn văn: 'Xét các tính tiết tăng nặng, giảm nhẹ TNHS: - Tính tiết tăng nặng: Bị cáo phạm tội không ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nhận định của Tòa",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 49,
+          "question": "Đoạn văn: 'Trần Thị Quý P sinh năm 1969; trú tại: đường C, phường D, thành phố E, tỉnh Gia Lai; khi ...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 50,
+          "question": "Đoạn văn: 'Hủy Bản án hình sự phúc thẩm số 90/2015/HSPT ngày 20-3-2015 của Toà phúc thẩm Toà án nhân...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 51,
+          "question": "Đoạn văn: 'Từ năm 2009 đến năm 2011, Công ty B có quan hệ mua bán vật liệu xây dựng với Doanh nghiệp...",
+          "ref_answer": "Nội dung vụ án",
+          "model_answer": "Thông tin đương sự",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 52,
+          "question": "Đoạn văn: 'Bản án phúc thẩm có hiệu lực pháp luật kể từ ngày tuyên án.'...",
+          "ref_answer": "Hiệu lực",
+          "model_answer": "Hiệu lực",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 53,
+          "question": "Đoạn văn: 'Buộc bà Đinh Thị Diệu T phải trả cho Ngân hàng TMCP S số tiền gốc và tiền lãi tính đến ng...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 54,
+          "question": "Đoạn văn: 'Việc ông T1 và bà T2 tự thỏa thuận chừa 01 phần diện tích đất để làm lối đi cho bà T2 là ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nội dung vụ án",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 55,
+          "question": "Đoạn văn: 'Người khởi kiện: Bà Trần Thị T, sinh năm 1956; trú tại khu A, phường B, thành phố C, tỉnh...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 56,
+          "question": "Đoạn văn: 'Hủy Bản án hành chính phúc thẩm số 47/2013/HCPT ngày 15/3/2013 của Tòa phúc thẩm Tòa án n...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 57,
+          "question": "Đoạn văn: 'Toà án cấp sơ thẩm nhận định bà Trần Thị T không đủ điều kiện mua nhà khu A, phường B, th...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nhận định của Tòa",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 58,
+          "question": "Đoạn văn: 'Bị cáo bị kháng cáo: Nguyễn Văn T, sinh ngày 15/01/1988 tại tỉnh Bình Định (nay là tỉnh G...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 59,
+          "question": "Đoạn văn: 'Xử phạt bị cáo Nguyễn Văn T 06 (sáu) tháng tù nhưng cho hưởng án treo về tội “Cố ý gây th...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 60,
+          "question": "Đoạn văn: 'Hành vi của bị cáo là đã xâm phạm trực tiếp đến sức khỏe của người khác, gây mất trật tự ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nhận định của Tòa",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 61,
+          "question": "Đoạn văn: 'Người khởi kiện: Ông Trần Tiến N1, sinh năm 1959; trú tại đường A, phường B, thành phố C,...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 62,
+          "question": "Đoạn văn: 'Không chấp nhận Quyết định kháng nghị số 09/QĐ-KNGDT-V12 ngày 28/5/2015 của Viện trưởng V...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 63,
+          "question": "Đoạn văn: 'Năm 1983, ông H có tranh chấp đất với ông N2 (gồm cả phần đất mương và đất bờ mương). Uỷ ...",
+          "ref_answer": "Nội dung vụ án",
+          "model_answer": "Nội dung vụ án",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 64,
+          "question": "Đoạn văn: 'Bị cáo có kháng cáo: Phan Văn C, sinh năm 1991; nơi cư trú: Thôn K., xã V. tỉnh Phú Thọ; ...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 65,
+          "question": "Đoạn văn: 'Không chấp nhận kháng cáo của bị cáo Phan Văn C, giữ nguyên bản án hình sự sơ thẩm số 20/...",
+          "ref_answer": "Quyết định",
+          "model_answer": "Quyết định",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 66,
+          "question": "Đoạn văn: 'Hành vi đó của bị cáo là rất nguy hiểm cho xã hội, thể hiện tính chất côn đồ, phạm vào tộ...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nhận định của Tòa",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 67,
+          "question": "Đoạn văn: 'Bị cáo không có kháng cáo, không bị kháng cáo, không bị kháng nghị và không có liên quan ...",
+          "ref_answer": "Thông tin đương sự",
+          "model_answer": "Thông tin đương sự",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 68,
+          "question": "Đoạn văn: 'Xét kháng cáo của ông S1, Hội đồng xét xử phúc thẩm thấy rằng: Tại thời điểm vợ chồng ông...",
+          "ref_answer": "Nhận định của Tòa",
+          "model_answer": "Nội dung vụ án",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 69,
+          "question": "Đoạn văn: 'Bản án phúc thẩm có hiệu lực pháp luật kể từ ngày tuyên án.' ...",
+          "ref_answer": "Hiệu lực",
+          "model_answer": "Hiệu lực",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        }
+      ]
+    },
+    "eligibility_logic_verification": {
+      "task_name": "eligibility_logic_verification",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "total_samples": 24,
+      "correct": 19,
+      "accuracy": 0.7916666666666666,
+      "avg_reasoning_rouge_l": 0.3501121439823744,
+      "avg_entity_rouge_l": null,
+      "json_extraction_failed": 0,
+      "timestamp": "2025-12-21T15:01:17.481633",
+      "details": [
+        {
+          "id": 1,
+          "question": "Theo Điều 55 Luật hôn nhân và gia đình năm 2014, nếu hai bên thật sự tự nguyện ly hôn và đã thỏa thu...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.23595505617977527,
+          "entity_score": null
+        },
+        {
+          "id": 2,
+          "question": "Theo quy định tại điểm a khoản 1 Điều 39 của Bộ luật Tố tụng dân sự, Tòa án nơi bị đơn cư trú, làm v...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.4415584415584416,
+          "entity_score": null
+        },
+        {
+          "id": 3,
+          "question": "Theo quy định tại điểm s khoản 1 Điều 51 Bộ luật Hình sự, người phạm tội thành khẩn khai báo hoặc ăn...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.3814432989690722,
+          "entity_score": null
+        },
+        {
+          "id": 4,
+          "question": "Theo quy định tại khoản 6 Điều 68 Bộ luật Tố tụng dân sự, người có quyền lợi, nghĩa vụ liên quan là ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": 0.1875,
+          "entity_score": null
+        },
+        {
+          "id": 5,
+          "question": "Theo quy định tại khoản 3 Điều 81 Luật Hôn nhân và gia đình năm 2014, con dưới 36 tháng tuổi được gi...",
+          "ref_answer": "Có",
+          "model_answer": "Không",
+          "correct": false,
+          "reasoning_score": 0.19402985074626866,
+          "entity_score": null
+        },
+        {
+          "id": 6,
+          "question": "Theo điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự 2015, Tòa án nơi bị đơn cư trú có thẩm quyền giải...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.4907975460122699,
+          "entity_score": null
+        },
+        {
+          "id": 7,
+          "question": "Theo Điều 81 Luật Hôn nhân và gia đình 2014, con từ đủ 07 tuổi trở lên thì phải xem xét nguyện vọng ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.5128205128205129,
+          "entity_score": null
+        },
+        {
+          "id": 8,
+          "question": "Theo quy định tại Điều 117 Bộ luật dân sự 2015, giao dịch dân sự có hiệu lực khi chủ thể có năng lực...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.3575418994413408,
+          "entity_score": null
+        },
+        {
+          "id": 9,
+          "question": "Theo quy định tại khoản 1 Điều 117 Bộ luật dân sự năm 2015, giao dịch dân sự có hiệu lực khi chủ thể...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.2808988764044944,
+          "entity_score": null
+        },
+        {
+          "id": 10,
+          "question": "Theo quy định tại điểm a khoản 1 Điều 39 Bộ luật tố tụng dân sự 2015, Tòa án nơi bị đơn cư trú có th...",
+          "ref_answer": "Có",
+          "model_answer": "Không",
+          "correct": false,
+          "reasoning_score": 0.45544554455445546,
+          "entity_score": null
+        },
+        {
+          "id": 11,
+          "question": "Theo quy định tại Điều 51 Luật Hôn nhân và gia đình năm 2014, vợ, chồng hoặc cả hai người có quyền y...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.4971098265895954,
+          "entity_score": null
+        },
+        {
+          "id": 12,
+          "question": "Luật: Khoản 1 Điều 21 Nghị định số 43/2014/NĐ-CP quy định người sử dụng đất ổn định, liên tục thì đủ...",
+          "ref_answer": "Có",
+          "model_answer": "Không",
+          "correct": false,
+          "reasoning_score": 0.35294117647058826,
+          "entity_score": null
+        },
+        {
+          "id": 13,
+          "question": "Theo Điều 147 Bộ luật Tố tụng dân sự và Nghị quyết 326/2016/UBTVQH14, nguyên đơn trong vụ án ly hôn ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.43795620437956206,
+          "entity_score": null
+        },
+        {
+          "id": 14,
+          "question": "Luật: Theo quy định tại Điều 2 Nghị định số 61/CP, đối tượng được mua nhà thuộc sở hữu nhà nước là '...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": 0.3311258278145695,
+          "entity_score": null
+        },
+        {
+          "id": 15,
+          "question": "Luật: Theo quy định tại Điều 100 Luật Đất đai 2013 và các văn bản hướng dẫn, người sử dụng đất có gi...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.4719101123595505,
+          "entity_score": null
+        },
+        {
+          "id": 16,
+          "question": "Luật: Theo quy định về giám định tư pháp trong tố tụng hình sự, nếu cơ quan điều tra đã trưng cầu và...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.40223463687150834,
+          "entity_score": null
+        },
+        {
+          "id": 17,
+          "question": "Luật: Theo điểm d khoản 1 Điều 12 Nghị quyết 326/2016/UBTVQH14, người có khó khăn về kinh tế hoặc ng...",
+          "ref_answer": "Có",
+          "model_answer": "Không",
+          "correct": false,
+          "reasoning_score": 0.3053435114503817,
+          "entity_score": null
+        },
+        {
+          "id": 18,
+          "question": "Luật: Theo quy định pháp luật về giao dịch dân sự, một giao dịch bị coi là vô hiệu nếu nội dung và m...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": 0.2275449101796407,
+          "entity_score": null
+        },
+        {
+          "id": 19,
+          "question": "Theo quy định tại Điều 254 Bộ luật Dân sự, chủ sở hữu bất động sản bị vây bọc bởi các bất động sản c...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": 0.4454545454545455,
+          "entity_score": null
+        },
+        {
+          "id": 20,
+          "question": "Quy định: Theo Điều 9 Quyết định số 559/QĐ-UB của UBND tỉnh L, điều kiện để được mua nhà sở hữu nhà ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": 0.20155038759689922,
+          "entity_score": null
+        },
+        {
+          "id": 21,
+          "question": "Theo Điều 65 Bộ luật Hình sự và Nghị quyết hướng dẫn, người bị xử phạt tù không quá 03 năm, có nhân ...",
+          "ref_answer": "Có",
+          "model_answer": "Không",
+          "correct": false,
+          "reasoning_score": 0.11538461538461538,
+          "entity_score": null
+        },
+        {
+          "id": 22,
+          "question": "Theo quy định tại Điều 3 Luật khiếu nại, tố cáo, điều kiện để một cơ quan ban hành quyết định hủy bỏ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.2773722627737226,
+          "entity_score": null
+        },
+        {
+          "id": 23,
+          "question": "Theo quy định tại khoản 2 Điều 51 Bộ luật Hình sự, người phạm tội tự nguyện ra trình diện và khai bá...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.32195121951219513,
+          "entity_score": null
+        },
+        {
+          "id": 24,
+          "question": "Theo Điều 131 Bộ luật Dân sự, bên ngay tình trong việc thu hoạch lợi tức từ tài sản trong giao dịch ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": 0.4768211920529801,
+          "entity_score": null
+        }
+      ]
+    },
+    "functional_sentence_labelling": {
+      "task_name": "functional_sentence_labelling",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "total_samples": 72,
+      "correct": 65,
+      "accuracy": 0.9027777777777778,
+      "avg_reasoning_rouge_l": null,
+      "avg_entity_rouge_l": null,
+      "json_extraction_failed": 0,
+      "timestamp": "2025-12-21T15:01:17.482635",
+      "details": [
+        {
+          "id": 1,
+          "question": "Câu: 'Ông Nguyễn Ngọc T và bà Nguyễn Thị Mỹ H từ nguyên chung sống với nhau và có đăng ký kết hôn tạ...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 2,
+          "question": "Câu: 'Căn cứ vào các Điều 212, 213, 397 của Bộ luật tố tụng dân sự năm 2015; Căn cứ vào các Điều 55 ...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 3,
+          "question": "Câu: 'Xét thấy, ông T và bà H yêu cầu ly hôn là thật sự tự nguyện, do đó có cần cứ Điều 55 Luật hôn ...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 4,
+          "question": "Câu: 'Chị Đặng Thị H và anh Đỗ Đình T kết hôn với nhau ngày 18/4/2023 trên cơ sở tự nguyện có đăng k...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 5,
+          "question": "Câu: 'Căn cứ Điều 51, khoản 1 Điều 53, Điều 56 Luật Hôn nhân và gia đình.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 6,
+          "question": "Câu: 'Hội đồng xét xử xét thấy sự thỏa thuận này của chị Đặng Thị H và anh Đỗ Đình T không trái luật...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 7,
+          "question": "Câu: 'M khai nhận là mua 500.000 đồng ma túy từ một người đàn ông không rõ lai lịch tại khu vực B, T...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 8,
+          "question": "Câu: 'Áp dụng điểm c khoản 1 Điều 249; Điểm s khoản 1, khoản 2 Điều 51; Các Điều 46, 47 của Bộ luật ...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 9,
+          "question": "Câu: 'Hành vi của bị cáo là nguy hiểm cho xã hội, lỗi của bị cáo là cố ý trực tiếp, do đó cần xử phạ...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 10,
+          "question": "Câu: 'Vào năm 2006, ông Nguyễn Quang T có nhân chuyển nhượng quyền sử dụng đất của ông Nguyễn Văn Q ...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 11,
+          "question": "Câu: 'Áp dụng các Điều 255, 256, 688 Bộ luật Dân sự năm 2005.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 12,
+          "question": "Câu: 'Do đó, việc ông T khởi kiện yêu cầu ông Q, bà M trả lại 02m ngang đất bị lấn chiếm là không có...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 13,
+          "question": "Câu: 'Chị L và anh D kết hôn với nhau ngày 12/12/2012 trên cơ sở tự nguyện có đăng ký kết hôn tại Ủy...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 14,
+          "question": "Câu: 'Căn cứ Điều 51, khoản 1 Điều 53, Điều 56, Điều 57, Điều 58 Luật hôn nhân và gia đình.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 15,
+          "question": "Câu: 'Anh D không có biện pháp để khắc phục mâu thuẫn gia đình, anh liên tiếp vắng mặt tại các phiên...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[FACT]",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 16,
+          "question": "Câu: 'Bà Hồ Thị M và ông Dương Hữu T kết hôn năm 1994, có đăng ký kết hôn tại UBND thị trấn T.'...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 17,
+          "question": "Câu: 'Căn cứ vào Điều 51, Điều 53 và Điều 56 của Luật hôn nhân và gia đình năm 2014.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 18,
+          "question": "Câu: 'Bà Hồ Thị M yêu cầu ly hôn với ông Dương Hữu T là phù hợp theo quy định nên được chấp nhận.'...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 19,
+          "question": "Câu: 'Bà H và ông T sống ly thân từ tháng 12/2024 đến nay, trong khoảng thời gian sống ly thân vợ ch...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 20,
+          "question": "Câu: 'Áp dụng Điều 51, Điều 53 và Điều 56 Luật hôn nhân và gia đình năm 2014.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 21,
+          "question": "Câu: 'Hiện nay, Ngọc H1 chưa đủ 36 tháng tuổi cần có sự chăm sóc của người mẹ nên giao cho bà H nuôi...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[FACT]",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 22,
+          "question": "Câu: 'Ngày 21/8/2018, ông Trần Thanh P cho ông Đỗ Văn M, bà Cao Thị Kim H vay số tiền 10.000.000 đồn...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 23,
+          "question": "Câu: 'Căn cứ vào khoản 3 Điều 26, điểm a khoản 1 Điều 35, điểm a khoản 1 Điều 39 Bộ luật tố tụng dân...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 24,
+          "question": "Câu: 'Cho nên, có cơ sở xác định ông M, bà H đã vi phạm nghĩa vụ trả nợ cho ông P theo thỏa thuận.'...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 25,
+          "question": "Câu: 'Ngày 14/11/2019, ông Trần Thành P cho ông Nguyễn Văn S, bà Nguyễn Thị L vay số tiền 20.000.000...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 26,
+          "question": "Câu: 'Căn cứ vào khoản 2 Điều 26, điểm a khoản 1 Điều 35, điểm a khoản 1 Điều 39, Điều 147, điểm b k...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 27,
+          "question": "Câu: 'Từ đó, có cơ sở xác định ông S, bà L đã vi phạm nghĩa vụ trả nợ cho ông P theo thỏa thuận.'...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 28,
+          "question": "Câu: 'Ông Nguyễn Bá T và bà Trần Thị B kết hôn năm 1987, có đăng ký kết hôn tại UBND xã T theo Giấy ...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 29,
+          "question": "Câu: 'Căn cứ vào Điều 51, Điều 53, Điều 56 của Luật hôn nhân và gia đình năm 2014.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 30,
+          "question": "Câu: 'Cho nên, ông Nguyễn Bá T yêu cầu ly hôn với bà Trần Thị B là phù hợp theo quy định nên được ch...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 31,
+          "question": "Câu: 'Bà Phạm Thị Kim T và ông Phạm Văn H kết hôn năm 1998, có đăng ký kết hôn tại UBND phường A, th...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 32,
+          "question": "Câu: 'Căn cứ vào Điều 51, Điều 53 và Điều 56 Luật hôn nhân và gia đình năm 2014.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 33,
+          "question": "Câu: 'Có cơ sở xác định hôn nhân giữa bà T và ông H đã lâm vào tình trạng trầm trọng, đời sống chung...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[FACT]",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 34,
+          "question": "Câu: 'Năm 1999, Nhà nước làm đường DH6 làm võ công, gây ngập ủng toàn bộ khu vực.'...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 35,
+          "question": "Câu: 'Áp dụng Khoản 1 Điều 241 Luật Tố tụng hành chính năm 2013.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 36,
+          "question": "Câu: 'Ảnh sơ thẩm chấp nhận đơn khởi kiện của bà L là có cán cứ đủng pháp luật.'...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 37,
+          "question": "Câu: 'Ông Phạm Thái V và bà Phạm Thị D kết hôn năm 2014, có đăng ký kết hôn tại UBND xã A, huyện T, ...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[LAW]",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 38,
+          "question": "Câu: 'Căn cứ vào Điều 51, Điều 53 và Điều 56 Luật hôn nhân và gia đình năm 2014.' ...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 39,
+          "question": "Câu: 'Việc giao con chung cho bà D trực tiếp nuôi dưỡng là phù hợp để đảm bảo sự phát triển tốt đẹp ...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 40,
+          "question": "Câu: 'Tại Điều 2 Nghị định số 61/CP quy định: Bán nhà thuộc sở hữu nhà nước cho người đang thuê...'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 41,
+          "question": "Câu: 'Bà T không có hộp đồng thuê nhà khu A, phường B.'...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 42,
+          "question": "Câu: 'Do vậy, Toà án cấp sơ thẩm nhận định bà Trần Thị T không đủ điều kiện mua nhà khu A... là có c...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 43,
+          "question": "Câu: 'Cụ Phan Văn D chết ngày 28/11/2005, cụ Võ Thị M chết ngày 08/9/2021 và không để lại di chúc.'...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 44,
+          "question": "Câu: 'Căn cứ điểm c khoản 1 Điều 50 Luật Đất đai năm 2003 quy định về các loại giấy tờ được cấp Giấy...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 45,
+          "question": "Câu: 'Việc Tòa án cấp sơ thẩm không chấp nhận yêu cầu khởi kiện của nguyên đơn là có căn cứ, đúng qu...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 46,
+          "question": "Câu: 'Cơ quan điều tra khám xét nhà của Nguyễn Ngọc A tại phường K, quận Y, thành phố Hà Nội thu giữ...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 47,
+          "question": "Câu: 'Căn cứ khoản 3 Điều 285 và Điều 287 Bộ luật tố tụng hình sự.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 48,
+          "question": "Câu: 'Tòa án cấp phúc thẩm tuyên hủy một phần bản án hình sự sơ thẩm để điều tra lại (giám định hàm ...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 49,
+          "question": "Câu: 'Bị cáo bị tạm giam từ ngày 14/6/2025 đến ngày 04/9/2025.'...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 50,
+          "question": "Câu: 'Áp dụng khoản 1 Điều 330, điểm i, q, s khoản 1, khoản 2 Điều 51, Điều 36 Bộ luật hình sự.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 51,
+          "question": "Câu: 'Hành vi của bị cáo là nguy hiểm cho xã hội, xâm phạm đến trật tự công cộng, nếp sống văn minh,...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 52,
+          "question": "Câu: 'Trần Thị Quý P đã dùng 67 hóa đơn giá trị gia tăng bất hợp pháp để kê khai khấu trừ thuế.'...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 53,
+          "question": "Câu: 'Căn cứ vào Điều 41 Bộ luật hình sự và Điều 76 Bộ luật tố tụng hình sự.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 54,
+          "question": "Câu: 'Tòa án cấp phúc thẩm giải trả cho bà Đặng Thị Lan P là chưa phù hợp với quy định của pháp luật...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 55,
+          "question": "Câu: 'Ngày 15/08/2023, Ngân hàng Thương mại cổ phần S và bà Đinh Thị Diệu T có ký kết Hợp đồng tín d...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 56,
+          "question": "Câu: 'Căn cứ các Điều 245, 254, Điều 280; Điều 292, Điều 299; Điều 317, Điều 318 của Bộ luật dân sự....",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 57,
+          "question": "Câu: 'Yêu cầu công nhận diện tích đất 240m2 lấy lối đi chung sẽ được giải quyết trong vụ án khác nếu...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[LAW]",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 58,
+          "question": "Câu: 'Ngày 01/5/2002, Công ty phát triển nhà và đô thị L ký Hợp đồng số 25 (VT) cho bà Trần Thị L th...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 59,
+          "question": "Câu: 'Tại Điều 2 Nghị định số 61/CP quy định: 'Điều 2. Mua bán và kinh doanh nhà ở quy định trong Ng...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 60,
+          "question": "Câu: 'Chấp nhận Kháng nghị số 28/2016/KN-HC ngày 07/10/2016 của Chánh án Tòa án nhân dân tối cao.'...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 61,
+          "question": "Câu: 'Tỷ lệ phần trăm tổn thương cơ thể của ông Á tại thời điểm giám định là 01%.'...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 62,
+          "question": "Câu: 'Căn cứ điểm a khoản 1 Điều 134; các điểm b, i, s khoản 1 và khoản 2 Điều 51; Điều 65 của Bộ lu...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 63,
+          "question": "Câu: 'Hội đồng xét xử phúc thẩm không chấp nhận kháng cáo yêu cầu tăng hình phạt đối với bị cáo của ...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 64,
+          "question": "Câu: 'Năm 1986, ông H chuyển nhượng nhà đất cho ông N1, trong đơn chỉ ghi: 'nhượng lại đất và cả nhà...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 65,
+          "question": "Câu: 'Điều 3 Luật khiếu nại, tố cáo quy định: 'Cơ quan, tổ chức, cá nhân có trách nhiệm kiểm tra, xe...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 66,
+          "question": "Câu: 'Việc Chủ tịch Uỷ ban nhân dân tỉnh K ban hành Quyết định số 2180/QĐ-UBND ngày 10/9/2009 hủy bỏ...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 67,
+          "question": "Câu: 'Anh T được một người dẫn đi bệnh viện cấp cứu tại Phòng khám Đ2, sau đó chuyển đến Bệnh viện đ...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 68,
+          "question": "Câu: 'Áp dụng điểm n khoản 1 Điều 123; điểm b, s khoản 1, khoản 2 Điều 51, Điều 57 Bộ luật Hình sự.'...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[LAW]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 69,
+          "question": "Câu: 'Hành vi dùng dao là hung khí nguy hiểm của Phan Văn C chém vào vùng mặt, đầu là vị trí trọng y...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[FACT]",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 70,
+          "question": "Câu: 'Chứng nhận đăng ký xe số 029955, tên chủ xe: Nguyễn Thế V, sinh năm 1977, biển số đăng ký 77A-...",
+          "ref_answer": "[FACT]",
+          "model_answer": "[FACT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 71,
+          "question": "Câu: 'Căn cứ các Điều 117, 123, 129 của Bộ luật Dân sự thì hợp đồng mua bán xe giữa vợ chồng ông S1 ...",
+          "ref_answer": "[LAW]",
+          "model_answer": "[JUDGMENT]",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 72,
+          "question": "Câu: 'Hội đồng xét xử phúc thẩm không chấp nhận kháng cáo của ông S1, giữ nguyên bản án sơ thẩm về p...",
+          "ref_answer": "[JUDGMENT]",
+          "model_answer": "[JUDGMENT]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        }
+      ]
+    },
+    "general_issue_binary": {
+      "task_name": "general_issue_binary",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "total_samples": 48,
+      "correct": 45,
+      "accuracy": 0.9375,
+      "avg_reasoning_rouge_l": null,
+      "avg_entity_rouge_l": null,
+      "json_extraction_failed": 1,
+      "timestamp": "2025-12-21T15:01:17.483634",
+      "details": [
+        {
+          "id": 1,
+          "question": "Tình huống: Ông T và bà H kết hôn năm 2001, nay mâu thuẫn trầm trọng nên cùng yêu cầu Tòa án công nh...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 2,
+          "question": "Tình huống: Ông T và bà H kết hôn năm 2001, nay mâu thuẫn trầm trọng nên cùng yêu cầu Tòa án công nh...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 3,
+          "question": "Tình huống: Chị H và anh T kết hôn năm 2023, đến tháng 10/2024 thì phát sinh mâu thuẫn trầm trọng, s...",
+          "ref_answer": "Không",
+          "model_answer": "Có",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 4,
+          "question": "Tình huống: Chị H và anh T kết hôn năm 2023, đến tháng 10/2024 thì phát sinh mâu thuẫn trầm trọng, s...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 5,
+          "question": "Tình huống: Trần Văn M bị bắt quả tang cất giấu 1,1536 gam ma túy loại Methamphetamine tại phòng trọ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 6,
+          "question": "Tình huống: Trần Văn M bị bắt quả tang cất giấu 1,1536 gam ma túy loại Methamphetamine tại phòng trọ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 7,
+          "question": "Tình huống: Ông T nhận chuyển nhượng đất từ ông Q và bà M vào năm 2006, đã được cấp GCNQSDĐ nhưng sa...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 8,
+          "question": "Tình huống: Ông T nhận chuyển nhượng đất từ ông Q và bà M vào năm 2006, đã được cấp GCNQSDĐ nhưng sa...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 9,
+          "question": "Tình huống: Chị L và anh D kết hôn năm 2012, đến năm 2025 phát sinh mâu thuẫn do bất đồng quan điểm ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 10,
+          "question": "Tình huống: Chị L và anh D kết hôn năm 2012, đến năm 2025 phát sinh mâu thuẫn do bất đồng quan điểm ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 11,
+          "question": "Tình huống: Bà Hồ Thị M khởi kiện yêu cầu ly hôn với ông Dương Hữu T vì mâu thuẫn kéo dài và hai ngư...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 12,
+          "question": "Tình huống: Bà Hồ Thị M khởi kiện yêu cầu ly hôn với ông Dương Hữu T vì mâu thuẫn kéo dài và hai ngư...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 13,
+          "question": "Tình huống: Bà H và ông T kết hôn năm 2012, đến cuối năm 2024 phát sinh mâu thuẫn do ông T không chă...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 14,
+          "question": "Tình huống: Bà H và ông T kết hôn năm 2012, đến cuối năm 2024 phát sinh mâu thuẫn do ông T không chă...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 15,
+          "question": "Tình huống: Ông P cho ông M và bà H vay 10.000.000 đồng từ năm 2018, có lập biên nhận, đến nay bên v...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 16,
+          "question": "Tình huống: Ông P cho ông M và bà H vay 10.000.000 đồng từ năm 2018, có lập biên nhận, đến nay bên v...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 17,
+          "question": "Tình huống: Ông P cho ông S và bà L vay 20.000.000 đồng, các bên có lập biên nhận nợ. Sau đó bên vay...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 18,
+          "question": "Tình huống: Ông P cho ông S và bà L vay 20.000.000 đồng, các bên có lập biên nhận nợ. Sau đó bên vay...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 19,
+          "question": "Tình huống: Ông T và bà B kết hôn năm 1987, chung sống hạnh phúc thời gian dài nhưng từ năm 2021 phá...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 20,
+          "question": "Tình huống: Ông T và bà B kết hôn năm 1987, chung sống hạnh phúc thời gian dài nhưng từ năm 2021 phá...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 21,
+          "question": "Tình huống: Bà T và ông H kết hôn năm 1998, do mâu thuẫn tính cách nên đã sống ly thân 15 năm. Bà T ...",
+          "ref_answer": "Không",
+          "model_answer": "Có",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 22,
+          "question": "Tình huống: Bà T và ông H kết hôn năm 1998, do mâu thuẫn tính cách nên đã sống ly thân 15 năm. Bà T ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 23,
+          "question": "Tình huống: Bà L sử dụng đất từ năm 1974, đến năm 1999 đất bị ngập mặn do Nhà nước làm đường gây vỡ ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 24,
+          "question": "Tình huống: Bà L sử dụng đất từ năm 1974, đến năm 1999 đất bị ngập mặn do Nhà nước làm đường gây vỡ ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 25,
+          "question": "Tình huống: Ông V và bà D kết hôn năm 2014, chung sống hạnh phúc thời gian đầu rồi nảy sinh mâu thuẫ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 26,
+          "question": "Tình huống: Ông V và bà D kết hôn năm 2014, chung sống hạnh phúc thời gian đầu rồi nảy sinh mâu thuẫ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 27,
+          "question": "Tình huống: Bà T sử dụng nhà ở thuộc sở hữu nhà nước nhưng không đứng tên hợp đồng thuê. Khi Nhà nướ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 28,
+          "question": "Tình huống: Bà T sử dụng nhà ở thuộc sở hữu nhà nước nhưng không đứng tên hợp đồng thuê. Khi Nhà nướ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 29,
+          "question": "Tình huống: Các nguyên đơn yêu cầu chia thừa kế đối với diện tích đất 8.568m2 do cha mẹ để lại, tron...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 30,
+          "question": "Tình huống: Các nguyên đơn yêu cầu chia thừa kế đối với diện tích đất 8.568m2 do cha mẹ để lại, tron...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 31,
+          "question": "Tình huống: Nguyễn Ngọc A bị bắt quả tang tàng trữ 1.808,9 gam heroin tại nhà riêng và tham gia mua ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 32,
+          "question": "Tình huống: Nguyễn Ngọc A bị bắt quả tang tàng trữ 1.808,9 gam heroin tại nhà riêng và tham gia mua ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 33,
+          "question": "Tình huống: Cao Văn D điều khiển xe ô tô dừng đỗ không đúng quy định trên đường cao tốc. Khi bị lực ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 34,
+          "question": "Tình huống: Cao Văn D điều khiển xe ô tô dừng đỗ không đúng quy định trên đường cao tốc. Khi bị lực ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 35,
+          "question": "Tình huống: Trần Thị Quý P sử dụng 67 hóa đơn giá trị gia tăng khống để kê khai hoàn thuế, chiếm đoạ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 36,
+          "question": "Tình huống: Trần Thị Quý P sử dụng 67 hóa đơn giá trị gia tăng khống để kê khai hoàn thuế, chiếm đoạ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 37,
+          "question": "Tình huống: Bà T vay 2.000.000.000 đồng của Ngân hàng S1 nhưng không trả nợ đúng hạn. Tài sản thế ch...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 38,
+          "question": "Tình huống: Bà T vay 2.000.000.000 đồng của Ngân hàng S1 nhưng không trả nợ đúng hạn. Tài sản thế ch...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 39,
+          "question": "Tình huống: Bà Trần Thị T sử dụng nhà thuộc sở hữu Nhà nước từ năm 2002 nhưng hợp đồng thuê do bà Tr...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 40,
+          "question": "Tình huống: Bà Trần Thị T sử dụng nhà thuộc sở hữu Nhà nước từ năm 2002 nhưng hợp đồng thuê do bà Tr...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 41,
+          "question": "Tình huống: Do mâu thuẫn từ việc chặt cây chuối xà xuống ruộng, Nguyễn Văn T đã lấy một cái rìu giấu...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 42,
+          "question": "Tình huống: Do mâu thuẫn từ việc chặt cây chuối xà xuống ruộng, Nguyễn Văn T đã lấy một cái rìu giấu...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 43,
+          "question": "Tình huống: Ông Trần Tiến N1 khởi kiện yêu cầu hủy Quyết định số 2180/QĐ-UBND của Chủ tịch UBND tỉnh...",
+          "ref_answer": "Không",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 44,
+          "question": "Tình huống: Ông Trần Tiến N1 khởi kiện yêu cầu hủy Quyết định số 2180/QĐ-UBND của Chủ tịch UBND tỉnh...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 45,
+          "question": "Tình huống: Phan Văn C dùng dao phay đuổi chém anh Bùi Văn T nhiều nhát vào vùng vai, tay và trán (l...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 46,
+          "question": "Tình huống: Phan Văn C dùng dao phay đuổi chém anh Bùi Văn T nhiều nhát vào vùng vai, tay và trán (l...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 47,
+          "question": "Tình huống: Nguyễn Thế V thuê xe ô tô của ông B, sau đó làm giả giấy chứng nhận đăng ký xe đứng tên ...",
+          "ref_answer": "Không",
+          "model_answer": "Không",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 48,
+          "question": "Tình huống: Nguyễn Thế V thuê xe ô tô của ông B, sau đó làm giả giấy chứng nhận đăng ký xe đứng tên ...",
+          "ref_answer": "Có",
+          "model_answer": "Có",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        }
+      ]
+    },
+    "judgment_outcome_prediction": {
+      "task_name": "judgment_outcome_prediction",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "total_samples": 24,
+      "correct": 23,
+      "accuracy": 0.9583333333333334,
+      "avg_reasoning_rouge_l": 0.4984393508662494,
+      "avg_entity_rouge_l": null,
+      "json_extraction_failed": 0,
+      "timestamp": "2025-12-21T15:01:17.487632",
+      "details": [
+        {
+          "id": 1,
+          "question": "Luật: Theo Điều 55 Luật Hôn nhân và gia đình 2014, Tòa án công nhận thuận tình ly hôn nếu hai bên th...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.6503067484662578,
+          "entity_score": null
+        },
+        {
+          "id": 2,
+          "question": "Luật: Theo Điều 56 Luật Hôn nhân và gia đình 2014, khi vợ hoặc chồng yêu cầu ly hôn mà hòa giải tại ...",
+          "ref_answer": "C",
+          "model_answer": "C",
+          "correct": true,
+          "reasoning_score": 0.5348837209302326,
+          "entity_score": null
+        },
+        {
+          "id": 3,
+          "question": "Luật: Theo điểm c khoản 1 Điều 249 Bộ luật Hình sự, người nào tàng trữ trái phép chất ma túy là Meth...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.6944444444444444,
+          "entity_score": null
+        },
+        {
+          "id": 4,
+          "question": "Luật: Theo Điều 255, 256 Bộ luật Dân sự 2005, chủ sở hữu có quyền đòi lại tài sản từ người chiếm hữu...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.36097560975609755,
+          "entity_score": null
+        },
+        {
+          "id": 5,
+          "question": "Luật: Theo Điều 56 Luật Hôn nhân và gia đình năm 2014, Tòa án giải quyết cho ly hôn nếu có căn cứ về...",
+          "ref_answer": "C",
+          "model_answer": "C",
+          "correct": true,
+          "reasoning_score": 0.6133333333333334,
+          "entity_score": null
+        },
+        {
+          "id": 6,
+          "question": "Luật: Theo Điều 56 Luật Hôn nhân và gia đình năm 2014, Tòa án giải quyết cho ly hôn nếu có căn cứ về...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.5384615384615384,
+          "entity_score": null
+        },
+        {
+          "id": 7,
+          "question": "Luật: Theo Điều 56 Luật Hôn nhân và gia đình 2014, Tòa án giải quyết cho ly hôn nếu có căn cứ về việ...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.4780487804878048,
+          "entity_score": null
+        },
+        {
+          "id": 8,
+          "question": "Luật: Điều 466 Bộ luật dân sự năm 2015 quy định bên vay tài sản là tiền thì phải trả đủ tiền khi đến...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.5211267605633804,
+          "entity_score": null
+        },
+        {
+          "id": 9,
+          "question": "Luật: Theo quy định tại Điều 466 Bộ luật dân sự năm 2015, bên vay tài sản là tiền thì phải trả đủ ti...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.5222222222222221,
+          "entity_score": null
+        },
+        {
+          "id": 10,
+          "question": "Luật: Theo Điều 56 Luật Hôn nhân và gia đình 2014, Tòa án giải quyết cho ly hôn nếu có căn cứ về việ...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.5702127659574467,
+          "entity_score": null
+        },
+        {
+          "id": 11,
+          "question": "Luật: Theo Điều 56 Luật Hôn nhân và gia đình năm 2014, khi vợ hoặc chồng yêu cầu ly hôn mà hòa giải ...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.5841584158415841,
+          "entity_score": null
+        },
+        {
+          "id": 12,
+          "question": "Luật: Theo Điều 30, Điều 31 Luật Khiếu nại năm 2011, cơ quan nhà nước khi nhận đơn khiếu nại phải ti...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.6967741935483871,
+          "entity_score": null
+        },
+        {
+          "id": 13,
+          "question": "Luật: Theo Điều 56 Luật Hôn nhân và gia đình năm 2014, Tòa án giải quyết cho ly hôn nếu có căn cứ về...",
+          "ref_answer": "C",
+          "model_answer": "C",
+          "correct": true,
+          "reasoning_score": 0.46560846560846564,
+          "entity_score": null
+        },
+        {
+          "id": 14,
+          "question": "Luật: Theo Điều 2 Nghị định số 61/CP, Nhà nước bán nhà thuộc sở hữu nhà nước cho người đang thuê. Tạ...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.46808510638297873,
+          "entity_score": null
+        },
+        {
+          "id": 15,
+          "question": "Luật: Theo điểm c khoản 1 Điều 50 Luật Đất đai 2003, hộ gia đình, cá nhân đang sử dụng đất ổn định, ...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.2985074626865672,
+          "entity_score": null
+        },
+        {
+          "id": 16,
+          "question": "Luật: Căn cứ Điều 285 Bộ luật Tố tụng hình sự, Hội đồng giám đốc thẩm có quyền hủy bản án đã có hiệu...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.40609137055837563,
+          "entity_score": null
+        },
+        {
+          "id": 17,
+          "question": "Luật: Theo khoản 1 Điều 330 Bộ luật hình sự, người nào dùng vũ lực, đe dọa dùng vũ lực hoặc dùng thủ...",
+          "ref_answer": "B",
+          "model_answer": "A",
+          "correct": false,
+          "reasoning_score": 0.5288461538461539,
+          "entity_score": null
+        },
+        {
+          "id": 18,
+          "question": "Luật: Theo Điều 41 Bộ luật Hình sự và Điều 76 Bộ luật Tố tụng hình sự, vật chứng là tiền bạc, vật ch...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.5483870967741935,
+          "entity_score": null
+        },
+        {
+          "id": 19,
+          "question": "Luật: Theo quy định tại Điều 463 và Điều 466 Bộ luật Dân sự, bên vay có nghĩa vụ trả đủ tiền khi đến...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.46341463414634143,
+          "entity_score": null
+        },
+        {
+          "id": 20,
+          "question": "Luật: Tại Điều 9 Quy chế bán hành kèm theo Quyết định số 559/QĐ-UB quy định người đang thuê nhà ở th...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.304635761589404,
+          "entity_score": null
+        },
+        {
+          "id": 21,
+          "question": "Luật: Theo điểm a khoản 1 Điều 134 Bộ luật Hình sự, người nào cố ý gây thương tích cho người khác mà...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.5027932960893855,
+          "entity_score": null
+        },
+        {
+          "id": 22,
+          "question": "Luật: Theo Điều 3 Luật khiếu nại, tố cáo năm 1998 (sửa đổi 2005), cơ quan, tổ chức, cá nhân có trách...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.45502645502645506,
+          "entity_score": null
+        },
+        {
+          "id": 23,
+          "question": "Luật: Theo Điều 123 và Điều 15 Bộ luật Hình sự, hành vi dùng hung khí nguy hiểm tấn công vào vùng tr...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.38461538461538464,
+          "entity_score": null
+        },
+        {
+          "id": 24,
+          "question": "Luật: Theo Điều 131 Bộ luật Dân sự, khi giao dịch dân sự vô hiệu thì các bên khôi phục lại tình trạn...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.3715846994535519,
+          "entity_score": null
+        }
+      ]
+    },
+    "legal_entity_extraction": {
+      "task_name": "legal_entity_extraction",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "total_samples": 24,
+      "correct": 16,
+      "accuracy": 0.6666666666666666,
+      "avg_reasoning_rouge_l": null,
+      "avg_entity_rouge_l": 0.8612649316973167,
+      "json_extraction_failed": 8,
+      "timestamp": "2025-12-21T15:01:17.488632",
+      "details": [
+        {
+          "id": 1,
+          "question": "Đoạn văn: 'Người yêu cầu giải quyết việc dân sự: 1. Ông Nguyễn Ngọc T., sinh năm 1973. Căn cước công...",
+          "ref_answer": "Ông Nguyễn Ngọc T và bà Nguyễn Thị Mỹ H",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 2,
+          "question": "Đoạn văn: 'Ngày 06 tháng 10 năm 2025, tại trụ sở Tòa án nhân dân khu vực 13 - Phủ Thọ mở phiên tòa x...",
+          "ref_answer": "Chu Thị Lan Anh",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 3,
+          "question": "Đoạn văn: 'Khoảng 22 giờ 10 phút ngày 05/11/2024, Công an phường B kiểm tra hành chính phòng số 5, n...",
+          "ref_answer": "Phạm Anh Thi",
+          "model_answer": "Phạm Anh Thi",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 1.0
+        },
+        {
+          "id": 4,
+          "question": "Đoạn văn: 'Nguyên đơn: Ông Nguyễn Quang T - sinh năm 1969; Địa chỉ: Khu phố 7, Thị trấn T, huyện N1,...",
+          "ref_answer": "Ông Nguyễn Quang T",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 5,
+          "question": "Đoạn văn: 'Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ tọa phiên toà: Bà Chu Thị Lan ...",
+          "ref_answer": "Nguyễn Anh Lợi",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 6,
+          "question": "Đoạn văn: 'Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ toạ phiên toà: Ông Võ Văn Hồng...",
+          "ref_answer": "Nguyễn Văn Đức",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 7,
+          "question": "Đoạn văn: 'Ngày 24 tháng 9 năm 2025 tại trụ sở Toà án nhân dân khu vực II - Đồng Tháp xét xử sơ thẩm...",
+          "ref_answer": "Võ Văn Hồng Biển",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 8,
+          "question": "Đoạn văn: 'TÒA ÁN NHÂN DÂN KHU VỰC 11 - ĐỒNG THÁP xét xử sơ thẩm công khai vụ án thụ lý số: 109/2025...",
+          "ref_answer": "Chị Nguyễn Thanh V",
+          "model_answer": "Chị Nguyễn Thanh V",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 1.0
+        },
+        {
+          "id": 9,
+          "question": "Đoạn văn: 'Ngày 19 tháng 9 năm 2025 tại trụ sở Tòa án dân khu vực 11 - Đồng Tháp xét xử sơ thẩm công...",
+          "ref_answer": "Nguyễn Thanh V",
+          "model_answer": "Chị Nguyễn Thanh V",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 0.8571428571428571
+        },
+        {
+          "id": 10,
+          "question": "Đoạn văn: 'Thành phần Hội đồng xét xử sơ thẩm gồm có: Thẩm phán - Chủ toạ phiên toà: Ông Võ Văn Hồng...",
+          "ref_answer": "Võ Văn Hồng Biên",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 11,
+          "question": "Đoạn văn: 'Ngày 23 tháng 9 năm 2025 tại trụ sở Toà án nhân dân khu vực II - Đồng Tháp xét xử sơ thẩm...",
+          "ref_answer": "Ông Phạm Văn H",
+          "model_answer": "Ông Phạm Văn H",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 1.0
+        },
+        {
+          "id": 12,
+          "question": "Đoạn văn: 'Vào ngày 03 tháng 3 năm 2017 tại trụ sở Tòa án nhân dân cấp cao tại Đà Nẵng xét xử phúc t...",
+          "ref_answer": "Ông Trương Văn T",
+          "model_answer": "Ông Trương Văn T",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 1.0
+        },
+        {
+          "id": 13,
+          "question": "Toàn bộ bản án số 21/2025/HNGD-ST ngày 24/9/2025 đề cập đến việc xét xử tại trụ sở Tòa án nhân dân k...",
+          "ref_answer": "Ông Võ Văn Hồng Biên",
+          "model_answer": "Võ Văn Hồng Biên",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 0.888888888888889
+        },
+        {
+          "id": 14,
+          "question": "Đoạn văn: 'Ngày 09/5/2017... xét xử giám đốc thẩm vụ án... Người khởi kiện: Bà Trần Thị T, sinh năm ...",
+          "ref_answer": "Chủ tịch Uỷ ban nhân dân tỉnh L",
+          "model_answer": "Chủ tịch Uỷ ban nhân dân tỉnh L.",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 0.875
+        },
+        {
+          "id": 15,
+          "question": "Đoạn văn: 'Ngày 29 tháng 8 năm 2025, tại trụ sở Tòa phúc thẩm Toà án nhân dân tối cao tại Thành phố ...",
+          "ref_answer": "Bà Mai Thị Thu Trang",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 16,
+          "question": "Đoạn văn: 'Ngày 16 tháng 6 năm 2016, tại trụ sở Tòa án nhân dân tối cao mở phiên toà giám đốc thẩm x...",
+          "ref_answer": "Nguyễn Hòa Bình",
+          "model_answer": "Nguyễn Hòa Bình",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 1.0
+        },
+        {
+          "id": 17,
+          "question": "Đoạn văn: 'Ngày 18 tháng 11 năm 2025, tại trụ sở TAND khu vực 6 - Thành Hóa xét xử sơ thẩm công khai...",
+          "ref_answer": "CAO VĂN D",
+          "model_answer": "CAO VĂN D",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 1.0
+        },
+        {
+          "id": 18,
+          "question": "Đoạn văn: 'Tại Ban án hình sự sơ thẩm số 57/2014/HSSST ngày 12/9/2014, Tòa án nhân dân tỉnh Gia Lai ...",
+          "ref_answer": "Ban quản lý các dự án đầu tư xây dựng huyện K, tỉnh Gia Lai",
+          "model_answer": "Ban quản lý các dự án đầu tư xây dựng huyện K, tỉnh Gia Lai",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 1.0
+        },
+        {
+          "id": 19,
+          "question": "Đoạn văn: 'Trong các ngày 15 và 16 tháng 12 năm 2025, tại trụ sở Tòa án nhân dân tỉnh Đồng Nai xét x...",
+          "ref_answer": "Ngân hàng Thương mại cổ phần S",
+          "model_answer": "Ngân hàng Thương mại cổ phần S",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 1.0
+        },
+        {
+          "id": 20,
+          "question": "Đoạn văn: 'Ngày 09/5/2017, tại trụ sở Toà án nhân dân tối cao đã mở phiên toà giám đốc thẩm xét xử v...",
+          "ref_answer": "Chủ tịch Uỷ ban nhân dân tỉnh L",
+          "model_answer": "Chủ tịch Uỷ ban nhân dân tỉnh L.",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 0.875
+        },
+        {
+          "id": 21,
+          "question": "Đoạn văn: 'Vào khoảng 11 giờ 30 phút ngày 29/01/2025, Nguyễn Văn T đang chơi tại nhà ông Nguyễn Văn ...",
+          "ref_answer": "Cái rìu có cán bằng gỗ dài 40cm, lưỡi bằng sắt dài 25cm, rộng 3,5cm",
+          "model_answer": "cái rìu",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 0.23529411764705882
+        },
+        {
+          "id": 22,
+          "question": "Đoạn văn: 'Ngày 13/01/2016, tại trụ sở Tòa án nhân dân tối cao đã mở phiên toà giám đốc thẩm xét xử ...",
+          "ref_answer": "Chủ tịch Uỷ ban nhân dân tỉnh K",
+          "model_answer": "Chủ tịch Uỷ ban nhân dân tỉnh K.",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 0.875
+        },
+        {
+          "id": 23,
+          "question": "Đoạn văn: 'Khoảng trưa ngày 24/02/2024, Phan Văn C đã dùng một con dao để tấn công anh Bùi Văn T tại...",
+          "ref_answer": "Con dao phay dài khoảng 35cm, chuôi bằng gỗ, bản dao bằng kim loại màu trắng, một lưỡi sắc, đầu bằng",
+          "model_answer": "con dao",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 0.17391304347826084
+        },
+        {
+          "id": 24,
+          "question": "Đoạn văn: 'Để phục vụ công việc kinh doanh tôm giống tại huyện T, tỉnh Ninh Thuận nên ngày 20/5/2020...",
+          "ref_answer": "77A – 089.55",
+          "model_answer": "77A – 089.55",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": 1.0
+        }
+      ]
+    },
+    "numerical_constraint_check": {
+      "task_name": "numerical_constraint_check",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "total_samples": 24,
+      "correct": 12,
+      "accuracy": 0.5,
+      "avg_reasoning_rouge_l": 0.37739171600043553,
+      "avg_entity_rouge_l": null,
+      "json_extraction_failed": 1,
+      "timestamp": "2025-12-21T15:01:17.491180",
+      "details": [
+        {
+          "id": 1,
+          "question": "Luật: Theo Nghị quyết 326/2016/UBTVQH14, lệ phí sơ thẩm giải quyết việc dân sự về hôn nhân gia đình ...",
+          "ref_answer": "A",
+          "model_answer": "A",
+          "correct": true,
+          "reasoning_score": 0.28125000000000006,
+          "entity_score": null
+        },
+        {
+          "id": 2,
+          "question": "Luật: Theo Nghị quyết 326/2016/UBTVQH14, mức án phí sơ thẩm đối với tranh chấp về hôn nhân và gia đì...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.4324324324324324,
+          "entity_score": null
+        },
+        {
+          "id": 3,
+          "question": "Luật: Theo điểm c khoản 1 Điều 249 Bộ luật Hình sự, cấu thành tội phạm yêu cầu khối lượng Methamphet...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.456140350877193,
+          "entity_score": null
+        },
+        {
+          "id": 4,
+          "question": "Luật: Theo Pháp lệnh số 10/2009/UBTVQH12, mức án phí dân sự sơ thẩm đối với tranh chấp quyền sử dụng...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.2580645161290323,
+          "entity_score": null
+        },
+        {
+          "id": 5,
+          "question": "Luật: Theo khoản 2 Điều 81 Luật Hôn nhân và gia đình năm 2014, con từ đủ 07 tuổi trở lên thì phải xe...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.6527777777777778,
+          "entity_score": null
+        },
+        {
+          "id": 6,
+          "question": "Luật: Theo quy định pháp luật, người từ đủ 18 tuổi trở lên được coi là người thành niên có đầy đủ nă...",
+          "ref_answer": "A",
+          "model_answer": "A",
+          "correct": true,
+          "reasoning_score": 0.32432432432432434,
+          "entity_score": null
+        },
+        {
+          "id": 7,
+          "question": "Luật: Theo Điều 81 Luật Hôn nhân và gia đình 2014, con dưới 36 tháng tuổi được giao cho mẹ trực tiếp...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.33870967741935487,
+          "entity_score": null
+        },
+        {
+          "id": 8,
+          "question": "Luật: Theo Điều 468 Bộ luật Dân sự 2015, lãi suất vay do các bên thỏa thuận không được vượt quá 20%/...",
+          "ref_answer": "B",
+          "model_answer": "A",
+          "correct": false,
+          "reasoning_score": 0.28205128205128205,
+          "entity_score": null
+        },
+        {
+          "id": 9,
+          "question": "Luật: Khoản nợ còn lại được xác định bằng tổng số tiền vay trừ đi số tiền gốc đã thanh toán. Tình hu...",
+          "ref_answer": "C",
+          "model_answer": "C",
+          "correct": true,
+          "reasoning_score": 0.2635658914728682,
+          "entity_score": null
+        },
+        {
+          "id": 10,
+          "question": "Luật: Theo quy định pháp luật dân sự, người từ đủ 18 tuổi trở lên được coi là người thành niên có đầ...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.2553191489361702,
+          "entity_score": null
+        },
+        {
+          "id": 11,
+          "question": "Luật: Theo quy định của pháp luật, người từ đủ 18 tuổi trở lên là người thành niên. Tình huống: Con ...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.5915492957746479,
+          "entity_score": null
+        },
+        {
+          "id": 12,
+          "question": "Luật: Theo Luật Tố tụng hành chính, thời hạn kháng cáo đối với bản án của Tòa án cấp sơ thẩm là 15 n...",
+          "ref_answer": "A",
+          "model_answer": "B",
+          "correct": false,
+          "reasoning_score": 0.5420560747663552,
+          "entity_score": null
+        },
+        {
+          "id": 13,
+          "question": "Luật: Theo quy định tại Điều 81 Luật Hôn nhân và gia đình năm 2014, nếu con từ đủ 07 tuổi trở lên th...",
+          "ref_answer": "B",
+          "model_answer": "A",
+          "correct": false,
+          "reasoning_score": 0.3496503496503497,
+          "entity_score": null
+        },
+        {
+          "id": 14,
+          "question": "Luật: Theo Điều 9 Quy chế ban hành kèm Quyết định 559/QĐ-UB của tỉnh L, người được mua nhà thuộc sở ...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.6538461538461537,
+          "entity_score": null
+        },
+        {
+          "id": 15,
+          "question": "Luật: Theo quy định, người cao tuổi (từ đủ 60 tuổi trở lên) có đơn xin miễn án phí thì được xem xét ...",
+          "ref_answer": "C",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 16,
+          "question": "Luật: Trách nhiệm hình sự đối với tội tàng trữ ma túy được căn cứ trên tổng trọng lượng chất ma túy ...",
+          "ref_answer": "D",
+          "model_answer": "A",
+          "correct": false,
+          "reasoning_score": 0.16853932584269662,
+          "entity_score": null
+        },
+        {
+          "id": 17,
+          "question": "Luật: Theo quy định tại Điều 36 Bộ luật hình sự, thời gian bị cáo bị tạm giữ, tạm giam được trừ vào ...",
+          "ref_answer": "C",
+          "model_answer": "A",
+          "correct": false,
+          "reasoning_score": 0.44324324324324327,
+          "entity_score": null
+        },
+        {
+          "id": 18,
+          "question": "Luật: Theo Điều 50 Bộ luật Hình sự về tổng hợp hình phạt của nhiều bản án, nếu các hình phạt cùng là...",
+          "ref_answer": "B",
+          "model_answer": "B",
+          "correct": true,
+          "reasoning_score": 0.4117647058823529,
+          "entity_score": null
+        },
+        {
+          "id": 19,
+          "question": "Luật: Theo khoản 2 Điều 468 Bộ luật Dân sự 2015, lãi suất chậm trả do các bên thỏa thuận nhưng không...",
+          "ref_answer": "B",
+          "model_answer": "A",
+          "correct": false,
+          "reasoning_score": 0.39669421487603307,
+          "entity_score": null
+        },
+        {
+          "id": 20,
+          "question": "Luật: Theo báo cáo của Thanh tra tỉnh và quy định về quản lý cư trú, việc xác định thời điểm cư trú ...",
+          "ref_answer": "C",
+          "model_answer": "A",
+          "correct": false,
+          "reasoning_score": 0.21487603305785125,
+          "entity_score": null
+        },
+        {
+          "id": 21,
+          "question": "Luật: Theo quy định về án treo, thời gian thử thách được ấn định từ 01 năm đến 05 năm và thường gấp ...",
+          "ref_answer": "A",
+          "model_answer": "B",
+          "correct": false,
+          "reasoning_score": 0.4107142857142857,
+          "entity_score": null
+        },
+        {
+          "id": 22,
+          "question": "Luật: Diện tích hình thang được tính bằng trung bình cộng hai đáy nhân với chiều cao. Tình huống: Ph...",
+          "ref_answer": "B",
+          "model_answer": "C",
+          "correct": false,
+          "reasoning_score": 0.17886178861788618,
+          "entity_score": null
+        },
+        {
+          "id": 23,
+          "question": "Luật: Theo quy định tính tuổi chịu trách nhiệm hình sự, tuổi của bị cáo được tính từ năm sinh đến nă...",
+          "ref_answer": "C",
+          "model_answer": "B",
+          "correct": false,
+          "reasoning_score": 0.2692307692307692,
+          "entity_score": null
+        },
+        {
+          "id": 24,
+          "question": "Luật: Khi một người bị xét xử nhiều lần, Tòa án thực hiện tổng hợp hình phạt của các bản án trước đó...",
+          "ref_answer": "C",
+          "model_answer": "B",
+          "correct": false,
+          "reasoning_score": 0.5043478260869565,
+          "entity_score": null
+        }
+      ]
+    },
+    "reasoning_method_detection": {
+      "task_name": "reasoning_method_detection",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "total_samples": 34,
+      "correct": 26,
+      "accuracy": 0.7647058823529411,
+      "avg_reasoning_rouge_l": null,
+      "avg_entity_rouge_l": null,
+      "json_extraction_failed": 6,
+      "timestamp": "2025-12-21T15:01:17.492179",
+      "details": [
+        {
+          "id": 1,
+          "question": "Cách Tòa lập luận: Tòa án xem xét thực tế tình cảm vợ chồng không còn, mâu thuẫn đã trầm trọng không...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Purposivism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 2,
+          "question": "Cách Tòa lập luận: Mặc dù các đương sự vắng mặt tại phiên tòa nhưng Tòa án căn cứ vào việc cả hai đã...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Purposivism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 3,
+          "question": "Cách Tòa lập luận: Tòa án căn cứ chính xác vào khoản 1 Điều 28 và điểm a khoản 1 Điều 39 Bộ luật Tố ...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 4,
+          "question": "Cách Tòa lập luận: Mặc dù hành vi của bị cáo là nguy hiểm cho xã hội, nhưng Tòa án xem xét bị cáo là...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Purposivism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 5,
+          "question": "Cách Tòa lập luận: Căn cứ vào kết luận giám định xác định khối lượng ma túy là 1,1536 gam, Tòa án áp...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 6,
+          "question": "Cách Tòa lập luận: Tòa án căn cứ vào biên bản xem xét thẩm định tại chỗ và trích lục bản đồ địa chín...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 7,
+          "question": "Cách Tòa lập luận: Ngoài việc xem xét giấy tờ, Tòa án còn phân tích nguyên nhân khách quan dẫn đến v...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Textualism]",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 8,
+          "question": "Cách Tòa lập luận: Khi xem xét quyền nuôi con chung, mặc dù anh D có nguyện vọng nuôi một con, nhưng...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Purposivism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 9,
+          "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự quy định thẩm quyền của ...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 10,
+          "question": "Cách Tòa lập luận: Mặc dù pháp luật khuyến khích sự đoàn tụ và bảo vệ gia đình, nhưng Tòa án xem xét...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 11,
+          "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 35 và điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân s...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 12,
+          "question": "Cách Tòa lập luận: Để đảm bảo cho cháu Ngọc L có sự phát triển toàn diện cả về vật chất và tinh thần...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Purposivism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 13,
+          "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 35 và điểm a khoản 1 Điều 39 Bộ luật tố tụng dân s...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 14,
+          "question": "Cách Tòa lập luận: Tòa án căn cứ trực tiếp vào văn bản Biên nhận ngày 21/8/2018 và đối chiếu với ngh...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 15,
+          "question": "Cách Tòa lập luận: Mặc dù bị đơn vắng mặt và không có lời khai, Tòa án xem xét việc vắng mặt không l...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Purposivism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 16,
+          "question": "Cách Tòa lập luận: Tòa án căn cứ trực tiếp vào văn bản Biên nhận ngày 14/11/2019 để xác định số tiền...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 17,
+          "question": "Cách Tòa lập luận: Mặc dù các bị đơn vắng mặt, Tòa án xem xét hành vi này là sự tự từ bỏ quyền chứng...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Textualism]",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 18,
+          "question": "Cách Tòa lập luận: Tòa án căn cứ vào sự kiện ly thân thực tế kéo dài từ năm 2021 đến nay, việc các b...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Purposivism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 19,
+          "question": "Cách Tòa lập luận: Căn cứ vào điểm a khoản 1 Điều 35 và điểm a khoản 1 Điều 39 Bộ luật tố tụng dân s...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 20,
+          "question": "Cách Tòa lập luận: Mặc dù ông H vắng mặt và không có lời khai, Tòa án căn cứ vào thực tế ly thân kéo...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 21,
+          "question": "Cách Tòa lập luận: Mặc dù bà L không trực tiếp canh tác trong thời gian dài, nhưng Tòa xét đến nguyê...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 22,
+          "question": "Cách Tòa lập luận: Khi xem xét quyền nuôi con, mặc dù người cha đồng ý giao con, Tòa án vẫn tiến hàn...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 23,
+          "question": "Cách Tòa lập luận: Hội đồng giám đốc thẩm đối chiếu nghiêm ngặt các điều kiện tại Điều 2 Nghị định 6...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 24,
+          "question": "Cách Tòa lập luận: Mặc dù tại thời điểm năm 1981 pháp luật chưa cho phép tặng cho quyền sử dụng đất,...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Purposivism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 25,
+          "question": "Cách Tòa lập luận: Hội đồng giám đốc thẩm đối chiếu trực tiếp các quyết định trưng cầu giám định và ...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 26,
+          "question": "Cách Tòa lập luận: Mặc dù hành vi của bị cáo là nguy hiểm cho xã hội, nhưng Tòa xét thấy bị cáo bị b...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 27,
+          "question": "Cách Tòa lập luận: Hội đồng Thẩm phán xem xét nguồn gốc dòng tiền dùng để mua xe (tiền tạm ứng dự án...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "",
+          "correct": false,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 28,
+          "question": "Cách Tòa lập luận: Tòa án xác định việc thỏa thuận đổi đất làm lối đi giữa ông T1 và bà T2 chỉ là th...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 29,
+          "question": "Cách Tòa lập luận: Tòa án tối cao xác định rằng vì bà T không có tên trên hợp đồng thuê nhà (hợp đồn...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 30,
+          "question": "Cách Tòa lập luận: Mặc dù bị cáo dùng hung khí nguy hiểm (rìu), nhưng Tòa án xem xét toàn diện hoàn ...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Purposivism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 31,
+          "question": "Cách Tòa lập luận: Hội đồng Thẩm phán căn cứ trực tiếp vào văn bản luật là Điều 3 Luật khiếu nại, tố...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "Textualism",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 32,
+          "question": "Cách Tòa lập luận: Dựa trên chứng cứ bị cáo dùng dao phay (vật sắc, nặng) chém trực tiếp vào vùng tr...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "[Textualism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 33,
+          "question": "Cách Tòa lập luận: Mặc dù hành vi của bị cáo đủ yếu tố cấu thành tội giết người, nhưng Tòa án xem xé...",
+          "ref_answer": "[Purposivism]",
+          "model_answer": "[Purposivism]",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        },
+        {
+          "id": 34,
+          "question": "Cách Tòa lập luận: Hội đồng xét xử căn cứ trực tiếp vào câu chữ của Điều 131 Bộ luật Dân sự để xác đ...",
+          "ref_answer": "[Textualism]",
+          "model_answer": "Textualism",
+          "correct": true,
+          "reasoning_score": null,
+          "entity_score": null
+        }
+      ]
+    }
+  }
+}

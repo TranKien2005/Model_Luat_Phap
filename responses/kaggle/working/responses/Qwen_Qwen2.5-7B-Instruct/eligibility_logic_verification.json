@@ -1,0 +1,248 @@
+{
+  "task_name": "eligibility_logic_verification",
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "total_samples": 24,
+  "timestamp": "2025-12-20T09:21:13.110593",
+  "responses": [
+    {
+      "id": 1,
+      "question": "Theo Điều 55 Luật hôn nhân và gia đình năm 2014, nếu hai bên thật sự tự nguyện ly hôn và đã thỏa thuận về việc chia tài sản, nuôi con thì Tòa án công nhận thuận tình ly hôn. Ông T và bà H tự nguyện ly hôn, con chung đều đã trên 18 tuổi, không yêu cầu chia tài sản. Hỏi: Ông T và bà H có đủ điều kiện để được công nhận thuận tình ly hôn không?",
+      "reference": {
+        "question": "Theo Điều 55 Luật hôn nhân và gia đình năm 2014, nếu hai bên thật sự tự nguyện ly hôn và đã thỏa thuận về việc chia tài sản, nuôi con thì Tòa án công nhận thuận tình ly hôn. Ông T và bà H tự nguyện ly hôn, con chung đều đã trên 18 tuổi, không yêu cầu chia tài sản. Hỏi: Ông T và bà H có đủ điều kiện để được công nhận thuận tình ly hôn không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại Điều 55 Luật hôn nhân và gia đình nếu hai bên tự nguyện ly hôn và thỏa thuận xong các vấn đề liên quan thì được công nhận mà thực tế ông T và bà H tự nguyện ly hôn, con chung đã trưởng thành không cần người nuôi dưỡng và không có tranh chấp tài sản. Chỉ rõ thực tế các bên đáp ứng đủ điều kiện tự nguyện và thỏa thuận, do đó ông T và bà H đủ điều kiện để Tòa án công nhận thuận tình ly hôn."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Theo quy định, nếu hai bên thật sự tự nguyện ly hôn và đã thỏa thuận về việc chia tài sản, nuôi con thì Tòa án công nhận thuận tình ly hôn. Trong trường hợp của ông T và bà H, họ đã tự nguyện ly hôn và không yêu cầu chia tài sản, đồng thời con chung đã trên 18 tuổi, không yêu cầu chia tài sản, nên thỏa mãn đủ điều kiện để được công nhận thuận tình ly hôn.\"}"
+    },
+    {
+      "id": 2,
+      "question": "Theo quy định tại điểm a khoản 1 Điều 39 của Bộ luật Tố tụng dân sự, Tòa án nơi bị đơn cư trú, làm việc có thẩm quyền giải quyết theo thủ tục sơ thẩm những tranh chấp về dân sự, hôn nhân và gia đình. Trong vụ án này, bị đơn là anh Đỗ Đình T có hộ khẩu thường trú tại Xóm R, xã L, tỉnh Phú Thọ. Hỏi Tòa án nhân dân khu vực 13 - Phủ Thọ (tỉnh Phú Thọ) có thẩm quyền giải quyết vụ án này không?",
+      "reference": {
+        "question": "Theo quy định tại điểm a khoản 1 Điều 39 của Bộ luật Tố tụng dân sự, Tòa án nơi bị đơn cư trú, làm việc có thẩm quyền giải quyết theo thủ tục sơ thẩm những tranh chấp về dân sự, hôn nhân và gia đình. Trong vụ án này, bị đơn là anh Đỗ Đình T có hộ khẩu thường trú tại Xóm R, xã L, tỉnh Phú Thọ. Hỏi Tòa án nhân dân khu vực 13 - Phủ Thọ (tỉnh Phú Thọ) có thẩm quyền giải quyết vụ án này không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại điểm a khoản 1 Điều 39 của Bộ luật Tố tụng dân sự nếu bị đơn cư trú tại địa phương nào thì Tòa án nơi đó có thẩm quyền giải quyết mà anh Đỗ Đình T cư trú tại xã L, tỉnh Phú Thọ thuộc địa hạt thẩm quyền của Tòa án nhân dân khu vực 13 - Phủ Thọ. Chỉ rõ thực tế địa chỉ của bị đơn phù hợp với thẩm quyền lãnh thổ của Tòa án do đó Tòa án nhân dân khu vực 13 - Phủ Thọ có thẩm quyền giải quyết."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Theo quy định, Tòa án nơi bị đơn cư trú có thẩm quyền giải quyết vụ án. Bị đơn Đỗ Đình T có hộ khẩu thường trú tại Xóm R, xã L, tỉnh Phú Thọ, nên Tòa án nhân dân khu vực 13 - Phủ Thọ có thẩm quyền giải quyết vụ án.\"}"
+    },
+    {
+      "id": 3,
+      "question": "Theo quy định tại điểm s khoản 1 Điều 51 Bộ luật Hình sự, người phạm tội thành khẩn khai báo hoặc ăn năn hối cải thì được hưởng tình tiết giảm nhẹ trách nhiệm hình sự. Trong quá trình điều tra và tại phiên tòa, Trần Văn M đã khai báo trung thực các hành vi mua bán và cất giấu ma túy, đồng thời tỏ thái độ hối lỗi về hành vi của mình. Hỏi: Trần Văn M có đủ điều kiện được áp dụng tình tiết giảm nhẹ theo điểm s khoản 1 Điều 51 không?",
+      "reference": {
+        "question": "Theo quy định tại điểm s khoản 1 Điều 51 Bộ luật Hình sự, người phạm tội thành khẩn khai báo hoặc ăn năn hối cải thì được hưởng tình tiết giảm nhẹ trách nhiệm hình sự. Trong quá trình điều tra và tại phiên tòa, Trần Văn M đã khai báo trung thực các hành vi mua bán và cất giấu ma túy, đồng thời tỏ thái độ hối lỗi về hành vi của mình. Hỏi: Trần Văn M có đủ điều kiện được áp dụng tình tiết giảm nhẹ theo điểm s khoản 1 Điều 51 không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại điểm s khoản 1 Điều 51 Bộ luật Hình sự nếu người phạm tội thành khẩn khai báo hoặc ăn năn hối cải thì được hưởng tình tiết giảm nhẹ mà Trần Văn M đã khai nhận toàn bộ hành vi phạm tội tại cơ quan điều tra và phiên tòa cũng tức là đã thành khẩn khai báo và ăn năn hối cải. Chỉ rõ thực tế M đáp ứng đủ điều kiện về thái độ khai báo do đó M đủ điều kiện hưởng tình tiết giảm nhẹ trách nhiệm hình sự."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Trần Văn M đã khai báo trung thực các hành vi mua bán và cất giấu ma túy trong quá trình điều tra và tại phiên tòa, đồng thời tỏ thái độ hối lỗi về hành vi của mình. Theo quy định tại điểm s khoản 1 Điều 51 Bộ luật Hình sự, nếu người phạm tội thành khẩn khai báo hoặc ăn năn hối cải thì sẽ được hưởng tình tiết giảm nhẹ trách nhiệm hình sự. Do đó, Trần Văn M đáp ứng đủ điều kiện để được áp dụng tình tiết giảm nhẹ.\"}"
+    },
+    {
+      "id": 4,
+      "question": "Theo quy định tại khoản 6 Điều 68 Bộ luật Tố tụng dân sự, người có quyền lợi, nghĩa vụ liên quan là người tuy không khởi kiện, không bị kiện nhưng việc giải quyết vụ án có liên quan đến quyền lợi, nghĩa vụ của họ. Trong vụ án tranh chấp giữa ông T và ông Q, ông T yêu cầu đưa ông H (người mua đất liền kề sau này) vào tham gia tố tụng. Tuy nhiên, Tòa án xác định việc đòi đất lấn chiếm giữa ông T và ông Q không ảnh hưởng đến quyền sở hữu đất của ông H. Hỏi ông H có đủ điều kiện xác định là người có quyền lợi, nghĩa vụ liên quan trong vụ án này không?",
+      "reference": {
+        "question": "Theo quy định tại khoản 6 Điều 68 Bộ luật Tố tụng dân sự, người có quyền lợi, nghĩa vụ liên quan là người tuy không khởi kiện, không bị kiện nhưng việc giải quyết vụ án có liên quan đến quyền lợi, nghĩa vụ của họ. Trong vụ án tranh chấp giữa ông T và ông Q, ông T yêu cầu đưa ông H (người mua đất liền kề sau này) vào tham gia tố tụng. Tuy nhiên, Tòa án xác định việc đòi đất lấn chiếm giữa ông T và ông Q không ảnh hưởng đến quyền sở hữu đất của ông H. Hỏi ông H có đủ điều kiện xác định là người có quyền lợi, nghĩa vụ liên quan trong vụ án này không?",
+        "answer": "Không",
+        "reasoning": "Theo quy định tại khoản 6 Điều 68 Bộ luật Tố tụng dân sự nếu việc giải quyết vụ án có liên quan đến quyền lợi hoặc nghĩa vụ của một người thì họ tham gia với tư cách người có quyền lợi, nghĩa vụ liên quan mà thực tế tranh chấp đòi đất giữa ông T và ông Q không làm thay đổi hay ảnh hưởng đến quyền sử dụng đất đã được cấp GCN của ông H. Chỉ rõ thực tế ông H không bị ảnh hưởng quyền lợi bởi kết quả vụ án do đó ông H không đủ điều kiện tham gia tố tụng."
+      },
+      "model_response": "{\"answer\": \"Không\", \"reasoning\": \"Việc giải quyết vụ án tranh chấp giữa ông T và ông Q về quyền lấn chiếm đất không ảnh hưởng đến quyền sở hữu đất của ông H, do đó không thỏa mãn điều kiện cần thiết để ông H được coi là người có quyền lợi, nghĩa vụ liên quan.\"}"
+    },
+    {
+      "id": 5,
+      "question": "Theo quy định tại khoản 3 Điều 81 Luật Hôn nhân và gia đình năm 2014, con dưới 36 tháng tuổi được giao cho mẹ trực tiếp nuôi, trừ trường hợp người mẹ không đủ điều kiện để trực tiếp trông nom, chăm sóc, nuôi dưỡng, giáo dục con. Cháu Nguyễn Bảo V sinh ngày 14/3/2023, chị L có thu nhập ổn định từ 15-20 triệu đồng/tháng và có chỗ ở ổn định. Hỏi: Tại thời điểm xét xử tháng 10/2025, chị L có được ưu tiên quyền nuôi cháu V theo quy định về độ tuổi của con không?",
+      "reference": {
+        "question": "Theo quy định tại khoản 3 Điều 81 Luật Hôn nhân và gia đình năm 2014, con dưới 36 tháng tuổi được giao cho mẹ trực tiếp nuôi, trừ trường hợp người mẹ không đủ điều kiện để trực tiếp trông nom, chăm sóc, nuôi dưỡng, giáo dục con. Cháu Nguyễn Bảo V sinh ngày 14/3/2023, chị L có thu nhập ổn định từ 15-20 triệu đồng/tháng và có chỗ ở ổn định. Hỏi: Tại thời điểm xét xử tháng 10/2025, chị L có được ưu tiên quyền nuôi cháu V theo quy định về độ tuổi của con không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại khoản 3 Điều 81 Luật Hôn nhân và gia đình nếu con dưới 36 tháng tuổi thì được giao cho mẹ trực tiếp nuôi mà cháu Nguyễn Bảo V sinh ngày 14/3/2023 tính đến ngày 21/10/2025 mới được khoảng 31 tháng tuổi cũng tức là cháu V vẫn dưới 36 tháng tuổi. Chỉ rõ thực tế chị L có đủ điều kiện kinh tế và cháu V đang ở độ tuổi cần sự chăm sóc của mẹ do đó chị L được ưu tiên trực tiếp nuôi dưỡng cháu V."
+      },
+      "model_response": "{\"answer\": \"Không\", \"reasoning\": \"Cháu Nguyễn Bảo V sinh ngày 14/3/2023, đến tháng 10/2025 cháu sẽ 27 tháng tuổi, không còn nằm trong độ tuổi dưới 36 tháng như quy định tại khoản 3 Điều 81 Luật Hôn nhân và gia đình năm 2014.\"}"
+    },
+    {
+      "id": 6,
+      "question": "Theo điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự 2015, Tòa án nơi bị đơn cư trú có thẩm quyền giải quyết sơ thẩm vụ án ly hôn. Bị đơn Dương Hữu T cư trú tại ấp T, xã T, tỉnh Đồng Tháp. Hỏi Tòa án nhân dân khu vực II - Đồng Tháp có thẩm quyền giải quyết vụ án này không?",
+      "reference": {
+        "question": "Theo điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự 2015, Tòa án nơi bị đơn cư trú có thẩm quyền giải quyết sơ thẩm vụ án ly hôn. Bị đơn Dương Hữu T cư trú tại ấp T, xã T, tỉnh Đồng Tháp. Hỏi Tòa án nhân dân khu vực II - Đồng Tháp có thẩm quyền giải quyết vụ án này không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại điểm a khoản 1 Điều 39 Bộ luật Tố tụng dân sự nếu bị đơn cư trú tại địa phương nào thì Tòa án nơi đó có thẩm quyền giải quyết mà ông Dương Hữu T cư trú tại xã T, tỉnh Đồng Tháp thuộc địa hạt thẩm quyền của Tòa án nhân dân khu vực II - Đồng Tháp. Chỉ rõ thực tế bị đơn có cư trú tại địa phương này do đó Tòa án nhân dân khu vực II - Đồng Tháp đủ điều kiện về thẩm quyền giải quyết."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Theo quy định, nếu bị đơn cư trú tại địa phương, Tòa án nơi bị đơn cư trú có thẩm quyền giải quyết sơ thẩm vụ án ly hôn. Trong trường hợp này, bị đơn Dương Hữu T cư trú tại ấp T, xã T, tỉnh Đồng Tháp, nên Tòa án nhân dân khu vực II - Đồng Tháp có thẩm quyền giải quyết vụ án.\"}"
+    },
+    {
+      "id": 7,
+      "question": "Theo Điều 81 Luật Hôn nhân và gia đình 2014, con từ đủ 07 tuổi trở lên thì phải xem xét nguyện vọng của con khi quyết định người trực tiếp nuôi dưỡng. Cháu Phạm Ngọc L sinh ngày 17/9/2012. Tại ngày xét xử 24/9/2025, Tòa án xem xét quyền nuôi dưỡng cháu L. Hỏi cháu L có đủ điều kiện về độ tuổi để Tòa án phải xem xét nguyện vọng cá nhân không?",
+      "reference": {
+        "question": "Theo Điều 81 Luật Hôn nhân và gia đình 2014, con từ đủ 07 tuổi trở lên thì phải xem xét nguyện vọng của con khi quyết định người trực tiếp nuôi dưỡng. Cháu Phạm Ngọc L sinh ngày 17/9/2012. Tại ngày xét xử 24/9/2025, Tòa án xem xét quyền nuôi dưỡng cháu L. Hỏi cháu L có đủ điều kiện về độ tuổi để Tòa án phải xem xét nguyện vọng cá nhân không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại Điều 81 Luật Hôn nhân và gia đình nếu con từ đủ 07 tuổi trở lên thì phải xem xét nguyện vọng của con mà cháu Phạm Ngọc L sinh ngày 17/9/2012 tính đến ngày xét xử 24/9/2025 là đã hơn 13 tuổi tức là đã đủ 07 tuổi. Chỉ rõ thực tế cháu L đáp ứng điều kiện về độ tuổi do đó Tòa án phải xem xét nguyện vọng của cháu L khi giải quyết quyền nuôi dưỡng."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Cháu Phạm Ngọc L sinh ngày 17/9/2012, tại ngày xét xử 24/9/2025, cháu đã 13 tuổi. Theo Điều 81 Luật Hôn nhân và gia đình 2014, con từ đủ 07 tuổi trở lên thì phải xem xét nguyện vọng của con khi quyết định người trực tiếp nuôi dưỡng. Do đó, cháu L đã đáp ứng đủ điều kiện về độ tuổi để Tòa án phải xem xét nguyện vọng cá nhân.\"}"
+    },
+    {
+      "id": 8,
+      "question": "Theo quy định tại Điều 117 Bộ luật dân sự 2015, giao dịch dân sự có hiệu lực khi chủ thể có năng lực hành vi dân sự phù hợp, hoàn toàn tự nguyện, mục đích và nội dung không vi phạm điều cấm của luật, không trái đạo đức xã hội. Trong vụ án, các bên đều là người trưởng thành, tự nguyện ký biên nhận vay tiền 10.000.000 đồng để sử dụng cá nhân. Hỏi hợp đồng vay này có đủ điều kiện để được pháp luật công nhận hiệu lực không?",
+      "reference": {
+        "question": "Theo quy định tại Điều 117 Bộ luật dân sự 2015, giao dịch dân sự có hiệu lực khi chủ thể có năng lực hành vi dân sự phù hợp, hoàn toàn tự nguyện, mục đích và nội dung không vi phạm điều cấm của luật, không trái đạo đức xã hội. Trong vụ án, các bên đều là người trưởng thành, tự nguyện ký biên nhận vay tiền 10.000.000 đồng để sử dụng cá nhân. Hỏi hợp đồng vay này có đủ điều kiện để được pháp luật công nhận hiệu lực không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại Điều 117 Bộ luật dân sự 2015 nếu các bên có năng lực hành vi, tự nguyện và nội dung hợp pháp thì giao dịch có hiệu lực mà ông P, ông M và bà H đều có năng lực hành vi đầy đủ, việc vay tiền là tự nguyện và không vi phạm điều cấm. Chỉ rõ thực tế các bên đáp ứng đủ các điều kiện thành phần do đó hợp đồng vay có hiệu lực pháp luật."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Theo quy định tại Điều 117 Bộ luật dân sự 2015, giao dịch dân sự có hiệu lực khi chủ thể có năng lực hành vi dân sự phù hợp, hoàn toàn tự nguyện, mục đích và nội dung không vi phạm điều cấm của luật, không trái đạo đức xã hội. Trong trường hợp này, các bên đều là người trưởng thành, tự nguyện ký biên nhận vay tiền 10.000.000 đồng để sử dụng cá nhân, nên thỏa mãn tất cả các điều kiện cần thiết để được pháp luật công nhận hiệu lực.\"}"
+    },
+    {
+      "id": 9,
+      "question": "Theo quy định tại khoản 1 Điều 117 Bộ luật dân sự năm 2015, giao dịch dân sự có hiệu lực khi chủ thể có năng lực hành vi dân sự phù hợp, hoàn toàn tự nguyện, mục đích và nội dung không vi phạm điều cấm của luật, không trái đạo đức xã hội. Trong vụ án này, ông P và vợ chồng ông S, bà L là những người có năng lực hành vi dân sự đầy đủ, tự nguyện ký biên nhận vay tiền và nội dung vay tiền không vi phạm pháp luật. Hỏi: Hợp đồng vay tài sản giữa các bên có đủ điều kiện để có hiệu lực pháp luật không?",
+      "reference": {
+        "question": "Theo quy định tại khoản 1 Điều 117 Bộ luật dân sự năm 2015, giao dịch dân sự có hiệu lực khi chủ thể có năng lực hành vi dân sự phù hợp, hoàn toàn tự nguyện, mục đích và nội dung không vi phạm điều cấm của luật, không trái đạo đức xã hội. Trong vụ án này, ông P và vợ chồng ông S, bà L là những người có năng lực hành vi dân sự đầy đủ, tự nguyện ký biên nhận vay tiền và nội dung vay tiền không vi phạm pháp luật. Hỏi: Hợp đồng vay tài sản giữa các bên có đủ điều kiện để có hiệu lực pháp luật không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại khoản 1 Điều 117 Bộ luật dân sự năm 2015 giao dịch dân sự có hiệu lực nếu chủ thể có năng lực hành vi phù hợp, tự nguyện và nội dung không vi phạm pháp luật mà ông P, ông S và bà L tại thời điểm ký kết đều có năng lực hành vi dân sự đầy đủ, việc giao kết dựa trên sự tự nguyện của các bên và mục đích vay tài sản là hợp pháp. Chỉ rõ thực tế các đương sự đáp ứng đầy đủ các điều kiện về chủ thể, ý chí và nội dung giao dịch do đó hợp đồng vay tài sản giữa ông P và ông S, bà L có hiệu lực pháp luật."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Do chủ thể có năng lực hành vi dân sự đầy đủ, hoàn toàn tự nguyện ký biên nhận vay tiền và nội dung vay tiền không vi phạm pháp luật, do đó thỏa mãn tất cả các điều kiện cần thiết để hợp đồng có hiệu lực pháp luật.\"}"
+    },
+    {
+      "id": 10,
+      "question": "Theo quy định tại điểm a khoản 1 Điều 39 Bộ luật tố tụng dân sự 2015, Tòa án nơi bị đơn cư trú có thẩm quyền giải quyết sơ thẩm vụ án dân sự. Bị đơn Trần Thị B có địa chỉ cư trú tại ấp B, xã B, tỉnh Đồng Tháp. Hỏi: Tòa án nhân dân khu vực 11 - Đồng Tháp có thẩm quyền giải quyết vụ án ly hôn này không?",
+      "reference": {
+        "question": "Theo quy định tại điểm a khoản 1 Điều 39 Bộ luật tố tụng dân sự 2015, Tòa án nơi bị đơn cư trú có thẩm quyền giải quyết sơ thẩm vụ án dân sự. Bị đơn Trần Thị B có địa chỉ cư trú tại ấp B, xã B, tỉnh Đồng Tháp. Hỏi: Tòa án nhân dân khu vực 11 - Đồng Tháp có thẩm quyền giải quyết vụ án ly hôn này không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại điểm a khoản 1 Điều 39 Bộ luật tố tụng dân sự 2015 nếu bị đơn cư trú tại địa hạt của Tòa án nào thì Tòa án đó có thẩm quyền giải quyết mà bà Trần Thị B cư trú tại xã B thuộc tỉnh Đồng Tháp là địa bàn thuộc thẩm quyền của Tòa án nhân dân khu vực 11. Chỉ rõ thực tế bị đơn có cư trú hợp pháp tại địa phương này do đó Tòa án nhân dân khu vực 11 - Đồng Tháp đủ thẩm quyền giải quyết vụ án."
+      },
+      "model_response": "{\"answer\": \"Không\", \"reasoning\": \"Điểm a khoản 1 Điều 39 Bộ luật tố tụng dân sự 2015 quy định Tòa án nơi bị đơn cư trú có thẩm quyền giải quyết sơ thẩm vụ án dân sự. Trong trường hợp này, bị đơn Trần Thị B cư trú tại ấp B, xã B, tỉnh Đồng Tháp. Tuy nhiên, Tòa án nhân dân khu vực 11 - Đồng Tháp không phải là Tòa án ở nơi bị đơn cư trú. Do đó, không đáp ứng điều kiện để Tòa án nhân dân khu vực 11 - Đồng Tháp có thẩm quyền giải quyết vụ án ly hôn.\"}"
+    },
+    {
+      "id": 11,
+      "question": "Theo quy định tại Điều 51 Luật Hôn nhân và gia đình năm 2014, vợ, chồng hoặc cả hai người có quyền yêu cầu Tòa án giải quyết ly hôn. Bà Phạm Thị Kim T và ông Phạm Văn H có đăng ký kết hôn năm 2000, hiện tại bà T thấy mâu thuẫn trầm trọng nên nộp đơn đơn phương ly hôn. Hỏi: Bà T có đủ tư cách và điều kiện để yêu cầu Tòa án giải quyết ly hôn không?",
+      "reference": {
+        "question": "Theo quy định tại Điều 51 Luật Hôn nhân và gia đình năm 2014, vợ, chồng hoặc cả hai người có quyền yêu cầu Tòa án giải quyết ly hôn. Bà Phạm Thị Kim T và ông Phạm Văn H có đăng ký kết hôn năm 2000, hiện tại bà T thấy mâu thuẫn trầm trọng nên nộp đơn đơn phương ly hôn. Hỏi: Bà T có đủ tư cách và điều kiện để yêu cầu Tòa án giải quyết ly hôn không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại Điều 51 Luật Hôn nhân và gia đình vợ hoặc chồng có quyền yêu cầu Tòa án giải quyết ly hôn mà bà T là vợ trong quan hệ hôn nhân hợp pháp với ông H và đang có mâu thuẫn thực tế. Chỉ rõ thực tế bà T đáp ứng điều kiện về chủ thể có quyền yêu cầu do đó bà T đủ điều kiện để yêu cầu Tòa án giải quyết ly hôn."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Theo quy định tại Điều 51 Luật Hôn nhân và gia đình năm 2014, nếu vợ, chồng hoặc cả hai người có mâu thuẫn trầm trọng trong cuộc sống chung, họ có quyền yêu cầu Tòa án giải quyết ly hôn. Trong trường hợp này, bà Phạm Thị Kim T và ông Phạm Văn H đã đăng ký kết hôn từ năm 2000 và hiện tại bà T thấy mâu thuẫn trầm trọng, do đó bà T có đủ tư cách và điều kiện để yêu cầu Tòa án giải quyết ly hôn.\"}"
+    },
+    {
+      "id": 12,
+      "question": "Luật: Khoản 1 Điều 21 Nghị định số 43/2014/NĐ-CP quy định người sử dụng đất ổn định, liên tục thì đủ điều kiện được cấp Giấy chứng nhận và bồi thường. Tình huống: Bà L sử dụng đất từ 1974 đến 1999 liên tục. Từ 1999 đến 2014 đất bị ngập mặn do lỗi của Nhà nước khi làm đường gây hỏng cống khiến bà không canh tác được, nhưng bà vẫn kê khai đất khi Nhà nước yêu cầu vào năm 2009. Hỏi: Bà L có được coi là sử dụng đất ổn định, liên tục để hưởng quyền lợi bồi thường không?",
+      "reference": {
+        "question": "Luật: Khoản 1 Điều 21 Nghị định số 43/2014/NĐ-CP quy định người sử dụng đất ổn định, liên tục thì đủ điều kiện được cấp Giấy chứng nhận và bồi thường. Tình huống: Bà L sử dụng đất từ 1974 đến 1999 liên tục. Từ 1999 đến 2014 đất bị ngập mặn do lỗi của Nhà nước khi làm đường gây hỏng cống khiến bà không canh tác được, nhưng bà vẫn kê khai đất khi Nhà nước yêu cầu vào năm 2009. Hỏi: Bà L có được coi là sử dụng đất ổn định, liên tục để hưởng quyền lợi bồi thường không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại khoản 1 Điều 21 Nghị định số 43/2014/NĐ-CP nếu sử dụng đất ổn định, liên tục thì đủ điều kiện được bồi thường mà bà L sử dụng đất từ năm 1974 đến năm 1999 liên tục, từ năm 1999 đến 2014 không sử dụng được do nguyên nhân khách quan là lỗi của Nhà nước và bà không từ bỏ quyền sử dụng đất. Chỉ rõ thực tế bà L đáp ứng điều kiện sử dụng ổn định do đó bà L đủ điều kiện để được xem xét bồi thường."
+      },
+      "model_response": "{\"answer\": \"Không\", \"reasoning\": \"Bà L sử dụng đất từ 1974 đến 1999 liên tục, nhưng từ 1999 đến 2014 đất bị ngập mặn do lỗi của Nhà nước, khiến bà không thể canh tác. Điều này không đáp ứng điều kiện 'ổn định, liên tục' vì thời gian từ 1999 đến 2014 bị gián đoạn do không sử dụng đất.\"}"
+    },
+    {
+      "id": 13,
+      "question": "Theo Điều 147 Bộ luật Tố tụng dân sự và Nghị quyết 326/2016/UBTVQH14, nguyên đơn trong vụ án ly hôn phải chịu án phí sơ thẩm không phụ thuộc vào việc Tòa án chấp nhận hay bác yêu cầu. Ông Phạm Thái V là nguyên đơn yêu cầu ly hôn với bà Phạm Thị D. Hỏi: Ông V có nghĩa vụ phải chịu tiền án phí dân sự sơ thẩm trong vụ án này không? ",
+      "reference": {
+        "question": "Theo Điều 147 Bộ luật Tố tụng dân sự và Nghị quyết 326/2016/UBTVQH14, nguyên đơn trong vụ án ly hôn phải chịu án phí sơ thẩm không phụ thuộc vào việc Tòa án chấp nhận hay bác yêu cầu. Ông Phạm Thái V là nguyên đơn yêu cầu ly hôn với bà Phạm Thị D. Hỏi: Ông V có nghĩa vụ phải chịu tiền án phí dân sự sơ thẩm trong vụ án này không? ",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại Điều 147 Bộ luật Tố tụng dân sự nguyên đơn phải chịu án phí sơ thẩm trong vụ án ly hôn mà ông Phạm Thái V là người khởi kiện yêu cầu ly hôn. Chỉ rõ thực tế ông V là nguyên đơn đáp ứng điều kiện gánh vác nghĩa vụ án phí do đó ông V phải chịu 300.000 đồng án phí sơ thẩm."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Theo Điều 147 Bộ luật Tố tụng dân sự và Nghị quyết 326/2016/UBTVQH14, nguyên đơn trong vụ án ly hôn phải chịu án phí sơ thẩm không phụ thuộc vào việc Tòa án chấp nhận hay bác yêu cầu. Do đó, dù ông Phạm Thái V có yêu cầu ly hôn nhưng không được Tòa án chấp nhận, ông vẫn phải chịu án phí dân sự sơ thẩm.\"}"
+    },
+    {
+      "id": 14,
+      "question": "Luật: Theo quy định tại Điều 2 Nghị định số 61/CP, đối tượng được mua nhà thuộc sở hữu nhà nước là 'người đang thuê'. Tình huống: Bà T đang ở tại nhà khu A nhưng hợp đồng thuê nhà là do bà Trần Thị L ký với Công ty quản lý nhà từ ngày 01/5/2002. Bà T và bà L chỉ thỏa thuận riêng để gia đình bà T vào ở chứ không sang tên hợp đồng. Hỏi: Bà T có đủ điều kiện về tư cách 'người đang thuê' để được mua ngôi nhà này theo quy định không?",
+      "reference": {
+        "question": "Luật: Theo quy định tại Điều 2 Nghị định số 61/CP, đối tượng được mua nhà thuộc sở hữu nhà nước là 'người đang thuê'. Tình huống: Bà T đang ở tại nhà khu A nhưng hợp đồng thuê nhà là do bà Trần Thị L ký với Công ty quản lý nhà từ ngày 01/5/2002. Bà T và bà L chỉ thỏa thuận riêng để gia đình bà T vào ở chứ không sang tên hợp đồng. Hỏi: Bà T có đủ điều kiện về tư cách 'người đang thuê' để được mua ngôi nhà này theo quy định không?",
+        "answer": "Không",
+        "reasoning": "Theo quy định tại Điều 2 Nghị định số 61/CP chỉ người đang thuê nhà hợp pháp mới được mua nhà thuộc sở hữu nhà nước mà hợp đồng thuê nhà khu A đứng tên bà L chứ không phải bà T. Chỉ rõ thực tế bà T không có văn bản pháp lý chứng minh tư cách thuê nhà đối với Nhà nước do đó bà T không đủ điều kiện để được mua nhà theo diện này."
+      },
+      "model_response": "{\"answer\": \"Không\", \"reasoning\": \"Theo quy định, đối tượng được mua nhà thuộc sở hữu nhà nước phải là 'người đang thuê', và trong tình huống, mặc dù bà T đang ở tại nhà khu A, nhưng hợp đồng thuê nhà được ký giữa bà Trần Thị L và Công ty quản lý nhà, không có sự tham gia của bà T. Do đó, bà T không đáp ứng đủ điều kiện là 'người đang thuê'.\"}"
+    },
+    {
+      "id": 15,
+      "question": "Luật: Theo quy định tại Điều 100 Luật Đất đai 2013 và các văn bản hướng dẫn, người sử dụng đất có giấy tờ tặng cho quyền sử dụng đất lập trước ngày 15/10/1993 và được UBND cấp xã xác nhận thì đủ điều kiện được cấp Giấy chứng nhận. Tình huống: Ông Phan T có 'Giấy cho công đất nông nghiệp' lập ngày 18/04/1981 do cha mẹ ký, có xác nhận của Chủ tịch UBND xã X xác nhận việc giao đất. Ông T sử dụng đất từ đó đến nay. Hỏi: Ông Phan T có đủ điều kiện để được công nhận quyền sử dụng đất hợp pháp không?",
+      "reference": {
+        "question": "Luật: Theo quy định tại Điều 100 Luật Đất đai 2013 và các văn bản hướng dẫn, người sử dụng đất có giấy tờ tặng cho quyền sử dụng đất lập trước ngày 15/10/1993 và được UBND cấp xã xác nhận thì đủ điều kiện được cấp Giấy chứng nhận. Tình huống: Ông Phan T có 'Giấy cho công đất nông nghiệp' lập ngày 18/04/1981 do cha mẹ ký, có xác nhận của Chủ tịch UBND xã X xác nhận việc giao đất. Ông T sử dụng đất từ đó đến nay. Hỏi: Ông Phan T có đủ điều kiện để được công nhận quyền sử dụng đất hợp pháp không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định nếu có giấy tờ tặng cho trước năm 1993 được xã xác nhận thì đủ điều kiện công nhận quyền sử dụng đất mà ông T có giấy tay lập năm 1981 có xác nhận của Chủ tịch UBND xã về việc cha mẹ cho đất. Chỉ rõ thực tế ông T đã đáp ứng đủ điều kiện về văn bản xác nhận nguồn gốc đất do đó ông T đủ điều kiện được cấp Giấy chứng nhận quyền sử dụng đất."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Theo quy định tại Điều 100 Luật Đất đai 2013, nếu người sử dụng đất có giấy tờ tặng cho quyền sử dụng đất lập trước ngày 15/10/1993 và được UBND cấp xã xác nhận thì đủ điều kiện được cấp Giấy chứng nhận. Trong tình huống, ông Phan T có 'Giấy cho công đất nông nghiệp' lập ngày 18/04/1981, trước ngày 15/10/1993, và có xác nhận của Chủ tịch UBND xã X. Do đó, ông Phan T đáp ứng đủ điều kiện để được công nhận quyền sử dụng đất hợp pháp.\"}"
+    },
+    {
+      "id": 16,
+      "question": "Luật: Theo quy định về giám định tư pháp trong tố tụng hình sự, nếu cơ quan điều tra đã trưng cầu và nhận được kết luận về loại, trọng lượng và hàm lượng chất ma túy thì hồ sơ được coi là đầy đủ căn cứ về vật chứng ma túy. Tình huống: Kết luận giám định số 2219/C54 ngày 05-9-2012 của Viện khoa học hình sự kết luận: mẫu thu giữ là heroin, trọng lượng 1.808,9 gam, hàm lượng từ 35,3% đến 40,2%. Hỏi: Hồ sơ vụ án đã đủ điều kiện về kết quả giám định hàm lượng ma túy để xét xử chưa?",
+      "reference": {
+        "question": "Luật: Theo quy định về giám định tư pháp trong tố tụng hình sự, nếu cơ quan điều tra đã trưng cầu và nhận được kết luận về loại, trọng lượng và hàm lượng chất ma túy thì hồ sơ được coi là đầy đủ căn cứ về vật chứng ma túy. Tình huống: Kết luận giám định số 2219/C54 ngày 05-9-2012 của Viện khoa học hình sự kết luận: mẫu thu giữ là heroin, trọng lượng 1.808,9 gam, hàm lượng từ 35,3% đến 40,2%. Hỏi: Hồ sơ vụ án đã đủ điều kiện về kết quả giám định hàm lượng ma túy để xét xử chưa?",
+        "answer": "Có",
+        "reasoning": "Theo quy định nếu hồ sơ có kết luận về loại, trọng lượng và hàm lượng thì đủ điều kiện xét xử mà Kết luận số 2219/C54 đã xác định rõ mẫu vật là heroin với trọng lượng cụ thể và hàm lượng từ 35,3% đến 40,2%. Chỉ rõ thực tế hồ sơ đã đáp ứng đầy đủ các thông số định lượng cần thiết do đó vụ án đã đủ điều kiện về căn cứ giám định để tiến hành xét xử."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Theo quy định, nếu cơ quan điều tra đã trưng cầu và nhận được kết luận về loại, trọng lượng và hàm lượng chất ma túy thì hồ sơ được coi là đầy đủ căn cứ về vật chứng ma túy. Trong tình huống này, Viện khoa học hình sự đã cung cấp kết luận về loại (heroin), trọng lượng (1.808,9 gam) và hàm lượng (35,3% đến 40,2%) của mẫu thu giữ. Do đó, hồ sơ vụ án đã đáp ứng đủ điều kiện về kết quả giám định hàm lượng ma túy để xét xử.\"}"
+    },
+    {
+      "id": 17,
+      "question": "Luật: Theo điểm d khoản 1 Điều 12 Nghị quyết 326/2016/UBTVQH14, người có khó khăn về kinh tế hoặc người khuyết tật, người có công với cách mạng, người cao tuổi có đơn đề nghị thì được miễn án phí. Bị cáo Cao Văn D là người hạn chế khả năng điều khiển hành vi do bệnh tâm thần, đang hưởng bảo trợ xã hội và có đơn đề nghị miễn án phí. Hỏi: Bị cáo Cao Văn D có đủ điều kiện để được miễn án phí hình sự sơ thẩm không?",
+      "reference": {
+        "question": "Luật: Theo điểm d khoản 1 Điều 12 Nghị quyết 326/2016/UBTVQH14, người có khó khăn về kinh tế hoặc người khuyết tật, người có công với cách mạng, người cao tuổi có đơn đề nghị thì được miễn án phí. Bị cáo Cao Văn D là người hạn chế khả năng điều khiển hành vi do bệnh tâm thần, đang hưởng bảo trợ xã hội và có đơn đề nghị miễn án phí. Hỏi: Bị cáo Cao Văn D có đủ điều kiện để được miễn án phí hình sự sơ thẩm không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại điểm d khoản 1 Điều 12 Nghị quyết 326/2016/UBTVQH14 người khuyết tật hoặc có khó khăn về kinh tế có đơn đề nghị thì được miễn án phí mà Cao Văn D là người bị hạn chế khả năng điều khiển hành vi do bệnh lý, đang hưởng bảo trợ xã hội và đã nộp đơn đề nghị. Chỉ rõ thực tế bị cáo D đáp ứng điều kiện về đối tượng được miễn giảm án phí do đó bị cáo D được miễn án phí hình sự sơ thẩm."
+      },
+      "model_response": "{\"answer\": \"Không\", \"reasoning\": \"Theo quy định, bị cáo Cao Văn D bị hạn chế khả năng điều khiển hành vi do bệnh tâm thần không thuộc trong danh sách được miễn án phí theo quy định của Nghị quyết 326/2016/UBTVQH14.\"} {\"answer\": \"Có\", \"reasoning\": \"Theo quy định, bị cáo Cao Văn D thuộc nhóm đối tượng được miễn án phí vì đang hưởng bảo trợ xã hội và có đơn đề nghị, mặc dù bị hạn chế khả năng điều khiển hành vi do bệnh tâm thần.\"} {\"answer\": \"Có\", \"reasoning\": \"Theo quy định, bị cáo Cao Văn D thỏa mãn điều kiện là người có khó khăn về kinh tế hoặc người khuyết tật, người có công với cách mạng, người cao tuổi có đơn đề nghị, do đang hưởng bảo trợ xã hội và có đơn đề nghị nên đủ điều kiện để được miễn án phí hình sự sơ thẩm.\"} {\"answer\": \"Không\", \"reasononing\": \"Theo quy định, bị cáo Cao Văn D không thuộc nhóm đối tượng được miễn án phí vì bị hạn chế khả năng điều khiển"
+    },
+    {
+      "id": 18,
+      "question": "Luật: Theo quy định pháp luật về giao dịch dân sự, một giao dịch bị coi là vô hiệu nếu nội dung và mục đích vi phạm điều cấm của luật hoặc đối tượng giao dịch là tài sản do phạm tội mà có. Tình huống: Bà Đặng Thị Lan P mua xe ô tô từ Trần Thị Quý P bằng cách nộp tiền vào ngân hàng để rút giấy tờ đang thế chấp. Tuy nhiên, nguồn gốc số tiền P dùng để mua xe ban đầu là tiền chiếm đoạt từ dự án nhà nước và mục đích ban đầu là tặng cho để tạo mối quan hệ bất chính. Hỏi: Bà Đặng Thị Lan P có đủ điều kiện xác lập quyền sở hữu hợp pháp đối với chiếc xe ô tô này để không bị thu hồi không?",
+      "reference": {
+        "question": "Luật: Theo quy định pháp luật về giao dịch dân sự, một giao dịch bị coi là vô hiệu nếu nội dung và mục đích vi phạm điều cấm của luật hoặc đối tượng giao dịch là tài sản do phạm tội mà có. Tình huống: Bà Đặng Thị Lan P mua xe ô tô từ Trần Thị Quý P bằng cách nộp tiền vào ngân hàng để rút giấy tờ đang thế chấp. Tuy nhiên, nguồn gốc số tiền P dùng để mua xe ban đầu là tiền chiếm đoạt từ dự án nhà nước và mục đích ban đầu là tặng cho để tạo mối quan hệ bất chính. Hỏi: Bà Đặng Thị Lan P có đủ điều kiện xác lập quyền sở hữu hợp pháp đối với chiếc xe ô tô này để không bị thu hồi không?",
+        "answer": "Không",
+        "reasoning": "Theo quy định giao dịch vô hiệu nếu đối tượng là tài sản do phạm tội mà có mà chiếc xe này được mua từ tiền chiếm đoạt của Ban quản lý dự án và đang là vật chứng của vụ án hình sự. Chỉ rõ thực tế bà Lan P không thể xác lập quyền sở hữu trên một tài sản là vật chứng chưa được xử lý do đó bà P không đủ điều kiện được giao quyền sở hữu chiếc xe."
+      },
+      "model_response": "{\"answer\": \"Không\", \"reasoning\": \"Do nội dung và mục đích của giao dịch của Bà Đặng Thị Lan P vi phạm điều cấm của luật (vi phạm điều cấm về việc sử dụng tài sản do phạm tội mà có), và mục đích ban đầu của nguồn gốc số tiền mua xe là để tạo mối quan hệ bất chính, nên giao dịch này bị coi là vô hiệu, dẫn đến việc không thể xác lập quyền sở hữu hợp pháp đối với chiếc xe ô tô.\"}"
+    },
+    {
+      "id": 19,
+      "question": "Theo quy định tại Điều 254 Bộ luật Dân sự, chủ sở hữu bất động sản bị vây bọc bởi các bất động sản của chủ sở hữu khác mà không có hoặc không đủ lối đi ra đường công cộng có quyền yêu cầu chủ sở hữu bất động sản liền kề dành cho mình một lối đi hợp lý. Bà La Thị T2 yêu cầu công nhận lối đi 240m2 trên đất của ông T1, nhưng bà T2 thừa nhận ngoài con đường này còn nhiều lối mòn khác để đi vào thửa đất của bà dù không thuận tiện bằng. Hỏi: Bà T2 có đủ điều kiện để buộc ông T1 phải dành lối đi duy nhất trên diện tích đất đang thế chấp này theo Điều 254 không?",
+      "reference": {
+        "question": "Theo quy định tại Điều 254 Bộ luật Dân sự, chủ sở hữu bất động sản bị vây bọc bởi các bất động sản của chủ sở hữu khác mà không có hoặc không đủ lối đi ra đường công cộng có quyền yêu cầu chủ sở hữu bất động sản liền kề dành cho mình một lối đi hợp lý. Bà La Thị T2 yêu cầu công nhận lối đi 240m2 trên đất của ông T1, nhưng bà T2 thừa nhận ngoài con đường này còn nhiều lối mòn khác để đi vào thửa đất của bà dù không thuận tiện bằng. Hỏi: Bà T2 có đủ điều kiện để buộc ông T1 phải dành lối đi duy nhất trên diện tích đất đang thế chấp này theo Điều 254 không?",
+        "answer": "Không",
+        "reasoning": "Theo quy định tại Điều 254 Bộ luật Dân sự nếu bất động sản bị vây bọc mà không có lối đi ra đường công cộng thì có quyền yêu cầu dành lối đi mà thực tế bà T2 thừa nhận ngoài lối đi đang tranh chấp bà vẫn còn nhiều lối mòn khác để đi vào thửa đất của mình tức là đất của bà T2 không rơi vào tình trạng bị vây bọc hoàn toàn. Chỉ rõ thực tế bà T2 không đáp ứng điều kiện 'không có lối đi' do đó bà T2 không đủ điều kiện để buộc công nhận lối đi này theo diện bất động sản bị vây bọc."
+      },
+      "model_response": "{\"answer\": \"Không\", \"reasoning\": \"Theo quy định tại Điều 254 Bộ luật Dân sự, chủ sở hữu bất động sản chỉ có quyền yêu cầu chủ sở hữu bất động sản liền kề dành lối đi hợp lý nếu thửa đất của họ bị vây bọc và không có hoặc không đủ lối đi ra đường công cộng. Trong trường hợp này, bà T2 thừa nhận rằng có nhiều lối mòn khác để đi vào thửa đất của bà, mặc dù không thuận tiện bằng con đường yêu cầu. Do đó, bà T2 không đáp ứng đủ điều kiện để buộc ông T1 phải dành lối đi duy nhất.\"}"
+    },
+    {
+      "id": 20,
+      "question": "Quy định: Theo Điều 9 Quyết định số 559/QĐ-UB của UBND tỉnh L, điều kiện để được mua nhà sở hữu nhà nước gồm: 1. Nhà thuộc diện được bán; 2. Có hợp đồng thuê nhà hợp pháp; 3. Trả đủ tiền thuê; 4. Không có tranh chấp. Tình huống: Bà T nộp đơn mua nhà khu A, căn nhà này thuộc diện được bán và bà đã nộp đủ tiền thuê. Tuy nhiên, hợp đồng thuê nhà khu A đứng tên bà Trần Thị L. Ngoài ra, chồng bà T là ông D đã từng được thuê một căn nhà sở hữu nhà nước khác tại số X đường Y từ năm 2002. Hỏi: Bà T có đủ điều kiện (Eligibility) để được mua nhà khu A không?",
+      "reference": {
+        "question": "Quy định: Theo Điều 9 Quyết định số 559/QĐ-UB của UBND tỉnh L, điều kiện để được mua nhà sở hữu nhà nước gồm: 1. Nhà thuộc diện được bán; 2. Có hợp đồng thuê nhà hợp pháp; 3. Trả đủ tiền thuê; 4. Không có tranh chấp. Tình huống: Bà T nộp đơn mua nhà khu A, căn nhà này thuộc diện được bán và bà đã nộp đủ tiền thuê. Tuy nhiên, hợp đồng thuê nhà khu A đứng tên bà Trần Thị L. Ngoài ra, chồng bà T là ông D đã từng được thuê một căn nhà sở hữu nhà nước khác tại số X đường Y từ năm 2002. Hỏi: Bà T có đủ điều kiện (Eligibility) để được mua nhà khu A không?",
+        "answer": "Không",
+        "reasoning": "Theo quy định tại Điều 9 Quyết định số 559/QĐ-UB nếu có hợp đồng thuê nhà hợp pháp thì mới được mua nhà mà thực tế hợp đồng thuê nhà khu A đứng tên bà L chứ không phải bà T, đồng thời gia đình bà T (chồng là ông D) đã được hưởng quyền lợi thuê nhà nhà nước tại địa điểm khác nên không đủ điều kiện mua thêm nhà này. Chỉ rõ thực tế bà T không đáp ứng điều kiện về hợp đồng thuê nhà hợp pháp do đó bà T không đủ điều kiện mua nhà."
+      },
+      "model_response": "{\"answer\": \"Không\", \"reasoning\": \"Bà T không đáp ứng đủ điều kiện thứ 2 vì hợp đồng thuê nhà khu A đứng tên bà Trần Thị L., không phải là bà T.\"}"
+    },
+    {
+      "id": 21,
+      "question": "Theo Điều 65 Bộ luật Hình sự và Nghị quyết hướng dẫn, người bị xử phạt tù không quá 03 năm, có nhân thân tốt, có từ 02 tình tiết giảm nhẹ trở lên và có nơi cư trú rõ ràng thì có thể được xem xét cho hưởng án treo. Nguyễn Văn T bị phạt 06 tháng tù, phạm tội lần đầu, thành khẩn khai báo, đã nộp tiền bồi thường, có cha là thương binh và cư trú rõ ràng tại thôn B, xã K. Hỏi: Nguyễn Văn T có đủ điều kiện để được hưởng án treo không?",
+      "reference": {
+        "question": "Theo Điều 65 Bộ luật Hình sự và Nghị quyết hướng dẫn, người bị xử phạt tù không quá 03 năm, có nhân thân tốt, có từ 02 tình tiết giảm nhẹ trở lên và có nơi cư trú rõ ràng thì có thể được xem xét cho hưởng án treo. Nguyễn Văn T bị phạt 06 tháng tù, phạm tội lần đầu, thành khẩn khai báo, đã nộp tiền bồi thường, có cha là thương binh và cư trú rõ ràng tại thôn B, xã K. Hỏi: Nguyễn Văn T có đủ điều kiện để được hưởng án treo không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại Điều 65 Bộ luật Hình sự nếu bị phạt tù dưới 3 năm và có nhiều tình tiết giảm nhẹ kèm nơi cư trú rõ ràng thì được hưởng án treo mà bị cáo T bị phạt 6 tháng tù (dưới 3 năm), có nơi cư trú ổn định và có các tình tiết giảm nhẹ tại điểm b, i, s khoản 1 Điều 51 do đó bị cáo T đủ điều kiện được hưởng án treo."
+      },
+      "model_response": "{\"answer\": \"Không\", \"reasoning\": \"Nguyễn Văn T bị phạt 06 tháng tù, vượt quá 03 năm nên không thỏa mãn điều kiện thứ nhất theo quy định.\"}"
+    },
+    {
+      "id": 22,
+      "question": "Theo quy định tại Điều 3 Luật khiếu nại, tố cáo, điều kiện để một cơ quan ban hành quyết định hủy bỏ quyết định cũ là: 1. Quyết định đó do chính mình ban hành; 2. Qua kiểm tra thấy quyết định đó trái pháp luật. Tình huống: Quyết định 1409 do Chủ tịch UBND tỉnh K ban hành dựa trên số liệu ghi khống diện tích của ông H (người bán đất cho ông N1), dẫn đến việc công nhận sai diện tích tranh chấp. Sau đó chính Chủ tịch UBND tỉnh K ra Quyết định 2180 để hủy bỏ nó. Hỏi: Chủ tịch UBND tỉnh K có đủ điều kiện thẩm quyền để hủy bỏ Quyết định 1409 không?",
+      "reference": {
+        "question": "Theo quy định tại Điều 3 Luật khiếu nại, tố cáo, điều kiện để một cơ quan ban hành quyết định hủy bỏ quyết định cũ là: 1. Quyết định đó do chính mình ban hành; 2. Qua kiểm tra thấy quyết định đó trái pháp luật. Tình huống: Quyết định 1409 do Chủ tịch UBND tỉnh K ban hành dựa trên số liệu ghi khống diện tích của ông H (người bán đất cho ông N1), dẫn đến việc công nhận sai diện tích tranh chấp. Sau đó chính Chủ tịch UBND tỉnh K ra Quyết định 2180 để hủy bỏ nó. Hỏi: Chủ tịch UBND tỉnh K có đủ điều kiện thẩm quyền để hủy bỏ Quyết định 1409 không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại Điều 3 Luật khiếu nại, tố cáo nếu thấy quyết định hành chính của mình trái pháp luật thì cơ quan có trách nhiệm kịp thời sửa chữa mà Quyết định 1409 do Chủ tịch UBND tỉnh K ban hành bị phát hiện có sai sót về nội dung dẫn đến trái pháp luật. Chỉ rõ thực tế Chủ tịch UBND tỉnh K đã thực hiện đúng trách nhiệm kiểm tra và sửa sai do đó Chủ tịch UBND tỉnh K đủ điều kiện thẩm quyền ban hành quyết định hủy bỏ."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Quyết định 1409 do chính Chủ tịch UBND tỉnh K ban hành và qua kiểm tra thấy quyết định này trái pháp luật, do đó thỏa mãn cả hai điều kiện cần thiết để hủy bỏ quyết định theo quy định.\"}"
+    },
+    {
+      "id": 23,
+      "question": "Theo quy định tại khoản 2 Điều 51 Bộ luật Hình sự, người phạm tội tự nguyện ra trình diện và khai báo hành vi phạm tội của mình trước khi bị bắt giữ thì được xem xét hưởng tình tiết giảm nhẹ 'đầu thú'. Phan Văn C sau khi chém anh T đã bỏ trốn đến tỉnh Tuyên Quang, sau đó đến ngày 14/5/2024 đã tự nguyện đến Công an huyện V để trình diện và khai báo. Hỏi: Phan Văn C có đủ điều kiện để được hưởng tình tiết giảm nhẹ 'đầu thú' không?",
+      "reference": {
+        "question": "Theo quy định tại khoản 2 Điều 51 Bộ luật Hình sự, người phạm tội tự nguyện ra trình diện và khai báo hành vi phạm tội của mình trước khi bị bắt giữ thì được xem xét hưởng tình tiết giảm nhẹ 'đầu thú'. Phan Văn C sau khi chém anh T đã bỏ trốn đến tỉnh Tuyên Quang, sau đó đến ngày 14/5/2024 đã tự nguyện đến Công an huyện V để trình diện và khai báo. Hỏi: Phan Văn C có đủ điều kiện để được hưởng tình tiết giảm nhẹ 'đầu thú' không?",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại khoản 2 Điều 51 Bộ luật Hình sự nếu người phạm tội tự nguyện ra trình diện cơ quan công an để khai báo trước khi bị bắt thì được hưởng tình tiết giảm nhẹ mà bị cáo C sau một thời gian bỏ trốn đã tự nguyện ra đầu thú tại Công an huyện V vào ngày 14/5/2024. Chỉ rõ thực tế bị cáo tự nguyện trình diện do đó bị cáo C đủ điều kiện hưởng tình tiết giảm nhẹ đầu thú."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Theo quy định tại khoản 2 Điều 51 Bộ luật Hình sự, nếu người phạm tội tự nguyện ra trình diện và khai báo hành vi phạm tội của mình trước khi bị bắt giữ thì được xem xét hưởng tình tiết giảm nhẹ 'đầu thú'. Trong trường hợp của Phan Văn C, anh ta đã tự nguyện đến Công an huyện V để trình diện và khai báo hành vi chém anh T vào ngày 14/5/2024, điều này đáp ứng đủ điều kiện thành phần cần thiết để được xem xét hưởng tình tiết giảm nhẹ 'đầu thú'. Do đó, Phan Văn C có đủ điều kiện để được hưởng tình tiết giảm nhẹ 'đầu thú'.\"}"
+    },
+    {
+      "id": 24,
+      "question": "Theo Điều 131 Bộ luật Dân sự, bên ngay tình trong việc thu hoạch lợi tức từ tài sản trong giao dịch vô hiệu thì không phải hoàn trả lại lợi tức đó. Ông Đỗ Trung T mua xe từ ông S1 với giá 480.000.000 đồng và đã cho ông T1 quản lý, sử dụng xe trong 03 năm. Ông T không biết nguồn gốc xe là do phạm tội mà có và tin tưởng vào giao dịch với ông S1. Hỏi: Ông T có được xác định là người mua ngay tình và được miễn nghĩa vụ hoàn trả lợi tức thu được từ việc sử dụng xe không? ",
+      "reference": {
+        "question": "Theo Điều 131 Bộ luật Dân sự, bên ngay tình trong việc thu hoạch lợi tức từ tài sản trong giao dịch vô hiệu thì không phải hoàn trả lại lợi tức đó. Ông Đỗ Trung T mua xe từ ông S1 với giá 480.000.000 đồng và đã cho ông T1 quản lý, sử dụng xe trong 03 năm. Ông T không biết nguồn gốc xe là do phạm tội mà có và tin tưởng vào giao dịch với ông S1. Hỏi: Ông T có được xác định là người mua ngay tình và được miễn nghĩa vụ hoàn trả lợi tức thu được từ việc sử dụng xe không? ",
+        "answer": "Có",
+        "reasoning": "Theo quy định tại khoản 3 Điều 131 Bộ luật Dân sự nếu là bên ngay tình thì không phải hoàn trả lợi tức mà ông T mua xe khi không biết xe do phạm tội mà có và đã thanh toán tiền đầy đủ cho ông S1. Chỉ rõ thực tế ông T đáp ứng điều kiện ngay tình do đó ông T không phải hoàn trả lợi tức phát sinh từ việc sử dụng xe ô tô."
+      },
+      "model_response": "{\"answer\": \"Có\", \"reasoning\": \"Theo quy định tại Điều 131 Bộ luật Dân sự, nếu bên mua (trong trường hợp này là ông T) không biết nguồn gốc tài sản là do phạm tội mà có và tin tưởng vào giao dịch với bên bán (ông S1), thì ông T sẽ được coi là người mua ngay tình. Do đó, ông T không phải hoàn trả lại lợi tức thu được từ việc sử dụng xe.\"}"
+    }
+  ]
+}
