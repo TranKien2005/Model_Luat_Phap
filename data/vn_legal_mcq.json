@@ -1,6 +1,6 @@
 {
   "task_config": {
-    "task_name": "rule_qa",
+    "task_name": "vn_legal_mcq",
     "category": "rule-recall",
     "instruction": "Dựa trên các quy định của pháp luật Việt Nam, hãy chọn đáp án đúng nhất cho câu hỏi dưới đây. Chỉ trả lời bằng chữ cái đứng trước đáp án đúng (A, B, C hoặc D)."
   },
