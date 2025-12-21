@@ -68,7 +68,7 @@ def is_model_loaded(model: str) -> bool:
 # ============================================================
 
 def _call_huggingface(prompt: str, model: str, max_tokens: int) -> str:
-    """Gọi HuggingFace model với 4-bit quantization để tăng tốc."""
+    """Gọi HuggingFace model với 4-bit quantization và chat template đúng cách."""
     global _loaded_models
     
     try:
@@ -86,6 +86,11 @@ def _call_huggingface(prompt: str, model: str, max_tokens: int) -> str:
             )
             
             tokenizer = AutoTokenizer.from_pretrained(model)
+            
+            # Set pad_token nếu chưa có
+            if tokenizer.pad_token is None:
+                tokenizer.pad_token = tokenizer.eos_token
+            
             hf_model = AutoModelForCausalLM.from_pretrained(
                 model,
                 quantization_config=quantization_config,
@@ -96,23 +101,39 @@ def _call_huggingface(prompt: str, model: str, max_tokens: int) -> str:
         
         hf_model, tokenizer = _loaded_models[model]
         
-        # Generate
-        inputs = tokenizer(prompt, return_tensors="pt").to(hf_model.device)
+        # Tạo messages format cho chat model
+        messages = [{"role": "user", "content": prompt}]
         
+        # Apply chat template nếu model hỗ trợ
+        try:
+            formatted_prompt = tokenizer.apply_chat_template(
+                messages, 
+                tokenize=False, 
+                add_generation_prompt=True
+            )
+        except Exception:
+            # Fallback nếu model không hỗ trợ chat template
+            formatted_prompt = prompt
+        
+        # Tokenize
+        inputs = tokenizer(formatted_prompt, return_tensors="pt").to(hf_model.device)
+        input_length = inputs["input_ids"].shape[1]
+        
+        # Generate với stop conditions tốt hơn
         outputs = hf_model.generate(
             **inputs,
             max_new_tokens=min(max_tokens, 256),
-            do_sample=True,
-            temperature=0.1,
-            pad_token_id=tokenizer.eos_token_id
+            do_sample=False,  # Dùng greedy decoding để output ổn định hơn
+            temperature=None,
+            pad_token_id=tokenizer.pad_token_id,
+            eos_token_id=tokenizer.eos_token_id,
+            repetition_penalty=1.1  # Giảm lặp
         )
-        response = tokenizer.decode(outputs[0], skip_special_tokens=True)
         
-        # Lấy phần sau prompt
-        if prompt in response:
-            response = response.split(prompt)[-1].strip()
+        # Chỉ lấy phần response mới (bỏ prompt)
+        response = tokenizer.decode(outputs[0][input_length:], skip_special_tokens=True)
         
-        return response
+        return response.strip()
         
     except Exception as e:
         return f"[ERROR] {e}"
